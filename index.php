@@ -17,19 +17,19 @@
     <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
     <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://anhutc.github.io/repo">
+    <meta property="og:url" content="https://redentic.dev">
     <meta property="og:title" content="Redentic's Repo">
     <meta property="og:description"
         content="All tweaks from RedenticDev. Add this repository to your favorite package manager, among Cydia, Zebra, Installer 5 or Sileo.">
-    <meta property="og:image" content="https://anhutc.github.io/repo/CydiaIcon@3x.png">
+    <meta property="og:image" content="https://redentic.dev/CydiaIcon@3x.png">
     <!-- Twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:creator" content="@RedenticDev">
-    <meta name="twitter:url" content="https://anhutc.github.io/repo">
+    <meta name="twitter:url" content="https://redentic.dev">
     <meta name="twitter:title" content="Redentic's Repo">
     <meta name="twitter:description"
         content="All tweaks from RedenticDev. Add this repository to your favorite package manager, among Cydia, Zebra, Installer 5 or Sileo.">
-    <meta name="twitter:image" content="https://anhutc.github.io/repo/CydiaIcon@3x.png">
+    <meta name="twitter:image" content="https://redentic.dev/CydiaIcon@3x.png">
     <meta name="twitter:image:alt" content="Redentic's Repo image">
     <!-- JavaScript -->
     <script defer src="https://kit.fontawesome.com/ff86e91158.js" crossorigin="anonymous"></script>
@@ -42,19 +42,19 @@
     <h1>REPO ĐẶNG VĂN ÁNH</h1>
     <em id="alert">Mở trang này trên thiết bị iOS / iPadOS của bạn để thêm kho này vào trình quản lý gói của bạn.</em>
     <section id="add-repo">
-        <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://anhutc.github.io/repo">
+        <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://anhutc.github.io/repo/">
             <img src="https://cydia.saurik.com/icon@2x/cydia7.png" alt="Cydia icon" />
             <p class="link">Thêm vào Cydia</p>
         </a>
-        <a href="zbra://sources/add/https://anhutc.github.io/repo">
+        <a href="zbra://sources/add/https://anhutc.github.io/repo/">
             <img src="https://getzbra.com/assets/zeeb.svg" alt="Zebra icon" />
             <p class="link">Thêm vào Zebra</p>
         </a>
-        <a href="installer://add/https://anhutc.github.io/repo">
+        <a href="installer://add/https://anhutc.github.io/repo/">
             <img src="https://apptapp.me/repo/images/Installer.png" alt="Installer icon" />
             <p class="link">Thêm vào Installer</p>
         </a>
-        <a href="sileo://source/https://anhutc.github.io/repo">
+        <a href="sileo://source/https://anhutc.github.io/repo/">
             <img src="https://getsileo.app/img/icon.png" alt="Sileo icon" />
             <p class="link">Thêm vào Sileo</p>
         </a>
