@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <title>Redentic's Repo</title>
     <!-- Metadata -->
-    <link rel="icon" type="image/png" href="CydiaIcon@3x.png">
-    <link rel="apple-touch-icon" type="image/png" href="CydiaIcon@3x.png">
+    <link rel="icon" type="image/png" href="img/CydiaIcon@3x.png">
+    <link rel="apple-touch-icon" type="image/png" href="img/CydiaIcon@3x.png">
     <link rel="stylesheet" type="text/css" href="css/style.min.css">
     <meta name="title" content="Redentic's Repo">
     <meta name="description"
@@ -21,7 +21,7 @@
     <meta property="og:title" content="Redentic's Repo">
     <meta property="og:description"
         content="All tweaks from RedenticDev. Add this repository to your favorite package manager, among Cydia, Zebra, Installer 5 or Sileo.">
-    <meta property="og:image" content="https://redentic.dev/CydiaIcon@3x.png">
+    <meta property="og:image" content="img/CydiaIcon@3x.png">
     <!-- Twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:creator" content="@RedenticDev">
@@ -29,7 +29,7 @@
     <meta name="twitter:title" content="Redentic's Repo">
     <meta name="twitter:description"
         content="All tweaks from RedenticDev. Add this repository to your favorite package manager, among Cydia, Zebra, Installer 5 or Sileo.">
-    <meta name="twitter:image" content="https://redentic.dev/CydiaIcon@3x.png">
+    <meta name="twitter:image" content="img/CydiaIcon@3x.png">
     <meta name="twitter:image:alt" content="Redentic's Repo image">
     <!-- JavaScript -->
     <script defer src="https://kit.fontawesome.com/ff86e91158.js" crossorigin="anonymous"></script>
