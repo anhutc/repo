@@ -17,19 +17,19 @@
     <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
     <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://redentic.dev">
+    <meta property="og:url" content="https://anhutc.github.io/repo">
     <meta property="og:title" content="Redentic's Repo">
     <meta property="og:description"
         content="All tweaks from RedenticDev. Add this repository to your favorite package manager, among Cydia, Zebra, Installer 5 or Sileo.">
-    <meta property="og:image" content="https://redentic.dev/CydiaIcon@3x.png">
+    <meta property="og:image" content="https://anhutc.github.io/repo/CydiaIcon@3x.png">
     <!-- Twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:creator" content="@RedenticDev">
-    <meta name="twitter:url" content="https://redentic.dev">
+    <meta name="twitter:url" content="https://anhutc.github.io/repo">
     <meta name="twitter:title" content="Redentic's Repo">
     <meta name="twitter:description"
         content="All tweaks from RedenticDev. Add this repository to your favorite package manager, among Cydia, Zebra, Installer 5 or Sileo.">
-    <meta name="twitter:image" content="https://redentic.dev/CydiaIcon@3x.png">
+    <meta name="twitter:image" content="https://anhutc.github.io/repo/CydiaIcon@3x.png">
     <meta name="twitter:image:alt" content="Redentic's Repo image">
     <!-- JavaScript -->
     <script defer src="https://kit.fontawesome.com/ff86e91158.js" crossorigin="anonymous"></script>
@@ -37,26 +37,26 @@
 </head>
 
 <body>
-    <button class="top" aria-label="Scroll to Top"><em class="fas fa-chevron-up"></em></button>
+    <button class="top" aria-label="Di chuyển lên đầu"><em class="fas fa-chevron-up"></em></button>
 
-    <h1>Redentic's Repository</h1>
-    <em id="alert">Open this page on your iOS/iPadOS device to add this repo to your package manager.</em>
+    <h1>REPO ĐẶNG VĂN ÁNH</h1>
+    <em id="alert">Mở trang này trên thiết bị iOS / iPadOS của bạn để thêm kho này vào trình quản lý gói của bạn.</em>
     <section id="add-repo">
-        <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://redentic.dev">
+        <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://anhutc.github.io/repo">
             <img src="https://cydia.saurik.com/icon@2x/cydia7.png" alt="Cydia icon" />
-            <p class="link">Add to Cydia</p>
+            <p class="link">Thêm vào Cydia</p>
         </a>
-        <a href="zbra://sources/add/https://redentic.dev">
+        <a href="zbra://sources/add/https://anhutc.github.io/repo">
             <img src="https://getzbra.com/assets/zeeb.svg" alt="Zebra icon" />
-            <p class="link">Add to Zebra</p>
+            <p class="link">Thêm vào Zebra</p>
         </a>
-        <a href="installer://add/https://redentic.dev">
+        <a href="installer://add/https://anhutc.github.io/repo">
             <img src="https://apptapp.me/repo/images/Installer.png" alt="Installer icon" />
-            <p class="link">Add to Installer</p>
+            <p class="link">Thêm vào Installer</p>
         </a>
-        <a href="sileo://source/https://redentic.dev">
+        <a href="sileo://source/https://anhutc.github.io/repo">
             <img src="https://getsileo.app/img/icon.png" alt="Sileo icon" />
-            <p class="link">Add to Sileo</p>
+            <p class="link">Thêm vào Sileo</p>
         </a>
     </section>
     <section id="contact">
@@ -95,12 +95,12 @@
                 alt="Discord icon" />
             <p class="link">Discord (Redentic#0475)</p>
         </a>
-        <a href="mailto:hello@redentic.dev">
+        <a href="mailto:anhutck58@gmail.com">
             <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/c7/40/e5/c740e5f0-2a62-4fa7-dc1b-66ea3d519545/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-10.png/217x0w.png"
                 alt="Apple Mail icon" />
             <p class="link">Mail</p>
         </a>
-        <a href="https://www.paypal.me/redenticdev" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.paypal.me/ppdva" target="_blank" rel="noopener noreferrer">
             <img src="https://is5-ssl.mzstatic.com/image/thumb/Purple125/v4/66/37/0d/66370de2-4c2c-43d2-1f2b-dd4b0c5e563a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/217x0w.png"
                 alt="Paypal icon" />
             <p class="link">Paypal</p>
