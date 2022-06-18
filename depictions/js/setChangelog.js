@@ -14,7 +14,7 @@ $(() => {
 
     let changelogExport = "";
 
-    console.log("Package: " + bundle);
+    console.log("Gói: " + bundle);
     const bundlePath = location.href.split("/").slice(0, -2).join("/") + "/" + bundle;
     const debsAPI = "https://api.github.com/repos/anhutc/repo/commits?path=debs/";
 
