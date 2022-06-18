@@ -1,5 +1,6 @@
 {
     "class": "DepictionTabView",
+    "headerImage": "https://redentic.dev/depictions/com.redenticdev.respringpack/banner.png",
     "minVersion": "0.1",
     "tabs": [
         {
@@ -8,7 +9,7 @@
             "views": [
                 {
                     "class": "DepictionLabelView",
-                    "text": "A nice Star Wars respring pack",
+                    "text": "Giới thiệu tóm tắt",
                     "fontWeight": "medium"
                 },
                 {
@@ -43,7 +44,7 @@
                 },
                 {
                     "class": "DepictionHeaderView",
-                    "title": "And now",
+                    "title": "Thêm ngay",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -54,12 +55,12 @@
                 },
                 {
                     "class": "DepictionHeaderView",
-                    "title": "How to use?",
+                    "title": "Làm thế nào để sử dụng?",
                     "useBoldText": true
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "The pack is available in Snowboard. Requires Respring Extension.",
+                    "markdown": "Gói này có sẵn trong Snowboard. Yêu cầu Tiện ích mở rộng phản hồi.",
                     "useSpacing": true
                 },
                 {
@@ -68,17 +69,17 @@
                 {
                     "class": "DepictionTableTextView",
                     "title": "Developer",
-                    "text": "RedenticDev"
+                    "text": "DVA"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "title": "Price",
-                    "text": "Free"
+                    "title": "Giá",
+                    "text": "100.000 VDN"
                 },
                 {
                     "class": "DepictionTableTextView",
                     "title": "Version",
-                    "text": "1.1.0"
+                    "text": "1.0.1"
                 },
                 {
                     "class": "DepictionTableTextView",
@@ -88,35 +89,35 @@
                 {
                     "class": "DepictionTableTextView",
                     "title": "Last update",
-                    "text": "03/15/2021"
+                    "text": "18/06/2022"
                 },
                 {
                     "class": "DepictionTableTextView",
                     "title": "Release date",
-                    "text": "03/11/2021"
+                    "text": "18/06/2022"
                 },
                 {
                     "class": "DepictionTableTextView",
                     "title": "Category",
-                    "text": "Theme"
+                    "text": "Test"
                 },
                 {
                     "class": "DepictionSeparatorView"
                 },
                 {
                     "class": "DepictionTableButtonView",
-                    "title": "Github",
-                    "action": "https://github.com/RedenticDev"
+                    "title": "Facebook",
+                    "action": "https://www.facebook.com/100010169232179"
                 },
                 {
                     "class": "DepictionTableButtonView",
-                    "title": "Twitter",
-                    "action": "https://twitter.com/RedenticDev"
+                    "title": "Youtube",
+                    "action": "https://www.youtube.com/channel/UCw1G8IanhLQH3jgGnESv97g"
                 },
                 {
                     "class": "DepictionTableButtonView",
-                    "title": "Reddit",
-                    "action": "https://www.reddit.com/user/redentic"
+                    "title": "TikTok",
+                    "action": "https://www.tiktok.com/@ttdvanh"
                 },
                 {
                     "class": "DepictionTableButtonView",
