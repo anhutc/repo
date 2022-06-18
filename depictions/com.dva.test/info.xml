@@ -4,37 +4,18 @@
     <name>Tweak test</name>
     <descriptions>
         <description>
-            A nice Star Wars respring pack
+            Là một tweak đang được test
         </description>
         <description>
-            Content:
-            - 501st (logo &amp; minimalist)
-            - Boba Fett head
-            - Clone Phase 1 &amp; 2
-            - Darth Vador
-            - Empire icon
-            - First Order icon
-            - Galactic Republic icon
-            - Jedi Order icon
-            - Rebel Alliance icon
-	    - Shoretrooper head
-	    - Stormtrooper heads (Empire &amp; First Order)
-	    - Mando head
-	    - Tie Fighter (logo &amp; minimalist)
-	    - X-wing (logo &amp; minimalist)
-
-	    And now:
-	    - Baby Yoda
-	    - Captain Rex
-	    - 332nd clone
-
-            How to use?
-            The pack is available in Snowboard. Requires Respring Extension.
+            Sử dụng tweak
+                - Cài đặt
+                - Mở
+                - Khởi động lại
         </description>
     </descriptions>
     <compatibility>
-        <miniOS>11.0</miniOS>
-        <maxiOS>14.4</maxiOS>
+        <miniOS>10.0</miniOS>
+        <maxiOS>15.0</maxiOS>
     </compatibility>
     <dependencies>
         <dependency>Snowboard &amp; Snowboard Respring Extension or Anemone (untested)</dependency>

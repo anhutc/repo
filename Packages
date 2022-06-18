@@ -1,0 +1,18 @@
+Package: com.dva.tweaktest
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Text
+Maintainer: DVA <anhutck58@gmail.com>
+Depends: com.spark.snowboard
+Filename: ./debs/com.dva.test_.1.0_iphoneos-arm.deb
+Size: 1157604
+MD5sum: e2f7571d115dd17ec84d0b76828241a8
+SHA1: 4dc0e219fe58612e1b7bfb25a461cffdcbc2496f
+SHA256: 764c9add9e9b02d56882b935aa1d5a9d06e0ff5eae4088085f2c418954bbe44e
+SHA512: 50fd52dde735ae550b5bb3dd1502c044927a40ce84942e8a167a7f5765549a1da27e921d158c49e8982387ce19cec885b6403044d9fc2a217c3a3495e3a9840f
+Description: Mô tả tweak test
+Name: Tweak Test
+Icon: ./depictions/com.dva.test/icon.png
+Depiction: ./depictions/?p=com.dva.test
+SileoDepiction: ./depictions/com.dva.test/sileo.json
+Author: DVA <anhutck58@gmail.com>
