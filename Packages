@@ -4,7 +4,7 @@ Version: 1.0.0
 Section: Text
 Maintainer: DVA <anhutck58@gmail.com>
 Depends: com.spark.snowboard
-Filename: https://anhutc.github.io/repo/debs/test_1.0.0_iphoneos-arm.deb
+Filename: https://anhutc.github.io/repo/debs/com.dva.test_1.0.0_iphoneos-arm.deb
 Size: 1157604
 MD5sum: ecdc14ac2001594f9c4480e812a86722
 SHA1: 7957c45f32bbc6623d17f2c416820736c3353424
@@ -22,7 +22,7 @@ Architecture: iphoneos-arm
 Version: 2.35.0
 Section: Hack Games
 Maintainer: DVA <anhutck58@gmail.com>
-Filename: https://anhutc.github.io/repo/debs/SubwaySurfers_2.27.1_iphoneos-arm.deb
+Filename: https://anhutc.github.io/repo/debs/com.dva.SubwaySurfers_2.27.1_iphoneos-arm.deb
 Size: 2366
 MD5sum: 04faa416e132d9b9534aee106435ab99
 SHA1: e22bf1d6d16ccc849397ea435d4665df6648d46e
