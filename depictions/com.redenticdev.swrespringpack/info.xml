@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xml>
 <packageInfo>
-    <name>Star Wars Respring Pack</name>
+    <name>Tweak test</name>
     <descriptions>
         <description>
             A nice Star Wars respring pack
@@ -58,7 +58,7 @@
     </screenshots>
     <informations>
         <developer>RedenticDev</developer>
-        <category>Theme</category>
+        <category>Text</category>
     </informations>
     <links>
         <facebook>https://www.facebook.com/100010169232179</facebook>
