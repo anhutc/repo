@@ -14,5 +14,5 @@ Description: Mô tả tweak test
 Name: Tweak Test
 Icon: ./depictions/com.dva.test/icon.png
 Depiction: ./depictions/?p=com.dva.test
-SileoDepiction: ./depictions/com.dva.test/sileo.json
+SileoDepiction: ./depictions/com.dva.test/base.json
 Author: DVA <anhutck58@gmail.com>
