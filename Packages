@@ -1,10 +1,10 @@
-Package: com.dva.tweaktest
+Package: tweaktest
 Architecture: iphoneos-arm
 Version: 1.0.0
 Section: Text
 Maintainer: DVA <anhutck58@gmail.com>
 Depends: com.spark.snowboard
-Filename: ./debs/com.dva.test_.1.0_iphoneos-arm.deb
+Filename: ./debs/test_.1.0_iphoneos-arm.deb
 Size: 1157604
 MD5sum: ecdc14ac2001594f9c4480e812a86722
 SHA1: 7957c45f32bbc6623d17f2c416820736c3353424
@@ -12,9 +12,9 @@ SHA256: 7dee838a1fa88b790f6eb19ffc1cf70e35ce31c16277650ff37f6997e2d06b12
 SHA512: db6e02684fdcdb595ce63c0d81e54b9894d46bb04bdd05e5e9e76d12db6bf531cc8bdebcb37fdf03d91a63fd2524f9eb09f4d359d1ef796ef7c2ef1cbe1c8f58
 Description: Mô tả tweak test
 Name: Tweak Test
-Icon: ./depictions/com.dva.test/icon.png
-Depiction: ./depictions/?p=com.dva.test
-# SileoDepiction: ./depictions/com.dva.test/base.json
+Icon: ./depictions/test/icon.png
+Depiction: ./depictions/?p=test
+# SileoDepiction: ./depictions/test/base.json
 Author: DVA <anhutck58@gmail.com>
 
 Package: SubwaySurfers_2.27.1_iphoneos-arm
