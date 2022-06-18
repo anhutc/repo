@@ -1,7 +1,7 @@
 /**
  * Automatically get date for footer
  */
-document.getElementsByTagName("footer")[0].innerHTML = "<p>© Copyright 2020-" + new Date().getFullYear() + " • Redentic</p>";
+document.getElementsByTagName("footer")[0].innerHTML = "<p>© Copyright 2022-" + new Date().getFullYear() + " • DVA</p>";
 
 /**
  * Toggle on/off the dropdown spoiler '_WHOAMI'
@@ -24,10 +24,10 @@ new Promise((resolve, reject) => {
         const req = new XMLHttpRequest();
         req.onload = () => {
             if (req.readyState == 4 && req.status == 200) resolve(req.responseText);
-            reject("An error occurred.\n(readyState = "
-                + req.readyState + ", status = " + req.status + ")");
+            reject("Đã xảy ra lỗi.\n(trạng thái sẵn sàng = "
+                + req.readyState + ", trạng thái = " + req.status + ")");
         }
-        req.open("GET", "https://raw.githubusercontent.com/RedenticDev/RedenticDev/main/README.md");
+        req.open("GET", "https://raw.githubusercontent.com/anhutc/repo/main/README.md");
         req.send();
     } catch (er) {
         reject(er.message);
@@ -63,7 +63,7 @@ $(() => {
                 });
                 $("section#packages").append("</a>");
             });
-        }).fail(() => console.warn(actualPackage + " not found!"));
+        }).fail(() => console.warn(actualPackage + " không tìm thấy!"));
     });
 });
 
@@ -128,7 +128,7 @@ document.addEventListener("readystatechange", () => {
                     } else if (index == 1 && wordToImage(line[0]).startsWith("<img")) {
                         word = "<strong>" + word + "</strong>"; // Backup for words after img
                     } else if (index == line.length - 1 && lineNumber == 0) {
-                        word += " <strong><em>(Main device)</em></strong>"; // First line is always main device
+                        word += " <strong><em>(Tiết bị chính)</em></strong>"; // First line is always main device
                     }
                     content += word + (index < line.length - 1 && !word.startsWith("<img") ? " • " : "");
                 });

@@ -8,7 +8,7 @@ $(() => {
     }
 
     if (!bundle) {
-        console.log("Package not found. Aborting.");
+        console.log("Tinh chỉnh không được tìm thấy. Hủy bỏ.");
         return;
     }
 
@@ -16,18 +16,18 @@ $(() => {
 
     console.log("Package: " + bundle);
     const bundlePath = location.href.split("/").slice(0, -2).join("/") + "/" + bundle;
-    const debsAPI = "https://api.github.com/repos/RedenticDev/Repo/commits?path=debs/";
+    const debsAPI = "https://api.github.com/repos/anhutc/repo/commits?path=debs/";
 
     $.ajax({
         type: "GET",
         url: bundlePath + "/info.xml",
         dataType: "xml"
     }).done(xml => {
-        console.log("Beginning XML parsing");
+        console.log("Bắt đầu phân tích cú pháp XML.");
 
         // Parse the xml file and get data
         $(xml).find("packageInfo").each(function () {
-            document.title = "Changelog of " + $(this).find("name").text().trim();
+            document.title = "Nhật ký thay đổi của " + $(this).find("name").text().trim();
 
             $(xml).find("change").each(function () {
                 const version = $(this).find("changeVersion").text().trim();
@@ -46,9 +46,9 @@ $(() => {
                 lastUpdateDate(debsAPI + bundle + "_" + version.replace("v", "").trim() + "_iphoneos-arm.deb").then(res => $("#" + version.replaceAll(".", "")).append("- (" + res + ")")).catch(error => console.error(error));
             });
         });
-        console.log("XML parsing done.");
+        console.log("Đã hoàn thành phân tích cú pháp XML.");
     }).fail(() => {
-        $("#changelog").append("Package \"" + bundle + "\" not found. Incorrect parameter or no depiction for this package.");
+        $("#changelog").append("Tinh chỉnh \"" + bundle + "\" không tìm thấy. Tham số không chính xác hoặc không có mô tả cho gói này.");
     });
 });
 
@@ -85,7 +85,7 @@ function lastUpdateDate(url) {
     return new Promise((resolve, reject) => {
         // Almost never goes into this if because requests are started almost at the same time, but who knows
         if (url in updateDatesDict) {
-            console.log("Using cached value for url " + url + " (" + updateDatesDict[url] + ")");
+            console.log("Sử dụng giá trị được lưu trong bộ nhớ cache cho url " + url + " (" + updateDatesDict[url] + ")");
             resolve(updateDatesDict[url]);
         } else {
             let currentCommit = 0;
@@ -94,18 +94,18 @@ function lastUpdateDate(url) {
                     makeRequest(String(url).replace("mmits?path=", "ntents/").concat("?ref=", JSON.parse(response)[currentCommit].sha)).then(_ => {
                         // Good value
                         const date = new Date(JSON.parse(response)[currentCommit].commit.author.date);
-                        console.log("Date successfully fetched for url: " + url + " (" + date + ")");
+                        console.log("Ngày tìm nạp thành công cho url: " + url + " (" + date + ")");
                         const formattedDate = date.toLocaleDateString("en-US", { year: "numeric", month: "2-digit", day: "2-digit" });
                         updateDatesDict[url] = formattedDate;
                         resolve(formattedDate);
                     }).catch(_ => {
                         // Retry with next commit of file
                         currentCommit++;
-                        console.warn("Retrying call with commit " + currentCommit + " for url " + url);
+                        console.warn("Thử lại cuộc gọi với cam kết " + currentCommit + " cho url " + url);
                         requests();
                     });
                 }).catch(errorStatus => {
-                    reject("Error getting sha value (" + errorStatus + ")");
+                    reject("Lỗi khi nhận giá trị sha (" + errorStatus + ")");
                 });
             }
             requests();
