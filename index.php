@@ -42,19 +42,19 @@
     <h1>REPO ĐẶNG VĂN ÁNH</h1>
     <em id="alert">Mở trang này trên thiết bị iOS / iPadOS của bạn để thêm kho này vào trình quản lý gói của bạn.</em>
     <section id="add-repo">
-        <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://anhutc.github.io/repo/">
+        <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://redentic.dev">
             <img src="https://cydia.saurik.com/icon@2x/cydia7.png" alt="Cydia icon" />
             <p class="link">Thêm vào Cydia</p>
         </a>
-        <a href="zbra://sources/add/https://anhutc.github.io/repo/">
+        <a href="zbra://sources/add/https://redentic.dev">
             <img src="https://getzbra.com/assets/zeeb.svg" alt="Zebra icon" />
             <p class="link">Thêm vào Zebra</p>
         </a>
-        <a href="installer://add/https://anhutc.github.io/repo/">
+        <a href="installer://add/https://redentic.dev">
             <img src="https://apptapp.me/repo/images/Installer.png" alt="Installer icon" />
             <p class="link">Thêm vào Installer</p>
         </a>
-        <a href="sileo://source/https://anhutc.github.io/repo/">
+        <a href="sileo://source/https://redentic.dev">
             <img src="https://getsileo.app/img/icon.png" alt="Sileo icon" />
             <p class="link">Thêm vào Sileo</p>
         </a>
