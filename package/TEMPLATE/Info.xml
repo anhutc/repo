@@ -28,15 +28,15 @@
     <tweakDeveloper>
         DVA
     </tweakDeveloper>
-    <tweakDevTwitter>
+    <tweakDevLink>
         @DVA
-    </tweakDevTwitter>
-    <tweakDevTwitterPic>
+    </tweakDevLink>
+    <tweakDevLinkPic>
         https://anhutc.github.io/assets/dva.png
-    </tweakDevTwitterPic>
-    <tweakDevTwitterURL>
+    </tweakDevLinkPic>
+    <tweakDevLinkURL>
         https://www.facebook.com/100010169232179
-    </tweakDevTwitterURL>
+    </tweakDevLinkURL>
 
     <tweakChangelog>
         • Changed thing number one
