@@ -25,7 +25,10 @@ body {
 
 /* Responsive layout - Single Column on Mobile */
 @media screen and (max-width: 800px) {
-    .column {
+    .column,
+    .columnFull,
+    .columnLeft,
+    .columnFull {
         width: 100%;
     }
 }
