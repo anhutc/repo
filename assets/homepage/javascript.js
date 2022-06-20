@@ -161,7 +161,7 @@ function expand(classID) {
   } else {
     document.getElementById(classID + "Container").style.maxHeight = "210px";
     document.getElementById(classID + "Button").innerHTML =
-      '<img class="buttonIcon" src="/assets/homepage/expand.png">Xem thêm';
+      '<img class="buttonIcon" src="assets/homepage/expand.png">Xem thêm';
     duplicateContentOf(classID);
   }
 }
