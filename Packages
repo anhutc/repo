@@ -10,7 +10,7 @@ Depiction: https://anhutc.github.io/depiction/?Example
 Size: 0
 MD5sum: d41d8cd98f00b204e9800998ecf8427e
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-Filename: package/Example/Example.deb
+Filename: packageTweak/Example/Example.deb
 
 Package: com.sygem.gamma
 Name: Gamma
@@ -19,12 +19,12 @@ Architecture: iphoneos-arm
 Description: A theme modernizing Apple's design.
 Author: James (Sygem)
 Maintainer: James (Sygem)
-Section: Themes
+Section: Tweak
 Depiction: https://anhutc.github.io/depiction/?Gamma
 Size: 1062374
 MD5sum: c09f87d5175b88482c1e0cb68be451e9
 SHA256: c0aac5623346f6d16b3299be43e44a20e56339123a9cda1cc81b2741539f93cc
-Filename: package/Gamma/Gamma.deb
+Filename: packageTweak/Gamma/Gamma.deb
 
 Package: com.pinpal.joolpatch
 Name: Jool - Extra Icons
@@ -35,10 +35,10 @@ Author: PINPAL
 Depiction: https://anhutc.github.io/depiction/?JoolPatch
 # Depiction: https://anhutc.github.io/Sileo-Depiction-WebViews/?json=https://anhutc.github.io/package/JoolPatch/SileoDepiction.json&name=Jool%20-%20Extra%20Icons&section=Themes&dev=PINPAL
 # SileoDepiction: https://anhutc.github.io/package/JoolPatch/SileoDepiction.json
-Section: Themes
+Section: Hack
 Description: Additional Icons for "Jool" Theme
 Maintainer: PINPAL
 Size: 58328
 MD5sum: f427ea516055332336671f72bd5b9edc
 SHA256: b95c7a3340acc17246fd2dedafa3ba4b08214471bbeefdf1b1205b867b5b7894
-Filename: package/JoolPatch/JoolPatch.deb
+Filename: packageHack/JoolPatch/JoolPatch.deb

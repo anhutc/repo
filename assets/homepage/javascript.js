@@ -1,24 +1,24 @@
-// Decode Packages File into Object Array
-packages = decodePackagesFile(loadXMLDoc("/Packages"));
-// Render Packages File
-for (i = 0; i < packages.length; i++) {
+// Decode PackagesTweak File into Object Array
+packagesTweak = decodePackagesTweakFile(loadXMLDoc("/PackagesTweak"));
+// Render PackagesTweak File
+for (i = 0; i < packagesTweak.length; i++) {
   var color = "";
   // Create Wrapper Link
   var a = document.createElement("a");
-  if (packages[i].hasOwnProperty("SileoDepiction")) {
+  if (packagesTweak[i].hasOwnProperty("SileoDepiction")) {
     a.href =
       "https://pinpal.github.io/Sileo-Depiction-WebViews/" +
       "?json=" +
-      packages[i].SileoDepiction +
+      packagesTweak[i].SileoDepiction +
       "&name=" +
-      packages[i].Name +
+      packagesTweak[i].Name +
       "&section=" +
-      packages[i].Section +
+      packagesTweak[i].Section +
       "&dev=" +
-      packages[i].Author;
-    color = JSON.parse(loadXMLDoc(packages[i].SileoDepiction)).tintColor;
+      packagesTweak[i].Author;
+    color = JSON.parse(loadXMLDoc(packagesTweak[i].SileoDepiction)).tintColor;
   } else {
-    a.href = packages[i].Depiction;
+    a.href = packagesTweak[i].Depiction;
   }
 
   // Create Bigbox
@@ -30,11 +30,11 @@ for (i = 0; i < packages.length; i++) {
   // Create Tweak Name
   var packageTitle = document.createElement("span");
   packageTitle.className = "packageTitle";
-  packageTitle.innerText = packages[i].Name;
+  packageTitle.innerText = packagesTweak[i].Name;
   // Create Tweak Description
   var packageDescription = document.createElement("span");
   packageDescription.className = "packageDescription";
-  packageDescription.innerText = packages[i].Description;
+  packageDescription.innerText = packagesTweak[i].Description;
   // Append Name and Description to Content Holder
   packageContentHolder.appendChild(packageTitle);
   packageContentHolder.innerHTML += "</br>";
@@ -49,7 +49,7 @@ for (i = 0; i < packages.length; i++) {
   img.className = "packageicon";
   img.src =
     "/assets/page-icons/" +
-    packages[i].Name.replace(/ |-|:|;/g, "").toLowerCase() +
+    packagesTweak[i].Name.replace(/ |-|:|;/g, "").toLowerCase() +
     ".png";
   packageIconHolder.appendChild(img);
   // Append bigBox to a
@@ -59,6 +59,68 @@ for (i = 0; i < packages.length; i++) {
   // Add to Scroller
   document.getElementById("scrollerTweak").appendChild(a);
   // document.getElementById("scrollerHack").appendChild(a);
+}
+
+// Decode PackagesHack File into Object Array
+packagesHack = decodePackagesHackFile(loadXMLDoc("/PackagesHack"));
+// Render PackagesHack File
+for (i = 0; i < packagesHack.length; i++) {
+  var color = "";
+  // Create Wrapper Link
+  var a = document.createElement("a");
+  if (packagesHack[i].hasOwnProperty("SileoDepiction")) {
+    a.href =
+      "https://pinpal.github.io/Sileo-Depiction-WebViews/" +
+      "?json=" +
+      packagesHack[i].SileoDepiction +
+      "&name=" +
+      packagesHack[i].Name +
+      "&section=" +
+      packagesHack[i].Section +
+      "&dev=" +
+      packagesHack[i].Author;
+    color = JSON.parse(loadXMLDoc(packagesHack[i].SileoDepiction)).tintColor;
+  } else {
+    a.href = packagesHack[i].Depiction;
+  }
+
+  // Create Bigbox
+  var bigBox = document.createElement("div");
+  bigBox.className = "bigBox";
+  // Create Package Content Holder
+  var packageContentHolder = document.createElement("div");
+  packageContentHolder.className = "packageContentHolder";
+  // Create Tweak Name
+  var packageTitle = document.createElement("span");
+  packageTitle.className = "packageTitle";
+  packageTitle.innerText = packagesHack[i].Name;
+  // Create Tweak Description
+  var packageDescription = document.createElement("span");
+  packageDescription.className = "packageDescription";
+  packageDescription.innerText = packagesHack[i].Description;
+  // Append Name and Description to Content Holder
+  packageContentHolder.appendChild(packageTitle);
+  packageContentHolder.innerHTML += "</br>";
+  packageContentHolder.appendChild(packageDescription);
+  // Create Package Icon
+  var packageIconHolder = document.createElement("div");
+  packageIconHolder.className = "packageIconHolder";
+  if (color != "") {
+    packageIconHolder.style.background = color;
+  }
+  var img = document.createElement("img");
+  img.className = "packageicon";
+  img.src =
+    "/assets/page-icons/" +
+    packagesHack[i].Name.replace(/ |-|:|;/g, "").toLowerCase() +
+    ".png";
+  packageIconHolder.appendChild(img);
+  // Append bigBox to a
+  bigBox.appendChild(packageIconHolder);
+  bigBox.appendChild(packageContentHolder);
+  a.appendChild(bigBox);
+  // Add to Scroller
+  document.getElementById("scrollerHack").appendChild(a);
 }
 
 //Backup content of original scrollers (for un-duplicating on expand)
