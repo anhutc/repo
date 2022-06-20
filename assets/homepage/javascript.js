@@ -58,6 +58,7 @@ for (i = 0; i < packages.length; i++) {
   a.appendChild(bigBox);
   // Add to Scroller
   document.getElementById("scrollerHack").appendChild(a);
+  document.getElementById("scrollerHack").appendChild(a);
 }
 
 //Backup content of original scrollers (for un-duplicating on expand)
