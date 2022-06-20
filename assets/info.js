@@ -13,7 +13,7 @@ var xmlDoc = parser.parseFromString(text,"text/xml"); //Load the XML config
 
 //Array of ID's to change based on the package
 var toChange = ["tweakName", "tweakShortDescription", "tweakSize", "tweakCategory",
-                "tweakCompatibility", "tweakVersion", "tweakUpdateDate", "tweakDeveloper", "tweakDevTwitter"];
+                "tweakCompatibility", "tweakVersion", "tweakUpdateDate", "tweakDeveloper", "tweakDevLink"];
 
 //Loop algorithm to swap all the ID's listed above based on package
 for(var i = 0; i < toChange.length; i++) {
@@ -23,13 +23,13 @@ for(var i = 0; i < toChange.length; i++) {
     }
 }
 
-//Replace Twitter Profile picture based off package developer
-document.getElementById("tweakDevTwitterPic").src =
-xmlDoc.getElementsByTagName("tweakDevTwitterPic")[0].childNodes[0].nodeValue;
+//Replace Link Profile picture based off package developer
+document.getElementById("tweakDevLinkPic").src =
+xmlDoc.getElementsByTagName("tweakDevLinkPic")[0].childNodes[0].nodeValue;
 
-//Replace Twitter URL based off package developer
-document.getElementById("tweakDevTwitterURL").href =
-xmlDoc.getElementsByTagName("tweakDevTwitterURL")[0].childNodes[0].nodeValue;
+//Replace Link URL based off package developer
+document.getElementById("tweakDevLinkURL").href =
+xmlDoc.getElementsByTagName("tweakDevLinkURL")[0].childNodes[0].nodeValue;
 
 //Replace Screenshot button URL based off package name
 document.getElementById("screenshotButton").setAttribute("href",window.location.origin + "/depiction/screenshots/?" + window.location.search.substring(1))
