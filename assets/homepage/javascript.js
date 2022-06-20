@@ -1,5 +1,5 @@
 // Decode Packages File into Object Array
-packages = decodePackagesFile(loadXMLDoc("../../Packages"));
+packages = decodePackagesFile(loadXMLDoc("https://anhutc.github.io/repo/Packages"));
 // Render Packages File
 for (i = 0; i < packages.length; i++) {
   var color = "";
