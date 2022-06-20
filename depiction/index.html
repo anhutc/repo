@@ -102,10 +102,10 @@
 
   //Redirect to 404 page if package not specified in URL
   if (window.location.search.substring(1)) {} else {
-    location.replace("https://pinpal.github.io/404")
+    location.replace("https://anhutc.github.io/repo/404")
   }
 
-  var text = loadXMLDoc("/package/" + window.location.search.substring(1) + "/Info.xml"); //Specify the name of the XML config to load
+  var text = loadXMLDoc("package/" + window.location.search.substring(1) + "/Info.xml"); //Specify the name of the XML config to load
   var parser = new DOMParser();
   var xmlDoc = parser.parseFromString(text,"text/xml"); //Load the XML config
 
