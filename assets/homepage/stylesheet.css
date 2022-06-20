@@ -520,7 +520,7 @@ a {
   left: 50%;
   transform: translateX(-50%) scale(0.5);
   position: absolute;
-  background-image: url(assets/homepage/expand.png);
+  background-image: url(expand.png);
   background-size: cover;
   display: block;
   content: "i";
