@@ -6,7 +6,7 @@ Description: A theme modernizing Apple's design.
 Author: James (Sygem)
 Maintainer: James (Sygem)
 Section: Themes
-Depiction: https://anhutc.github.io/repo/depiction/?Gamma
+Depiction: https://anhutc.github.io/depiction/?Gamma
 Size: 1062374
 MD5sum: c09f87d5175b88482c1e0cb68be451e9
 SHA256: c0aac5623346f6d16b3299be43e44a20e56339123a9cda1cc81b2741539f93cc
@@ -18,9 +18,9 @@ Version: 1.1
 Depends: com.colbyroark.jool
 Architecture: iphoneos-arm
 Author: PINPAL
-Depiction: https://anhutc.github.io/repo/depiction/?JoolPatch
-# Depiction: https://anhutc.github.io/repo/Sileo-Depiction-WebViews/?json=https://anhutc.github.io/repo/package/JoolPatch/SileoDepiction.json&name=Jool%20-%20Extra%20Icons&section=Themes&dev=PINPAL
-# SileoDepiction: https://anhutc.github.io/repo/package/JoolPatch/SileoDepiction.json
+Depiction: https://anhutc.github.io/depiction/?JoolPatch
+# Depiction: https://anhutc.github.io/Sileo-Depiction-WebViews/?json=https://anhutc.github.io/package/JoolPatch/SileoDepiction.json&name=Jool%20-%20Extra%20Icons&section=Themes&dev=PINPAL
+# SileoDepiction: https://anhutc.github.io/package/JoolPatch/SileoDepiction.json
 Section: Themes
 Description: Additional Icons for "Jool" Theme
 Maintainer: PINPAL

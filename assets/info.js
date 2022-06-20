@@ -4,10 +4,10 @@ document.getElementsByClassName('wrapper')[0].style.filter = "none"
 
 //Redirect to 404 page if package not specified in URL
 if (window.location.search.substring(1)) {} else {
-  location.replace("https://anhutc.github.io/repo/404")
+  location.replace("https://anhutc.github.io/404")
 }
 
-var text = loadXMLDoc("/repo/package/" + window.location.search.substring(1) + "/Info.xml"); //Specify the name of the XML config to load
+var text = loadXMLDoc("/package/" + window.location.search.substring(1) + "/Info.xml"); //Specify the name of the XML config to load
 var parser = new DOMParser();
 var xmlDoc = parser.parseFromString(text,"text/xml"); //Load the XML config
 
@@ -32,7 +32,7 @@ document.getElementById("tweakDevTwitterURL").href =
 xmlDoc.getElementsByTagName("tweakDevTwitterURL")[0].childNodes[0].nodeValue;
 
 //Replace Screenshot button URL based off package name
-document.getElementById("screenshotButton").setAttribute("href",window.location.origin + "/repo/depiction/screenshots/?" + window.location.search.substring(1))
+document.getElementById("screenshotButton").setAttribute("href",window.location.origin + "/depiction/screenshots/?" + window.location.search.substring(1))
 
 //Allow new line in tweak description
 tweakDescription = xmlDoc.getElementsByTagName("tweakDescription")[0].childNodes[0].nodeValue;
@@ -62,7 +62,7 @@ function deleteScreenshot(element) {
 function addScreenshot(n) {
     if (document.getElementById("screenshot" + n) == null) {
         screenshot = createElement("screenshot","img")
-        screenshot.setAttribute("src", window.location.origin + "/repo/package/" + window.location.search.substring(1) + "/" + n + ".png")
+        screenshot.setAttribute("src", window.location.origin + "/package/" + window.location.search.substring(1) + "/" + n + ".png")
         screenshot.setAttribute("onerror","deleteScreenshot(this)")
         screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
         screenshot.id = "screenshot" + n
@@ -74,4 +74,4 @@ function addScreenshot(n) {
 addScreenshot(1)
 
 //Set page icon to package icon
-document.getElementById('pageIcon').setAttribute("href", window.location.origin + "/repo/assets/page-icons/" + window.location.search.substring(1) + ".png")
+document.getElementById('pageIcon').setAttribute("href", window.location.origin + "/assets/page-icons/" + window.location.search.substring(1) + ".png")
