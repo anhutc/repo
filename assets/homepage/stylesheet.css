@@ -298,7 +298,7 @@ body {
 }
 
 .jbTool {
-  max-width: none !important;
+  max-height: none !important;
 }
 
 .scrollerGradientLeft {
