@@ -8,9 +8,14 @@ body {
 }
 
 /* Columns */
-.column {
+.columnLeft {
     float: left;
     width: 50%;
+}
+
+.columnRight {
+  float: right;
+  width: 50%;
 }
 
 .columnFull {
