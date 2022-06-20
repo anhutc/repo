@@ -149,7 +149,7 @@ function duplicateContentOf(classID) {
 //Function to expand/collapse scrollers
 function expand(classID) {
   if (document.getElementById(classID + "Button").innerText == "Xem thêm") {
-    document.getElementById(classID + "Container").style.maxHeight = "210px";
+    document.getElementById(classID + "Container").style.maxHeight = "100%";
     document.getElementById(classID).style.minWidth = "100%";
     document.getElementById(classID + "Button").innerHTML =
       '<img class="buttonIcon" src="/assets/homepage/collapse.png">Ẩn bớt';
