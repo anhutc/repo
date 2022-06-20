@@ -5,24 +5,22 @@ for (i = 0; i < packages.length; i++) {
   var color = "";
   // Create Wrapper Link
   var a = document.createElement("a");
-  // if (packages[i].hasOwnProperty("SileoDepiction")) {
-  //   a.href =
-  //     "https://pinpal.github.io/Sileo-Depiction-WebViews/" +
-  //     "?json=" +
-  //     packages[i].SileoDepiction +
-  //     "&name=" +
-  //     packages[i].Name +
-  //     "&section=" +
-  //     packages[i].Section +
-  //     "&dev=" +
-  //     packages[i].Author;
-  //   color = JSON.parse(loadXMLDoc(packages[i].SileoDepiction)).tintColor;
-  // } else {
-  //   a.href = packages[i].Depiction;
-  // }
+  if (packages[i].hasOwnProperty("SileoDepiction")) {
+    a.href =
+      "https://pinpal.github.io/Sileo-Depiction-WebViews/" +
+      "?json=" +
+      packages[i].SileoDepiction +
+      "&name=" +
+      packages[i].Name +
+      "&section=" +
+      packages[i].Section +
+      "&dev=" +
+      packages[i].Author;
+    color = JSON.parse(loadXMLDoc(packages[i].SileoDepiction)).tintColor;
+  } else {
+    a.href = packages[i].Depiction;
+  }
 
-  a.href = packages[i].Depiction;
-  
   // Create Bigbox
   var bigBox = document.createElement("div");
   bigBox.className = "bigBox";
