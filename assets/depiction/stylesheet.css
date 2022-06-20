@@ -9,16 +9,20 @@ body {
 
 /* Columns */
 .column {
-    /* float: left; */
-    width: 100%;
+    float: left;
+    width: 50%;
+}
+
+.columnFull {
+  width: 100%;
 }
 
 /* Responsive layout - Single Column on Mobile */
-/* @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
     .column {
         width: 100%;
     }
-} */
+}
 
 .notification {
   background-image: url(../shortcuts/info.png);
