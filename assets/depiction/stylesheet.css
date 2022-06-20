@@ -12,6 +12,12 @@ body {
     float: left;
     width: 50%;
 }
+
+.columnFull {
+  float: left;
+  width: 100%;
+}
+
 /* Responsive layout - Single Column on Mobile */
 @media screen and (max-width: 800px) {
     .column {
