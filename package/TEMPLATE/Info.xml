@@ -1,49 +1,48 @@
 <tweak>
+    <tweakName>
+        Tweak Example
+    </tweakName>
+    <tweakShortDescription>
+        Package Short Description
+    </tweakShortDescription>
+    <tweakDescription>
+        Main description and some extra information about the package can go in this long description in here.
+    </tweakDescription>
 
-<tweakName>
-Tweak Name
-</tweakName>
-<tweakShortDescription>
-Package Short Description
-</tweakShortDescription>
-<tweakDescription>
-Main description and some extra information about the package can go in this long description in here.
-</tweakDescription>
+    <tweakSize>
+        1 MB
+    </tweakSize>
+    <tweakCategory>
+        Tweaks
+    </tweakCategory>
+    <tweakCompatibility>
+        iOS 11
+    </tweakCompatibility>
+    <tweakVersion>
+        1.0
+    </tweakVersion>
+    <tweakUpdateDate>
+        20/06/2022
+    </tweakUpdateDate>
 
-<tweakSize>
-1 MB
-</tweakSize>
-<tweakCategory>
-Tweaks
-</tweakCategory>
-<tweakCompatibility>
-iOS 11
-</tweakCompatibility>
-<tweakVersion>
-1.0
-</tweakVersion>
-<tweakUpdateDate>
-20/11/18
-</tweakUpdateDate>
+    <tweakDeveloper>
+        DVA
+    </tweakDeveloper>
+    <tweakDevTwitter>
+        @DVA
+    </tweakDevTwitter>
+    <tweakDevTwitterPic>
+        https://anhutc.github.io/assets/dva.png
+    </tweakDevTwitterPic>
+    <tweakDevTwitterURL>
+        https://www.facebook.com/100010169232179
+    </tweakDevTwitterURL>
 
-<tweakDeveloper>
-Developer Name
-</tweakDeveloper>
-<tweakDevTwitter>
-@DevName
-</tweakDevTwitter>
-<tweakDevTwitterPic>
-https://pbs.twimg.com/profile_images/1015718760668426245/qIugpEtH_400x400.jpg
-</tweakDevTwitterPic>
-<tweakDevTwitterURL>
-https://twitter.com/TPinpal
-</tweakDevTwitterURL>
-
-<tweakChangelog>
-• Changed thing number one
-• Important bug fix that didn't do anything
-• Changed item number three
-• Something else that changed.
-</tweakChangelog>
+    <tweakChangelog>
+        • Changed thing number one
+        • Important bug fix that didn't do anything
+        • Changed item number three
+        • Something else that changed.
+    </tweakChangelog>
 
 </tweak>
