@@ -352,7 +352,7 @@ body {
   padding-bottom: 20px;
   position: relative;
 }
-.subsection:hover {
+.subsection:hover:not(jb){
   background-color: rgb(229, 229, 230);
 }
 @media screen and (max-width: 900px) {
