@@ -8,14 +8,9 @@ body {
 }
 
 /* Columns */
-.columnLeft {
+.column {
     float: left;
     width: 50%;
-}
-
-.columnRight {
-  float: right;
-  width: 50%;
 }
 
 .columnFull {
@@ -25,10 +20,7 @@ body {
 
 /* Responsive layout - Single Column on Mobile */
 @media screen and (max-width: 800px) {
-    .column,
-    .columnFull,
-    .columnLeft,
-    .columnFull {
+    .column {
         width: 100%;
     }
 }
