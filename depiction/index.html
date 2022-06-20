@@ -12,7 +12,7 @@
   <div class="popupWrapper">
     <div class="bigbox" id="sileod">
       <div class="warningIcon">
-        <img src="https://pinpal.github.io/depiction/error.png">
+        <img src="depiction/error.png">
       </div>
       <h1>Uh oh!</h1>
       <h2>Your browser is outdated!</h2>
@@ -105,7 +105,7 @@
     location.replace("https://anhutc.github.io/repo/404")
   }
 
-  var text = loadXMLDoc("package/" + window.location.search.substring(1) + "/Info.xml"); //Specify the name of the XML config to load
+  var text = loadXMLDoc("repo/package/" + window.location.search.substring(1) + "/Info.xml"); //Specify the name of the XML config to load
   var parser = new DOMParser();
   var xmlDoc = parser.parseFromString(text,"text/xml"); //Load the XML config
 
