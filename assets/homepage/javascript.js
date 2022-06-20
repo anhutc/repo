@@ -57,7 +57,7 @@ for (i = 0; i < packages.length; i++) {
   bigBox.appendChild(packageContentHolder);
   a.appendChild(bigBox);
   // Add to Scroller
-  document.getElementById("scrollerHack").appendChild(a);
+  document.getElementById("scrollerTweak").appendChild(a);
   document.getElementById("scrollerHack").appendChild(a);
 }
 
