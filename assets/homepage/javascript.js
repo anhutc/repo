@@ -48,7 +48,7 @@ for (i = 0; i < packages.length; i++) {
   var img = document.createElement("img");
   img.className = "packageicon";
   img.src =
-    "assets/page-icons/" +
+    "/assets/page-icons/" +
     packages[i].Name.replace(/ |-|:|;/g, "").toLowerCase() +
     ".png";
   packageIconHolder.appendChild(img);
@@ -88,7 +88,7 @@ function expandAbout() {
   topBanner.getElementsByTagName("img")[0].classList.add("animate");
   setTimeout(function () {
     topBanner.getElementsByTagName("img")[0].src =
-      "assets/homepage/animoji.png";
+      "/assets/homepage/animoji.png";
   }, 300);
 }
 
@@ -99,7 +99,7 @@ window.addEventListener(
     var touchScreenStylesheet = document.createElement("link");
     touchScreenStylesheet.type = "text/css";
     touchScreenStylesheet.rel = "stylesheet";
-    touchScreenStylesheet.href = "assets/homepage/touchscreenOnly.css";
+    touchScreenStylesheet.href = "/assets/homepage/touchscreenOnly.css";
     document.head.appendChild(touchScreenStylesheet);
     window.removeEventListener("touchstart", onFirstTouch, false);
   },
@@ -152,7 +152,7 @@ function expand(classID) {
     document.getElementById(classID + "Container").style.maxHeight = "100%";
     document.getElementById(classID).style.minWidth = "100%";
     document.getElementById(classID + "Button").innerHTML =
-      '<img class="buttonIcon" src="assets/homepage/collapse.png">Ẩn bớt';
+      '<img class="buttonIcon" src="/assets/homepage/collapse.png">Ẩn bớt';
     if (classID == "scrollerTweak") {
       document.getElementById(classID).innerHTML = originalScrollersTweak;
     } else if (classID == "scrollerHack") {
@@ -162,7 +162,7 @@ function expand(classID) {
   } else {
     document.getElementById(classID + "Container").style.maxHeight = "210px";
     document.getElementById(classID + "Button").innerHTML =
-      '<img class="buttonIcon" src="assets/homepage/expand.png">Xem thêm';
+      '<img class="buttonIcon" src="/assets/homepage/expand.png">Xem thêm';
     duplicateContentOf(classID);
   }
 }
