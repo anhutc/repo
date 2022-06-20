@@ -1,8 +1,8 @@
-Origin: PINPAL's Repo
+Origin: DVA's Repository
 Label: PINPAL's Repo
-Suite: stable
+Suite: PINPAL's Repo
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: PINPAL's Repo
+Description: DVA
