@@ -56,13 +56,12 @@ for (i = 0; i < packages.length; i++) {
   bigBox.appendChild(packageContentHolder);
   a.appendChild(bigBox);
   // Add to Scroller
-  document.getElementById("scrollerRepo").appendChild(a);
+  document.getElementById("scrollerTweak").appendChild(a);
 }
 
 //Backup content of original scrollers (for un-duplicating on expand)
-var originalScrollersRepo = document.getElementById("scrollerRepo").innerHTML;
-var originalScrollersProjects = document.getElementById("scrollerProjects")
-  .innerHTML;
+var originalScrollersTweak = document.getElementById("scrollerTweak").innerHTML;
+var originalScrollersHack = document.getElementById("scrollerHack").innerHTML;
 
 //Function to calculate bigBox size
 function calculateBoxSize() {
@@ -148,40 +147,35 @@ function duplicateContentOf(classID) {
 
 //Function to expand/collapse scrollers
 function expand(classID) {
-  if (document.getElementById(classID + "Button").innerText == "Show More") {
+  if (document.getElementById(classID + "Button").innerText == "Xem thêm") {
     document.getElementById(classID + "Container").style.maxHeight = "100%";
     document.getElementById(classID).style.minWidth = "100%";
     document.getElementById(classID + "Button").innerHTML =
-      '<img class="buttonIcon" src="/assets/homepage/collapse.png">Show Less';
-    if (classID == "scrollerRepo") {
-      document.getElementById(classID).innerHTML = originalScrollersRepo;
-    } else if (classID == "scrollerProjects") {
-      document.getElementById(classID).innerHTML = originalScrollersProjects;
+      '<img class="buttonIcon" src="assets/homepage/collapse.png">Ẩn bớt';
+    if (classID == "scrollerTweak") {
+      document.getElementById(classID).innerHTML = originalScrollersTweak;
+    } else if (classID == "scrollerHack") {
+      document.getElementById(classID).innerHTML = originalScrollersHack;
     }
     document.getElementById(classID).style.animation = "none";
   } else {
     document.getElementById(classID + "Container").style.maxHeight = "210px";
     document.getElementById(classID + "Button").innerHTML =
-      '<img class="buttonIcon" src="/assets/homepage/expand.png">Show More';
+      '<img class="buttonIcon" src="/assets/homepage/expand.png">Xem thêm';
     duplicateContentOf(classID);
   }
 }
 
 //Reload scrollers width on window resize
 window.onresize = function (event) {
-  if (
-    document.getElementById("scrollerRepo").innerHTML != originalScrollersRepo
-  ) {
-    setWidth("scrollerRepo");
+  if ( document.getElementById("scrollerTweak").innerHTML != originalScrollersTweak) {
+    setWidth("scrollerTweeak");
   }
-  if (
-    document.getElementById("scrollerProjects").innerHTML !=
-    originalScrollersProjects
-  ) {
-    setWidth("scrollerProjects");
+  if ( document.getElementById("scrollerHack").innerHTML != originalScrollersHack) {
+    setWidth("scrollerHack");
   }
 };
 
 //Duplicate and fit width of all scrollers
-duplicateContentOf("scrollerRepo");
-duplicateContentOf("scrollerProjects");
+duplicateContentOf("scrollerTweak");
+duplicateContentOf("scrollerHack");
