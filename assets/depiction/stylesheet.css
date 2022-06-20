@@ -246,10 +246,10 @@ a:active, a:hover {
 	min-height: 100%;
 	z-index: 1000;
 }
-
+/* 
 .wrapper {
   filter: blur(15px);
-}
+} */
 
 @media screen and (max-width: 600px) {
   .warningIcon {
