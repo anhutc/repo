@@ -92,7 +92,7 @@ function expandAbout() {
   }, 300);
 }
 
-//Touch Display Detection
+//Touch Display Detections
 window.addEventListener(
   "touchstart",
   function onFirstTouch() {
