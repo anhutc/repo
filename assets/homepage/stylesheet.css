@@ -331,7 +331,7 @@ footer p {
 
 .bigBox:hover .packageTitle,
 .minBox:hover .packageTitleJB {
-  font-size: 18pt;
+  font-size: 16pt;
   text-decoration: white solid underline;
 }
 
@@ -536,7 +536,7 @@ a {
   vertical-align: middle;
   display: inline-block;
   color: rgba(255, 255, 255, 0.6);
-  font-size: 15pt;
+  font-size: 24pt;
   /* font-weight: 500; */
 }
 
