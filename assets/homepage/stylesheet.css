@@ -278,6 +278,7 @@ body {
 }
 @media screen and (max-width: 900px) {
   .packageTitle {
+    color: black;
     font-size: 12pt !important;
     font-weight: normal !important;
   }
@@ -309,11 +310,7 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   overflow-y: hidden;
-  max-height: 148px;
-}
-
-.jbTool {
-  max-height: none !important;
+  /* max-height: 148px; */
 }
 
 .scrollerGradientLeft {
@@ -367,9 +364,9 @@ body {
   padding-bottom: 20px;
   position: relative;
 }
-.subsection:hover:not(.jb){
+/* .subsection:hover{
   background-color: rgb(229, 229, 230);
-}
+} */
 @media screen and (max-width: 900px) {
   .subsection {
     padding-bottom: 0 !important;
