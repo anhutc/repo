@@ -23,6 +23,11 @@ for(var i = 0; i < toChange.length; i++) {
     }
 }
 
+//Set Back Arrows 
+for (i=0; i<2; i++) {
+    document.getElementsByClassName("backURL")[i].href = document.referrer
+}
+
 //Replace Link Profile picture based off package developer
 document.getElementById("tweakDevLinkPic").src =
 xmlDoc.getElementsByTagName("tweakDevLinkPic")[0].childNodes[0].nodeValue;

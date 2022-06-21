@@ -61,6 +61,11 @@ for (i = 0; i < packages.length; i++) {
   // document.getElementById("scrollerHack").appendChild(a);
 }
 
+//Set Back Arrows 
+for (i=0; i<2; i++) {
+  document.getElementsByClassName("backURL")[i].href = document.referrer
+}
+
 //Backup content of original scrollers (for un-duplicating on expand)
 var originalScrollersTweak = document.getElementById("scroller").innerHTML;
 
