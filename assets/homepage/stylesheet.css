@@ -136,6 +136,7 @@ body {
   left: 5px;
   width: 55px;
   height: 55px;
+  border-radius: 15px;
 }
 
 .packageIconHolder {
