@@ -776,7 +776,7 @@ a {
   font-weight: normal;
   margin: 0;
 }
-
+/* 
 .largeBox:hover .largeBoxInner {
   max-height: calc(100% - 120px);
 }
@@ -787,4 +787,4 @@ a {
   width: 60px;
   height: 60px;
   top: -75px;
-}
+} */
