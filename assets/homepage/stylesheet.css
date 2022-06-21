@@ -27,13 +27,13 @@ footer {
   max-width: 800px;
   margin: 0 auto;
   background-color: #f5f7fa;
+  border-top: 1px solid #111111;
 }
 
 footer p {
   font-size: 22px;
   font-weight: 600;
   margin: 3px 0;
-  border-top: 1px solid #111111;
 }
 
 .copyright {
