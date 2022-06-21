@@ -151,8 +151,8 @@ footer p {
 }
 
 .packageicon {
-  width: 55px;
-  height: 55px;
+  width: 75px;
+  height: 75px;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -165,16 +165,16 @@ footer p {
 }
 @media screen and (max-width: 900px) {
   .packageicon {
-    width: 55px !important;
-    height: 55px !important;
+    width: 75px !important;
+    height: 75px !important;
   }
 }
 
 .packageIconHolder {
   background: #999;
-  width: 55px;
-  height: 55px;
-  padding: 10px;
+  width: 75px;
+  height: 75px;
+  /* padding: 10px; */
   border-radius: 15px;
   left: 16px;
   top: 16px;
@@ -206,11 +206,11 @@ footer p {
 }
 @media screen and (max-width: 900px) {
   .packageIconHolder {
-    padding: 10px !important;
+    /* padding: 10px !important; */
     top: 0 !important;
     left: 5px !important;
-    width: 55px !important;
-    height: 55px !important;
+    width: 75px !important;
+    height: 75px !important;
   }
 }
 
