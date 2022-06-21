@@ -160,6 +160,17 @@ body {
   -ms-transition: all 0.3s ease;
   position: absolute;
 }
+
+.packageIconHolderJB {
+  padding: 10px;
+  top: 0;
+  left: 5px;
+  width: 55px;
+  height: 55px;
+  border-radius: 15px;
+  position: absolute;
+}
+
 .bigBox:hover .packageIconHolder {
   padding: 55px;
   left: -40px;
@@ -202,8 +213,7 @@ body {
   position: absolute;
 }
 
-.bigBox:hover .packageContentHolder,
-.minBox:hover .packageContentHolderJB {
+.bigBox:hover .packageContentHolder {
   top: 9px;
 }
 @media screen and (max-width: 900px) {
