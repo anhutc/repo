@@ -102,7 +102,7 @@ h2 {
 
 /*Box*/
 .bigbox {
-  background: #2F3439;
+  background: var(--box-color);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   text-align: left;
   border-radius: 25px;
