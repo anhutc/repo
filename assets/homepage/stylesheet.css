@@ -208,13 +208,16 @@ footer p {
   position: absolute;
 }
 
-.bigBox:hover .packageIconHolder {
-  padding: 55px;
-  left: -40px;
-  top: -40px;
-  width: 500px;
-  height: 300px;
+@media screen and (min-width: 899px) {
+  .bigBox:hover .packageIconHolder {
+    padding: 55px;
+    left: -40px;
+    top: -40px;
+    width: 500px;
+    height: 300px;
+  }
 }
+
 @media screen and (max-width: 900px) {
   .packageIconHolder {
     /* padding: 10px !important; */
@@ -354,22 +357,17 @@ footer p {
   }
 }
 
-.packageDescription,
-.packageGreyDescription {
+.packageDescription {
   color: rgba(0, 0, 0, 0.6); /* fallback for IE */
   color: var(--light-text-color);
   font-size: 12.5pt;
 }
-.bigBox:hover .packageDescription,
-.packageGreyDescription {
+.bigBox:hover .packageDescription {
   color: white;
 }
-.packageGreyDescription {
-  color: var(--light-text-color);
-}
+
 @media screen and (max-width: 900px) {
-  .packageDescription,
-  .packageGreyDescription {
+  .packageDescription {
     display: none;
   }
 }
