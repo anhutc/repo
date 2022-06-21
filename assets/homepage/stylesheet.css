@@ -304,13 +304,9 @@ body {
   color: var(--nav-color);
 }
 
-.bigBox:hover .packageTitle {
-  color: black;
-  font-size: 16pt;
-}
-
+.bigBox:hover .packageTitle,
 .minBox:hover .packageTitleJB {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   color: black;
 }
