@@ -99,7 +99,7 @@ window.addEventListener(
     var touchScreenStylesheet = document.createElement("link");
     touchScreenStylesheet.type = "text/css";
     touchScreenStylesheet.rel = "stylesheet";
-    touchScreenStylesheet.href = "/assets/homepage/touchscreenOnly.css";
+    touchScreenStylesheet.href = "assets/homepage/touchscreenOnly.css";
     document.head.appendChild(touchScreenStylesheet);
     window.removeEventListener("touchstart", onFirstTouch, false);
   },
