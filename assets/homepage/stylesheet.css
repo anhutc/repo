@@ -329,7 +329,7 @@ body {
   /* max-height: 148px; */
 }
 
-.scrollerGradientLeft {
+/* .scrollerGradientLeft {
   position: absolute;
   z-index: 1;
   top: 0;
@@ -368,7 +368,7 @@ body {
     rgba(255, 255, 255, 0),
     rgb(229, 229, 230) 90%
   );
-}
+} */
 
 .scroller {
   text-align: center;
