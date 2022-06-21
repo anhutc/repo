@@ -47,7 +47,8 @@ html {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #2a90fc;
+  color: white;
+  background-color: #2F3439;
   text-align: center;
   padding-left: 50px;
   padding-right: 25px;
@@ -74,7 +75,7 @@ html {
   max-width: 750px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 80px;
+  /* padding-top: 80px; */
 }
 
 /*Subtitles above boxes*/
