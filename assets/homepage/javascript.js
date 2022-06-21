@@ -1,24 +1,24 @@
-// Decode PackagesTweak File into Object Array
-packagesTweak = decodePackagesTweakFile(loadXMLDoc("/PackagesTweak"));
-// Render PackagesTweak File
-for (i = 0; i < packagesTweak.length; i++) {
+// Decode Packages File into Object Array
+packages = decodePackagesFile(loadXMLDoc("/Packages"));
+// Render Packages File
+for (i = 0; i < packages.length; i++) {
   var color = "";
   // Create Wrapper Link
   var a = document.createElement("a");
-  if (packagesTweak[i].hasOwnProperty("SileoDepiction")) {
+  if (packages[i].hasOwnProperty("SileoDepiction")) {
     a.href =
       "https://pinpal.github.io/Sileo-Depiction-WebViews/" +
       "?json=" +
-      packagesTweak[i].SileoDepiction +
+      packages[i].SileoDepiction +
       "&name=" +
-      packagesTweak[i].Name +
+      packages[i].Name +
       "&section=" +
-      packagesTweak[i].Section +
+      packages[i].Section +
       "&dev=" +
-      packagesTweak[i].Author;
-    color = JSON.parse(loadXMLDoc(packagesTweak[i].SileoDepiction)).tintColor;
+      packages[i].Author;
+    color = JSON.parse(loadXMLDoc(packages[i].SileoDepiction)).tintColor;
   } else {
-    a.href = packagesTweak[i].Depiction;
+    a.href = packages[i].Depiction;
   }
 
   // Create Bigbox
@@ -30,11 +30,11 @@ for (i = 0; i < packagesTweak.length; i++) {
   // Create Tweak Name
   var packageTitle = document.createElement("span");
   packageTitle.className = "packageTitle";
-  packageTitle.innerText = packagesTweak[i].Name;
+  packageTitle.innerText = packages[i].Name;
   // Create Tweak Description
   var packageDescription = document.createElement("span");
   packageDescription.className = "packageDescription";
-  packageDescription.innerText = packagesTweak[i].Description;
+  packageDescription.innerText = packages[i].Description;
   // Append Name and Description to Content Holder
   packageContentHolder.appendChild(packageTitle);
   packageContentHolder.innerHTML += "</br>";
@@ -49,7 +49,7 @@ for (i = 0; i < packagesTweak.length; i++) {
   img.className = "packageicon";
   img.src =
     "/assets/page-icons/" +
-    packagesTweak[i].Name.replace(/ |-|:|;/g, "").toLowerCase() +
+    packages[i].Name.replace(/ |-|:|;/g, "").toLowerCase() +
     ".png";
   packageIconHolder.appendChild(img);
   // Append bigBox to a
@@ -61,71 +61,8 @@ for (i = 0; i < packagesTweak.length; i++) {
   // document.getElementById("scrollerHack").appendChild(a);
 }
 
-// Decode PackagesHack File into Object Array
-packagesHack = decodePackagesHackFile(loadXMLDoc("/PackagesHack"));
-// Render PackagesHack File
-for (i = 0; i < packagesHack.length; i++) {
-  var color = "";
-  // Create Wrapper Link
-  var a = document.createElement("a");
-  if (packagesHack[i].hasOwnProperty("SileoDepiction")) {
-    a.href =
-      "https://pinpal.github.io/Sileo-Depiction-WebViews/" +
-      "?json=" +
-      packagesHack[i].SileoDepiction +
-      "&name=" +
-      packagesHack[i].Name +
-      "&section=" +
-      packagesHack[i].Section +
-      "&dev=" +
-      packagesHack[i].Author;
-    color = JSON.parse(loadXMLDoc(packagesHack[i].SileoDepiction)).tintColor;
-  } else {
-    a.href = packagesHack[i].Depiction;
-  }
-
-  // Create Bigbox
-  var bigBox = document.createElement("div");
-  bigBox.className = "bigBox";
-  // Create Package Content Holder
-  var packageContentHolder = document.createElement("div");
-  packageContentHolder.className = "packageContentHolder";
-  // Create Tweak Name
-  var packageTitle = document.createElement("span");
-  packageTitle.className = "packageTitle";
-  packageTitle.innerText = packagesHack[i].Name;
-  // Create Tweak Description
-  var packageDescription = document.createElement("span");
-  packageDescription.className = "packageDescription";
-  packageDescription.innerText = packagesHack[i].Description;
-  // Append Name and Description to Content Holder
-  packageContentHolder.appendChild(packageTitle);
-  packageContentHolder.innerHTML += "</br>";
-  packageContentHolder.appendChild(packageDescription);
-  // Create Package Icon
-  var packageIconHolder = document.createElement("div");
-  packageIconHolder.className = "packageIconHolder";
-  if (color != "") {
-    packageIconHolder.style.background = color;
-  }
-  var img = document.createElement("img");
-  img.className = "packageicon";
-  img.src =
-    "/assets/page-icons/" +
-    packagesHack[i].Name.replace(/ |-|:|;/g, "").toLowerCase() +
-    ".png";
-  packageIconHolder.appendChild(img);
-  // Append bigBox to a
-  bigBox.appendChild(packageIconHolder);
-  bigBox.appendChild(packageContentHolder);
-  a.appendChild(bigBox);
-  // Add to Scroller
-  document.getElementById("scrollerHack").appendChild(a);
-}
-
 //Backup content of original scrollers (for un-duplicating on expand)
 var originalScrollersTweak = document.getElementById("scrollerTweak").innerHTML;
-var originalScrollersHack = document.getElementById("scrollerHack").innerHTML;
 
 //Function to calculate bigBox size
 function calculateBoxSize() {
@@ -235,11 +172,7 @@ window.onresize = function (event) {
   if ( document.getElementById("scrollerTweak").innerHTML != originalScrollersTweak) {
     setWidth("scrollerTweeak");
   }
-  if ( document.getElementById("scrollerHack").innerHTML != originalScrollersHack) {
-    setWidth("scrollerHack");
-  }
 };
 
 //Duplicate and fit width of all scrollers
 duplicateContentOf("scrollerTweak");
-duplicateContentOf("scrollerHack");
