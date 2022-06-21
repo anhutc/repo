@@ -110,7 +110,7 @@ body {
   text-align: center;
   /* margin-left: 15px; */
   line-height: 1;
-  text-transform: lowercase;
+  text-transform: uppercase;
 }
 #subsubtitle {
   color: rgba(0, 0, 0, 0.6); /* fallback for IE */
