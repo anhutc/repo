@@ -1,6 +1,6 @@
 //Remove Javascript Detector
-document.getElementsByClassName('popupWrapper')[0].parentElement.removeChild(document.getElementsByClassName('popupWrapper')[0])
-document.getElementsByClassName('wrapper')[0].style.filter = "none"
+// document.getElementsByClassName('popupWrapper')[0].parentElement.removeChild(document.getElementsByClassName('popupWrapper')[0])
+// document.getElementsByClassName('wrapper')[0].style.filter = "none"
 
 //Redirect to 404 page if package not specified in URL
 if (window.location.search.substring(1)) {} else {
