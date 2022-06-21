@@ -231,7 +231,7 @@ body {
   -ms-transition: all 0.3s ease;
 }
 
-.jbTool {
+.jbTool .bigBox {
   padding: 0 !important;
   border-radius: 0 !important;
   background: none !important;
