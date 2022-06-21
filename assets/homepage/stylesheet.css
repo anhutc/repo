@@ -191,8 +191,18 @@ body {
   -o-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
 }
-.bigBox:hover .packageContentHolder,
-.minBox:hover .packageContentHolder {
+
+.packageContent {
+  overflow: visible;
+  min-width: 85px;
+  left: 0;
+  top: 80px;
+  max-height: 180px;
+  text-align: center;
+  position: absolute;
+}
+
+.bigBox:hover .packageContentHolder {
   top: 9px;
 }
 @media screen and (max-width: 900px) {
