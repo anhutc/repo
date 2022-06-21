@@ -24,7 +24,9 @@ footer {
   text-align: center;
   display: block;
   padding: 20px 0;
-  max-width: 800px;
+  max-width: 600px;
+  min-width: none;
+  width: 80%;
   margin: 0 auto;
   background-color: #f5f7fa;
   border-top: 1px solid #111111;
