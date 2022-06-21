@@ -12,8 +12,15 @@
   color: white;
 }
 
+html {
+  --box-color: white;
+  --nav-color: #292c30;
+  --text-color: black;
+  --light-text-color: rgba(0, 0, 0, 0.6);
+}
+
 body {
-  background-color: #292C30;
+  background-color: #f8f9fa;
 }
 
 a {
@@ -73,7 +80,7 @@ h2 {
 }
 
 .bigbox {
-  background: #2F3439;
+  background: #f8f9fa;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   text-align: left;
   border-radius: 25px;
@@ -194,17 +201,16 @@ h2 {
 }
 
 .packageBox {
-  background: #2F3439;
+  background: #f8f9fa;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   text-align: left;
-  color: white;
+  color: var(--text-color);
   border-radius: 25px;
   padding: 15px;
   line-height: 1.5;
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.03);
   border-width: 2px;
-  color: white;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 15px;
