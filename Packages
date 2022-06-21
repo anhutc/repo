@@ -5,7 +5,7 @@ Architecture: iphoneos-arm
 Description: A tweak example.
 Author: Đặng Văn Ánh (DVA)
 Maintainer: Đặng Văn Ánh (DVA)
-Section: Tweak
+Section: Example
 Depiction: https://anhutc.github.io/depiction/?Example
 Size: 0
 MD5sum: d41d8cd98f00b204e9800998ecf8427e
@@ -15,16 +15,14 @@ Filename: package/Example/Example.deb
 Package: com.haoict.tiktokgod
 Name: TIkTok God
 Version: 4.0
-# Depends: com.colbyroark.jool
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12)
 Architecture: iphoneos-arm
 Author: haoict
-Depiction: https://anhutc.github.io/depiction/?TikTokGod
-Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://anhutc.github.io/package/TikTokGod/SileoDepiction.json&name=TikTok%20God&section=Themes&dev=haoict
-SileoDepiction: https://anhutc.github.io/package/TikTokGod/SileoDepiction.json
-Section: Tweak
-Description: Tinh chỉnh nguồn mở và miễn phí tốt nhất cho ứng dụng TikTok trên iOS 12 - 14
 Maintainer: DVA
-Size: 58328
+Depiction: https://anhutc.github.io/depiction/?TikTokGod
+Section: Tweak
+Description: Tinh chỉnh tốt nhất cho ứng dụng TikTok.
+Size: 53932
 MD5sum: 7dfd37e996736671ea27be89a5be1dfc
 SHA256: df6c21ba3e5d94cc4e423d1f5fe774b719185219618b25c29802cb7fcd1a6392
 Filename: package/TikTokGod/TikTokGod.deb
