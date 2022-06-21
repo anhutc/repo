@@ -331,7 +331,7 @@ footer p {
 .packageTitle {
   color: black; /* fallback for IE */
   color: var(--text-color);
-  font-size: 12pt;
+  font-size: 11pt;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -340,13 +340,13 @@ footer p {
 }
 
 .packageTitleJB {
-  font-size: 12pt;
+  font-size: 11pt;
   color: var(--nav-color);
 }
 
 .bigBox:hover .packageTitle,
 .minBox:hover .packageTitleJB {
-  font-size: 14pt;
+  font-size: 12pt;
   text-decoration: #999 solid underline;
 }
 
