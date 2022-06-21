@@ -704,8 +704,8 @@ a {
   border-radius: 18px;
   width: calc(50vw - 30px);
   height: calc(100vw - 30px);
-  max-width: 250px;
-  max-height: 280px;
+  max-width: 300px;
+  max-height: 300px;
 }
 .largeBoxInner img {
   width: 120px;
@@ -743,7 +743,7 @@ a {
   margin: 0;
 }
 
-.largeBox:hover .largeBoxInner {
+/* .largeBox:hover .largeBoxInner {
   max-height: calc(100% - 120px);
 }
 .largeBox:hover .largeBoxInner h2 {
@@ -753,4 +753,4 @@ a {
   width: 60px;
   height: 60px;
   top: -75px;
-}
+} */
