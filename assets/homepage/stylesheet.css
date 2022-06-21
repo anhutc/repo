@@ -305,12 +305,12 @@ body {
 }
 
 .bigBox:hover .packageTitle {
-  color: white;
+  color: black;
   font-size: 16pt;
 }
 
 .minBox:hover .packageTitleJB {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
   color: black;
 }
