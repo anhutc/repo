@@ -298,10 +298,23 @@ body {
   -o-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
 }
+
+.packageTitleJB {
+  font-weight: normal;
+  color: var(--nav-color);
+}
+
 .bigBox:hover .packageTitle {
   color: white;
   font-size: 16pt;
 }
+
+.minBox:hover .packageTitleJB {
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
+}
+
 @media screen and (max-width: 900px) {
   .packageTitle {
     color: black;
