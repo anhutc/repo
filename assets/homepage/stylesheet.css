@@ -32,7 +32,6 @@ footer {
 
 footer p {
   font-size: 22px;
-  font-weight: 600;
   margin: 3px 0;
 }
 
@@ -41,7 +40,6 @@ footer p {
 }
 
 .credit {
-  font-weight: 400;
   font-size: 11px;
   padding-left: 5px;
   padding-right: 5px;
@@ -133,7 +131,7 @@ footer p {
   color: black; /* fallback for IE */
   color: var(--text-color);
   font-size: 24pt;
-  font-weight: bold;
+  /* font-weight: bold; */
   text-align: center;
   /* margin-left: 15px; */
   line-height: 1;
@@ -143,7 +141,7 @@ footer p {
   color: rgba(0, 0, 0, 0.6); /* fallback for IE */
   color: var(--light-text-color);
   font-size: 13pt;
-  font-weight: 500;
+  /* font-weight: 500; */
   text-align: center;
   /* margin-left: 15px; */
   line-height: 1;
@@ -317,7 +315,6 @@ footer p {
 .packageTitle {
   color: black; /* fallback for IE */
   color: var(--text-color);
-  font-weight: 500;
   font-size: 14pt;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -332,22 +329,21 @@ footer p {
 
 .bigBox:hover .packageTitle,
 .minBox:hover .packageTitleJB {
-  font-size: 18px;
+  font-size: 18pt;
   text-decoration: DodgerBlue solid underline;
-  -webkit-text-decoration: DodgerBlue solid underline;
 }
 
 @media screen and (max-width: 900px) {
   .packageTitle {
     color: black;
-    font-size: 12pt !important;
+    /* font-size: 12pt !important; */
   }
 }
 
 .packageDescription,
 .packageGreyDescription {
-  color: black; /* fallback for IE */
-  color: var(--text-color);
+  color: rgba(0, 0, 0, 0.6); /* fallback for IE */
+  color: var(--light-text-color);
   font-size: 12.5pt;
 }
 .bigBox:hover .packageDescription,
@@ -481,7 +477,7 @@ a {
 }
 /* Navbar Button */
 .navButton {
-  font-weight: bold;
+  /* font-weight: bold; */
   position: relative;
   white-space: nowrap;
   border: none;
@@ -539,7 +535,7 @@ a {
   display: inline-block;
   color: rgba(255, 255, 255, 0.6);
   font-size: 15pt;
-  font-weight: 500;
+  /* font-weight: 500; */
 }
 
 /* Top Banner */
@@ -578,7 +574,7 @@ a {
   -ms-transition: background 0.3s ease, margin 0.3s ease max-height 0.3s ease;
 }
 #topBanner button:hover {
-  font-weight: bold;
+  /* font-weight: bold; */
   border: 2px solid rgba(255, 255, 255, 0.6);
   background: white;
   color: black;
@@ -628,7 +624,7 @@ a {
   margin: 0 auto;
   width: fit-content;
   font-size: 16pt;
-  font-weight: bold;
+  /* font-weight: bold; */
   padding: 5px;
   border-bottom: solid 2px rgba(255, 255, 255, 0.2);
 }
@@ -649,7 +645,7 @@ a {
 }
 #topBanner h1 {
   font-size: 24pt;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 #topBanner h2 {
   overflow: hidden;
@@ -780,8 +776,8 @@ a {
   width: -webkit-fill-available;
 }
 .largeBoxInner h1 {
-  font-size: 16pt;
-  font-weight: 500;
+  font-size: 18pt;
+  /* font-weight: 500; */
   margin: 0;
   margin-bottom: 15px;
 }

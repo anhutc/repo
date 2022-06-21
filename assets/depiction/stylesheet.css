@@ -1,10 +1,13 @@
 body {
   background-color: #f8f9fa;
+  margin: 0;
+  margin-bottom: 30px;
 }
 
 * {
-  color: white;
+  color: var(--text-color);
   font-family: 'Nunito', sans-serif;
+  font-weight: bold;
 }
 
 html {
@@ -12,33 +15,6 @@ html {
   --nav-color: #292c30;
   --text-color: black;
   --light-text-color: rgba(0, 0, 0, 0.6);
-}
-
-footer {
-  text-align: center;
-  display: block;
-  padding: 20px 0;
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: #f5f7fa;
-  border-top: 1px solid #111111;
-}
-
-footer p {
-  font-size: 22px;
-  font-weight: 600;
-  margin: 3px 0;
-}
-
-.copyright {
-  margin-top: 15px;
-}
-
-.credit {
-  font-weight: 400;
-  font-size: 11px;
-  padding-left: 5px;
-  padding-right: 5px;
 }
 
 /* Columns */
@@ -98,12 +74,13 @@ footer p {
   max-width: 750px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 80px;
 }
 
 /*Subtitles above boxes*/
 .subtitle {
   font-size: 25px;
-  font-weight: bold;
+  /* font-weight: bold; */
   text-align: left;
   margin-left: auto;
   margin-right: auto;
@@ -114,109 +91,13 @@ footer p {
 
 h1 {
   font-size: 25px;
-  font-weight: bold;
+  /* font-weight: bold; */
   line-height: 1.0;
 }
 h2 {
   font-size: 20px;
-  font-weight: normal;
+  /* font-weight: normal; */
   line-height: 1.0;
-}
-
-
-/*Navbar*/
-#navbarContainer {
-  background-color: var(--nav-color);
-  height: 75px;
-  width: 100%;
-  z-index: 999;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-#navbar {
-  margin: 0 auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: calc(90% - 20px);
-  max-width: 1200px;
-  overflow: hidden;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.navIconContainer {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-}
-
-a {
-  text-decoration: none;
-}
-/* Navbar Button */
-.navButton {
-  font-weight: bold;
-  position: relative;
-  white-space: nowrap;
-  border: none;
-  vertical-align: middle;
-  border: 2px solid rgba(255, 255, 255, 0.075);
-  border-radius: 100px;
-  box-sizing: border-box;
-  color: rgba(255, 255, 255, 0);
-  min-width: 40px;
-  max-width: 40px;
-  min-height: 40px;
-  max-height: 40px;
-  line-height: 37px;
-  display: inline-block;
-  overflow: hidden;
-  transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-}
-.navButton:hover {
-  background: white;
-  cursor: pointer;
-  color: black;
-  padding-left: 40px;
-  padding-right: 10px;
-  max-width: 900px;
-  font-size: 12pt;
-}
-/*Navbar Button Icons*/
-.navButtonIcon {
-  opacity: 0.4;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 7px;
-  width: 22px;
-  height: 22px;
-  transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-}
-.navButton:hover .navButtonIcon {
-  opacity: 1;
-  filter: invert(1);
-}
-
-/*Navbar Text*/
-#title {
-  margin: 0 !important;
-  vertical-align: middle;
-  display: inline-block;
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 15pt;
-  font-weight: 500;
 }
 
 /*Box*/
@@ -360,7 +241,7 @@ a:active, a:hover {
 }
 #sileod h2 {
   font-size: 16pt;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 #sileod p {
   font-size: 12.5pt;
