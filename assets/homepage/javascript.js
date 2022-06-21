@@ -81,7 +81,7 @@ function expandAbout() {
   topBanner.getElementsByTagName("button")[0].style.maxHeight = "0";
   topBanner.getElementsByTagName("button")[0].style.opacity = "0";
   topBanner.getElementsByTagName("button")[0].style.margin = "0";
-  topBanner.getElementsByTagName("h1")[0].innerText = "Ánh";
+  topBanner.getElementsByTagName("h1")[0].innerText = "Josh";
   topBanner.getElementsByTagName("h2")[0].style.height = "0";
   document.getElementById("hiddenInfo").style.maxHeight = "5000px";
   document.getElementById("hiddenInfo").classList.add("animate");
