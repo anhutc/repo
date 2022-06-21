@@ -26,17 +26,20 @@ footer {
   padding: 20px 0;
   max-width: 800px;
   margin: 0 auto;
-  color: var(--text-color);
   background-color: #f5f7fa;
 }
 
 footer p {
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 600;
   margin: 3px 0;
 }
 
-footer p.credit {
+.copyright {
+  margin-top: 15px;
+}
+
+.credit {
   font-weight: 400;
   font-size: 11px;
   padding-left: 5px;
