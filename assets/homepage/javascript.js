@@ -57,12 +57,12 @@ for (i = 0; i < packages.length; i++) {
   bigBox.appendChild(packageContentHolder);
   a.appendChild(bigBox);
   // Add to Scroller
-  document.getElementById("scrollerTweak").appendChild(a);
+  document.getElementById("scroller").appendChild(a);
   // document.getElementById("scrollerHack").appendChild(a);
 }
 
 //Backup content of original scrollers (for un-duplicating on expand)
-var originalScrollersTweak = document.getElementById("scrollerTweak").innerHTML;
+var originalScrollersTweak = document.getElementById("scroller").innerHTML;
 
 //Function to calculate bigBox size
 function calculateBoxSize() {
@@ -146,33 +146,31 @@ function duplicateContentOf(classID) {
   setWidth(classID);
 }
 
-//Function to expand/collapse scrollers
-function expand(classID) {
-  if (document.getElementById(classID + "Button").innerText == "Xem thêm") {
-    document.getElementById(classID + "Container").style.maxHeight = "100%";
-    document.getElementById(classID).style.minWidth = "100%";
-    document.getElementById(classID + "Button").innerHTML =
-      '<img class="buttonIcon" src="/assets/homepage/collapse.png">Ẩn bớt';
-    if (classID == "scrollerTweak") {
-      document.getElementById(classID).innerHTML = originalScrollersTweak;
-    } else if (classID == "scrollerHack") {
-      document.getElementById(classID).innerHTML = originalScrollersHack;
-    }
-    document.getElementById(classID).style.animation = "none";
-  } else {
-    document.getElementById(classID + "Container").style.maxHeight = "210px";
-    document.getElementById(classID + "Button").innerHTML =
-      '<img class="buttonIcon" src="/assets/homepage/expand.png">Xem thêm';
-    duplicateContentOf(classID);
-  }
-}
+// //Function to expand/collapse scrollers
+// function expand(classID) {
+//   if (document.getElementById(classID + "Button").innerText == "Xem thêm") {
+//     document.getElementById(classID + "Container").style.maxHeight = "100%";
+//     document.getElementById(classID).style.minWidth = "100%";
+//     document.getElementById(classID + "Button").innerHTML =
+//       '<img class="buttonIcon" src="/assets/homepage/collapse.png">Ẩn bớt';
+//     // if (classID == "scroller") {
+//       document.getElementById(classID).innerHTML = originalScrollers;
+//     // }
+//     document.getElementById(classID).style.animation = "none";
+//   } else {
+//     document.getElementById(classID + "Container").style.maxHeight = "210px";
+//     document.getElementById(classID + "Button").innerHTML =
+//       '<img class="buttonIcon" src="/assets/homepage/expand.png">Xem thêm';
+//     duplicateContentOf(classID);
+//   }
+// }
 
-//Reload scrollers width on window resize
-window.onresize = function (event) {
-  if ( document.getElementById("scrollerTweak").innerHTML != originalScrollersTweak) {
-    setWidth("scrollerTweeak");
-  }
-};
+// //Reload scrollers width on window resize
+// window.onresize = function (event) {
+//   if ( document.getElementById("scroller").innerHTML != originalScrollers) {
+//     setWidth("scroller");
+//   }
+// };
 
-//Duplicate and fit width of all scrollers
-duplicateContentOf("scrollerTweak");
+// //Duplicate and fit width of all scrollers
+// duplicateContentOf("scroller");
