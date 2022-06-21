@@ -116,6 +116,102 @@ h2 {
   line-height: 1.0;
 }
 
+
+/*Navbar*/
+#navbarContainer {
+  background-color: var(--nav-color);
+  height: 75px;
+  width: 100%;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#navbar {
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: calc(90% - 20px);
+  max-width: 1200px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navIconContainer {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+a {
+  text-decoration: none;
+}
+/* Navbar Button */
+.navButton {
+  font-weight: bold;
+  position: relative;
+  white-space: nowrap;
+  border: none;
+  vertical-align: middle;
+  border: 2px solid rgba(255, 255, 255, 0.075);
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0);
+  min-width: 40px;
+  max-width: 40px;
+  min-height: 40px;
+  max-height: 40px;
+  line-height: 37px;
+  display: inline-block;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+}
+.navButton:hover {
+  background: white;
+  cursor: pointer;
+  color: black;
+  padding-left: 40px;
+  padding-right: 10px;
+  max-width: 900px;
+  font-size: 12pt;
+}
+/*Navbar Button Icons*/
+.navButtonIcon {
+  opacity: 0.4;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 7px;
+  width: 22px;
+  height: 22px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+}
+.navButton:hover .navButtonIcon {
+  opacity: 1;
+  filter: invert(1);
+}
+
+/*Navbar Text*/
+#title {
+  margin: 0 !important;
+  vertical-align: middle;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 15pt;
+  font-weight: 500;
+}
+
 /*Box*/
 .bigbox {
   background: #2F3439;
