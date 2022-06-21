@@ -165,12 +165,12 @@ function duplicateContentOf(classID) {
 //   }
 // }
 
-// //Reload scrollers width on window resize
-// window.onresize = function (event) {
-//   if ( document.getElementById("scroller").innerHTML != originalScrollers) {
-//     setWidth("scroller");
-//   }
-// };
+//Reload scrollers width on window resize
+window.onresize = function (event) {
+  if ( document.getElementById("scroller").innerHTML != originalScrollers) {
+    setWidth("scroller");
+  }
+};
 
 // //Duplicate and fit width of all scrollers
 // duplicateContentOf("scroller");
