@@ -752,22 +752,22 @@ a {
   border-radius: 18px;
   width: calc(50vw - 30px);
   height: calc(100vw - 30px);
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 250px;
+  max-height: 250px;
 }
 .largeBoxInner img {
   width: 120px;
   height: 120px;
   position: absolute;
-  top: -150px;
+  top: -140px;
   left: 50%;
   transform: translateX(-50%);
 }
 .largeBoxInner {
-  max-height: calc(100% - 210px);
+  max-height: calc(100% - 190px);
   text-align: center;
   min-height: 0%;
-  padding: 15px;
+  padding: 20px;
   position: absolute;
   bottom: 0;
   border-top-style: solid;
