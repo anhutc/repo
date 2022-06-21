@@ -107,19 +107,21 @@ body {
   color: var(--text-color);
   font-size: 17pt;
   font-weight: bold;
-  text-align: left;
-  margin-left: 15px;
+  text-align: center;
+  /* margin-left: 15px; */
   line-height: 1;
+  text-transform: lowercase;
 }
 #subsubtitle {
   color: rgba(0, 0, 0, 0.6); /* fallback for IE */
   color: var(--light-text-color);
   font-size: 13pt;
   font-weight: 500;
-  text-align: left;
-  margin-left: 15px;
+  text-align: center;
+  /* margin-left: 15px; */
   line-height: 1;
   margin-top: -8px;
+  text-transform: lowercase;
 }
 
 .packageicon {
