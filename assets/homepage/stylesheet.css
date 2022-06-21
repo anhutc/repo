@@ -27,6 +27,7 @@ footer {
   max-width: 800px;
   margin: 0 auto;
   color: var(--text-color);
+  background-color: #f5f7fa;
 }
 
 footer p {
