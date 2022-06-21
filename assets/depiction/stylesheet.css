@@ -188,13 +188,13 @@ a:active, a:hover {
   border-radius: 500px;
   margin-right: 20px;
   border-style: solid;
-  border-color: rgba(0,0,0,0.5);
-  border-width: 2px;
+  border-color: black;
+  border-width: 1.5px;
 }
 
 .info_table_row {
   font-size: 17px;
-  border-bottom: 1px solid rgba(255,255,255,0.15);
+  border-bottom: 1px solid rgba(0,0,0,0.15);
   line-height: 2;
   /* color:rgba(255,255,255,0.5); */
   text-align: right;
@@ -202,7 +202,7 @@ a:active, a:hover {
 
 .info_table_row_b {
   font-size: 17px;
-  border-bottom: 1px solid rgba(255,255,255,0.15);
+  border-bottom: 1px solid rgba(0,0,0,0.15);
   line-height: 2;
 }
 
