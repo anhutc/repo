@@ -116,9 +116,9 @@ h2 {
   margin-bottom: 10px;
   width: 300px;
   line-height: 1.5;
-  border-style: solid;
-  /* border-color: rgba(255, 255, 255, 0.03); */
-  border-width: 2px;
+  /* border-style: solid;
+  border-color: rgba(255, 255, 255, 0.03);
+  border-width: 2px; */
 }
 
 .screenshots {
@@ -128,7 +128,7 @@ h2 {
 }
 
 .screenshot {
-  width: 150px;
+  height: 290px;
   padding-right: 5px;
   border-radius: 10px;
 }

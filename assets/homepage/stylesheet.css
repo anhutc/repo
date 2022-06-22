@@ -269,12 +269,12 @@ footer p {
 
 .bigBox {
   background: var(--box-color);
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  box-shadow: 0 0.125rem 0.2rem rgba(0, 0, 0, 0.5);
   text-align: left;
   border-style: solid;
-  /* border-width: 1px; */
+  border-width: 2px;
   border-color: rgba(0, 0, 0, 0.125);
-  border-radius: 18px;
+  border-radius: 25px;
   padding: 15px;
   line-height: 1.5;
   color: white;
@@ -754,12 +754,12 @@ a {
   box-sizing: border-box;
   overflow: hidden;
   position: relative;
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.5);
   text-align: left;
-  border-style: solid;
-  /* border-width: 1px; */
-  border-color: rgb(223, 223, 223);
-  border-radius: 18px;
+  border-style: dotted;
+  border-width: 2px;
+  border-color: rgba(0, 0, 0, 0.125);
+  border-radius: 25px;
   width: calc(50vw - 30px);
   height: calc(100vw - 30px);
   max-width: 250px;
