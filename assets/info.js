@@ -2,8 +2,21 @@
 document.getElementsByClassName('popupWrapper')[0].parentElement.removeChild(document.getElementsByClassName('popupWrapper')[0])
 document.getElementsByClassName('wrapper')[0].style.filter = "none"
 
+// Check file Exists
+function checkFileExist(urlToFile) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('HEAD', urlToFile, false);
+    xhr.send();
+     
+    if (xhr.status == "404") {
+        return false;
+    } else {
+        return true;
+    }
+  }
+
 //Redirect to 404 page if package not specified in URL
-if (window.location.search.substring(1)) {} else {
+if (checkFileExist("/package/" + window.location.search.substring(1) + "/Info.xml")) {} else {
   location.replace("https://anhutc.github.io/404")
 }
 
