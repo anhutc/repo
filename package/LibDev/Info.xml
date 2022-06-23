@@ -1,0 +1,47 @@
+<tweak>
+    <tweakName>
+        LibDev
+    </tweakName>
+    <tweakShortDescription>
+        Thư viện hệ thống
+    </tweakShortDescription>
+    <tweakDescription>
+    Đây là thư viện dành cho nhà phát triển để có các tùy chọn tốt hơn và các tiện ích hữu ích
+    </tweakDescription>
+
+    <tweakSize>
+        46 KB
+    </tweakSize>
+    <tweakCategory>
+        System
+    </tweakCategory>
+    <tweakCompatibility>
+        iOS 12 -
+    </tweakCompatibility>
+    <tweakVersion>
+        4.8.1
+    </tweakVersion>
+    <tweakUpdateDate>
+        23/06/2022
+    </tweakUpdateDate>
+
+    <tweakDeveloper>
+        haoict
+    </tweakDeveloper>
+    <tweakDevLink>
+        @haoict
+    </tweakDevLink>
+    <tweakDevLinkPic>
+        https://pbs.twimg.com/profile_images/1368276031505788929/VrNZpMnx_400x400.jpg
+    </tweakDevLinkPic>
+    <tweakDevLinkURL>
+        https://twitter.com/haoict
+    </tweakDevLinkURL>
+
+    <tweakChangelog>
+        • Cải tiến nhỏ
+        • Cải thiện hiệu suất và giảm kích thước gói
+        • Cải thiện tải xuống phương tiện và sửa lỗi ô tùy chọn màu
+    </tweakChangelog>
+
+</tweak>

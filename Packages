@@ -1,10 +1,10 @@
 Package: com.dva.example
-Name: Example
+Name: Ví dụ
 Version: 0.0.1
 Architecture: iphoneos-arm
-Description: A tweak example.
-Author: Đặng Văn Ánh (DVA)
-Maintainer: Đặng Văn Ánh (DVA)
+Description: Tweak ví dụ.
+Author: DVA <anhutck58@gmail.com>
+Maintainer: DVA <anhutck58@gmail.com>
 Section: Hack
 Depiction: https://anhutc.github.io/depiction/?Example
 Size: 0
@@ -12,13 +12,28 @@ MD5sum: d41d8cd98f00b204e9800998ecf8427e
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 Filename: package/Example/Example.deb
 
+Package: com.dva.libdev
+Name: livdev
+Version: 4.8.1
+Depends: mobilesubstrate, preferenceloader, firmware (>= 12)
+Architecture: iphoneos-arm
+Description: Tweak ví dụ.
+Author: Hao Nguyen <hao.ict56@gmail.com>
+Maintainer: DVA <anhutck58@gmail.com>
+Section: System
+Depiction: https://anhutc.github.io/depiction/?LibDev
+Size: 46954
+MD5sum: 9d08e737de8d1de3bc68e27936d1a950
+SHA256: fdcf4ba4c59c21d28ecb7b2e2d31e2b448522a9b89f8096531a33d5944f60633
+Filename: package/LibDev/LibDev.deb
+
 Package: com.dva.tiktokgod
 Name: TIkTok God
 Version: 4.0
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12)
+Depends: mobilesubstrate, preferenceloader, com.dva.libhdev (>= 4.8.1), firmware (>= 12)
 Architecture: iphoneos-arm
-Author: haoict
-Maintainer: DVA
+Author: Hao Nguyen <hao.ict56@gmail.com>
+Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?TikTokGod
 Section: App
 Description: Tweak tốt nhất cho ứng dụng TikTok
@@ -30,10 +45,10 @@ Filename: package/TikTokGod/TikTokGod.deb
 Package: com.dva.facebooknoads
 Name: Facebook No Ads
 Version: 1.4.1
-Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.6.0), firmware (>= 12)
+Depends: mobilesubstrate, preferenceloader, com.dva.libhdev (>= 4.6.0), firmware (>= 12)
 Architecture: iphoneos-arm
-Author: haoict
-Maintainer: DVA
+Author: Hao Nguyen <hao.ict56@gmail.com>
+Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?FacebookNoAds
 Section: App
 Description: Tweak chặn quảng cáo cho Facebook
