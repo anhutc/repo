@@ -53,7 +53,6 @@ for (i = 0; i < packages.length; i++) {
     "/assets/page-icons/" +
     packages[i].Name.replace(/ |-|:|;/g, "").toLowerCase() +
     ".png";
-  img.onerror = "this.onerror=null;this.src='/assets/page-icons/example.png';"
   packageIconHolder.appendChild(img);
   // Append bigBox to a
   bigBox.appendChild(packageIconHolder);
@@ -70,7 +69,7 @@ for (i = 0; i < packages.length; i++) {
 // }
 
 //Backup content of original scrollers (for un-duplicating on expand)
-var originalScrollersTweak = document.getElementById("scroller").innerHTML;
+// var originalScrollersTweak = document.getElementById("scroller").innerHTML;
 
 //Function to calculate bigBox size
 function calculateBoxSize() {
