@@ -1,3 +1,17 @@
+
+// Check file Exists
+function checkFileExist(urlToFile) {
+  var xhr = new XMLHttpRequest();
+  xhr.open('HEAD', urlToFile, false);
+  xhr.send();
+   
+  if (xhr.status == "404") {
+      return false;
+  } else {
+      return true;
+  }
+}
+
 // Decode Packages File into Object Array
 packages = decodePackagesFile(loadXMLDoc("/Packages"));
 // Render Packages File
@@ -35,10 +49,16 @@ for (i = 0; i < packages.length; i++) {
   var img = document.createElement("img");
   img.className = "packageicon";
   
-  img.src =
-    "/assets/page-icons/" +
-    packages[i].Name.replace(/ |-|:|;/g, "").toLowerCase() +
-    ".png";
+  var srcIMG = "/assets/page-icons/" +
+  packages[i].Name.replace(/ |-|:|;/g, "").toLowerCase() +
+  ".png";
+
+  if (checkFileExist(srcIMG)) {
+    img.src = srcIMG;
+  } else {
+    img.src = "/assets/page-icons/example.png";
+  }
+    
   packageIconHolder.appendChild(img);
   // Append bigBox to a
   bigBox.appendChild(packageIconHolder);
