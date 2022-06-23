@@ -2,7 +2,7 @@ Package: com.dva.example
 Name: Example
 Version: 0.0.1
 Architecture: iphoneos-arm
-Description: Tweak ví dụ.
+Description: Tweak ví dụ
 Author: DVA <anhutck58@gmail.com>
 Maintainer: DVA <anhutck58@gmail.com>
 Section: Hacks
@@ -17,7 +17,7 @@ Name: livdev
 Version: 4.8.1
 Depends: mobilesubstrate, preferenceloader, firmware (>= 12)
 Architecture: iphoneos-arm
-Description: Tweak ví dụ.
+Description: Thư viện hệ thống
 Author: Hao Nguyen <hao.ict56@gmail.com>
 Maintainer: DVA <anhutck58@gmail.com>
 Section: System
