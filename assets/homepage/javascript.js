@@ -1,4 +1,3 @@
-
 // Check file Exists
 function checkFileExist(urlToFile) {
   var xhr = new XMLHttpRequest();
@@ -58,18 +57,7 @@ for (i = 0; i < packages.length; i++) {
 
   img.src = urlIMG;
 
-  // packageIconHolder.style.background = getAverageRGB();
-
-  const colorThief = new ColorThief();
-
-  if (img.complete) {
-    packageIconHolder.style.background = colorThief.getColor(img);
-  } else {
-    img.addEventListener('load', function() {
-      packageIconHolder.style.background = colorThief.getColor(img);
-    });
-  }
-  console.log(colorThief.getColor(img));
+  // packageIconHolder.style.background = ;
 
   packageIconHolder.appendChild(img);
   // Append bigBox to a
