@@ -45,7 +45,13 @@ for (i = 0; i < packages.length; i++) {
   a.appendChild(bigBox);
   
   // Add to Scroller
-  document.getElementById("tweaks" + packages[i].Description).appendChild(a);
+  if (packages[i].Description == "App"){
+    document.getElementById("tweaksApp").appendChild(a);
+  } else if (packages[i].Description == "App") {
+    document.getElementById("tweaksHack").appendChild(a);
+  } else {
+    break;
+  }
 }
 
 //Function to calculate bigBox size
