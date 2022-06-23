@@ -69,7 +69,7 @@ Architecture: iphoneos-arm
 Author: LolZIOS
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?PubgMobile
-Section: Hack
+Section: Hacks
 Description: Hack Pubg Mobile antiban 10 năm
 Size: 166010
 MD5sum: 477e7551b5e226fd6b1d40f0aea80f29
@@ -84,7 +84,7 @@ Architecture: iphoneos-arm
 Author: Laxus
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?LienQuanMobile
-Section: Hack
+Section: Hacks
 Description: Hack Liên Quân Mobile
 Size: 16000076
 MD5sum: 698ab9662c2597dd44cffc86ecd7abec
