@@ -68,7 +68,8 @@ for (i = 0; i < packages.length; i++) {
     img.addEventListener('load', function() {
       packageIconHolder.style.background = colorThief.getColor(img);
     });
-}
+  }
+  console.log(colorThief.getColor(img));
 
   packageIconHolder.appendChild(img);
   // Append bigBox to a
