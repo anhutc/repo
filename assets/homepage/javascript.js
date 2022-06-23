@@ -50,7 +50,7 @@ for (i = 0; i < packages.length; i++) {
   } else if (packages[i].Description == "App") {
     document.getElementById("tweaksHack").appendChild(a);
   } else {
-    break;
+    document.getElementById("tweaksOther").appendChild(a);
   }
 }
 
