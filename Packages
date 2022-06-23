@@ -13,9 +13,14 @@ MD5sum: d41d8cd98f00b204e9800998ecf8427e
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 Filename: package/Example/Example.deb
 
+
+
+############################
 ########## SYSTEM ##########
+############################
+
 Package: com.dva.libdev
-Name: livdev
+Name: libdev
 Version: 4.8.1
 Depends: mobilesubstrate, preferenceloader, firmware (>= 12)
 Architecture: iphoneos-arm
@@ -29,7 +34,12 @@ MD5sum: 9d08e737de8d1de3bc68e27936d1a950
 SHA256: fdcf4ba4c59c21d28ecb7b2e2d31e2b448522a9b89f8096531a33d5944f60633
 Filename: package/libdev/libdev.deb
 
+
+
+##########################
 ########## APPS ##########
+##########################
+
 Package: com.dva.tiktokgod
 Name: TIkTok God
 Version: 4.0
@@ -60,7 +70,12 @@ MD5sum: 6692ed5e700ff7a69b550e66ace1300c
 SHA256: cb1b066c08fb4c1403b5f3f83e7c2ea5222ec7738e327eecb6be2ffa0d63cf2f
 Filename: package/FacebookNoAds/FacebookNoAds.deb
 
+
+
+###########################
 ########## HACKS ##########
+###########################
+
 Package: com.dva.pubgmobile
 Name: Pubg Mobile
 Version: 1.8.0
