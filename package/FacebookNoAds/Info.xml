@@ -1,25 +1,24 @@
 <tweak>
     <tweakName>
-        TikTok God
+        Facebook No Ads
     </tweakName>
     <tweakShortDescription>
         Tinh chỉnh tốt nhất cho ứng dụng TikTok.
     </tweakShortDescription>
     <tweakDescription>
     Tính năng:
-        \n• Loại bỏ Quảng cáo
-        \n• Bật tải xuống cho tất cả video
-        \n• Tải xuống mà không có hình mờ
-        \n• Tự động cuộn sang video tiếp theo
-        \n• Hiện thanh tiến trình (để chuyển tiếp nhanh hoặc tua lại video)
-        \n• Có thể ẩn giao diện người dùng (xem video toàn màn hình)
-        \n• Thay đổi Vùng (có thể không hoạt động cho iPad và một số thiết bị)
-        \n• Bỏ qua phát hiện jailbreak (thực hiện thích và làm theo công việc)
-        \n• Hỗ trợ hiên bản TikTok mới nhất
+        \n• Loại bỏ các quảng cáo
+        \n• Có thể Tải xuống Video (nhấn và giữ để tải xuống)
+        \n• Có thể tải xuống Story
+        \n• Hình ảnh hồ sơ có thể chỉ tôi
+        \n• Tắt Story Seen (Xem Story của bạn bè mà không cho họ biết)
+        \n• Ẩn Composer trên News Feed
+        \n• Ẩn Story trên News Feed
+        \n• Hỗ trợ phiên bản Facebook mới nhất (Nếu nó không hoạt động, bạn nên cập nhật ứng dụng lên phiên bản mới nhất> = 307.0)
     </tweakDescription>
 
     <tweakSize>
-        53 KB
+        249 KB
     </tweakSize>
     <tweakCategory>
         Tweaks
@@ -28,10 +27,10 @@
         iOS 12 - 14
     </tweakCompatibility>
     <tweakVersion>
-        4.0
+        1.4.1
     </tweakVersion>
     <tweakUpdateDate>
-        20/06/2022
+        23/06/2022
     </tweakUpdateDate>
 
     <tweakDeveloper>
@@ -48,8 +47,8 @@
     </tweakDevLinkURL>
 
     <tweakChangelog>
-        • Khắc phục thả tym video
-        • Khắc phục theo dõi người dùng
+        • Hỗ trợ iOS 14
+        • Lưu video từ Facebook 307.0
     </tweakChangelog>
 
 </tweak>
