@@ -1,11 +1,11 @@
 Package: com.dva.example
 Name: Example
-Version: 1.0
+Version: 0.0.1
 Architecture: iphoneos-arm
 Description: A tweak example.
 Author: Đặng Văn Ánh (DVA)
 Maintainer: Đặng Văn Ánh (DVA)
-Section: Example
+Section: Hack
 Depiction: https://anhutc.github.io/depiction/?Example
 Size: 0
 MD5sum: d41d8cd98f00b204e9800998ecf8427e
@@ -20,7 +20,7 @@ Architecture: iphoneos-arm
 Author: haoict
 Maintainer: DVA
 Depiction: https://anhutc.github.io/depiction/?TikTokGod
-Section: Tweak
+Section: App
 Description: Tweak tốt nhất cho ứng dụng TikTok
 Size: 53932
 MD5sum: 7dfd37e996736671ea27be89a5be1dfc
@@ -35,7 +35,7 @@ Architecture: iphoneos-arm
 Author: haoict
 Maintainer: DVA
 Depiction: https://anhutc.github.io/depiction/?FacebookNoAds
-Section: Tweak
+Section: App
 Description: Tweak chặn quảng cáo cho Facebook
 Size: 254880
 MD5sum: 6692ed5e700ff7a69b550e66ace1300c
