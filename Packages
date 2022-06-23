@@ -69,9 +69,24 @@ Architecture: iphoneos-arm
 Author: LolZIOS
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?PubgMobile
-Section: Apps
+Section: Hack
 Description: Hack Pubg Mobile antiban 10 năm
 Size: 166010
 MD5sum: 477e7551b5e226fd6b1d40f0aea80f29
 SHA256: 71c2ca0e605aee6277ab46ddea9a2e4098c6dbcfa168099a55654da4ab494079
 Filename: package/PubgMobile/PubgMobile.deb
+
+Package: com.dva.lienquanmobile
+Name: Liên Quân Mobile
+Version: 1.44.1.11
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Author: Laxus
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?LienQuanMobile
+Section: Hack
+Description: Hack Liên Quân Mobile
+Size: 16000076
+MD5sum: 698ab9662c2597dd44cffc86ecd7abec
+SHA256: a87ce9c12ede89ba81268346c2d10278d04b2d5b74ea28429b22d369b94e4883
+Filename: package/LienQuanMobile/LienQuanMobile.deb
