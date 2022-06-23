@@ -1,3 +1,4 @@
+########## EXAMPLE ##########
 Package: com.dva.example
 Name: Example
 Version: 0.0.1
@@ -12,6 +13,7 @@ MD5sum: d41d8cd98f00b204e9800998ecf8427e
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 Filename: package/Example/Example.deb
 
+########## SYSTEM ##########
 Package: com.dva.libdev
 Name: livdev
 Version: 4.8.1
@@ -27,6 +29,7 @@ MD5sum: 9d08e737de8d1de3bc68e27936d1a950
 SHA256: fdcf4ba4c59c21d28ecb7b2e2d31e2b448522a9b89f8096531a33d5944f60633
 Filename: package/libdev/libdev.deb
 
+########## APPS ##########
 Package: com.dva.tiktokgod
 Name: TIkTok God
 Version: 4.0
@@ -56,3 +59,19 @@ Size: 254880
 MD5sum: 6692ed5e700ff7a69b550e66ace1300c
 SHA256: cb1b066c08fb4c1403b5f3f83e7c2ea5222ec7738e327eecb6be2ffa0d63cf2f
 Filename: package/FacebookNoAds/FacebookNoAds.deb
+
+########## HACKS ##########
+Package: com.dva.pubgmobile
+Name: Pubg Mobile
+Version: 1.8.0
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Author: LolZIOS
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?PubgMobile
+Section: Apps
+Description: Hack Pubg Mobile antiban 10 năm
+Size: 166010
+MD5sum: 477e7551b5e226fd6b1d40f0aea80f29
+SHA256: 71c2ca0e605aee6277ab46ddea9a2e4098c6dbcfa168099a55654da4ab494079
+Filename: package/PubgMobile/PubgMobile.deb
