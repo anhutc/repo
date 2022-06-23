@@ -34,6 +34,7 @@ for (i = 0; i < packages.length; i++) {
   }
   var img = document.createElement("img");
   img.className = "packageicon";
+  
   img.src =
     "/assets/page-icons/" +
     packages[i].Name.replace(/ |-|:|;/g, "").toLowerCase() +
@@ -45,7 +46,14 @@ for (i = 0; i < packages.length; i++) {
   a.appendChild(bigBox);
   console.log(packages[i].Description);
   // Add to Scroller
-  document.getElementById("tweaks").appendChild(a);
+  if (packages[i].Description == "Apps") {
+    document.getElementById("Apps").appendChild(a);
+  } else if (packages[i].Description == "Hacks") {
+    document.getElementById("Hacks").appendChild(a);
+  } else {
+    document.getElementById("Others").appendChild(a);
+  }
+  
 }
 
 //Function to calculate bigBox size
@@ -132,7 +140,11 @@ function duplicateContentOf(classID) {
 
 //Reload scrollers width on window resize
 window.onresize = function (event) {
-  if ( document.getElementById("scroller").innerHTML != originalScrollers) {
-    setWidth("scroller");
+  if (document.getElementById("Apps").innerHTML != originalScrollers) {
+    setWidth("Apps");
+  }
+
+  if (document.getElementById("Hacks").innerHTML != originalScrollers) {
+    setWidth("Hacks");
   }
 };
