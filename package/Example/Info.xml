@@ -1,22 +1,22 @@
 <tweak>
     <tweakName>
-        Tweak Example
+        Tên Tweak
     </tweakName>
     <tweakShortDescription>
-        Package Short Description
+        Mô tả ngắn gọn về package
     </tweakShortDescription>
     <tweakDescription>
-        Main description and some extra information about the package can go in this long description in here.
+        Mô tả chính và một số thông tin bổ sung về gói có thể đi trong mô tả dài này ở đây.
     </tweakDescription>
 
     <tweakSize>
         1 MB
     </tweakSize>
     <tweakCategory>
-        Tweaks
+        Loại tweak
     </tweakCategory>
     <tweakCompatibility>
-        iOS 11
+        iOS
     </tweakCompatibility>
     <tweakVersion>
         0.0.1
@@ -39,10 +39,7 @@
     </tweakDevLinkURL>
 
     <tweakChangelog>
-        • Changed thing number one
-        • Important bug fix that didn't do anything
-        • Changed item number three
-        • Something else that changed.
+        • Cập nhật mới
     </tweakChangelog>
 
 </tweak>
