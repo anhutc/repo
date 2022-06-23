@@ -2,7 +2,7 @@
 packages = decodePackagesFile(loadXMLDoc("/Packages"));
 // Render Packages File
 for (i = 0; i < packages.length; i++) {
-  var color = "";
+  var color = "#" + packages[i].color;
   // Create Wrapper Link
   var a = document.createElement("a");
 
