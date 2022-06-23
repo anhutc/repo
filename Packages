@@ -12,7 +12,7 @@ MD5sum: d41d8cd98f00b204e9800998ecf8427e
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 Filename: package/Example/Example.deb
 
-Package: com.haoict.tiktokgod
+Package: com.dva.tiktokgod
 Name: TIkTok God
 Version: 4.0
 Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12)
@@ -27,7 +27,7 @@ MD5sum: 7dfd37e996736671ea27be89a5be1dfc
 SHA256: df6c21ba3e5d94cc4e423d1f5fe774b719185219618b25c29802cb7fcd1a6392
 Filename: package/TikTokGod/TikTokGod.deb
 
-Package: com.haoict.facebooknoads
+Package: com.dva.facebooknoads
 Name: Facebook No Ads
 Version: 1.4.1
 Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.6.0), firmware (>= 12)
