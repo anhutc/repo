@@ -44,7 +44,6 @@ for (i = 0; i < packages.length; i++) {
   bigBox.appendChild(packageIconHolder);
   bigBox.appendChild(packageContentHolder);
   a.appendChild(bigBox);
-  console.log(packages[i].Description);
   // Add to Scroller
   if (packages[i].Section == "Apps") {
     document.getElementById("Apps").appendChild(a);
