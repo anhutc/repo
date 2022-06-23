@@ -49,9 +49,6 @@ xmlDoc.getElementsByTagName("tweakDevLinkPic")[0].childNodes[0].nodeValue;
 document.getElementById("tweakDevLinkURL").href =
 xmlDoc.getElementsByTagName("tweakDevLinkURL")[0].childNodes[0].nodeValue;
 
-//Replace Screenshot button URL based off package name
-document.getElementById("screenshotButton").setAttribute("href",window.location.origin + "/depiction/screenshots/?" + window.location.search.substring(1))
-
 //Allow new line in tweak description
 tweakDescription = xmlDoc.getElementsByTagName("tweakDescription")[0].childNodes[0].nodeValue;
 tweakDescription = tweakDescription.replace(/\\n/g, "<br>") //Add line break to "\n"
@@ -89,7 +86,22 @@ function addScreenshot(n) {
 }
 
 //Load initital wrapper
-addScreenshot(1)
+if (checkFileExist(window.location.origin + "/package/" + window.location.search.substring(1) + "/1.png")) {
+
+    addScreenshot(1)
+
+    //Replace Screenshot button URL based off package name
+    document.getElementById("screenshotButton").setAttribute("href",window.location.origin + "/depiction/screenshots/?" + window.location.search.substring(1))
+} else {
+    document.getElementById("screenshotButton").style.display = "none";
+
+    if (console.log(window.location.href) == window.location.origin + "/depiction/screenshots/?" + window.location.search.substring(1)){
+        location.replace("https://anhutc.github.io/404")
+    }
+
+}
+
+
 
 //Set page icon to package icon
 document.getElementById('pageIcon').setAttribute("href", window.location.origin + "/assets/page-icons/" + window.location.search.substring(1) + ".png")
