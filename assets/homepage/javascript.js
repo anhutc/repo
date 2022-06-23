@@ -16,7 +16,6 @@ function checkFileExist(urlToFile) {
 packages = decodePackagesFile(loadXMLDoc("/Packages"));
 // Render Packages File
 for (i = 0; i < packages.length; i++) {
-  var color = "#" + packages[i].color;
   // Create Wrapper Link
   var a = document.createElement("a");
 
@@ -43,9 +42,7 @@ for (i = 0; i < packages.length; i++) {
   // Create Package Icon
   var packageIconHolder = document.createElement("div");
   packageIconHolder.className = "packageIconHolder";
-  if (color != "") {
-    packageIconHolder.style.background = color;
-  }
+  
   var img = document.createElement("img");
   img.className = "packageicon";
   
@@ -54,11 +51,25 @@ for (i = 0; i < packages.length; i++) {
   ".png";
 
   if (checkFileExist(srcIMG)) {
-    img.src = srcIMG;
+    urlIMG = srcIMG;
   } else {
-    img.src = "/assets/page-icons/example.png";
+    urlIMG = "/assets/page-icons/example.png";
   }
-    
+
+  img.src = urlIMG;
+
+  // packageIconHolder.style.background = getAverageRGB();
+
+  const colorThief = new ColorThief();
+
+  if (img.complete) {
+    packageIconHolder.style.background = colorThief.getColor(img);
+  } else {
+    img.addEventListener('load', function() {
+      packageIconHolder.style.background = colorThief.getColor(img);
+    });
+}
+
   packageIconHolder.appendChild(img);
   // Append bigBox to a
   bigBox.appendChild(packageIconHolder);
