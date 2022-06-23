@@ -634,7 +634,7 @@ a {
 }
 #topBanner #hiddenInfo h3 {
   margin: 0 auto;
-  width: fit-content;
+  width: -moz-fit-content;
   font-size: 16pt;
   /* font-weight: bold; */
   padding: 5px;
