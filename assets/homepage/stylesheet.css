@@ -331,7 +331,7 @@ footer p {
 .packageTitle {
   color: black; /* fallback for IE */
   color: var(--text-color);
-  font-size: 11pt;
+  font-size: 14pt;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -340,20 +340,27 @@ footer p {
 }
 
 .packageTitleJB {
-  font-size: 11pt;
+  font-size: 12pt;
   color: var(--nav-color);
 }
 
-.bigBox:hover .packageTitle,
 .minBox:hover .packageTitleJB {
-  font-size: 12pt;
+  font-size: 14pt;
+  text-decoration: #999 solid underline;
+}
+
+.bigBox:hover .packageTitle {
+  font-size: 16pt;
   text-decoration: #999 solid underline;
 }
 
 @media screen and (max-width: 900px) {
   .packageTitle {
-    color: black;
-    /* font-size: 12pt !important; */
+    color: black !important;
+    font-size: 12pt !important;
+  }
+  .bigBox:hover .packageTitle {
+    font-size: 14pt !important;
   }
 }
 
