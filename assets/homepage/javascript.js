@@ -97,6 +97,7 @@ function expandAbout() {
     topBanner.getElementsByTagName("img")[0].src =
       "/assets/homepage/animoji.png";
   }, 300);
+  topBanner.getElementsByTagName("img").onerror = "this.onerror=null;this.src='/assets/page-icons/example.png';"
 }
 
 //Touch Display Detections
