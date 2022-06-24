@@ -143,17 +143,3 @@ window.addEventListener(
   },
   false
 );
-
-//Function to create animations
-function calculateAnimationWidthOf(classID) {
-  var style = document.createElement("style");
-  style.type = "text/css";
-  style.innerHTML =
-    "@keyframes " +
-    classID +
-    " {100% {transform: translateX(-" +
-    (document.getElementById(classID).innerHTML.match(/bigBox/g).length / 4) *
-      bigBoxWidth +
-    "px); }}";
-  document.getElementsByTagName("head")[0].appendChild(style);
-}
