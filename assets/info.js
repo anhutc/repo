@@ -80,7 +80,6 @@ function addScreenshot(n) {
 
         content = document.createElement("div") //background
         content.className = "modalContent"
-        content.appendChild(document.createtr())
         content.appendChild(new Image()).src = screenshot.src //modal image
         content.id = "content" + n
         content.insertAdjacentElement("afterend", content) //insert invisible content after image
