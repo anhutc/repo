@@ -80,7 +80,7 @@
   }
 
   //Load initital wrapper
-  if (checkFileExist(ulrPACKAGE + "/1.png")) {
+  if (checkFileExist(window.location.origin + "/package/" + window.location.search.substring(1) + "/1.png")) {
     addScreenshot(1)
   } else {
     location.replace("https://anhutc.github.io/404")
