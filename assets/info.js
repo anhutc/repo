@@ -102,18 +102,14 @@ function showModal(n){
         x.style.opacity = "1"
         x.style.zIndex = "100"
         document.documentElement.style.overflow = "hidden"
-    } else {
-        x.style.opacity = ""
-        x.style.zIndex = ""
-        document.documentElement.style.overflow = ""
     }
 }
 
 function hideModal(n){
     var x = document.getElementById("content" + n)
     if (x.style.opaopacity == "1"){
-        x.style.opacity = ""
-        x.style.zIndex = ""
+        x.style.opacity = "0"
+        x.style.zIndex = "-100"
         document.documentElement.style.overflow = ""
     }
 }
