@@ -113,7 +113,7 @@ if (checkFileExist(ulrPACKAGE + "/1.png")) {
 
 }
 
-if (!checkFileExist(ulrPACKAGE + "/1.png") && window.location.href == ulrSCREENSHOT){
+if (checkFileExist(ulrPACKAGE + "/1.png")  == false && window.location.href == ulrSCREENSHOT){
     location.replace("https://anhutc.github.io/404")
 }
 
