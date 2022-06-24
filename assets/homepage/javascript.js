@@ -146,17 +146,3 @@ function setWidth(classID) {
     "s linear infinite";
   calculateAnimationWidthOf(classID);
 }
-
-//Duplicating Function
-function duplicateContentOf(classID) {
-  document.getElementById(classID).innerHTML =
-    document.getElementById(classID).innerHTML +
-    document.getElementById(classID).innerHTML +
-    document.getElementById(classID).innerHTML +
-    document.getElementById(classID).innerHTML;
-  setWidth(classID);
-}
-
-//Duplicate and fit width of all scrollers
-duplicateContentOf("scrollerRepo");
-duplicateContentOf("scrollerProjects");
