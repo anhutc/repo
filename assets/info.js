@@ -79,9 +79,9 @@ function addScreenshot(n) {
 
         content = document.createElement("div"); //background
         content.className = "modal-content";
-        content.appendChild(new Image()).src = img.src; //modal image
-        img.insertAdjacentElement("afterend", content); //insert invisible content after image
-        img.addEventListener("click", () => { //show modal on click
+        content.appendChild(new Image()).src = screenshot.src; //modal image
+        screenshot.insertAdjacentElement("afterend", content); //insert invisible content after image
+        screenshot.addEventListener("click", () => { //show modal on click
             content.style.opacity = "1";
             content.style.zIndex = "100";
             document.documentElement.style.overflow = "hidden"; //prevent scrolling while modal is shown
