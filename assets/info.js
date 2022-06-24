@@ -1,3 +1,7 @@
+
+var ulrPACKAGE = window.location.origin + "/package/" + window.location.search.substring(1);
+var ulrICON  = window.location.origin + "/assets/page-icons/" + window.location.search.substring(1);
+
 // Check file Exists
 function checkFileExist(urlToFile) {
     var xhr = new XMLHttpRequest();
@@ -75,7 +79,10 @@ document.getElementById("tweakChangelog").innerHTML = changeLog //Apply changelo
 //Function that is called when a screenshot loads
 function loadAnotherScreenshot(element) {
     var n = parseInt(element.id.slice(-1),10)
-    addScreenshot(n + 1)
+    if (checkFileExist(ulrPACKAGE + "/" + (n + 1) + ".png")) {
+        addScreenshot(n + 1)
+    }
+    
     document.getElementById('tweakScreenshots').style.height = "260px"
 }
 
@@ -84,9 +91,6 @@ function deleteScreenshot(element) {
     console.log("failed " + element.id)
     element.parentElement.removeChild(element)
 }
-
-var ulrPACKAGE = window.location.origin + "/package/" + window.location.search.substring(1);
-var ulrICON  = window.location.origin + "/assets/page-icons/" + window.location.search.substring(1);
 
 //Function to add a new screenshot
 function addScreenshot(n) {
