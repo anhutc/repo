@@ -166,7 +166,7 @@ function duplicateContentOf(classID) {
     document.getElementById(classID).innerHTML +
     document.getElementById(classID).innerHTML +
     document.getElementById(classID).innerHTML;
-  setWidth(classID);
+  // setWidth(classID);
 }
 
 //Duplicate and fit width of all scrollers
