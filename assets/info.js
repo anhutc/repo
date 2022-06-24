@@ -36,11 +36,6 @@ for(var i = 0; i < toChange.length; i++) {
     }
 }
 
-//Set Back Arrows 
-// for (i=0; i<2; i++) {
-//     document.getElementsByClassName("backURL")[i].href = document.referrer
-// }
-
 //Replace Link Profile picture based off package developer
 document.getElementById("tweakDevLinkPic").src =
 xmlDoc.getElementsByTagName("tweakDevLinkPic")[0].childNodes[0].nodeValue;
@@ -73,11 +68,15 @@ function deleteScreenshot(element) {
     element.parentElement.removeChild(element)
 }
 
+var ulrPACKAGE = window.location.origin + "/package/" + window.location.search.substring(1);
+var ulrSCREENSHOT = window.location.origin + "/package/screenshot" + window.location.search.substring(1);
+var ulrICON  = window.location.origin + "/assets/page-icons/" + window.location.search.substring(1);
+
 //Function to add a new screenshot
 function addScreenshot(n) {
     if (document.getElementById("screenshot" + n) == null) {
         screenshot = createElement("screenshot","img")
-        screenshot.setAttribute("src", window.location.origin + "/package/" + window.location.search.substring(1) + "/" + n + ".png")
+        screenshot.setAttribute("src", ulrPACKAGE + "/" + n + ".png")
         screenshot.setAttribute("onerror","deleteScreenshot(this)")
         screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
         screenshot.id = "screenshot" + n
@@ -86,22 +85,20 @@ function addScreenshot(n) {
 }
 
 //Load initital wrapper
-if (checkFileExist(window.location.origin + "/package/" + window.location.search.substring(1) + "/1.png")) {
+if (checkFileExist(ulrPACKAGE + "/1.png")) {
 
     addScreenshot(1)
 
     //Replace Screenshot button URL based off package name
-    document.getElementById("screenshotButton").setAttribute("href",window.location.origin + "/depiction/screenshots/?" + window.location.search.substring(1))
+    document.getElementById("screenshotButton").setAttribute("href", ulrSCREENSHOT)
 } else {
     document.getElementById("screenshotButton").style.display = "none";
 
-    if (console.log(window.location.href) == window.location.origin + "/depiction/screenshots/?" + window.location.search.substring(1)){
+    if (console.log(window.location.href) == ulrSCREENSHOT){
         location.replace("https://anhutc.github.io/404")
     }
 
 }
 
-
-
 //Set page icon to package icon
-document.getElementById('pageIcon').setAttribute("href", window.location.origin + "/assets/page-icons/" + window.location.search.substring(1) + ".png")
+document.getElementById('pageIcon').setAttribute("href", ulrICON + ".png")
