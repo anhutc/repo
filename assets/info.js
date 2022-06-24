@@ -5,19 +5,6 @@ document.getElementsByClassName('wrapper')[0].style.filter = "none"
 var ulrPACKAGE = window.location.origin + "/package/" + window.location.search.substring(1);
 var ulrICON  = window.location.origin + "/assets/page-icons/" + window.location.search.substring(1);
 
-// Check file Exists
-function checkFileExist(urlToFile) {
-    var xhr = new XMLHttpRequest();
-    xhr.open('HEAD', urlToFile, false);
-    xhr.send();
-     
-    if (xhr.status == "404") {
-        return false;
-    } else {
-        return true;
-    }
-}
-
 //Redirect to 404 page if package not specified in URL
 if (checkFileExist("/package/" + window.location.search.substring(1) + "/Info.xml")) {} else {
   location.replace("https://anhutc.github.io/404")
@@ -76,32 +63,28 @@ function addScreenshot(n) {
         screenshot.setAttribute("onerror","deleteScreenshot(this)")
         screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
         screenshot.id = "screenshot" + n
+
+        content = document.createElement("div"); //background
+        content.className = "modal-content";
+        content.appendChild(new Image()).src = img.src; //modal image
+        img.insertAdjacentElement("afterend", content); //insert invisible content after image
+        img.addEventListener("click", () => { //show modal on click
+            content.style.opacity = "1";
+            content.style.zIndex = "100";
+            document.documentElement.style.overflow = "hidden"; //prevent scrolling while modal is shown
+        });
+        content.addEventListener("click", () => { //hide modal
+            content.style.opacity = "";
+            content.style.zIndex = "";
+            document.documentElement.style.overflow = "";
+        });
+
         document.getElementById('tweakScreenshots').appendChild(screenshot)
     }
 }
 
 //Load initital wrapper
-if (checkFileExist(ulrPACKAGE + "/1.png")) {
     addScreenshot(1)
-}
 
 //Set page icon to package icon
 document.getElementById('pageIcon').setAttribute("href", ulrICON + ".png")
-
-//Show IMG Modal
-document.querySelectorAll("img[data-modal]").forEach((img) => {
-  var content = document.createElement("div"); //background
-  content.className = "modal-content";
-  content.appendChild(new Image()).src = img.src; //modal image
-  img.insertAdjacentElement("afterend", content); //insert invisible content after image
-  img.addEventListener("click", () => { //show modal on click
-    content.style.opacity = "1";
-    content.style.zIndex = "100";
-    document.documentElement.style.overflow = "hidden"; //prevent scrolling while modal is shown
-  });
-  content.addEventListener("click", () => { //hide modal
-    content.style.opacity = "";
-    content.style.zIndex = "";
-    document.documentElement.style.overflow = "";
-  });
-});
