@@ -290,7 +290,6 @@ a:active, a:hover {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -305,7 +304,7 @@ a:active, a:hover {
   margin: auto;
   display: block;
   width: 80%;
-  max-width: 700px;
+  max-width: 500px;
 }
 
 /* Caption of Modal Image */
@@ -313,7 +312,7 @@ a:active, a:hover {
   margin: auto;
   display: block;
   width: 80%;
-  max-width: 700px;
+  max-width: 500px;
   text-align: center;
   color: #ccc;
   padding: 10px 0;
@@ -357,7 +356,7 @@ a:active, a:hover {
 }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 500px){
   .modal-content {
       width: 100%;
   }
