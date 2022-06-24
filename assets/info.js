@@ -73,6 +73,7 @@ function addScreenshot(n) {
         screenshot = createElement("screenshot","img")
         screenshot.setAttribute("src", ulrPACKAGE + "/" + n + ".png")
         screenshot.setAttribute("data-modal","")
+        screenshot.setAttribute("onclick","changeModal(" + n + ")")
         screenshot.setAttribute("onerror","deleteScreenshot(this)")
         screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
         screenshot.id = "screenshot" + n
@@ -81,16 +82,7 @@ function addScreenshot(n) {
         content.className = "modal-content"
         content.appendChild(new Image()).src = screenshot.src //modal image
         content.insertAdjacentElement("afterend", content) //insert invisible content after image
-        screenshot.addEventListener("click", () => { //show modal on click
-            content.style.opacity = "1"
-            content.style.zIndex = "100"
-            document.documentElement.style.overflow = "hidden" //prevent scrolling while modal is shown
-        });
-        screenshot.addEventListener("click", () => { //hide modal
-            content.style.opacity = ""
-            content.style.zIndex = ""
-            document.documentElement.style.overflow = ""
-        });
+        content.id = "content" + n
 
         document.getElementById('tweakScreenshots').appendChild(screenshot)
         document.getElementById('tweakScreenshots').appendChild(content)
@@ -102,3 +94,16 @@ function addScreenshot(n) {
 
 //Set page icon to package icon
 document.getElementById('pageIcon').setAttribute("href", ulrICON + ".png")
+
+function changeModal(n){
+    var x = document.getElementById("content" + n)
+    if (x.style.opaopacity != "1"){
+        x.style.opacity = "1"
+        x.style.zIndex = "100"
+        document.documentElement.style.overflow = "hidden"
+    } else {
+        content.style.opacity = ""
+        content.style.zIndex = ""
+        document.documentElement.style.overflow = ""
+    }
+}
