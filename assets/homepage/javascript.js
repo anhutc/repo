@@ -75,7 +75,7 @@ for (i = 0; i < packages.length; i++) {
   var img = document.createElement("img");
   img.className = "packageicon";
   
-  var srcIMG = "/package/" + removeVietnameseTones(package[i].Name) + "icon.png";
+  var srcIMG = "/package/" + removeVietnameseTones(package[i].Name) + "/icon" + removeVietnameseTones(package[i].Name) +".png";
 
   if (checkFileExist(srcIMG)) {
     urlIMG = srcIMG;
