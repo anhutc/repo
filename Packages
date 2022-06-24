@@ -6,7 +6,7 @@ Architecture: iphoneos-arm
 Description: Tweak ví dụ
 Author: DVA <anhutck58@gmail.com>
 Maintainer: DVA <anhutck58@gmail.com>
-Section: Hacks
+Section: Example
 Depiction: https://anhutc.github.io/depiction/?Example
 Size: 0
 MD5sum: d41d8cd98f00b204e9800998ecf8427e
