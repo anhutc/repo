@@ -112,8 +112,8 @@ document.getElementById('pageIcon').setAttribute("href", ulrICON + ".png")
 var modal = document.getElementById('myModal');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementsByClassName('screenshot');
-var modalImg = document.getElementById("img01");
+var pupImg = document.getElementsByClassName('screenshot');
+var modalImg = document.getElementById("imgModel");
 var captionText = document.getElementById("caption");
 
 var showModal = function(){
@@ -122,8 +122,8 @@ var showModal = function(){
     captionText.innerHTML = this.alt;
 }
 
-for (var i = 0; i < img.length; i++) {
-    img[i].addEventListener('click', showModal);
+for (var i = 0; i < pupImg.length; i++) {
+    pupImg[i].addEventListener('click', showModal);
 }
 
 // Get the <span> element that closes the modal
