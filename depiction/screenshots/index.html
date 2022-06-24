@@ -37,22 +37,6 @@
   var parser = new DOMParser();
   var xmlDoc = parser.parseFromString(text,"text/xml"); //Load the XML config
 
-  //Only display specified number of screenshots 
-  /*
-  var numOfScreenshots = xmlDoc.getElementsByTagName("numOfScreenshots")[0].childNodes[0].nodeValue;
-  var screenshotList = "";
-  for (i = 0; i < numOfScreenshots; i++) {
-      if (i % 3 == 0) {
-        screenshotList = screenshotList.concat("</div></div><div class=column>")
-      }
-      if (i ==0) {
-        screenshotList = screenshotList.concat('<div class="subtitle">Screenshots</div>')
-      }
-      screenshotList = screenshotList.concat('<div class="bigbox"><img class="screenshot" src="/package/'
-      + window.location.search.substring(1) + "/"+ (i + 1) + '.png"></div>')
-  }
-  document.getElementById("screenshotHolder").innerHTML = screenshotList; */
-
   //Function that is called when a screenshot loads
   function loadAnotherScreenshot(element) {
     var n = parseInt(element.id.slice(-1),10)

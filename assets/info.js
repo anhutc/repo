@@ -69,7 +69,7 @@ function deleteScreenshot(element) {
 }
 
 var ulrPACKAGE = window.location.origin + "/package/" + window.location.search.substring(1);
-var ulrSCREENSHOT = window.location.origin + "/package/screenshot" + window.location.search.substring(1);
+var ulrSCREENSHOT = window.location.origin + "/package/screenshot/?" + window.location.search.substring(1);
 var ulrICON  = window.location.origin + "/assets/page-icons/" + window.location.search.substring(1);
 
 //Function to add a new screenshot
