@@ -101,17 +101,17 @@ function addScreenshot(n) {
     }
 }
 
-//Load initital wrapper
-if (checkFileExist(ulrPACKAGE + "/1.png")) {
+// //Load initital wrapper
+// if (checkFileExist(ulrPACKAGE + "/1.png")) {
 
-    addScreenshot(1)
+//     addScreenshot(1)
 
-    //Replace Screenshot button URL based off package name
-    document.getElementById("screenshotButton").setAttribute("href", ulrSCREENSHOT)
-} else {
-    document.getElementById("screenshotButton").style.display = "none";
+//     //Replace Screenshot button URL based off package name
+//     document.getElementById("screenshotButton").setAttribute("href", ulrSCREENSHOT)
+// } else {
+//     document.getElementById("screenshotButton").style.display = "none";
 
-}
+// }
 
 //Set page icon to package icon
 document.getElementById('pageIcon').setAttribute("href", ulrICON + ".png")
