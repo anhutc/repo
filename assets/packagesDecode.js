@@ -65,7 +65,7 @@ function decodePackagesFile(packagesFile) {
                     value: propertyValue
                 })
             } catch (error) {
-                console.log("Note to developer: Your packages file is messed up!")
+                console.log("Note to developer: Your packages file is messed up!!")
             }
         }
         // Add package object into array of packages
