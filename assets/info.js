@@ -78,8 +78,9 @@ function addScreenshot(n) {
         screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
         screenshot.id = "screenshot" + n
 
-        content = document.createElement("modalContent", "div") //background
-        content.appendChild(document.createTextNode('<span class="close" onclick=(hideModal)>X</span>'))
+        content = document.createElement("div") //background
+        content.className = "modalContent"
+        content.appendChild(document.createtr())
         content.appendChild(new Image()).src = screenshot.src //modal image
         content.id = "content" + n
         content.insertAdjacentElement("afterend", content) //insert invisible content after image
@@ -87,6 +88,7 @@ function addScreenshot(n) {
 
         document.getElementById('tweakScreenshots').appendChild(screenshot)
         document.getElementById('tweakScreenshots').appendChild(content)
+        document.getElementById('tweakScreenshots').insertAdjacentHTML("afterbegin", '<span class="close" onclick=(hideModal)>X</span>')
     }
 }
 
