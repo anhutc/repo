@@ -2,19 +2,19 @@
 document.getElementsByClassName('popupWrapper')[0].parentElement.removeChild(document.getElementsByClassName('popupWrapper')[0])
 document.getElementsByClassName('wrapper')[0].style.filter = "none"
 
-var ulrPACKAGE = window.location.origin + "/package/" + window.location.search.substring(1);
-var ulrICON  = window.location.origin + "/assets/page-icons/" + window.location.search.substring(1);
+var ulrPACKAGE = window.location.origin + "/package/" + window.location.search.substring(1)
+var ulrICON  = window.location.origin + "/assets/page-icons/" + window.location.search.substring(1)
 
 //Check File Exist
 function checkFileExist(urlToFile) {
     var xhr = new XMLHttpRequest();
-    xhr.open('HEAD', urlToFile, false);
-    xhr.send();
+    xhr.open('HEAD', urlToFile, false)
+    xhr.send()
      
     if (xhr.status == "404") {
-        return false;
+        return false
     } else {
-        return true;
+        return true
     }
 }
 
@@ -24,18 +24,18 @@ if (checkFileExist(window.location.origin + "/package/" + window.location.search
 }
 
 var text = loadXMLDoc("/package/" + window.location.search.substring(1) + "/Info.xml"); //Specify the name of the XML config to load
-var parser = new DOMParser();
-var xmlDoc = parser.parseFromString(text,"text/xml"); //Load the XML config
+var parser = new DOMParser()
+var xmlDoc = parser.parseFromString(text,"text/xml") //Load the XML config
 
 //Array of ID's to change based on the package
 var toChange = ["tweakName", "tweakShortDescription", "tweakSize", "tweakCategory",
-                "tweakCompatibility", "tweakVersion", "tweakUpdateDate", "tweakDeveloper", "tweakDevLink"];
+                "tweakCompatibility", "tweakVersion", "tweakUpdateDate", "tweakDeveloper", "tweakDevLink"]
 
 //Loop algorithm to swap all the ID's listed above based on package
 for(var i = 0; i < toChange.length; i++) {
-    var elements = document.querySelectorAll('[id="' + toChange[i] + '"]');
+    var elements = document.querySelectorAll('[id="' + toChange[i] + '"]')
     for(var j = 0; j < elements.length; j++) {
-      elements[j].innerHTML = xmlDoc.getElementsByTagName(toChange[i])[0].childNodes[0].nodeValue;
+      elements[j].innerHTML = xmlDoc.getElementsByTagName(toChange[i])[0].childNodes[0].nodeValue
     }
 }
 
@@ -44,12 +44,12 @@ document.getElementById("tweakDevLinkURL").href =
 xmlDoc.getElementsByTagName("tweakDevLinkURL")[0].childNodes[0].nodeValue;
 
 //Allow new line in tweak description
-tweakDescription = xmlDoc.getElementsByTagName("tweakDescription")[0].childNodes[0].nodeValue;
+tweakDescription = xmlDoc.getElementsByTagName("tweakDescription")[0].childNodes[0].nodeValue
 tweakDescription = tweakDescription.replace(/\\n/g, "<br>") //Add line break to "\n"
 document.getElementById("tweakDescription").innerHTML = tweakDescription //Apply description to webpage
 
 //Make each bullet point of changelog on new line
-changeLog = xmlDoc.getElementsByTagName("tweakChangelog")[0].childNodes[0].nodeValue;
+changeLog = xmlDoc.getElementsByTagName("tweakChangelog")[0].childNodes[0].nodeValue
 changeLog = changeLog.replace(/\•/g, "<br>•") //Add line break to bullet points
 changeLog = changeLog.replace("<br>", "") //Remove first line break
 document.getElementById("tweakChangelog").innerHTML = changeLog //Apply changelog to webpage
@@ -77,19 +77,19 @@ function addScreenshot(n) {
         screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
         screenshot.id = "screenshot" + n
 
-        content = document.createElement("div"); //background
-        content.className = "modal-content";
-        content.appendChild(new Image()).src = screenshot.src; //modal image
-        screenshot.insertAdjacentElement("afterend", content); //insert invisible content after image
+        content = document.createElement("div") //background
+        content.className = "modal-content"
+        content.appendChild(new Image()).src = screenshot.src //modal image
+        screenshot.insertAdjacentElement("afterend", content) //insert invisible content after image
         screenshot.addEventListener("click", () => { //show modal on click
-            content.style.opacity = "1";
-            content.style.zIndex = "100";
-            document.documentElement.style.overflow = "hidden"; //prevent scrolling while modal is shown
+            content.style.opacity = "1"
+            content.style.zIndex = "100"
+            document.documentElement.style.overflow = "hidden" //prevent scrolling while modal is shown
         });
         content.addEventListener("click", () => { //hide modal
-            content.style.opacity = "";
-            content.style.zIndex = "";
-            document.documentElement.style.overflow = "";
+            content.style.opacity = ""
+            content.style.zIndex = ""
+            document.documentElement.style.overflow = ""
         });
 
         document.getElementById('tweakScreenshots').appendChild(screenshot)
