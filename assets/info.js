@@ -94,10 +94,9 @@ if (checkFileExist(ulrPACKAGE + "/1.png")) {
 } else {
     document.getElementById("screenshotButton").style.display = "none";
 
-    if (console.log(window.location.href) == ulrSCREENSHOT){
+    if (window.location.href == ulrSCREENSHOT){
         location.replace("https://anhutc.github.io/404")
     }
-
 }
 
 //Set page icon to package icon
