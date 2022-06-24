@@ -1,3 +1,16 @@
+// Check file Exists
+function checkFileExist(urlToFile) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('HEAD', urlToFile, false);
+    xhr.send();
+     
+    if (xhr.status == "404") {
+        return false;
+    } else {
+        return true;
+    }
+  }
+
 //Remove Javascript Detector
 document.getElementsByClassName('popupWrapper')[0].parentElement.removeChild(document.getElementsByClassName('popupWrapper')[0])
 document.getElementsByClassName('wrapper')[0].style.filter = "none"
@@ -37,8 +50,12 @@ for(var i = 0; i < toChange.length; i++) {
 }
 
 //Replace Link Profile picture based off package developer
-document.getElementById("tweakDevLinkPic").src =
-xmlDoc.getElementsByTagName("tweakDevLinkPic")[0].childNodes[0].nodeValue;
+var urlLINKPIC = xmlDoc.getElementsByTagName("tweakDevLinkPic")[0].childNodes[0].nodeValue;
+if (checkFileExist(urlLINKPIC)) {
+    document.getElementById("tweakDevLinkPic").src = urlLINKPIC;
+} else {
+    document.getElementById("tweakDevLinkPic").src = "../assets/page-icons/default.png";
+}
 
 //Replace Link URL based off package developer
 document.getElementById("tweakDevLinkURL").href =
