@@ -157,19 +157,3 @@ function calculateAnimationWidthOf(classID) {
     "px); }}";
   document.getElementsByTagName("head")[0].appendChild(style);
 }
-
-//Set width to width of BigBoxes function
-function setWidth(classID) {
-  calculateBoxSize();
-  document.getElementById(classID).style.minWidth =
-    document.getElementById(classID).innerHTML.match(/bigBox/g).length *
-      bigBoxWidth +
-    "px";
-  document.getElementById(classID).style.animation =
-    classID +
-    " " +
-    (document.getElementById(classID).innerHTML.match(/bigBox/g).length / 4) *
-      bigBoxAnimationDuration +
-    "s linear infinite";
-  calculateAnimationWidthOf(classID);
-}
