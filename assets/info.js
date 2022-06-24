@@ -72,18 +72,18 @@ function addScreenshot(n) {
     if (document.getElementById("screenshot" + n) == null) {
         screenshot = createElement("screenshot","img")
         screenshot.setAttribute("src", ulrPACKAGE + "/" + n + ".png")
-        screenshot.setAttribute("data-modal","")
+        screenshot.setAttribute("dataModal","")
         screenshot.setAttribute("onclick","showModal(" + n + ")")
         screenshot.setAttribute("onerror","deleteScreenshot(this)")
         screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
         screenshot.id = "screenshot" + n
 
-        content = document.createElement("div") //background
-        content.className = "modal-content"
+        content = document.createElement("modalContent", "div") //background
+        content.appendChild(document.createTextNode('<span class="close" onclick=(hideModal)>X</span>'))
         content.appendChild(new Image()).src = screenshot.src //modal image
-        content.setAttribute("onclick", "hideModal(" + n + ")")
         content.id = "content" + n
         content.insertAdjacentElement("afterend", content) //insert invisible content after image
+
 
         document.getElementById('tweakScreenshots').appendChild(screenshot)
         document.getElementById('tweakScreenshots').appendChild(content)
@@ -98,19 +98,15 @@ document.getElementById('pageIcon').setAttribute("href", ulrICON + ".png")
 
 function showModal(n){
     var x = document.getElementById("content" + n)
-    if (x.style.opaopacity != "1"){
-        x.style.opacity = "1"
-        x.style.zIndex = "100"
-        document.documentElement.style.overflow = "hidden"
+    if (x.style.display != "block"){
+        x.style.display = "block"
     }
 }
 
 function hideModal(n){
     var x = document.getElementById("content" + n)
-    if (x.style.opaopacity == "1"){
-        x.style.opacity = ""
-        x.style.zIndex = ""
-        document.documentElement.style.overflow = ""
+    if (x.style.display == "block"){
+        x.style.display = "none"
     }
 }
 
