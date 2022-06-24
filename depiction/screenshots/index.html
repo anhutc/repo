@@ -52,6 +52,19 @@
     element.parentElement.parentElement.removeChild(element.parentElement)
   }
 
+  // Check file Exists
+  function checkFileExist(urlToFile) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('HEAD', urlToFile, false);
+    xhr.send();
+      
+    if (xhr.status == "404") {
+        return false;
+    } else {
+        return true;
+    }
+  }
+
   //Function to add a new screenshot
   function addScreenshot(n) {
     if (document.getElementById("screenshot" + n) == null) {
@@ -67,6 +80,11 @@
   }
 
   //Load initital wrapper
-  addScreenshot(1)
+  if (checkFileExist(ulrPACKAGE + "/1.png")) {
+    addScreenshot(1)
+  } else {
+    location.replace("https://anhutc.github.io/404")
+  }
+  
 
 </script>
