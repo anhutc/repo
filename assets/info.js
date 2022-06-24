@@ -53,14 +53,6 @@ for(var i = 0; i < toChange.length; i++) {
     }
 }
 
-//Replace Link Profile picture based off package developer
-var urlLINKPIC = xmlDoc.getElementsByTagName("tweakDevLinkPic")[0].childNodes[0].nodeValue;
-if (checkFileExist(urlLINKPIC)) {
-    document.getElementById("tweakDevLinkPic").src = urlLINKPIC;
-} else {
-    document.getElementById("tweakDevLinkPic").src = "../assets/page-icons/default.png";
-}
-
 //Replace Link URL based off package developer
 document.getElementById("tweakDevLinkURL").href =
 xmlDoc.getElementsByTagName("tweakDevLinkURL")[0].childNodes[0].nodeValue;
@@ -79,10 +71,7 @@ document.getElementById("tweakChangelog").innerHTML = changeLog //Apply changelo
 //Function that is called when a screenshot loads
 function loadAnotherScreenshot(element) {
     var n = parseInt(element.id.slice(-1),10)
-    if (checkFileExist(ulrPACKAGE + "/" + (n + 1) + ".png")) {
-        addScreenshot(n + 1)
-    }
-    
+    addScreenshot(n + 1)    
     document.getElementById('tweakScreenshots').style.height = "260px"
 }
 
@@ -97,6 +86,7 @@ function addScreenshot(n) {
     if (document.getElementById("screenshot" + n) == null) {
         screenshot = createElement("screenshot","img")
         screenshot.setAttribute("src", ulrPACKAGE + "/" + n + ".png")
+        screenshot.setAttribute("data-modal")
         screenshot.setAttribute("onerror","deleteScreenshot(this)")
         screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
         screenshot.id = "screenshot" + n
@@ -111,3 +101,21 @@ if (checkFileExist(ulrPACKAGE + "/1.png")) {
 
 //Set page icon to package icon
 document.getElementById('pageIcon').setAttribute("href", ulrICON + ".png")
+
+//Show IMG Modal
+document.querySelectorAll("img[data-modal]").forEach((img) => {
+  var content = document.createElement("div"); //background
+  content.className = "modal-content";
+  content.appendChild(new Image()).src = img.src; //modal image
+  img.insertAdjacentElement("afterend", content); //insert invisible content after image
+  img.addEventListener("click", () => { //show modal on click
+    content.style.opacity = "1";
+    content.style.zIndex = "100";
+    document.documentElement.style.overflow = "hidden"; //prevent scrolling while modal is shown
+  });
+  content.addEventListener("click", () => { //hide modal
+    content.style.opacity = "";
+    content.style.zIndex = "";
+    document.documentElement.style.overflow = "";
+  });
+});
