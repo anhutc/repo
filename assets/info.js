@@ -5,8 +5,21 @@ document.getElementsByClassName('wrapper')[0].style.filter = "none"
 var ulrPACKAGE = window.location.origin + "/package/" + window.location.search.substring(1);
 var ulrICON  = window.location.origin + "/assets/page-icons/" + window.location.search.substring(1);
 
+//Check File Exist
+function checkFileExist(urlToFile) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('HEAD', urlToFile, false);
+    xhr.send();
+     
+    if (xhr.status == "404") {
+        return false;
+    } else {
+        return true;
+    }
+}
+
 //Redirect to 404 page if package not specified in URL
-if (checkFileExist("/package/" + window.location.search.substring(1) + "/Info.xml")) {} else {
+if (checkFileExist(window.location.origin + "/package/" + window.location.search.substring(1) + "/Info.xml")) {} else {
   location.replace("https://anhutc.github.io/404")
 }
 
