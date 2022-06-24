@@ -173,13 +173,3 @@ function setWidth(classID) {
     "s linear infinite";
   calculateAnimationWidthOf(classID);
 }
-
-//Duplicating Function
-function duplicateContentOf(classID) {
-  document.getElementById(classID).innerHTML =
-    document.getElementById(classID).innerHTML +
-    document.getElementById(classID).innerHTML +
-    document.getElementById(classID).innerHTML +
-    document.getElementById(classID).innerHTML;
-  setWidth(classID);
-}
