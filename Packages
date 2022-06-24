@@ -41,7 +41,7 @@ Filename: package/libdev/libdev.deb
 ##########################
 
 Package: com.dva.tiktokgod
-Name: TIkTok God
+Name: TikTok God
 Version: 4.0
 Depends: mobilesubstrate, preferenceloader, com.dva.libhdev (>= 4.8.1), firmware (>= 12)
 Architecture: iphoneos-arm
