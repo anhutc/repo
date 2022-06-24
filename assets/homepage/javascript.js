@@ -149,6 +149,20 @@ window.addEventListener(
   false
 );
 
+//Function to create animations
+function calculateAnimationWidthOf(classID) {
+  var style = document.createElement("style");
+  style.type = "text/css";
+  style.innerHTML =
+    "@keyframes " +
+    classID +
+    " {100% {transform: translateX(-" +
+    (document.getElementById(classID).innerHTML.match(/bigBox/g).length / 4) *
+      bigBoxWidth +
+    "px); }}";
+  document.getElementsByTagName("head")[0].appendChild(style);
+}
+
 //Set width to width of BigBoxes function
 function setWidth(classID) {
   calculateBoxSize();
@@ -162,6 +176,7 @@ function setWidth(classID) {
     (document.getElementById(classID).innerHTML.match(/bigBox/g).length / 4) *
       bigBoxAnimationDuration +
     "s linear infinite";
+  calculateAnimationWidthOf(classID);
 }
 
 //Duplicating Function
@@ -171,6 +186,7 @@ function duplicateContentOf(classID) {
     document.getElementById(classID).innerHTML +
     document.getElementById(classID).innerHTML +
     document.getElementById(classID).innerHTML;
+  setWidth(classID);
 }
 
 //Duplicate and fit width of all scrollers
