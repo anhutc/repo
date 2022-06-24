@@ -51,7 +51,7 @@ for(var i = 0; i < toChange.length; i++) {
 
 //Replace Link Profile picture based off package developer
 var urlLINKPIC = xmlDoc.getElementsByTagName("tweakDevLinkPic")[0].childNodes[0].nodeValue;
-if (checkFileExist(urlLINKPIC)) {
+if (checkFileExist(urlLINKPIC) || urlLINKPIC != null) {
     document.getElementById("tweakDevLinkPic").src = urlLINKPIC;
 } else {
     document.getElementById("tweakDevLinkPic").src = "../assets/page-icons/default.png";
