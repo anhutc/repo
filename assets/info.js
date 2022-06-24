@@ -1,3 +1,6 @@
+//Remove Javascript Detector
+document.getElementsByClassName('popupWrapper')[0].parentElement.removeChild(document.getElementsByClassName('popupWrapper')[0])
+document.getElementsByClassName('wrapper')[0].style.filter = "none"
 
 var ulrPACKAGE = window.location.origin + "/package/" + window.location.search.substring(1);
 var ulrICON  = window.location.origin + "/assets/page-icons/" + window.location.search.substring(1);
@@ -13,24 +16,7 @@ function checkFileExist(urlToFile) {
     } else {
         return true;
     }
-  }
-
-//Remove Javascript Detector
-document.getElementsByClassName('popupWrapper')[0].parentElement.removeChild(document.getElementsByClassName('popupWrapper')[0])
-document.getElementsByClassName('wrapper')[0].style.filter = "none"
-
-// Check file Exists
-function checkFileExist(urlToFile) {
-    var xhr = new XMLHttpRequest();
-    xhr.open('HEAD', urlToFile, false);
-    xhr.send();
-     
-    if (xhr.status == "404") {
-        return false;
-    } else {
-        return true;
-    }
-  }
+}
 
 //Redirect to 404 page if package not specified in URL
 if (checkFileExist("/package/" + window.location.search.substring(1) + "/Info.xml")) {} else {
