@@ -73,7 +73,7 @@ function addScreenshot(n) {
         screenshot = createElement("screenshot","img")
         screenshot.setAttribute("src", ulrPACKAGE + "/" + n + ".png")
         screenshot.setAttribute("data-modal","")
-        screenshot.setAttribute("onclick","changeModal(" + n + ")")
+        screenshot.setAttribute("onclick","showModal(" + n + ")")
         screenshot.setAttribute("onerror","deleteScreenshot(this)")
         screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
         screenshot.id = "screenshot" + n
@@ -95,15 +95,16 @@ function addScreenshot(n) {
 //Set page icon to package icon
 document.getElementById('pageIcon').setAttribute("href", ulrICON + ".png")
 
-function changeModal(n){
+function showModal(n){
     var x = document.getElementById("content" + n)
     if (x.style.opaopacity != "1"){
         x.style.opacity = "1"
         x.style.zIndex = "100"
         document.documentElement.style.overflow = "hidden"
     } else {
-        content.style.opacity = ""
-        content.style.zIndex = ""
+        x.style.opacity = ""
+        x.style.zIndex = ""
         document.documentElement.style.overflow = ""
     }
 }
+
