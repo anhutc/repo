@@ -106,3 +106,17 @@ MD5sum: 698ab9662c2597dd44cffc86ecd7abec
 SHA256: a87ce9c12ede89ba81268346c2d10278d04b2d5b74ea28429b22d369b94e4883
 Filename: package/LienQuanMobile/LienQuanMobile.deb
 
+Package: com.dva.dreamleaguesoccer
+Name: Dream League Soccer
+Version: 9.12
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Author: Zahir
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?DreamLeagueSoccer
+Section: Hacks
+Description: Hack Dream League Soccer
+Size: 2426064
+MD5sum: 69f01bc32c7558c2698a2ae4183bd298
+SHA256: 846516b992b9f68a4f3680fb2f890df0ee6f6f3ddd9a051af7630210ad5c9769
+Filename: package/DreamLeagueSoccer/DreamLeagueSoccer.deb
