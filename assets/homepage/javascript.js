@@ -171,7 +171,7 @@ function setWidth(classID) {
     (document.getElementById(classID).innerHTML.match(/bigBox/g).length / 4) *
       bigBoxAnimationDuration +
     "s linear infinite";
-  // calculateAnimationWidthOf(classID);
+  calculateAnimationWidthOf(classID);
 }
 
 //Duplicating Function
@@ -183,7 +183,3 @@ function duplicateContentOf(classID) {
     document.getElementById(classID).innerHTML;
   setWidth(classID);
 }
-
-//Duplicate and fit width of all scrollers
-duplicateContentOf("Apps");
-duplicateContentOf("Hacks");
