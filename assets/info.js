@@ -92,7 +92,7 @@ function addScreenshot(n) {
             document.documentElement.style.overflow = ""
         });
 
-        document.getElementById('tweakScreenshots').appendChild(screenshot).appendChild(content)
+        document.getElementById('tweakScreenshots').appendChild(screenshot), appendChild(content)
     }
 }
 
