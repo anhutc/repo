@@ -67,7 +67,7 @@ for (i = 0; i < packages.length; i++) {
   // Add to Scroller
   if (packages[i].Section == "Apps") {
     document.getElementById("Apps").appendChild(a);
-  } else if (packages[i].Description == "Hacks") {
+  } else if (packages[i].Section == "Hacks") {
     document.getElementById("Hacks").appendChild(a);
   } else {
     document.getElementById("Others").appendChild(a);
