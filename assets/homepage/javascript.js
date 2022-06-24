@@ -74,7 +74,7 @@ for (i = 0; i < packages.length; i++) {
     // Remove punctuations
     // Bỏ dấu câu, kí tự đặc biệt
     .replace(/!|@|%|\^|\*|\(|\)|\+|\=|\<|\>|\?|\/|,|\.|\:|\|\'|\"|\&|\#|\[|\]|~|\$|_|`|-|{|}|\||\\/g,"")
-    .toLowerCase()
+
     + ".png";
 
   if (checkFileExist(srcIMG)) {
