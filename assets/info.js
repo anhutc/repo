@@ -82,6 +82,7 @@ function addScreenshot(n) {
         content.className = "modal-content"
         content.appendChild(new Image()).src = screenshot.src //modal image
         content.insertAdjacentElement("afterend", content) //insert invisible content after image
+        content.setAttribute("onclick", "hideModal(" + n + ")")
         content.id = "content" + n
 
         document.getElementById('tweakScreenshots').appendChild(screenshot)
@@ -102,6 +103,15 @@ function showModal(n){
         x.style.zIndex = "100"
         document.documentElement.style.overflow = "hidden"
     } else {
+        x.style.opacity = ""
+        x.style.zIndex = ""
+        document.documentElement.style.overflow = ""
+    }
+}
+
+function hideModal(n){
+    var x = document.getElementById("content" + n)
+    if (x.style.opaopacity == "1"){
         x.style.opacity = ""
         x.style.zIndex = ""
         document.documentElement.style.overflow = ""
