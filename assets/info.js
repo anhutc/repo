@@ -93,6 +93,7 @@ function addScreenshot(n) {
         });
 
         document.getElementById('tweakScreenshots').appendChild(screenshot)
+        document.getElementById(screenshot.id).appendChild(content)
     }
 }
 
