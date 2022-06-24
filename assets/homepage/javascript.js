@@ -75,11 +75,11 @@ for (i = 0; i < packages.length; i++) {
   var img = document.createElement("img");
   img.className = "packageicon";
   
-  // var srcIMG = "/assets/tweak-icon/" + removeVietnameseTones(package[i].Name) + ".png";
+  var srcIMG = "/assets/tweak-icons/" + removeVietnameseTones(package[i].Name) + ".png";
 
-  var srcIMG = "assets/tweak-icons/" +
-    packages[i].Name.replace(/ |-|:|;/g, "") +
-    ".png";
+  // var srcIMG = "assets/tweak-icons/" +
+  //   packages[i].Name.replace(/ |-|:|;/g, "") +
+  //   ".png";
 
   if (checkFileExist(srcIMG)) {
     urlIMG = srcIMG;
