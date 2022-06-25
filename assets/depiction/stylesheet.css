@@ -310,6 +310,7 @@ a:active, a:hover {
 
 /* The Close Button */
 .close {
+  z-index: 1000;
   position: absolute;
   top: 15px;
   right: 35px;
@@ -317,6 +318,7 @@ a:active, a:hover {
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
+  display: none;
 }
 
 .close:hover,
