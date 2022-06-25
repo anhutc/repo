@@ -105,7 +105,7 @@ document.getElementById('pageIcon').setAttribute("href", ulrICON + ".png")
 function showModal(n){
     var x = document.getElementById("content" + n)
     var y = document.getElementById("close")
-    if (x.style.display == ""){
+    if (x.style.display != "block"){
         x.style.display = "block"
         y.style.display = "block"
     }
@@ -114,7 +114,7 @@ function showModal(n){
 function hideModal(){
     var x = document.getElementById("modalContent")
     var y = document.getElementById("close")
-    if (x.style.display == "block"){
+    if (x.style.display != ""){
         x.style.display = ""
         y.style.display = ""
     }
