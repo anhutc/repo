@@ -81,7 +81,7 @@ function addScreenshot(n) {
         content.className = "modalContent"
         content.appendChild(new Image()).src = screenshot.src //modal image
         content.setAttribute("onerror","deleteScreenshot(this)")
-        content.id = "content" + n
+        content.id = "modalContent content" + n
         content.insertAdjacentElement("afterend", content) //insert invisible content after image
 
 
@@ -98,7 +98,7 @@ document.getElementById('pageIcon').setAttribute("href", ulrICON + ".png")
 
 function showModal(n){
     var x = document.getElementById("content" + n)
-    var y = document.getElementByClassName("close")
+    var y = document.getElementById("close")
     if (x.style.display != "block"){
         x.style.display = "block"
         y.style.display = "block"
@@ -106,8 +106,8 @@ function showModal(n){
 }
 
 function hideModal(){
-    var x = document.getElementByClassName("modalContent")
-    var y = document.getElementByClassName("close")
+    var x = document.getElementById("modalContent")
+    var y = document.getElementById("close")
     if (x.style.display == "block"){
         x.style.display = "none"
         y.style.display = "none"
