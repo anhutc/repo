@@ -277,10 +277,6 @@ a:active, a:hover {
   }
 }
 
-img[dataModal] {
-  cursor: zoom-in;
-}
-
 .modalContent {
   z-index: 100; /* behind everything */
   opacity: 1; /* invisible */
