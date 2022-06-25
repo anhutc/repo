@@ -66,6 +66,11 @@ function deleteScreenshot(element) {
     element.parentElement.removeChild(element)
 }
 
+function deleteModalContent() {
+    var n = document.getElementsById("modalContent").length
+    $("#content" + n).remove()
+}
+
 //Function to add a new screenshot
 function addScreenshot(n) {
     if (document.getElementById("screenshot" + n) == null) {
@@ -92,6 +97,7 @@ function addScreenshot(n) {
 
 //Load initital wrapper
     addScreenshot(1)
+    deleteModalContent()
 
 //Set page icon to package icon
 document.getElementById('pageIcon').setAttribute("href", ulrICON + ".png")
