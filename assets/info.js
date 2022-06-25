@@ -63,7 +63,6 @@ function loadAnotherScreenshot(element) {
 
 //Function that is called when a screenshot fails to load
 function deleteScreenshot(element) {
-    console.log("failed " + element.id)
     element.parentElement.removeChild(element)
 }
 
@@ -81,6 +80,7 @@ function addScreenshot(n) {
         content = document.createElement("div") //background
         content.className = "modalContent"
         content.appendChild(new Image()).src = screenshot.src //modal image
+        content.setAttribute("onerror","deleteScreenshot(this)")
         content.id = "content" + n
         content.insertAdjacentElement("afterend", content) //insert invisible content after image
 
