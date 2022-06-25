@@ -67,7 +67,7 @@ function deleteScreenshot(element) {
 }
 
 function deleteModalContent() {
-    var n = document.getElementsById("modalContent").length
+    var n = document.getElementById("modalContent").length
     $("#content" + n).remove()
 }
 
