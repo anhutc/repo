@@ -105,8 +105,8 @@ function showModal(n){
     }
 }
 
-function hideModal(n){
-    var x = document.getElementById("content" + n)
+function hideModal(){
+    var x = document.getElementByClassName("modalContent")
     var y = document.getElementByClassName("close")
     if (x.style.display == "block"){
         x.style.display = "none"
