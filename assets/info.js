@@ -87,7 +87,6 @@ function addScreenshot(n) {
 
         document.getElementById('tweakScreenshots').appendChild(screenshot)
         document.getElementById('tweakScreenshots').appendChild(content)
-        document.getElementById('tweakScreenshots').insertAdjacentHTML("afterbegin", '<span class="close" onclick=(hideModal)>X</span>')
     }
 }
 
