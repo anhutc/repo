@@ -10,6 +10,7 @@ Depiction: https://anhutc.github.io/depiction/?Example
 Size: 0
 MD5sum: d41d8cd98f00b204e9800998ecf8427e
 SHA256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+Icon: assets/page-icons/default.png
 Filename: package/Example/Example.deb
 
 Package: com.dva.libdev
@@ -36,10 +37,11 @@ Author: Hao Nguyen <hao.ict56@gmail.com>
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?TikTokGod
 Section: Apps
-Description: Tweak tốt nhất cho ứng dụng TikTok
+Description: Tốt nhất cho ứng dụng TikTok
 Size: 53932
 MD5sum: 7dfd37e996736671ea27be89a5be1dfc
 SHA256: df6c21ba3e5d94cc4e423d1f5fe774b719185219618b25c29802cb7fcd1a6392
+Icon: assets/tweaak-icons/TikTokGod.png
 Filename: package/TikTokGod/TikTokGod.deb
 
 Package: com.dva.facebooknoads
@@ -51,10 +53,11 @@ Author: Hao Nguyen <hao.ict56@gmail.com>
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?FacebookNoAds
 Section: Apps
-Description: Tweak chặn quảng cáo cho Facebook
+Description: Chặn quảng cáo cho Facebook
 Size: 254880
 MD5sum: 6692ed5e700ff7a69b550e66ace1300c
 SHA256: cb1b066c08fb4c1403b5f3f83e7c2ea5222ec7738e327eecb6be2ffa0d63cf2f
+Icon: assets/tweaak-icons/FacebookNoAds.png
 Filename: package/FacebookNoAds/FacebookNoAds.deb
 
 Package: com.dva.pubgmobile
@@ -70,6 +73,7 @@ Description: Hack Pubg Mobile antiban 10 năm
 Size: 166010
 MD5sum: 477e7551b5e226fd6b1d40f0aea80f29
 SHA256: 71c2ca0e605aee6277ab46ddea9a2e4098c6dbcfa168099a55654da4ab494079
+Icon: assets/tweaak-icons/PubgMobile.png
 Filename: package/PubgMobile/PubgMobile.deb
 
 Package: com.dva.lienquanmobile
@@ -85,6 +89,7 @@ Description: Hack Liên Quân Mobile
 Size: 16000076
 MD5sum: 698ab9662c2597dd44cffc86ecd7abec
 SHA256: a87ce9c12ede89ba81268346c2d10278d04b2d5b74ea28429b22d369b94e4883
+Icon: assets/tweaak-icons/LienQuanMobile.png
 Filename: package/LienQuanMobile/LienQuanMobile.deb
 
 Package: com.dva.dreamleaguesoccer
@@ -100,4 +105,5 @@ Description: Hack Dream League Soccer
 Size: 2426064
 MD5sum: 69f01bc32c7558c2698a2ae4183bd298
 SHA256: 846516b992b9f68a4f3680fb2f890df0ee6f6f3ddd9a051af7630210ad5c9769
+Icon: assets/tweaak-icons/DreamLeagueSoccer.png
 Filename: package/DreamLeagueSoccer/DreamLeagueSoccer.deb
