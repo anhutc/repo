@@ -35,7 +35,7 @@ html {
 }
 
 .notification {
-  background-image: url(../page-icons/info.png);
+  background-image: url(../icons/info.png);
   background-size: 20px;
   background-repeat: no-repeat;
   background-position-y: center;
