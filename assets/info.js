@@ -97,15 +97,12 @@ function addScreenshot(n) {
 document.getElementById('pageIcon').setAttribute("href", ulrICON + ".png")
 
 function showModal(n){
-    document.getElementById("content" + n).style.display = "block"
-    document.getElementById("close").style.display = "block"
+    $("content" + n).show()
+    $("close").show()
 }
 
 function hideModal(){
-    var x = document.getElementById("modalContent")
-    var y = document.getElementById("close")
-
-    x.style.display = ""
-    y.style.display = ""
+    $("modalContent").hide()
+    $("close").hide()
 }
 
