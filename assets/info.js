@@ -3,7 +3,7 @@ document.getElementsByClassName('popupWrapper')[0].parentElement.removeChild(doc
 document.getElementsByClassName('wrapper')[0].style.filter = "none"
 
 var ulrPACKAGE = window.location.origin + "/package/" + window.location.search.substring(1)
-var ulrICON  = window.location.origin + "/assets/page-icons/" + window.location.search.substring(1)
+var ulrICON  = window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1)
 
 //Check File Exist
 function checkFileExist(urlToFile) {
