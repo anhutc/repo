@@ -99,7 +99,7 @@ document.getElementById('pageIcon').setAttribute("href", ulrICON + ".png")
 function showModal(n){
     var x = document.getElementById("content" + n)
     var y = document.getElementById("close")
-    if (x.style.display != "block"){
+    if (x.style.display == null){
         x.style.display = "block"
         y.style.display = "block"
     }
