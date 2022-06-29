@@ -62,7 +62,6 @@ function loadAnotherScreenshot(element) {
 
 //Function that is called when a screenshot fails to load
 function deleteScreenshot(element) {
-    console.log("failed " + element.id)
     element.parentElement.removeChild(element)
 }
 
@@ -79,8 +78,6 @@ function addScreenshot(n) {
 
         linkscreen = createElement("linkscreen","a")
         linkscreen.setAttribute("src", ulrPACKAGE + "/" + n + ".png")
-        linkscreen.setAttribute("onerror","deleteScreenshot(this)")
-        linkscreen.setAttribute("onload","loadAnotherScreenshot(this)")
 
         document.getElementById('tweakScreenshots').appendChild(linkscreen).appendChild(screenshot)
     }
