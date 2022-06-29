@@ -61,11 +61,6 @@ function loadAnotherScreenshot(element) {
     document.getElementById('tweakScreenshots').style.height = "260px"
 }
 
-//Function that is called when a screenshot fails to load
-function deleteScreenshot(element) {
-    element.parentElement.removeChild(element)
-}
-
 //Function to add a new screenshot
 function addScreenshot(n) {
     if (document.getElementById("screenshot" + n) == null) {
@@ -80,7 +75,6 @@ function addScreenshot(n) {
         content = document.createElement("div") //background
         content.className = "modalContent"
         content.appendChild(new Image()).src = screenshot.src //modal image
-        content.setAttribute("onerror","deleteScreenshot(this)")
         content.id = "modalContent content" + n
         content.insertAdjacentElement("afterend", content) //insert invisible content after image
 
