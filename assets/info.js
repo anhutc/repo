@@ -72,15 +72,7 @@ function addScreenshot(n) {
         screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
         screenshot.id = "screenshot" + n
 
-        content = document.createElement("div") //background
-        content.className = "modalContent"
-        content.appendChild(new Image()).src = screenshot.src //modal image
-        content.id = "modalContent content" + n
-        content.insertAdjacentElement("afterend", content) //insert invisible content after image
-
-
         document.getElementById('tweakScreenshots').appendChild(screenshot)
-        document.getElementById('tweakScreenshots').appendChild(content)
     }
 }
 
@@ -89,14 +81,3 @@ function addScreenshot(n) {
 
 //Set page icon to package icon
 document.getElementById('pageIcon').setAttribute("href", ulrICON + ".png")
-
-function showModal(n){
-    $("#content" + n).show()
-    $("#close").show()
-}
-
-function hideModal(){
-    $("#modalContent").hide()
-    $("#close").hide()
-}
-
