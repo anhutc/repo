@@ -74,7 +74,7 @@ function addScreenshot(n) {
         screenshot.setAttribute("onerror","deleteScreenshot(this)")
         screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
         screenshot.setAttribute("alt", "Screenshot" + n)
-        screenshot.setAttribute("title", "Screenshot" + n)
+        screenshot.setAttribute("title", xmlDoc.getElementsByTagName("tweakName")[0].childNodes[0].nodeValue)
         screenshot.id = "screenshot" + n
 
         linkscreen = createElement("linkscreen","a")
