@@ -72,8 +72,6 @@ function addScreenshot(n) {
     if (document.getElementById("screenshot" + n) == null) {
         screenshot = createElement("screenshot","img")
         screenshot.setAttribute("src", ulrPACKAGE + "/" + n + ".png")
-        screenshot.setAttribute("dataModal","")
-        screenshot.setAttribute("onclick","showModal(" + n + ")")
         screenshot.setAttribute("onerror","deleteScreenshot(this)")
         screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
         screenshot.setAttribute("alt", "Screenshot" + n)
