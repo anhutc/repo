@@ -61,6 +61,12 @@ function loadAnotherScreenshot(element) {
     document.getElementById('tweakScreenshots').style.height = "260px"
 }
 
+//Function that is called when a screenshot fails to load
+function deleteScreenshot(element) {
+    console.log("failed " + element.id)
+    element.parentElement.removeChild(element)
+}
+
 //Function to add a new screenshot
 function addScreenshot(n) {
     if (document.getElementById("screenshot" + n) == null) {
@@ -70,9 +76,14 @@ function addScreenshot(n) {
         screenshot.setAttribute("onclick","showModal(" + n + ")")
         screenshot.setAttribute("onerror","deleteScreenshot(this)")
         screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
+        screenshot.setAttribute("alt", "Screenshot" + n)
+        screenshot.setAttribute("title", "Screenshot" + n)
         screenshot.id = "screenshot" + n
 
-        document.getElementById('tweakScreenshots').appendChild(screenshot)
+        linkscreen = createElement("a")
+        linkscreen.setAttribute("src", ulrPACKAGE + "/" + n + ".png")
+
+        document.getElementById('tweakScreenshots').appendChild(linkscreen).appendChild(screenshot)
     }
 }
 
