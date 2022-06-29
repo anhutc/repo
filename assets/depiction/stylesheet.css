@@ -276,3 +276,7 @@ a:active, a:hover {
     padding-top: 150px;
   }
 }
+
+.tweakScreenshots {
+  height: 260px;
+}

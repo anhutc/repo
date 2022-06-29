@@ -58,7 +58,6 @@ document.getElementById("tweakChangelog").innerHTML = changeLog //Apply changelo
 function loadAnotherScreenshot(element) {
     var n = parseInt(element.id.slice(-1),10)
     addScreenshot(n + 1)    
-    document.getElementById('tweakScreenshots').style.height = "260px"
 }
 
 //Function that is called when a screenshot fails to load
