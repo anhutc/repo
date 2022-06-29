@@ -78,7 +78,7 @@ function addScreenshot(n) {
         screenshot.setAttribute("title", "Screenshot" + n)
         screenshot.id = "screenshot" + n
 
-        linkscreen = createElement("a")
+        linkscreen = createElement("linkscreen","a")
         linkscreen.setAttribute("src", ulrPACKAGE + "/" + n + ".png")
 
         document.getElementById('tweakScreenshots').appendChild(linkscreen).appendChild(screenshot)
