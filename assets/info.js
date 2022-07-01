@@ -108,9 +108,9 @@ function addpopup() {
         imgPopup.children('img').attr('src', '')
     })
 
-    popupImage.click(function(e) {
-        e.stopPropagation()
-    })
+    // popupImage.click(function(e) {
+    //     e.stopPropagation()
+    // })
     
 };
 
