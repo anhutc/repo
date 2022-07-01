@@ -72,14 +72,9 @@ function addScreenshot(n) {
         screenshot.setAttribute("src", ulrPACKAGE + "/" + n + ".png")
         screenshot.setAttribute("onerror","deleteScreenshot(this)")
         screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
-        screenshot.setAttribute("alt", "Screenshot" + n)
-        screenshot.setAttribute("title", "Screenshot" + n)
         screenshot.id = "screenshot" + n
 
-        linkscreen = createElement("linkscreen","a")
-        linkscreen.setAttribute("src", ulrPACKAGE + "/" + n + ".png")
-
-        document.getElementById('tweakScreenshots').appendChild(linkscreen).appendChild(screenshot)
+        document.getElementById('tweakScreenshots').appendChild(screenshot)
     }
 }
 
@@ -88,3 +83,30 @@ function addScreenshot(n) {
 
 //Set page icon to package icon
 document.getElementById('pageIcon').setAttribute("href", ulrICON + ".png")
+
+
+$(document).ready(function() {
+
+    // required elements
+    var imgPopup = $('.img-popup');
+    var imgCont  = $('.screenshots');
+    var popupImage = $('.img-popup img');
+    var closeBtn = $('.close-btn');
+  
+    // handle events
+    imgCont.on('click', function() {
+      var img_src = $(this).children('img').attr('src');
+      imgPopup.children('img').attr('src', img_src);
+      imgPopup.addClass('opened');
+    });
+  
+    $(imgPopup, closeBtn).on('click', function() {
+      imgPopup.removeClass('opened');
+      imgPopup.children('img').attr('src', '');
+    });
+  
+    popupImage.on('click', function(e) {
+      e.stopPropagation();
+    });
+    
+  });
