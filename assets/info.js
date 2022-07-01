@@ -81,35 +81,38 @@ function addScreenshot(n) {
     }
 }
 
-//Load initital wrapper
-    addScreenshot(1)
 
-//Set page icon to package icon
-document.getElementById('pageIcon').setAttribute("href", ulrICON + ".png")
-
-
-$(document).ready(function() {
+function addpopup() {
 
     // required elements
     var imgPopup = $('.img-popup');
     var imgCont  = $('.screenshot');
     var popupImage = $('.img-popup img');
     var closeBtn = $('.close-btn');
-  
+
     // handle events
     imgCont.on('click', function() {
-      var img_src = $(this).children('img').attr('src');
-      imgPopup.children('img').attr('src', img_src);
-      imgPopup.addClass('opened');
+    var img_src = $(this).children('img').attr('src');
+    imgPopup.children('img').attr('src', img_src);
+    imgPopup.addClass('opened');
     });
-  
+
     $(imgPopup, closeBtn).on('click', function() {
-      imgPopup.removeClass('opened');
-      imgPopup.children('img').attr('src', '');
+    imgPopup.removeClass('opened');
+    imgPopup.children('img').attr('src', '');
     });
-  
+
     popupImage.on('click', function(e) {
-      e.stopPropagation();
+    e.stopPropagation();
     });
     
-  });
+};
+
+//Load initital wrapper
+    addScreenshot(1)
+
+    addpopup()
+
+//Set page icon to package icon
+document.getElementById('pageIcon').setAttribute("href", ulrICON + ".png")
+
