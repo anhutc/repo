@@ -92,20 +92,20 @@ function addpopup() {
     var closeBtn = document.getElementById('close-btn')
 
     // handle events
-    imgCont.on('click', function() {
-    var img_src = $(this).children('img').attr('src');
-    imgPopup.children('img').attr('src', img_src);
-    imgPopup.addClass('opened');
-    });
+    imgCont.click (function() {
+        var img_src = (this).children('img').attr('src')
+        imgPopup.children('img').attr('src', img_src)
+        imgPopup.addClass('opened')
+    })
 
-    $(imgPopup, closeBtn).on('click', function() {
-    imgPopup.removeClass('opened');
-    imgPopup.children('img').attr('src', '');
-    });
+    $(imgPopup, closeBtn).click(function() {
+        imgPopup.removeClass('opened')
+        imgPopup.children('img').attr('src', '')
+    })
 
-    popupImage.on('click', function(e) {
-    e.stopPropagation();
-    });
+    popupImage.click(function(e) {
+        e.stopPropagation()
+    })
     
 };
 
