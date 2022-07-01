@@ -74,7 +74,10 @@ function addScreenshot(n) {
         screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
         screenshot.id = "screenshot" + n
 
-        document.getElementById('tweakScreenshots').appendChild(createElement("div").setAttribute("class","screenshot")).appendChild(screenshot)
+        screenshotpopup = createElement("div")
+        screenshotpopup.setAttribute("class","screenshot")
+
+        document.getElementById('tweakScreenshots').appendChild(screenshotpopup).appendChild(screenshot)
     }
 }
 
