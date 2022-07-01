@@ -1,5 +1,5 @@
 Package: com.dva.libdev
-Name: dva
+Name: libdev
 Version: 4.8.1
 Depends: firmware (>= 12)
 Architecture: iphoneos-arm
@@ -7,7 +7,7 @@ Description: Thư viện hệ thống
 Author: Hao Nguyen <hao.ict56@gmail.com>
 Maintainer: DVA <anhutck58@gmail.com>
 Section: System
-Depiction: https://anhutc.github.io/depiction/?dva
+Depiction: https://anhutc.github.io/depiction/?libdev
 Size: 46954
 MD5sum: 9d08e737de8d1de3bc68e27936d1a950
 SHA256: fdcf4ba4c59c21d28ecb7b2e2d31e2b448522a9b89f8096531a33d5944f60633
