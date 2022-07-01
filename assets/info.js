@@ -68,15 +68,14 @@ function deleteScreenshot(element) {
 //Function to add a new screenshot
 function addScreenshot(n) {
     if (document.getElementById("screenshot" + n) == null) {
-        screenshot = createElement("img")
+        screenshot = createElement("screenshot","img")
         screenshot.setAttribute("src", ulrPACKAGE + "/" + n + ".png")
         screenshot.setAttribute("onerror","deleteScreenshot(this)")
         screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
         screenshot.id = "screenshot" + n
 
-        screenshotpopup = createElement("div")
-        screenshotpopup.setAttribute("class","screenshot")
-        screenshotpopup.setAttribute("id","screenshot")
+        screenshotpopup = createElement("screenshotpopup","div")
+        screenshotpopup.setAttribute("id","screenshotpopup")
 
         document.getElementById('tweakScreenshots').appendChild(screenshotpopup).appendChild(screenshot)
     }
@@ -87,7 +86,7 @@ function addpopup() {
 
     // required elements
     var imgPopup = document.getElementById('img-popup')
-    var imgCont  = document.getElementById('screenshot')
+    var imgCont  = document.getElementById('screenshotpopup')
     var popupImage = document.getElementById('img-popup').getElementsByTagName('img')
     var closeBtn = document.getElementById('close-btn')
 
