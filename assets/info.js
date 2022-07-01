@@ -86,10 +86,10 @@ function addScreenshot(n) {
 function addpopup() {
 
     // required elements
-    var imgPopup = getElementById('img-popup')
-    var imgCont  = getElementById('screenshot')
-    var popupImage = getElementById('img-popup').getElementsByTagName('img')
-    var closeBtn = getElementById('close-btn')
+    var imgPopup = document.getElementById('img-popup')
+    var imgCont  = document.getElementById('screenshot')
+    var popupImage = document.getElementById('img-popup').getElementsByTagName('img')
+    var closeBtn = document.getElementById('close-btn')
 
     // handle events
     imgCont.on('click', function() {
