@@ -112,6 +112,7 @@ function addpopup() {
 //Load initital wrapper
     addScreenshot(1)
 
+//Load popup
     addpopup()
 
 //Set page icon to package icon
