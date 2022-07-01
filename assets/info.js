@@ -98,7 +98,12 @@ function addpopup() {
         imgPopup.addClass('opened')
     })
 
-    (imgPopup, closeBtn).click(function() {
+    closeBtn.click(function() {
+        imgPopup.removeClass('opened')
+        imgPopup.children('img').attr('src', '')
+    })
+
+    imgPopup.click(function() {
         imgPopup.removeClass('opened')
         imgPopup.children('img').attr('src', '')
     })
