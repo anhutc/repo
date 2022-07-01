@@ -76,6 +76,7 @@ function addScreenshot(n) {
 
         screenshotpopup = createElement("div")
         screenshotpopup.setAttribute("class","screenshot")
+        screenshotpopup.setAttribute("id","screenshot")
 
         document.getElementById('tweakScreenshots').appendChild(screenshotpopup).appendChild(screenshot)
     }
@@ -85,10 +86,10 @@ function addScreenshot(n) {
 function addpopup() {
 
     // required elements
-    var imgPopup = getElementsByClassName('img-popup')
-    var imgCont  = getElementsByClassName('screenshot')
-    var popupImage = getElementsByClassName('img-popup').getElementsByTagName('img')
-    var closeBtn = getElementsByClassName('close-btn')
+    var imgPopup = getElementById('img-popup')
+    var imgCont  = getElementById('screenshot')
+    var popupImage = getElementById('img-popup').getElementsByTagName('img')
+    var closeBtn = getElementById('close-btn')
 
     // handle events
     imgCont.on('click', function() {
