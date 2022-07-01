@@ -21,7 +21,7 @@ Architecture: iphoneos-arm
 Author: Hao Nguyen <hao.ict56@gmail.com>
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?TikTokGod
-Section: Apps
+Section: Tweak
 Description: Tốt nhất cho ứng dụng TikTok
 Size: 53932
 MD5sum: 7dfd37e996736671ea27be89a5be1dfc
@@ -36,7 +36,7 @@ Architecture: iphoneos-arm
 Author: Hao Nguyen <hao.ict56@gmail.com>
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?FacebookNoAds
-Section: Apps
+Section: Tweak
 Description: Chặn quảng cáo cho Facebook
 Size: 254880
 MD5sum: 6692ed5e700ff7a69b550e66ace1300c
@@ -51,7 +51,7 @@ Architecture: iphoneos-arm
 Author: LolZIOS
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?PubgMobile
-Section: Hacks
+Section: Hack
 Description: Hack Pubg Mobile antiban 10 năm
 Size: 166010
 MD5sum: 477e7551b5e226fd6b1d40f0aea80f29
@@ -66,8 +66,8 @@ Architecture: iphoneos-arm
 Author: Laxus
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?LienQuanMobile
-Section: Hacks
-Description: Hack Liên Quân Mobile
+Section: Hack
+Description: Hack Map Liên Quân Mobile
 Size: 16000076
 MD5sum: 698ab9662c2597dd44cffc86ecd7abec
 SHA256: a87ce9c12ede89ba81268346c2d10278d04b2d5b74ea28429b22d369b94e4883
@@ -81,7 +81,7 @@ Architecture: iphoneos-arm
 Author: Zahir
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?DreamLeagueSoccer
-Section: Hacks
+Section: Hack
 Description: Hack Dream League Soccer
 Size: 2426064
 MD5sum: 69f01bc32c7558c2698a2ae4183bd298

@@ -85,12 +85,12 @@ for (i = 0; i < packages.length; i++) {
   bigBox.appendChild(packageContentHolder)
   a.appendChild(bigBox)
   // Add to Scroller
-  if (packages[i].Section == "Apps") {
-    document.getElementById("Apps").appendChild(a)
-  } else if (packages[i].Section == "Hacks") {
+  if (packages[i].Section == "Tweak") {
+    document.getElementById("Tweaks").appendChild(a)
+  } else if (packages[i].Section == "Hack") {
     document.getElementById("Hacks").appendChild(a)
   } else {
-    document.getElementById("Others").appendChild(a)
+    document.getElementById("Other").appendChild(a)
   }
   
 }
