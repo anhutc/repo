@@ -67,13 +67,18 @@ function deleteScreenshot(element) {
 //Function to add a new screenshot
 function addScreenshot(n) {
     if (document.getElementById("screenshot" + n) == null) {
-        screenshot = createElement("screenshot","img")
-        screenshot.setAttribute("src", ulrPACKAGE + "/" + n + ".png")
-        screenshot.setAttribute("onerror","deleteScreenshot(this)")
-        screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
-        screenshot.id = "screenshot" + n
+        srcIMG = ulrPACKAGE + "/" + n + ".png"
+        if (checkFileExist(srcIMG)) {
+            screenshot = createElement("screenshot","img")
+            screenshot.setAttribute("src",srcIMG)
+            screenshot.id = "screenshot" + n
 
-        document.getElementById('tweakScreenshots').appendChild(screenshot)
+            linkpopup = createElement("image","a")
+            linkpopup.setAttribute("href",srcIMG)
+            linkpopup.setAttribute("title",window.location.search.substring(1))
+
+            document.getElementById('tweakScreenshots').appendChild(linkpopup).appendChild(screenshot)
+        }
     }
 }
 
