@@ -1,15 +1,17 @@
 //Check File Exist
 function checkFileExist(urlToFile) {
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', urlToFile, false)
-    xhr.send()
+    xhr.open('HEAD', urlToFile, false);
+    xhr.send();
      
     if (xhr.status == "404") {
-        return false
+        return false;
     } else {
-        return true
+        return true;
     }
 }
+
+var ulrPACKAGE = window.location.origin + "/package/" + window.location.search.substring(1)
 
 //Redirect to 404 page if package not specified in URL
 if (checkFileExist(ulrPACKAGE + "/Info.xml")) {
@@ -22,7 +24,6 @@ if (checkFileExist(ulrPACKAGE + "/Info.xml")) {
 document.getElementsByClassName('popupWrapper')[0].parentElement.removeChild(document.getElementsByClassName('popupWrapper')[0])
 document.getElementsByClassName('wrapper')[0].style.filter = "none"
 
-var ulrPACKAGE = window.location.origin + "/package/" + window.location.search.substring(1)
 
 function checkImage(url) {
     var request = new XMLHttpRequest();
