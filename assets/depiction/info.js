@@ -24,23 +24,6 @@ if (checkFileExist(ulrPACKAGE + "/Info.xml")) {
 document.getElementsByClassName('popupWrapper')[0].parentElement.removeChild(document.getElementsByClassName('popupWrapper')[0])
 document.getElementsByClassName('wrapper')[0].style.filter = "none"
 
-
-function checkImage(url) {
-    var request = new XMLHttpRequest();
-    request.open("GET", url, true);
-    request.send();
-    request.onload = function() {
-        if (request.status == 200) //if(statusText == OK)
-        {
-            return true
-        } else {
-            return false
-        }
-    }
-}
-
-
-
 var text = loadXMLDoc("/package/" + window.location.search.substring(1) + "/Info.xml"); //Specify the name of the XML config to load
 var parser = new DOMParser()
 var xmlDoc = parser.parseFromString(text,"text/xml") //Load the XML config
@@ -78,24 +61,19 @@ function loadAnotherScreenshot(element) {
     addScreenshot(n + 1)    
 }
 
-//Function that is called when a screenshot fails to load
-function deleteScreenshot(element) {
-    element.parentElement.removeChild(element)
-}
-
 //Function to add a new screenshot
 function addScreenshot(n) {
     srcIMG = ulrPACKAGE + "/" + n + ".png"
 
-    if (document.getElementById("screenshot" + n) == null && checkImage(srcIMG)) {
-            screenshot = createElement("screenshot","img")
-            screenshot.setAttribute("src",srcIMG)
-            screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
-            screenshot.id = "screenshot" + n
+    if (document.getElementById("screenshot" + n) == null && checkFileExist(srcIMG)) {
+        screenshot = createElement("screenshot","img")
+        screenshot.setAttribute("src",srcIMG)
+        screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
+        screenshot.id = "screenshot" + n
 
-            linkpopup = createElement("","a")
-            linkpopup.setAttribute("href",srcIMG)
-            linkpopup.setAttribute("title",window.location.search.substring(1))
+        linkpopup = createElement("","a")
+        linkpopup.setAttribute("href",srcIMG)
+        linkpopup.setAttribute("title",window.location.search.substring(1))
 
         document.getElementById('tweakScreenshots').appendChild(linkpopup).appendChild(screenshot)
 
@@ -149,7 +127,7 @@ $.extend(true, $.magnificPopup.defaults, {
 })
 
 //Set page icon to package icon
-if (checkImage(window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1) + ".png")) {
+if (checkFileExist(window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1) + ".png")) {
     var ulrICON  = window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1) + ".png"
 } else {
     var ulrICON  = window.location.origin + "/assets/page-icons/default.png"
