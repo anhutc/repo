@@ -16,23 +16,6 @@ function checkFileExist(urlToFile)
     }
 }
 
-//Check IMG
-function checkIMG(img) {
-    var request = false;
-    if (window.XMLHttpRequest) {
-            request = new XMLHttpRequest
-    } else if (window.ActiveXObject) {
-            request = new ActiveXObject("Microsoft.XMLHttp")
-    }
-
-    if (request) {
-            request.open("GET", img)
-            if (request.status == 200) { return true }
-    }
-
-    return false
-}
-
 var ulrPACKAGE = window.location.origin + "/package/" + window.location.search.substring(1)
 
 //Redirect to 404 page if package not specified in URL
@@ -83,7 +66,7 @@ function loadAnotherScreenshot(element) {
 function addScreenshot(n) {
     srcIMG = ulrPACKAGE + "/" + n + ".png"
 
-    if (document.getElementById("screenshot" + n) == null && checkIMG(srcIMG)) {
+    if (document.getElementById("screenshot" + n) == null && checkFileExist(srcIMG)) {
         screenshot = createElement("screenshot","img")
         screenshot.setAttribute("src",srcIMG)
         screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
@@ -145,7 +128,7 @@ $.extend(true, $.magnificPopup.defaults, {
 })
 
 //Set page icon to package icon
-if (checkIMG(window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1) + ".png")) {
+if (checkFileExist(window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1) + ".png")) {
     var ulrICON  = window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1) + ".png"
 } else {
     var ulrICON  = window.location.origin + "/assets/page-icons/default.png"
