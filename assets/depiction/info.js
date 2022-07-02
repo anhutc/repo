@@ -58,7 +58,7 @@ document.getElementById("tweakChangelog").innerHTML = changeLog //Apply changelo
 
 //Function that is called when a screenshot loads
 function loadAnotherScreenshot(element) {
-    var n = parseInt(element.id.slice(-1),10)
+    var n = parseInt(element.id.slice(-1),20)
     addScreenshot(n + 1)    
 }
 
