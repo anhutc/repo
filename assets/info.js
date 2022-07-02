@@ -74,50 +74,28 @@ function addScreenshot(n) {
         screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
         screenshot.id = "screenshot" + n
 
-        screenshotpopup = createElement("screenshotpopup","div")
-        screenshotpopup.setAttribute("id","screenshotpopup")
-
-        document.getElementById('tweakScreenshots').appendChild(screenshotpopup).appendChild(screenshot)
+        document.getElementById('tweakScreenshots').appendChild(screenshot)
     }
 }
 
-
-function addpopup() {
-
-    // required elements
-    var imgPopup = document.getElementById('img-popup')
-    var imgCont  = document.getElementById('screenshotpopup')
-    var popupImage = document.getElementById('img-popup').getElementsByTagName('img')
-    var closeBtn = document.getElementById('close-btn')
-
-    // handle events
-    imgCont.click (function() {
-        var img_src = (this).children('img').attr('src')
-        imgPopup.children('img').attr('src', img_src)
-        imgPopup.addClass('opened')
-    })
-
-    closeBtn.click(function() {
-        imgPopup.removeClass('opened')
-        imgPopup.children('img').attr('src', '')
-    })
-
-    imgPopup.click(function() {
-        imgPopup.removeClass('opened')
-        imgPopup.children('img').attr('src', '')
-    })
-
-    // popupImage.click(function(e) {
-    //     e.stopPropagation()
-    // })
+function popup() {              
+    $(".screenshots img").click(function () {
+        var $src = $(this).attr("src");
+        $(".show").fadeIn();
+        $(".img-show img").attr("src", $src);
+    });
+    
+    $("span, .overlay").click(function () {
+        $(".show").fadeOut();
+    });
     
 };
 
+popup()
+
+
 //Load initital wrapper
     addScreenshot(1)
-
-//Load popup
-    addpopup()
 
 //Set page icon to package icon
 document.getElementById('pageIcon').setAttribute("href", ulrICON + ".png")
