@@ -4,7 +4,7 @@
 @font-face {
   font-family: 'Nunito';
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   src: url('/assets/fonts/nunito.eot'); /* IE9 Compat Modes */
   src: local(''),
        url('/assets/fonts/nunito.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
