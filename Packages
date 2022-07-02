@@ -13,6 +13,8 @@ MD5sum: 9d08e737de8d1de3bc68e27936d1a950
 SHA256: fdcf4ba4c59c21d28ecb7b2e2d31e2b448522a9b89f8096531a33d5944f60633
 Filename: package/libdev/libdev.deb
 
+
+
 Package: com.dva.tiktokgod
 Name: TikTok God
 Version: 4.0
@@ -42,6 +44,504 @@ Size: 254880
 MD5sum: 6692ed5e700ff7a69b550e66ace1300c
 SHA256: cb1b066c08fb4c1403b5f3f83e7c2ea5222ec7738e327eecb6be2ffa0d63cf2f
 Filename: package/FacebookNoAds/FacebookNoAds.deb
+
+
+Package: com.dva.appdata
+Name: App Data
+Version: 1.3.6
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Author: Fouad Raheb
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?AppData
+Section: Tweak
+Description: Xem và truy cập dữ liệu ứng dụng
+Size: 270838
+MD5sum: baa467c88bf0e67e02f8f44129d5409e
+SHA256: 2de71f49b41102bc02dc88a6a0694c4c018cc5aa903b6a9597aa4e228f5b43ef
+Filename: package/AppData/AppData.deb
+
+Package: com.dva.appleturboboost
+Name: Apple Turbo Boost
+Version: 0.7.0
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: Halo_Michael
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?AppleTurboBoost
+Section: System
+Description: Apple Turbo Boost
+Size: 9876
+MD5sum: 3b3fb229c9efe153cdf6288963efc66a
+SHA256: c593c79ecbd596793230cbb9de3dd448118d37a1f029f1904d455ffe28ee9992
+Filename: package/AppleTurboBoost/AppleTurboBoost.deb
+
+Package: com.dva.appstore
+Name: App Store ++
+Version: 0.9.18
+Depends: firmware (>= 11.0), mobilesubstrate
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?AppStore
+Section: Tweak
+Description: Cửa hàng ứng dụng ++
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/AppStore/AppStore.deb
+
+Package: com.dva.appsync
+Name: App Sync
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?AppSync
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/AppSync/AppSync.deb
+
+Package: com.dva.audiorecorderxs
+Name: Audio Recorder XS
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?AudioRecorderXS
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/AudioRecorderXS/AudioRecorderXS.deb
+
+Package: com.dva.autotouch
+Name: Auto Touch
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?AutoTouch
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/AutoTouch/AutoTouch.deb
+
+Package: com.dva.callconnect
+Name: Call Connect
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?CallConnect
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/CallConnect/CallConnect.deb
+
+Package: com.dva.copic2
+Name: Copic 2
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?Copic2
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/Copic2/Copic2.deb
+
+Package: com.dva.copypasta
+Name: Copypasta
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?Copypasta
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/Copypasta/Copypasta.deb
+
+Package: com.dva.cracktool4
+Name: Crack Tool 4
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?CrackTool4
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/CrackTool4/CrackTool4.deb
+
+Package: com.dva.cydown
+Name: CyDown
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?CyDown
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/CyDown/CyDown.deb
+
+Package: com.dva.enchant
+Name: Enchant
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?Enchant
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/Enchant/Enchant.deb
+
+Package: com.dva.filzafilemanager
+Name: Filza File Manager
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?FilzaFileManager
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/FilzaFileManager/FilzaFileManager.deb
+
+Package: com.dva.flow
+Name: Flow
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?Flow
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/Flow/Flow.deb
+
+Package: com.dva.hidejb
+Name: Hide JB
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?HideJB
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/HideJB/HideJB.deb
+
+Package: com.dva.icleanerpro
+Name: iCleaner Pro
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?iCleanerPro
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/iCleanerPro/iCleanerPro.deb
+
+Package: com.dva.igamegod
+Name: iGame God
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?iGameGod
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/iGameGod/iGameGod.deb
+
+Package: com.dva.key
+Name: Key ++
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?Key
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/Key/Key.deb
+
+Package: com.dva.messengernoads
+Name: Messenger No Ads
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?MessengerNoAds
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/MessengerNoAds/MessengerNoAds.deb
+
+Package: com.dva.mybloxx
+Name: MYbloXX
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?MYbloXX
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/MYbloXX/MYbloXX.deb
+
+Package: com.dva.orion
+Name: Orion
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?Orion
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/Orion/Orion.deb
+
+Package: com.dva.photomanager
+Name: Photo Manager
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?PhotoManager
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/PhotoManager/PhotoManager.deb
+
+Package: com.dva.pulloverpro
+Name: Pull Over Pro
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?PullOverPro
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/PullOverPro/PullOverPro.deb
+
+Package: com.dva.reprovisionreborn
+Name: Re Provision Reborn
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?ReProvisionReborn
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/ReProvisionReborn/ReProvisionReborn.deb
+
+Package: com.dva.safariplus
+Name: Safari Plus
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?SafariPlus
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/SafariPlus/SafariPlus.deb
+
+Package: com.dva.safaritabs
+Name: Safari Tabs
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?SafariTabs
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/SafariTabs/SafariTabs.deb
+
+Package: com.dva.Shadow
+Name: Shadow
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?Shadow
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/Shadow/Shadow.deb
+
+Package: com.dva.smartrotate
+Name: Smart Rotate
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?SmartRotate
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/SmartRotate/SmartRotate.deb
+
+Package: com.dva.systeminfo
+Name: System Info
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?SystemInfo
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/SystemInfo/SystemInfo.deb
+
+Package: com.dva.tiktoknoadschina
+Name: TikTok No Ads China
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?TikTokNoAdsChina
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/TikTokNoAdsChina/TikTokNoAdsChina.deb
+
+Package: com.dva.translation
+Name: Translation
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?Translation
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/Translation/Translation.deb
+
+Package: com.dva.vpncc
+Name: VPN CC
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?VPNCC
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/VPNCC/VPNCC.deb
+
+Package: com.dva.youpip
+Name: You Pip
+Version: 
+Depends: firmware (>= 12)
+Architecture: iphoneos-arm
+Author: 
+Maintainer: DVA <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depiction/?YouPip
+Section: Tweak
+Description: 
+Size: 
+MD5sum: 
+SHA256: 
+Filename: package/YouPip/YouPip.deb
+
+
 
 Package: com.dva.pubgmobile
 Name: Pubg Mobile

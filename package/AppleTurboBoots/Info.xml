@@ -1,0 +1,43 @@
+<tweak>
+    <tweakName>
+        Apple Turbo Boost
+    </tweakName>
+    <tweakShortDescription>
+        Apple Turbo Boost
+    </tweakShortDescription>
+    <tweakDescription>
+        Tính năng:
+            \n•
+    </tweakDescription>
+
+    <tweakSize>
+        330 KB
+    </tweakSize>
+    <tweakCategory>
+        System
+    </tweakCategory>
+    <tweakCompatibility>
+        12 - 14
+    </tweakCompatibility>
+    <tweakVersion>
+        0.7.0
+    </tweakVersion>
+    <tweakUpdateDate>
+        02/07/2022
+    </tweakUpdateDate>
+
+    <tweakDeveloper>
+        Halo_Michael
+    </tweakDeveloper>
+    <tweakDevLink>
+        @halo_michael
+    </tweakDevLink>
+    <tweakDevLinkURL>
+        /
+    </tweakDevLinkURL>
+
+    <tweakChangelog>
+        • Sửa lỗi
+    </tweakChangelog>
+
+</tweak>
