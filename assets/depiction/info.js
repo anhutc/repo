@@ -71,7 +71,7 @@ function addScreenshot(n) {
         screenshot = createElement("screenshot","img")
         screenshot.setAttribute("src",srcIMG)
         screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
-        screenshot.setAttribute("onerror","deleteScreenshot(thit)")
+        screenshot.setAttribute("onerror","deleteScreenshot(this)")
 
         if (checkFileExist(srcIMG)) {
             linkpopup = createElement("","a")
