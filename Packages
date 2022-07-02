@@ -493,20 +493,20 @@ MD5sum:
 SHA256: 
 Filename: package/SystemInfo/SystemInfo.deb
 
-Package: com.dva.douyingod
-Name: Douyin God
+Package: com.dva.douyinplus
+Name: Douyin+
 Version: 1.1
 Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm
 Author: Agricu
 Maintainer: DVA <anhutck58@gmail.com>
-Depiction: https://anhutc.github.io/depiction/?DouyinGod
+Depiction: https://anhutc.github.io/depiction/?DouyinPlus
 Section: Tweak
-Description: Tốt nhất cho ứng dụng Douyin
+Description: Tải video Douyin không watermark
 Size: 49002
 MD5sum: a7d26d2103ed6ab6a0a95ba1ff89b075
 SHA256: 529d22f0b6fbccc4d4c2c7259a38e8f577c4b66215da3b6e6eab3c0fe8619e0a
-Filename: package/DouyinGod/DouyinGod.deb
+Filename: package/DouyinPlus/DouyinPlus.deb
 
 Package: com.dva.translation
 Name: Translation
