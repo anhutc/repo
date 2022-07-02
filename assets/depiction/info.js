@@ -1,9 +1,3 @@
-//Remove Javascript Detector
-document.getElementsByClassName('popupWrapper')[0].parentElement.removeChild(document.getElementsByClassName('popupWrapper')[0])
-document.getElementsByClassName('wrapper')[0].style.filter = "none"
-
-var ulrPACKAGE = window.location.origin + "/package/" + window.location.search.substring(1)
-
 //Check File Exist
 function checkFileExist(urlToFile) {
     var xhr = new XMLHttpRequest();
@@ -16,6 +10,19 @@ function checkFileExist(urlToFile) {
         return true
     }
 }
+
+//Redirect to 404 page if package not specified in URL
+if (checkFileExist(ulrPACKAGE + "/Info.xml")) {
+    console.log("Hi~")
+} else {
+  location.replace("https://anhutc.github.io/404")
+}
+
+//Remove Javascript Detector
+document.getElementsByClassName('popupWrapper')[0].parentElement.removeChild(document.getElementsByClassName('popupWrapper')[0])
+document.getElementsByClassName('wrapper')[0].style.filter = "none"
+
+var ulrPACKAGE = window.location.origin + "/package/" + window.location.search.substring(1)
 
 function checkImage(url) {
     var request = new XMLHttpRequest();
@@ -31,12 +38,7 @@ function checkImage(url) {
     }
 }
 
-//Redirect to 404 page if package not specified in URL
-if (checkFileExist(ulrPACKAGE + "/Info.xml")) {
-    console.log("Hi~")
-} else {
-  location.replace("https://anhutc.github.io/404")
-}
+
 
 var text = loadXMLDoc("/package/" + window.location.search.substring(1) + "/Info.xml"); //Specify the name of the XML config to load
 var parser = new DOMParser()
