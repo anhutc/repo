@@ -4,22 +4,19 @@ document.getElementsByClassName('wrapper')[0].style.filter = "none"
 
 //Check URL
 function checkURL(url) {
-    var check = new XMLHttpRequest(),
-    checkThisUrl = url
-    check.open('GET', checkThisUrl, true)
-    check.onreadystatechange = checkReadyState()
-
-}        
-
-function checkReadyState() {
-
-    if (check.readyState === 4) {
-        if ((check.status == 200) || (check.status == 0)) {
-            return true
-        } else {
-            return false
-        }
+    var request = false;
+    if (window.XMLHttpRequest) {
+            request = new XMLHttpRequest;
+    } else if (window.ActiveXObject) {
+            request = new ActiveXObject("Microsoft.XMLHttp");
     }
+
+    if (request) {
+            request.open("GET", url);
+            if (request.status == 200) { return true; }
+    }
+
+    return false;
 }
 
 var ulrPACKAGE = window.location.origin + "/package/" + window.location.search.substring(1)
