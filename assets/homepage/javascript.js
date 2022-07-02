@@ -67,7 +67,7 @@ for (i = 0; i < packages.length; i++) {
     .trim()
     .replace(/!|@|%|\^|\*|\(|\)|\+|\=|\<|\>|\?|\/|,|\.|\:|\|\'|\"|\&|\#|\[|\]|~|\$|_|`|-|{|}|\||\\/g,"")
 
-    + ".png"
+    + ".webp"
 
   if (checkFileExist(srcIMG)) {
     urlIMG = srcIMG
