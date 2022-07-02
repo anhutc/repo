@@ -83,7 +83,7 @@ function loadAnotherScreenshot(element) {
 function addScreenshot(n) {
     srcIMG = ulrPACKAGE + "/" + n + ".png"
 
-    if (document.getElementById("screenshot" + n) == null && checkURL(srcIMG)) {
+    if (document.getElementById("screenshot" + n) == null && checkIMG(srcIMG)) {
         screenshot = createElement("screenshot","img")
         screenshot.setAttribute("src",srcIMG)
         screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
