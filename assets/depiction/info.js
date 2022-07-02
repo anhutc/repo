@@ -4,7 +4,7 @@ function checkFileExist(urlToFile) {
     xhr.open('GET', urlToFile, false)
     xhr.send()
      
-    if (xhr.status == 200) {
+    if (xhr.status == "404") {
         return false
     } else {
         return true
