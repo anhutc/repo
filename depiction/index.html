@@ -87,6 +87,18 @@
           }
         </style>
 
+        <script>
+          $(".screenshots img").click(function () {
+              var $src = $(this).attr("src");
+              $(".show").fadeIn();
+              $(".img-show img").attr("src", $src)
+          })
+
+          $("span, .overlay").click(function () {
+              $(".show").fadeOut()
+          })
+        </script>
+
       </div>
     </div>
 
