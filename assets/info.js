@@ -17,12 +17,6 @@ function checkFileExist(urlToFile) {
     }
 }
 
-if (checkFileExist(window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1))) {
-    var ulrICON  = window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1)
-} else {
-    var ulrICON  = window.location.origin + "/assets/page-icons/default.png"
-}
-
 //Redirect to 404 page if package not specified in URL
 if (checkFileExist(window.location.origin + "/package/" + window.location.search.substring(1) + "/Info.xml")) {} else {
   location.replace("https://anhutc.github.io/404")
@@ -83,6 +77,11 @@ function addScreenshot(n) {
     }
 }
 
+//Load initital wrapper
+addScreenshot(1)
+
+
+//Popup Image
 $(".screenshots img").click(function () {
     var $src = $(this).attr("src");
     $(".show").fadeIn();
@@ -93,9 +92,10 @@ $("span, .overlay").click(function () {
     $(".show").fadeOut()
 })
 
-
-//Load initital wrapper
-    addScreenshot(1)
-
 //Set page icon to package icon
+if (checkFileExist(window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1))) {
+    var ulrICON  = window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1)
+} else {
+    var ulrICON  = window.location.origin + "/assets/page-icons/default.png"
+}
 document.getElementById('pageIcon').setAttribute("href", ulrICON + ".png")
