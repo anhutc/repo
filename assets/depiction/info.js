@@ -4,21 +4,23 @@ document.getElementsByClassName('wrapper')[0].style.filter = "none"
 
 var ulrPACKAGE = window.location.origin + "/package/" + window.location.search.substring(1)
 
-//Check File Exist
-function checkFileExist(urlToFile) {
-    var xhr = new XMLHttpRequest();
-    xhr.open('HEAD', urlToFile, false)
-    xhr.send()
-     
-    if (xhr.status == "404") {
-        return false
-    } else {
-        return true
+//Check Image
+function checkImage(url) {
+    var request = new XMLHttpRequest()
+    request.open("GET", url, true)
+    request.send()
+    request.onload = function() {
+        if (request.status == 200) //if(statusText == OK)
+        {
+            return true
+        } else {
+            return false
+        }
     }
 }
 
 //Redirect to 404 page if package not specified in URL
-if (!checkFileExist(ulrPACKAGE + "/Info.xml")) {
+if (!checkImage(ulrPACKAGE + "/Info.xml")) {
   location.replace("https://anhutc.github.io/404")
 }
 
@@ -68,7 +70,7 @@ function deleteScreenshot(element) {
 function addScreenshot(n) {
     srcIMG = ulrPACKAGE + "/" + n + ".png"
 
-    if (document.getElementById("screenshot" + n) == null && checkFileExist(srcIMG)) {
+    if (document.getElementById("screenshot" + n) == null && checkImage(srcIMG)) {
             screenshot = createElement("screenshot","img")
             screenshot.setAttribute("src",srcIMG)
             screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
@@ -130,7 +132,7 @@ $.extend(true, $.magnificPopup.defaults, {
 })
 
 //Set page icon to package icon
-if (checkFileExist(window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1) + ".png")) {
+if (checkImage(window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1) + ".png")) {
     var ulrICON  = window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1) + ".png"
 } else {
     var ulrICON  = window.location.origin + "/assets/page-icons/default.png"
