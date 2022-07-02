@@ -302,7 +302,7 @@ SHA256:
 Filename: package/iGameGod/iGameGod.deb
 
 Package: com.dva.key
-Name: Key ++
+Name: Key +
 Version: 
 Depends: firmware (>= 12)
 Architecture: iphoneos-arm
