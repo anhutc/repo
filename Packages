@@ -404,11 +404,11 @@ Filename: package/PullOverPro/PullOverPro.deb
 
 Package: com.dva.reprovisionreborn
 Name: ReProvision Reborn
-Version: 0.8.3~release
+Version: 0.8.4~release
 Depends: firmware (>= 9.0)
 Conflicts : com.matchstic.reprovision
 Architecture: iphoneos-arm
-Author: Soh Satoh, Matt Clarke
+Author: Soh Satoh
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?ReProvisionReborn
 Section: Development
@@ -493,20 +493,20 @@ MD5sum:
 SHA256: 
 Filename: package/SystemInfo/SystemInfo.deb
 
-Package: com.dva.tiktoknoadschina
-Name: TikTok No Ads China
-Version: 2.7.2-2
-Depends: mobilesubstrate
+Package: com.dva.douyingod
+Name: Douyin God
+Version: 1.1
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm
-Author: ARX8x
+Author: Agricu
 Maintainer: DVA <anhutck58@gmail.com>
-Depiction: https://anhutc.github.io/depiction/?TikTokNoAdsChina
+Depiction: https://anhutc.github.io/depiction/?DouyinGod
 Section: Tweak
-Description: 
-Size: 
-MD5sum: 
-SHA256: 
-Filename: package/TikTokNoAdsChina/TikTokNoAdsChina.deb
+Description: Tốt nhất cho ứng dụng Douyin
+Size: 49002
+MD5sum: a7d26d2103ed6ab6a0a95ba1ff89b075
+SHA256: 529d22f0b6fbccc4d4c2c7259a38e8f577c4b66215da3b6e6eab3c0fe8619e0a
+Filename: package/DouyinGod/DouyinGod.deb
 
 Package: com.dva.translation
 Name: Translation
