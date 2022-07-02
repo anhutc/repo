@@ -1,21 +1,10 @@
 /* Font */
-
-/* nunito-700 - latin */
-@font-face {
-  font-family: 'Nunito';
-  font-style: normal;
-  font-weight: bold;
-  src: url('/assets/fonts/nunito.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('/assets/fonts/nunito.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/assets/fonts/nunito.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/assets/fonts/nunito.woff') format('woff'), /* Modern Browsers */
-       url('/assets/fonts/nunito.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/assets/fonts/nunito.svg#Nunito') format('svg'); /* Legacy iOS */
-}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,400&display=swap');
 
 * {
-  font-family: 'Nunito';
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  outline: none !important;
 }
 
 html {
@@ -373,6 +362,47 @@ footer p {
   overflow-y: hidden;
   /* max-height: 148px; */
 }
+
+/* .scrollerGradientLeft {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0),
+    #f8f9fa 90%
+  );
+  width: 100px;
+  height: 100%;
+}
+.scrollerGradientRight {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 0;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    #f8f9fa 90%
+  );
+  width: 100px;
+  height: 100%;
+}
+.subsection:hover .scrollerGradientLeft {
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0),
+    rgb(229, 229, 230) 90%
+  );
+}
+.subsection:hover .scrollerGradientRight {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgb(229, 229, 230) 90%
+  );
+} */
 
 .scroller {
   text-align: center;
