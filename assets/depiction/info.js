@@ -2,27 +2,41 @@
 document.getElementsByClassName('popupWrapper')[0].parentElement.removeChild(document.getElementsByClassName('popupWrapper')[0])
 document.getElementsByClassName('wrapper')[0].style.filter = "none"
 
-//Check URL
-function checkURL(url) {
+//CheckFile Exist
+function checkFileExist(urlToFile)
+{
+    var xhr = new XMLHttpRequest()
+    xhr.open('HEAD', urlToFile, false)
+    xhr.send()
+
+    if (xhr.status == "404") {
+        return false
+    } else {
+        return true
+    }
+}
+
+//Check IMG
+function checkIMG(img) {
     var request = false;
     if (window.XMLHttpRequest) {
-            request = new XMLHttpRequest;
+            request = new XMLHttpRequest
     } else if (window.ActiveXObject) {
-            request = new ActiveXObject("Microsoft.XMLHttp");
+            request = new ActiveXObject("Microsoft.XMLHttp")
     }
 
     if (request) {
-            request.open("GET", url);
-            if (request.status == 200) { return true; }
+            request.open("GET", img)
+            if (request.status == 200) { return true }
     }
 
-    return false;
+    return false
 }
 
 var ulrPACKAGE = window.location.origin + "/package/" + window.location.search.substring(1)
 
 //Redirect to 404 page if package not specified in URL
-if (checkURL(ulrPACKAGE + "/Info.xml")) {
+if (checkFileExist(ulrPACKAGE + "/Info.xml")) {
     console.log("Hi~")
 } else {
   location.replace("https://anhutc.github.io/404")
@@ -131,7 +145,7 @@ $.extend(true, $.magnificPopup.defaults, {
 })
 
 //Set page icon to package icon
-if (checkFileExist(window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1) + ".png")) {
+if (checkIMG(window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1) + ".png")) {
     var ulrICON  = window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1) + ".png"
 } else {
     var ulrICON  = window.location.origin + "/assets/page-icons/default.png"
