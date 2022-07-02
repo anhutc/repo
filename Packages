@@ -17,8 +17,8 @@ Filename: package/libdev/libdev.deb
 
 Package: com.dva.tiktokgod
 Name: TikTok God
-Version: 4.0
-Depends: com.dva.libhdev (>= 4.8.1), firmware (>= 12)
+Version: 4.0.0
+Depends: com.dva.libdev (>= 4.8.1), firmware (>= 12)
 Architecture: iphoneos-arm
 Author: Hao Nguyen <hao.ict56@gmail.com>
 Maintainer: DVA <anhutck58@gmail.com>
