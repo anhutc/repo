@@ -1,6 +1,6 @@
 //Remove Javascript Detector
-document.getElementsByClassName('popupWrapper')[0].parentElement.removeChild(document.getElementsByClassName('popupWrapper')[0])
-document.getElementsByClassName('wrapper')[0].style.filter = "none"
+$('.popupWrapper')[0].parentElement.removeChild($('.popupWrapper')[0])
+$('.wrapper')[0].style.filter = "none"
 
 var ulrPACKAGE = window.location.origin + "/package/" + window.location.search.substring(1)
 var ulrICON  = window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1)
@@ -35,24 +35,24 @@ var toChange = ["tweakName", "tweakShortDescription", "tweakSize", "tweakCategor
 for(var i = 0; i < toChange.length; i++) {
     var elements = document.querySelectorAll('[id="' + toChange[i] + '"]')
     for(var j = 0; j < elements.length; j++) {
-      elements[j].innerHTML = xmlDoc.getElementsByTagName(toChange[i])[0].childNodes[0].nodeValue
+      elements[j].innerHTML = xmlDoc.$(toChange[i])[0].childNodes[0].nodeValue
     }
 }
 
 //Replace Link URL based off package developer
-document.getElementById("tweakDevLinkURL").href =
-xmlDoc.getElementsByTagName("tweakDevLinkURL")[0].childNodes[0].nodeValue;
+$("#tweakDevLinkURL").href =
+xmlDoc.$("tweakDevLinkURL")[0].childNodes[0].nodeValue;
 
 //Allow new line in tweak description
-tweakDescription = xmlDoc.getElementsByTagName("tweakDescription")[0].childNodes[0].nodeValue
+tweakDescription = xmlDoc.$("tweakDescription")[0].childNodes[0].nodeValue
 tweakDescription = tweakDescription.replace(/\\n/g, "<br>") //Add line break to "\n"
-document.getElementById("tweakDescription").innerHTML = tweakDescription //Apply description to webpage
+$("#tweakDescription").innerHTML = tweakDescription //Apply description to webpage
 
 //Make each bullet point of changelog on new line
-changeLog = xmlDoc.getElementsByTagName("tweakChangelog")[0].childNodes[0].nodeValue
+changeLog = xmlDoc.$("tweakChangelog")[0].childNodes[0].nodeValue
 changeLog = changeLog.replace(/\•/g, "<br>•") //Add line break to bullet points
 changeLog = changeLog.replace("<br>", "") //Remove first line break
-document.getElementById("tweakChangelog").innerHTML = changeLog //Apply changelog to webpage
+$("#tweakChangelog").innerHTML = changeLog //Apply changelog to webpage
 
 //Function that is called when a screenshot loads
 function loadAnotherScreenshot(element) {
@@ -67,7 +67,7 @@ function deleteScreenshot(element) {
 
 //Function to add a new screenshot
 function addScreenshot(n) {
-    if (document.getElementById("screenshot" + n) == null) {
+    if ($("#screenshot" + n) == null) {
         screenshot = createElement("screenshot","img")
         screenshot.setAttribute("src", ulrPACKAGE + "/" + n + ".png")
         screenshot.setAttribute("onerror","deleteScreenshot(this)")
@@ -78,20 +78,15 @@ function addScreenshot(n) {
     }
 }
 
-function popup() {              
-    $(".screenshots img").click(function () {
-        var $src = $(this).attr("src");
-        $(".show").fadeIn();
-        $(".img-show img").attr("src", $src);
-    });
-    
-    $("span, .overlay").click(function () {
-        $(".show").fadeOut();
-    });
-    
-};
+$(".screenshots img").click(function () {
+    var $src = $(this).attr("src");
+    $(".show").fadeIn();
+    $(".img-show img").attr("src", $src)
+})
 
-popup()
+$("span, .overlay").click(function () {
+    $(".show").fadeOut()
+})
 
 
 //Load initital wrapper

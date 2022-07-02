@@ -86,11 +86,11 @@ for (i = 0; i < packages.length; i++) {
   a.appendChild(bigBox)
   // Add to Scroller
   if (packages[i].Section == "Tweak") {
-    document.getElementById("Tweaks").appendChild(a)
+    $("#Tweaks").appendChild(a)
   } else if (packages[i].Section == "Hack") {
-    document.getElementById("Hacks").appendChild(a)
+    $("#Hacks").appendChild(a)
   } else {
-    document.getElementById("Other").appendChild(a)
+    $("#Other").appendChild(a)
   }
   
 }
@@ -107,15 +107,15 @@ function calculateBoxSize() {
 }
 
 //About Me Button
-var topBanner = document.getElementById("topBanner")
+var topBanner = $("#topBanner")
 function expandAbout() {
   topBanner.getElementsByTagName("button")[0].style.maxHeight = "0"
   topBanner.getElementsByTagName("button")[0].style.opacity = "0"
   topBanner.getElementsByTagName("button")[0].style.margin = "0"
   topBanner.getElementsByTagName("h1")[0].innerText = "Ánh"
   topBanner.getElementsByTagName("h2")[0].style.height = "0"
-  document.getElementById("hiddenInfo").style.maxHeight = "5000px"
-  document.getElementById("hiddenInfo").classList.add("animate")
+  $("#hiddenInfo").style.maxHeight = "5000px"
+  $("#hiddenInfo").classList.add("animate")
   topBanner.getElementsByTagName("img")[0].classList.add("animate")
   setTimeout(function () {
     topBanner.getElementsByTagName("img")[0].src =
