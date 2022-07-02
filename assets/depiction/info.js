@@ -71,6 +71,7 @@ function addScreenshot(n) {
         if (checkFileExist(srcIMG)) {
             screenshot = createElement("screenshot","img")
             screenshot.setAttribute("src",srcIMG)
+            screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
 
             linkpopup = createElement("","a")
             linkpopup.setAttribute("href",srcIMG)
