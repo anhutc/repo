@@ -3,7 +3,6 @@ document.getElementsByClassName('popupWrapper')[0].parentElement.removeChild(doc
 document.getElementsByClassName('wrapper')[0].style.filter = "none"
 
 var ulrPACKAGE = window.location.origin + "/package/" + window.location.search.substring(1)
-var ulrICON  = window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1)
 
 //Check File Exist
 function checkFileExist(urlToFile) {
@@ -16,6 +15,12 @@ function checkFileExist(urlToFile) {
     } else {
         return true
     }
+}
+
+if (checkFileExist(window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1))) {
+    var ulrICON  = window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1)
+} else {
+    var ulrICON  = window.location.origin + "/assets/page-icons/default.png"
 }
 
 //Redirect to 404 page if package not specified in URL
@@ -94,4 +99,3 @@ $("span, .overlay").click(function () {
 
 //Set page icon to package icon
 document.getElementById('pageIcon').setAttribute("href", ulrICON + ".png")
-
