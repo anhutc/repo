@@ -98,4 +98,4 @@ if (checkFileExist(window.location.origin + "/assets/tweak-icons/" + window.loca
 } else {
     var ulrICON  = window.location.origin + "/assets/page-icons/default.png"
 }
-document.getElementById('pageIcon').setAttribute("href", ulrICON + ".png")
+document.getElementById('pageIcon').setAttribute("href", ulrICON)
