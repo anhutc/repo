@@ -70,6 +70,7 @@ function addScreenshot(n) {
         srcIMG = ulrPACKAGE + "/" + n + ".png"
         screenshot = createElement("screenshot","img")
         screenshot.setAttribute("src",srcIMG)
+        screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
         screenshot.id = "screenshot" + n
 
         if (checkFileExist(srcIMG)) {
