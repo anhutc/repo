@@ -33,7 +33,7 @@ Filename: package/TikTokGod/TikTokGod.deb
 Package: com.dva.facebooknoads
 Name: Facebook No Ads
 Version: 1.4.1
-Depends: com.dva.libhdev (>= 4.6.0), firmware (>= 12)
+Depends: mobilesubstrate, preferenceloader, com.dva.libhdev (>= 4.6.0), firmware (>= 12)
 Architecture: iphoneos-arm
 Author: Hao Nguyen <hao.ict56@gmail.com>
 Maintainer: DVA <anhutck58@gmail.com>
@@ -45,9 +45,8 @@ MD5sum: 6692ed5e700ff7a69b550e66ace1300c
 SHA256: cb1b066c08fb4c1403b5f3f83e7c2ea5222ec7738e327eecb6be2ffa0d63cf2f
 Filename: package/FacebookNoAds/FacebookNoAds.deb
 
-
 Package: com.dva.appdata
-Name: App Data
+Name: AppData
 Version: 1.3.6
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
@@ -76,42 +75,46 @@ MD5sum: 3b3fb229c9efe153cdf6288963efc66a
 SHA256: c593c79ecbd596793230cbb9de3dd448118d37a1f029f1904d455ffe28ee9992
 Filename: package/AppleTurboBoost/AppleTurboBoost.deb
 
-Package: com.dva.appstore
-Name: App Store ++
+Package: com.dva.appstoreplusplus
+Name: AppStore++
 Version: 0.9.18
 Depends: firmware (>= 11.0), mobilesubstrate
 Architecture: iphoneos-arm
-Author: 
+Author: CokePokes
 Maintainer: DVA <anhutck58@gmail.com>
-Depiction: https://anhutc.github.io/depiction/?AppStore
+Depiction: https://anhutc.github.io/depiction/?AppStorePlusPlus
 Section: Tweak
-Description: Cửa hàng ứng dụng ++
+Description: AppStore++
 Size: 
 MD5sum: 
 SHA256: 
-Filename: package/AppStore/AppStore.deb
+Filename: package/AppStorePlusPlus/AppStorePlusPlus.deb
 
-Package: com.dva.appsync
-Name: App Sync
-Version: 
-Depends: firmware (>= 12)
+Package: com.dva.appsyncunified
+Name: AppSync Unified
+Version: 104.0
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.8.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+Replaces: us.hackulo.appsync50
 Architecture: iphoneos-arm
-Author: 
+Author: Karen/あけみ, Linus Yang
 Maintainer: DVA <anhutck58@gmail.com>
-Depiction: https://anhutc.github.io/depiction/?AppSync
+Depiction: https://anhutc.github.io/depiction/?AppSyncUnified
 Section: Tweak
 Description: 
 Size: 
 MD5sum: 
 SHA256: 
-Filename: package/AppSync/AppSync.deb
+Filename: package/AppSyncUnified/AppSyncUnified.deb
 
 Package: com.dva.audiorecorderxs
-Name: Audio Recorder XS
-Version: 
-Depends: firmware (>= 12)
+Name: AudioRecorder XS
+Version: 3.8-12
+Depends: mobilesubstrate, preferenceloader, net.limneos.simpleactivationactions, firmware(>=12.0)
+Conflicts : net.limneos.callrecorder, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Replaces : net.limneos.audiorecorder, net.limneos.audiorecorderx
 Architecture: iphoneos-arm
-Author: 
+Author: Elias Limneos
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?AudioRecorderXS
 Section: Tweak
@@ -122,14 +125,15 @@ SHA256:
 Filename: package/AudioRecorderXS/AudioRecorderXS.deb
 
 Package: com.dva.autotouch
-Name: Auto Touch
-Version: 
-Depends: firmware (>= 12)
+Name: AutoTouch
+Version: 7.1.6
+Depends: firmware (>= 9.0), mobilesubstrate
+Conflicts : com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
 Architecture: iphoneos-arm
-Author: 
+Author: Kent Krantz
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?AutoTouch
-Section: Tweak
+Section: Utilities
 Description: 
 Size: 
 MD5sum: 
@@ -138,10 +142,10 @@ Filename: package/AutoTouch/AutoTouch.deb
 
 Package: com.dva.callconnect
 Name: Call Connect
-Version: 
-Depends: firmware (>= 12)
+Version: 1.3-1
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
 Architecture: iphoneos-arm
-Author: 
+Author: Phillip Tennen
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?CallConnect
 Section: Tweak
@@ -153,13 +157,15 @@ Filename: package/CallConnect/CallConnect.deb
 
 Package: com.dva.copic2
 Name: Copic 2
-Version: 
-Depends: firmware (>= 12)
+Version: 1.14.2-beta-9
+Pre-Depends : firmware (>=9.0)
+Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap, com.iarrays.libiarrays (>= 1.0.15)
+Conflicts : com.iarrays.copic10, com.iarrays.copic
 Architecture: iphoneos-arm
-Author: 
+Author: IArrays
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?Copic2
-Section: Tweak
+Section: Utilities
 Description: 
 Size: 
 MD5sum: 
@@ -182,7 +188,7 @@ SHA256:
 Filename: package/Copypasta/Copypasta.deb
 
 Package: com.dva.cracktool4
-Name: Crack Tool 4
+Name: CrackTool 4
 Version: 
 Depends: firmware (>= 12)
 Architecture: iphoneos-arm
@@ -213,10 +219,11 @@ Filename: package/CyDown/CyDown.deb
 
 Package: com.dva.enchant
 Name: Enchant
-Version: 
-Depends: firmware (>= 12)
+Version: 1.3.2
+Depends: mobilesubstrate
+Conflicts : com.laughingquoll.quart
 Architecture: iphoneos-arm
-Author: 
+Author: p2kdev
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?Enchant
 Section: Tweak
@@ -226,12 +233,13 @@ MD5sum:
 SHA256: 
 Filename: package/Enchant/Enchant.deb
 
-Package: com.dva.filzafilemanager
+Package: com.dva.filza
 Name: Filza File Manager
-Version: 
-Depends: firmware (>= 12)
+Version: 3.9.0-2
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts : com.tigisoftware.filza64bit
 Architecture: iphoneos-arm
-Author: 
+Author: TIGI Software
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?FilzaFileManager
 Section: Tweak
@@ -243,10 +251,11 @@ Filename: package/FilzaFileManager/FilzaFileManager.deb
 
 Package: com.dva.flow
 Name: Flow
-Version: 
-Depends: firmware (>= 12)
+Version: 1.2.2
+Depends : mobilesubstrate, preferenceloader, com.muirey03.libmryipc, ws.hbang.common (>= 1.11), firmware (>= 12)
+Conflicts : me.nepeta.nereid, ch.mdaus.sylph, org.s1ris.spinxi
 Architecture: iphoneos-arm
-Author: 
+Author: Muirey03
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?Flow
 Section: Tweak
@@ -258,10 +267,10 @@ Filename: package/Flow/Flow.deb
 
 Package: com.dva.hidejb
 Name: Hide JB
-Version: 
-Depends: firmware (>= 12)
+Version: 2.1.1
+Depends: mobilesubstrate(>= 0.9.5015), firmware (>= 7.0), ws.hbang.common (>= 1.13.1), applist, preferenceloader
 Architecture: iphoneos-arm
-Author: 
+Author: TTJB Team
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?HideJB
 Section: Tweak
@@ -273,13 +282,15 @@ Filename: package/HideJB/HideJB.deb
 
 Package: com.dva.icleanerpro
 Name: iCleaner Pro
-Version: 
-Depends: firmware (>= 12)
+Version: 7.9.1
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts : org.altervista.exilecom.icleaner
+Replaces : org.altervista.exilecom.icleaner
 Architecture: iphoneos-arm
-Author: 
+Author: Ivano Bilenchi
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?iCleanerPro
-Section: Tweak
+Section: Utilities
 Description: 
 Size: 
 MD5sum: 
@@ -287,7 +298,7 @@ SHA256:
 Filename: package/iCleanerPro/iCleanerPro.deb
 
 Package: com.dva.igamegod
-Name: iGame God
+Name: iGameGod
 Version: 
 Depends: firmware (>= 12)
 Architecture: iphoneos-arm
@@ -301,27 +312,27 @@ MD5sum:
 SHA256: 
 Filename: package/iGameGod/iGameGod.deb
 
-Package: com.dva.key
-Name: Key +
-Version: 
-Depends: firmware (>= 12)
+Package: com.dva.keyplus
+Name: Key+
+Version: 1.1.5
+Depends: firmware (>= 13), mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm
-Author: 
+Author: XCXiao
 Maintainer: DVA <anhutck58@gmail.com>
-Depiction: https://anhutc.github.io/depiction/?Key
+Depiction: https://anhutc.github.io/depiction/?KeyPlus
 Section: Tweak
 Description: 
 Size: 
 MD5sum: 
 SHA256: 
-Filename: package/Key/Key.deb
+Filename: package/KeyPlus/KeyPlus.deb
 
 Package: com.dva.messengernoads
 Name: Messenger No Ads
-Version: 
-Depends: firmware (>= 12)
+Version: 3.10.0
+Depends: mobilesubstrate, com.dva.libhdev (>= 4.8.0), firmware (>= 12)
 Architecture: iphoneos-arm
-Author: 
+Author: Hao Nguyen
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?MessengerNoAds
 Section: Tweak
@@ -333,10 +344,10 @@ Filename: package/MessengerNoAds/MessengerNoAds.deb
 
 Package: com.dva.mybloxx
 Name: MYbloXX
-Version: 
-Depends: firmware (>= 12)
+Version: 2.020121
+Depends: firmware (>= 14)
 Architecture: iphoneos-arm
-Author: 
+Author: MYXXdev
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?MYbloXX
 Section: Tweak
@@ -348,10 +359,10 @@ Filename: package/MYbloXX/MYbloXX.deb
 
 Package: com.dva.orion
 Name: Orion
-Version: 
-Depends: firmware (>= 12)
+Version: 1.2
+Depends : firmware (>=13.0), firmware (<<15.0), mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16), com.opa334.ccsupport, net.limneos.libbulletin (>= 0.1-158), firmware (<=13.7) | com.opa334.libundirect (>= 1.1.1), com.spark.libsparkcolourpicker (>= 1.0.2) | com.creaturesurvive.libcscolorpicker (>= 1.0.1) | ws.hbang.alderis (>= 1.1.2), com.spark.libsparkapplist
 Architecture: iphoneos-arm
-Author: 
+Author: John Zarogiannis
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?Orion
 Section: Tweak
@@ -362,11 +373,11 @@ SHA256:
 Filename: package/Orion/Orion.deb
 
 Package: com.dva.photomanager
-Name: Photo Manager
-Version: 
-Depends: firmware (>= 12)
+Name: PhotoManager
+Version: 1.2.5
+Depends: firmware (>= 12), mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
 Architecture: iphoneos-arm
-Author: 
+Author: Frozen Penguin
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?PhotoManager
 Section: Tweak
@@ -377,11 +388,11 @@ SHA256:
 Filename: package/PhotoManager/PhotoManager.deb
 
 Package: com.dva.pulloverpro
-Name: Pull Over Pro
-Version: 
-Depends: firmware (>= 12)
+Name: PullOver Pro
+Version: 2.1.1
+Depends: firmware (>= 10.0), mobilesubstrate, com.rpetrich.rocketbootstrap, applist
 Architecture: iphoneos-arm
-Author: 
+Author: c1d3r
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?PullOverPro
 Section: Tweak
@@ -392,14 +403,15 @@ SHA256:
 Filename: package/PullOverPro/PullOverPro.deb
 
 Package: com.dva.reprovisionreborn
-Name: Re Provision Reborn
-Version: 
-Depends: firmware (>= 12)
+Name: ReProvision Reborn
+Version: 0.8.3~release
+Depends: firmware (>= 9.0)
+Conflicts : com.matchstic.reprovision
 Architecture: iphoneos-arm
-Author: 
+Author: Soh Satoh, Matt Clarke
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?ReProvisionReborn
-Section: Tweak
+Section: Development
 Description: 
 Size: 
 MD5sum: 
@@ -408,10 +420,10 @@ Filename: package/ReProvisionReborn/ReProvisionReborn.deb
 
 Package: com.dva.safariplus
 Name: Safari Plus
-Version: 
-Depends: firmware (>= 12)
+Version: 1.7.20-2
+Depends : firmware (>=8.0), mobilesubstrate, preferenceloader, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap, com.opa334.libundirect (>=1.1.3) | firmware (<<14.0)
 Architecture: iphoneos-arm
-Author: 
+Author: opa334
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?SafariPlus
 Section: Tweak
@@ -438,10 +450,10 @@ Filename: package/SafariTabs/SafariTabs.deb
 
 Package: com.dva.Shadow
 Name: Shadow
-Version: 
-Depends: firmware (>= 12)
+Version: 2.0.20
+Depends : firmware (>=8.0), mobilesubstrate, ws.hbang.common, applist, preferenceloader
 Architecture: iphoneos-arm
-Author: 
+Author: jjolano
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?Shadow
 Section: Tweak
@@ -453,10 +465,10 @@ Filename: package/Shadow/Shadow.deb
 
 Package: com.dva.smartrotate
 Name: Smart Rotate
-Version: 
-Depends: firmware (>= 12)
+Version: 1.3.7
+Depends: firmware (>= 10), mobilesubstrate, com.rpetrich.rocketbootstrap, preferenceloader, com.laughingquoll.prefixui, com.spark.libsparkapplist
 Architecture: iphoneos-arm
-Author: 
+Author: LaughingQuoll
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?SmartRotate
 Section: Tweak
@@ -483,10 +495,10 @@ Filename: package/SystemInfo/SystemInfo.deb
 
 Package: com.dva.tiktoknoadschina
 Name: TikTok No Ads China
-Version: 
-Depends: firmware (>= 12)
+Version: 2.7.2-2
+Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Author: 
+Author: ARX8x
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?TikTokNoAdsChina
 Section: Tweak
@@ -513,33 +525,35 @@ Filename: package/Translation/Translation.deb
 
 Package: com.dva.vpncc
 Name: VPN CC
-Version: 
-Depends: firmware (>= 12)
+Version: 1.0.5
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.opa334.ccsupport
 Architecture: iphoneos-arm
-Author: 
+Author: KingPuffdaddi
 Maintainer: DVA <anhutck58@gmail.com>
 Depiction: https://anhutc.github.io/depiction/?VPNCC
 Section: Tweak
-Description: 
+Description: Mô-đun Trung tâm điều khiển để kết nối / ngắt kết nối VPN
 Size: 
 MD5sum: 
 SHA256: 
 Filename: package/VPNCC/VPNCC.deb
 
 Package: com.dva.youpip
-Name: You Pip
-Version: 
-Depends: firmware (>= 12)
+Name: YouPiP
+Version: 1.7.7
+Depends : mobilesubstrate, firmware (>= 11.0), firmware (>= 14.0) | gsc.ipad | com.ps.forceinpicture | com.cabralcole.forceinpicture
+Conflicts : com.spicat.youpip
+Replaces : com.spicat.youpip
 Architecture: iphoneos-arm
-Author: 
+Author: PoomSmart
 Maintainer: DVA <anhutck58@gmail.com>
-Depiction: https://anhutc.github.io/depiction/?YouPip
+Depiction: https://anhutc.github.io/depiction/?YouPiP
 Section: Tweak
 Description: 
 Size: 
 MD5sum: 
 SHA256: 
-Filename: package/YouPip/YouPip.deb
+Filename: package/YouPiP/YouPiP.deb
 
 
 
