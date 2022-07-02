@@ -71,9 +71,8 @@ function addScreenshot(n) {
         if (checkFileExist(srcIMG)) {
             screenshot = createElement("screenshot","img")
             screenshot.setAttribute("src",srcIMG)
-            screenshot.id = "screenshot" + n
 
-            linkpopup = createElement("image","a")
+            linkpopup = createElement("","a")
             linkpopup.setAttribute("href",srcIMG)
             linkpopup.setAttribute("title",window.location.search.substring(1))
 
@@ -87,15 +86,30 @@ addScreenshot(1)
 
 
 //Popup Image
-$(".screenshots img").click(function () {
-    var $src = $(this).attr("src");
-    $(".show").fadeIn();
-    $(".img-show img").attr("src", $src)
-})
-
-$("span, .overlay").click(function () {
-    $(".show").fadeOut()
-})
+$('.screenshots').magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    closeOnContentClick: false,
+    closeBtnInside: false,
+    mainClass: 'mfp-with-zoom mfp-img-mobile',
+    image: {
+        verticalFit: true,
+        titleSrc: function(item) {
+            return item.el.attr('title');
+        }
+    },
+    gallery: {
+        enabled: true
+    },
+    zoom: {
+        enabled: true,
+        duration: 300, // don't foget to change the duration also in CSS
+        opener: function(element) {
+            return element.find('img');
+        }
+    }
+    
+});
 
 //Set page icon to package icon
 if (checkFileExist(window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1) + ".png")) {
