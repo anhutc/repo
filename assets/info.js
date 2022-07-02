@@ -93,8 +93,8 @@ $("span, .overlay").click(function () {
 })
 
 //Set page icon to package icon
-if (checkFileExist(window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1))) {
-    var ulrICON  = window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1)
+if (checkFileExist(window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1) + ".png")) {
+    var ulrICON  = window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1) + ".png"
 } else {
     var ulrICON  = window.location.origin + "/assets/page-icons/default.png"
 }
