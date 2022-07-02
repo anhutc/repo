@@ -18,7 +18,7 @@ function checkFileExist(urlToFile) {
 }
 
 //Redirect to 404 page if package not specified in URL
-if (checkFileExist(window.location.origin + "/package/" + window.location.search.substring(1) + "/Info.xml")) {} else {
+if (!checkFileExist(ulrPACKAGE + "/Info.xml")) {
   location.replace("https://anhutc.github.io/404")
 }
 
@@ -72,6 +72,7 @@ function addScreenshot(n) {
         screenshot.setAttribute("src",srcIMG)
         screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
         screenshot.setAttribute("onerror","deleteScreenshot(this)")
+        screenshot.id = "screenshot" + n
 
         if (checkFileExist(srcIMG)) {
             linkpopup = createElement("","a")
