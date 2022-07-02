@@ -87,7 +87,7 @@ for (i = 0; i < packages.length; i++) {
   // Add to Scroller
   if (packages[i].Section == "Tweak") {
     document.getElementById("Tweaks").appendChild(a)
-  } else if (packages[i].Section == "Hacks") {
+  } else if (packages[i].Section == "Hack") {
     document.getElementById("Hacks").appendChild(a)
   } else {
     document.getElementById("Other").appendChild(a)
