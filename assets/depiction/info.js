@@ -68,12 +68,12 @@ function deleteScreenshot(element) {
 function addScreenshot(n) {
     if (document.getElementById("screenshot" + n) == null) {
         srcIMG = ulrPACKAGE + "/" + n + ".png"
-        screenshot = createElement("screenshot","img")
-        screenshot.setAttribute("src",srcIMG)
-        screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
-        screenshot.id = "screenshot" + n
-
         if (checkFileExist(srcIMG)) {
+            screenshot = createElement("screenshot","img")
+            screenshot.setAttribute("src",srcIMG)
+            screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
+            screenshot.id = "screenshot" + n
+
             linkpopup = createElement("","a")
             linkpopup.setAttribute("href",srcIMG)
             linkpopup.setAttribute("title",window.location.search.substring(1))
