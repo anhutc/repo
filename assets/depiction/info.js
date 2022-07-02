@@ -113,7 +113,23 @@ $('.screenshots').magnificPopup({
         }
     }
     
-});
+})
+
+$.extend(true, $.magnificPopup.defaults, {
+    tClose: 'Đóng (Esc)', // Alt text on close button
+    tLoading: 'Đang tải...', // Text that is displayed during loading. Can contain %curr% and %total% keys
+    gallery: {
+      tPrev: 'Trước (Mũi tên trái)', // Alt text on left arrow
+      tNext: 'Sau (Mũi tên phải)', // Alt text on right arrow
+      tCounter: 'Hình ảnh %curr%/%total%' // Markup for "1 of 7" counter
+    },
+    image: {
+      tError: '<a href="%url%">Bức hình</a> không thể tải được.' // Error message when image could not be loaded
+    },
+    ajax: {
+      tError: '<a href="%url%">Ajax</a> không thể tải được.' // Error message when ajax request failed
+    }
+})
 
 //Set page icon to package icon
 if (checkFileExist(window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1) + ".png")) {
