@@ -1,13 +1,13 @@
 //Check File Exist
 function checkFileExist(urlToFile) {
-    var xhr = new XMLHttpRequest();
-    xhr.open('HEAD', urlToFile, false);
-    xhr.send();
+    var xhr = new XMLHttpRequest()
+    xhr.open('HEAD', urlToFile, false)
+    xhr.send()
      
     if (xhr.status == "404") {
-        return false;
+        return false
     } else {
-        return true;
+        return true
     }
 }
 
