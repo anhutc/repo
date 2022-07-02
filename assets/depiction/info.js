@@ -32,7 +32,9 @@ function checkImage(url) {
 }
 
 //Redirect to 404 page if package not specified in URL
-if (!checkFileExist(ulrPACKAGE + "/Info.xml")) {
+if (checkFileExist(ulrPACKAGE + "/Info.xml")) {
+    console.log("Hi~")
+} else {
   location.replace("https://anhutc.github.io/404")
 }
 
