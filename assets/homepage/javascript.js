@@ -72,7 +72,7 @@ for (i = 0; i < packages.length; i++) {
   if (checkFileExist(srcIMG)) {
     urlIMG = srcIMG
   } else {
-    urlIMG = "/assets/page-icons/default.png"
+    urlIMG = "/assets/page-icons/default.webp"
   }
 
   img.src = urlIMG
@@ -119,7 +119,7 @@ function expandAbout() {
   topBanner.getElementsByTagName("img")[0].classList.add("animate")
   setTimeout(function () {
     topBanner.getElementsByTagName("img")[0].src =
-      "/assets/homepage/animoji.png"
+      "/assets/homepage/animoji.webp"
   }, 300)
 }
 

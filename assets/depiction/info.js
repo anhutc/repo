@@ -64,7 +64,7 @@ function loadAnotherScreenshot(element) {
 
 //Function to add a new screenshot
 function addScreenshot(n) {
-    srcIMG = ulrPACKAGE + "/" + n + ".png"
+    srcIMG = ulrPACKAGE + "/" + n + ".webp"
 
     if (document.getElementById("screenshot" + n) == null && checkFileExist(srcIMG)) {
         screenshot = createElement("screenshot","img")
@@ -128,9 +128,9 @@ $.extend(true, $.magnificPopup.defaults, {
 })
 
 //Set page icon to package icon
-if (checkFileExist(window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1) + ".png")) {
-    var ulrICON  = window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1) + ".png"
+if (checkFileExist(window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1) + ".webp")) {
+    var ulrICON  = window.location.origin + "/assets/tweak-icons/" + window.location.search.substring(1) + ".webp"
 } else {
-    var ulrICON  = window.location.origin + "/assets/page-icons/default.png"
+    var ulrICON  = window.location.origin + "/assets/page-icons/default.webp"
 }
 document.getElementById('pageIcon').setAttribute("href", ulrICON)
