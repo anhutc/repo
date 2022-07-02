@@ -1,20 +1,27 @@
-//Check File Exist
-function checkFileExist(urlToFile) {
-    var xhr = new XMLHttpRequest()
-    xhr.open('HEAD', urlToFile, false)
-    xhr.send()
-     
-    if (xhr.status == "404") {
-        return false
-    } else {
-        return true
+//Check URL
+function checkURL(url) {
+    var check = new XMLHttpRequest(),
+    checkThisUrl = url
+    check.open('GET', checkThisUrl, true)
+    check.onreadystatechange = checkReadyState()
+
+}        
+
+function checkReadyState() {
+
+    if (check.readyState === 4) {
+        if ((check.status == 200) || (check.status == 0)) {
+            return true
+        } else {
+            return false
+        }
     }
 }
 
 var ulrPACKAGE = window.location.origin + "/package/" + window.location.search.substring(1)
 
 //Redirect to 404 page if package not specified in URL
-if (checkFileExist(ulrPACKAGE + "/Info.xml")) {
+if (checkURL(ulrPACKAGE + "/Info.xml")) {
     console.log("Hi~")
 } else {
   location.replace("https://anhutc.github.io/404")
@@ -65,7 +72,7 @@ function loadAnotherScreenshot(element) {
 function addScreenshot(n) {
     srcIMG = ulrPACKAGE + "/" + n + ".png"
 
-    if (document.getElementById("screenshot" + n) == null && checkFileExist(srcIMG)) {
+    if (document.getElementById("screenshot" + n) == null && checkURL(srcIMG)) {
         screenshot = createElement("screenshot","img")
         screenshot.setAttribute("src",srcIMG)
         screenshot.setAttribute("onload","loadAnotherScreenshot(this)")
