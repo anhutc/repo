@@ -295,12 +295,13 @@ footer p {
     background: none !important;
     border: none !important;
     box-shadow: none !important;
-    min-width: 85px !important;
-    max-width: 85px !important;
+    min-width: 150px !important;
+    max-width: 150px !important;
     min-height: 130px !important;
     max-height: 130px !important;
     margin-left: 10px !important;
     margin-bottom: 20px !important;
+    text-align: center !important;
   }
 }
 
