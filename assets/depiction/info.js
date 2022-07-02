@@ -4,11 +4,23 @@ document.getElementsByClassName('wrapper')[0].style.filter = "none"
 
 var ulrPACKAGE = window.location.origin + "/package/" + window.location.search.substring(1)
 
-//Check Image
+//Check File Exist
+function checkFileExist(urlToFile) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', urlToFile, false)
+    xhr.send()
+     
+    if (xhr.status == 200) {
+        return false
+    } else {
+        return true
+    }
+}
+
 function checkImage(url) {
-    var request = new XMLHttpRequest()
-    request.open("GET", url, true)
-    request.send()
+    var request = new XMLHttpRequest();
+    request.open("GET", url, true);
+    request.send();
     request.onload = function() {
         if (request.status == 200) //if(statusText == OK)
         {
@@ -20,7 +32,7 @@ function checkImage(url) {
 }
 
 //Redirect to 404 page if package not specified in URL
-if (checkImage(ulrPACKAGE + "/Info.xml")) {} else {
+if (!checkFileExist(ulrPACKAGE + "/Info.xml")) {
   location.replace("https://anhutc.github.io/404")
 }
 
