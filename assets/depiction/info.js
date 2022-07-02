@@ -1,3 +1,7 @@
+//Remove Javascript Detector
+document.getElementsByClassName('popupWrapper')[0].parentElement.removeChild(document.getElementsByClassName('popupWrapper')[0])
+document.getElementsByClassName('wrapper')[0].style.filter = "none"
+
 //Check URL
 function checkURL(url) {
     var check = new XMLHttpRequest(),
@@ -26,10 +30,6 @@ if (checkURL(ulrPACKAGE + "/Info.xml")) {
 } else {
   location.replace("https://anhutc.github.io/404")
 }
-
-//Remove Javascript Detector
-document.getElementsByClassName('popupWrapper')[0].parentElement.removeChild(document.getElementsByClassName('popupWrapper')[0])
-document.getElementsByClassName('wrapper')[0].style.filter = "none"
 
 var text = loadXMLDoc("/package/" + window.location.search.substring(1) + "/Info.xml"); //Specify the name of the XML config to load
 var parser = new DOMParser()
