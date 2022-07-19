@@ -1,0 +1,1146 @@
+Package: org.neutronfile.360vpnpro
+Architecture: iphoneos-arm
+Version: 0.0.4
+Section: Apps
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.360vpnpro_0.0.4_iphoneos-arm_NeutronFile.deb
+Size: 5088
+MD5sum: 442ca09444b201151d8cf5c08887820c
+SHA1: 3e9d0b5b81c3538649e9d98f75a163c130fabe86
+SHA256: 0dcaca913d878a4e1e6187bc4f8709754bd6b7d12d8457bc1f5b3073bf7eb52e
+SHA512: 673b15786ccd32315e992a156812ebdc2b08cf224bbcb8e2008000a4dc20c579c2a3cea779d178e6a89cb46e69f9842f9b5a21c8dcab6aca7517c4f0b5744b6d
+Homepage: https://neutronfile.org
+Description: VPN 360 - Unlimited VPN Proxy Premium Subscribtion
+Name: VPN 360 PRO
+Author: pxcex
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.360vpnpro.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.360vpnpro
+Icon: https://i.imgur.com/1JEQLQB.png
+
+Package: org.neutronfile.SoundCloudplus
+Architecture: iphoneos-arm
+Version: 0.0.4
+Section: Apps
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Installed-Size: 124
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.SoundCloudplus_0.0.4_iphoneos-arml_NeutronFile.deb
+Size: 9298
+MD5sum: f2c3cf2909ca6b825f5331dd24eef6cc
+SHA1: cc0c7fafd479735733337bc8f47bcef00a40189b
+SHA256: 158c49f6a9754f6739e6dab4c01f5f660e7232692dad36ba595a6f2b0eca80ec
+SHA512: ae992eb9502211096b8a7591103808b5c64916ec11f1c99122d3dba5d2847c4e89016ba2d2e93343187ad9b3114187d30955c0579fa8bf9beb49f0b73447a9d0
+Homepage: https://neutronfile.org
+Description: Download Lagu, Playlist dan Semua lagu yang dilike, mainkan secara offline mode untuk menghemat data, No Ads dan Menu Developer Mode.
+Name: SoundCloud Plus
+Author: pxcex
+Twitter: https://twitter.com/NeutronFile
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.SoundCloudplus.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.SoundCloudplus
+Icon: https://i.imgur.com/2cca5i8.png
+
+Package: org.neutronfile.adguardpro
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Apps
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Installed-Size: 384
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.adguardpro_0.0.2_iphoneos-arm_NeutronFile.deb
+Size: 113768
+MD5sum: 8b89657199d75aefb4f3ddb87ef798b7
+SHA1: 4ac0c2bd14918df77d8f650cd8acc216366ad10c
+SHA256: d1decbdefddf294aedca0f2ee13b6cd16bbfa903e063e815dd039746317fab55
+SHA512: 1befbb1be4ccf295e604c79530c3fb1a5881f710264a7ecf059fcdf54ff33f386a79add050d813848a76f4efff3c85cccb31296318fe997e65301755bdce9222
+Homepage: https://neutronfile.org
+Description: AdGuard — adblock&privacy Premium!
+Name: AdGuard PRO
+Author: pxcex
+Twitter: https://twitter.com/NeutronFile
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.adguardpro.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.adguardpro
+Icon: https://i.imgur.com/Ue0M7ob.png
+
+Package: org.neutronfile.adoberushpro
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Apps
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Installed-Size: 256
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.adoberushpro_0.0.2_iphoneos-arm_NeutronFile.deb
+Size: 82098
+MD5sum: a9d0d66280f3b7bd27b5d64fb74e92af
+SHA1: 7277dd93d49d80f784860c91b68560522df61036
+SHA256: 996d81388e7e9ff82c1835589d2646eacc263bf637719ff94e5787ccf0b21fd8
+SHA512: d560beba5d966ee5e4a89f835b0110578c7c20d9a00faf2d5c406a1ede4c9cd4d96014d7a769c21f2b59d0ff69e9b06b7c2842d13a0694bbfab7b2d72b54905c
+Homepage: https://neutronfile.org
+Description: Subscription Export Unlimited!
+Name: AdobeRushCC PRO
+Author: pxcex
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.adoberushpro.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.adoberushpro
+Icon: https://i.imgur.com/wjaoc7U.png
+
+Package: org.neutronfile.adobesparkpagepro
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Apps
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Installed-Size: 384
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.adobesparkpagepro_0.0.2_iphoneos-arm_NeutronFile.deb
+Size: 114276
+MD5sum: 98c4fded445ce9edc5da67e5fe311951
+SHA1: af70fb4cd1ed4ec33e715a1027230e921d389499
+SHA256: b2f66fbc4aa69a0a14d87617a13bae39978cfaa139b1f017283a3493db36a328
+SHA512: 4a4c3fa02ee3a5b769190cee44120a89d5e85dd707ac535237c47e6665999fc2594dd088a058bc498f0db2667c40d66e431647b14bf0586ac6468c1f6a4bd0b0
+Homepage: https://neutronfile.org
+Description: Adobe Spark Page Subscription. Remove Adobe Branding from your project. Enjoy!
+Name: AdobeSpark Page PRO
+Author: pxcex
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.adobesparkpagepro.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.adobesparkpagepro
+Icon: https://i.imgur.com/Wu2wbEN.png
+
+Package: org.neutronfile.adobesparkpostpro
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Apps
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Installed-Size: 384
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.adobesparkpostpro_0.0.2_iphoneos-arm_NeutronFile.deb
+Size: 116602
+MD5sum: 515445a4b3e4b5efceb8c8817285cc2c
+SHA1: 33e3e888a5b5a1827ebe100f090b3e419ecf470e
+SHA256: e4c71b598882ee194dc5f5a1ae60bd7e0bf62cda0646054c216f789547efedcf
+SHA512: f84e373290e4ac142a04916fcaae51151541755fa976abe26aa6b37d265c7d461c9c11bb1f0844a1123ef9ac0b6ed28492521b2c2a6e16cb3fda1eeb2d0df6f0
+Homepage: https://neutronfile.org
+Description: Adobe Spark Post Spark Subscription.
+Name: AdobeSpark Post PRO
+Author: pxcex
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.adobesparkpostpro.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.adobesparkpostpro
+Icon: https://i.imgur.com/pVIpE02.png
+
+Package: org.neutronfile.adobesparkvideopro
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Apps
+Maintainer: NeutronFile
+Installed-Size: 384
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.adobesparkvideopro_0.0.2_iphoneos-arm_NeutronFile.deb
+Size: 116198
+MD5sum: ef6d24a94840ab261466dc04a9ec692a
+SHA1: 9f9e1e5627dae1a505e5111991de3286834e1fc9
+SHA256: 020d9debcef5290e67d3465bb1185a7a2bea47619e3645a33f7a655d14253466
+SHA512: 1af7f81d8d589b5c06d532f60939dc2125f1683ab98442eb0592c8b013dd8f2cd5c0cea0926ddf833339455174220d3fae659e28d45ea8a882d1435a56bd36b2
+Homepage: https://neutronfile.org
+Description: Adobe Spark Video Spark Subscription.
+Name: AdobeSpark Video PRO
+Author: pxcex
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.adobesparkvideopro.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.adobesparkvideopro
+Icon: https://i.imgur.com/nzud1Kc.png
+
+Package: org.neutronfile.apptweak13
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Tweaks
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.apptweak13_0.0.2_iphoneos-arm_NeutronFile.deb
+Size: 13750
+MD5sum: 3cde1daa2021b9e297209c438330e38c
+SHA1: 6fbccb249b89ba7cf6f67727da163e41eebafaa2
+SHA256: 7900932bacd9c0f31611900099ea1a70b7f407f932e617c5c2f3ea7b1d6f4987
+SHA512: df09c98164b04a9088316940242145b2f1270a0c651ca0378654442322da42bc94830d64bdd48a9ab89df72017ecc62886a1de75b0670e9a97449250f3ebf55c
+Homepage: https://neutronfile.org
+Description: Swipe up icon on homescreen to get the AppTweak13 features for Free.
+Name: AppTweak13
+Author: pxcex
+Twitter: https://twitter.com/NeutronFile
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.apptweak13.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.apptweak13
+Icon: https://i.imgur.com/
+
+Package: org.neutronfile.begonecia-11
+Architecture: iphoneos-arm
+Version: 0.3.2
+Section: Tweaks
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Depends: mobilesubstrate, com.opa334.ccsupport, ws.hbang.common (>= 1.11), firmware (>= 11.0), applist
+Conflicts: me.nepeta.begonecia-10
+Filename: ./debfiles//org.neutronfile.begonecia-11_0.3.2_iphoneos-arm_NeutronFile.deb
+Size: 82862
+MD5sum: 917d5f9e9a1dd7fdc04888b6ee6ada36
+SHA1: 8a0d87e04c30c8fe38b23599a564786fc1b99f1e
+SHA256: 55af64ea2ea2f83a3b471a33bef7672b9daa16e72ba600906aa08294be90d056
+SHA512: 15571f2680aea1782c8cfd8fc22b7dc1b03a85f152880867a1cb1f42a5e66175ffbd9bfcc2451ae5d9877e80922bb44719aa70119a7d9b94955392a7d479246a
+Homepage: https://neutronfile.org
+Description: CC toggle to disable microphone, camera and GPS.
+Name: BegoneCIA (iOS 11, 12 and up)
+Author: Nepeta m
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.begonecia-11/
+Icon: file:///Library/ControlCenter/Bundles/BegoneCIAModule.bundle/SettingsIcon@3x.png
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.begonecia-11.json
+
+Package: org.neutronfile.calmpro
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Apps
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Installed-Size: 256
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.calmpro_0.0.2_iphoneos-arm_NeutronFile.deb
+Size: 81728
+MD5sum: 1a4aa31432dab4ece4a5d38aea97e597
+SHA1: 4e35f816d491c51de68f45b33511aff0bfe40e2b
+SHA256: 3629f1141429116fe7835d16e1242dfed1643bd74386666b40c9b75d32d5df46
+SHA512: a2543dda546f63ad349db63af8150a68c995b622990eeccdb495a71a67a36d40ba1567f788b242f7b129bd33f005d9691719743c106448c58b0d856f403dee70
+Homepage: https://neutronfile.org
+Description: Subscription Life Time!
+Name: Calm App Premium
+Author: pxcex
+Twitter: https://twitter.com/NeutronFile
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.calmpro.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.calmpro
+Icon: https://i.imgur.com/RbbGqaX.png
+
+Package: org.neutronfile.camera360pro
+Architecture: iphoneos-arm
+Version: 0.0.4
+Section: Apps
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Installed-Size: 384
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.camera360pro_0.0.4_iphoneos-arm_NeutronFile.deb
+Size: 117362
+MD5sum: 4920654fb51943dd5ee9fd05f7889713
+SHA1: 2e44fe76b8d3e0a6c31a01519bce4805e7258d6b
+SHA256: edd5158fbe3df406294426cdc6c0d660711f691446d4212b75bd17df626c3dea
+SHA512: 1718d6830a638efe3924e09a9061689125afbbf66e750c7dad8966f3c18e0909ceeefb26a499ad87aeac3f3f4f246f0c8b4f53d2e9d0e7cd0f08f13ef35a67dd
+Homepage: https://neutronfile.org
+Description: VIP Lifetime!
+Name: Camera360 PRO
+Author: pxcex
+Twitter: https://twitter.com/NeutronFile
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.camera360pro.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.camera360pro
+Icon: https://i.imgur.com/DT6WUBc.png
+
+Package: org.neutronfile.checkra1n-respring-logo
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Themes
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Depends: com.spark.snowboard
+Filename: ./debfiles//org.neutronfile.checkra1n-respring-logo_1.0_iphoneos-arm_NeutronFile.deb
+Size: 19880
+MD5sum: 311cf075db76a9e06e17bec12bba7257
+SHA1: 252d2e7bfb22f026a44f989ca637a7f10af7cd39
+SHA256: b699a069a25fe7cb481321c0fbe912813b14ad605b42511332281a57068a50d4
+SHA512: d722b519dbe7869fb182fa73407527a0ebc3f24ebf49edfa00a7fff8b7f1aead55cfbb7aabde2f9c9515004b097da86bb4c59e5786d42576e71c4642edea8b1d
+Homepage: https://neutronfile.org
+Description: A theme with beautiful icons!
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.checkra1n-respring-logo.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.checkra1n-respring-logo
+Name: Checkra1n Respring Logo
+Author: elhizazi1 <elhizazi1@gmail.com>
+
+Package: org.neutronfile.clutch2
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Development
+Maintainer: Neutrnfile <neutronfile19@gmail.com>
+Depends: mobilesubstrate, firmware (>= 8.0)
+Filename: ./debfiles//org.neutronfile.clutch2_1.1_iphoneos-arm_NeutronFile.deb
+Size: 457732
+MD5sum: 4a3377c23db24ee3533dd5beb944f6d5
+SHA1: 9cbfd8cfeb1ece4221da802961206cfc46aca10b
+SHA256: b24c4d16ca55fad9fa1200c4bbbb60633f2836002b7dbbb41bcbd8bf25ca90dc
+SHA512: 52dbfc1b09f909bbf51c42a5516ca3941a730e648cb17c3baead393b832cd0ce2aca9362fed0da2256fa15cdbd487772c28555c706a971599c554901981be45a
+Homepage: https://neutronfile.org
+Description: Clutch2 crack app to ipa cmd Clutch ., cmd Clutch2 -i
+Name: Clutch2
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.clutch2.json
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.clutch2
+Author: NeutronFile <neutronfile19@gmail.com>
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+
+Package: org.neutronfile.cydown
+Architecture: iphoneos-arm
+Version: 7.1.2
+Section: Tweaks
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Filename: ./debfiles//org.neutronfile.cydown_7.1.2_iphoneos-arm_NeutronFile.deb
+Size: 4361134
+MD5sum: 63bc94557659bf4eae78dbe38be127d7
+SHA1: 2c2aaa10d7bd443b068c99cee7d9a4fcb52ed581
+SHA256: 90252fdcac632be62cb0d058875ab5c5f2698132fd2c4e92160123f13bf64b1c
+SHA512: 42ba887543c74a509ae75a36f2e8ebee4d8173794348910351ece61eeda0ad11facd0dc43f46248cdfb3fe5fd4efabd6a339db188b318f9a43afd5cadea58fc7
+Homepage: https://neutronfile.org
+Description: Cydia Download Manager & Extra Features!
+Name: CyDown
+Author: julioverne
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.cydown.json
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.cydown
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+
+Package: org.neutronfile.debrepack
+Architecture: iphoneos-arm
+Version: 1.0-1a
+Section: Development
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Depends: dpkg
+Filename: ./debfiles//org.neutronfile.debrepack_1.0-1a_iphoneos-arm_NeutronFile.deb
+Size: 1266
+MD5sum: bef70378666b3673a891303c4d177a51
+SHA1: 64b2b50031b284711d35ebd4c8032a90a6ea47fb
+SHA256: 238eed1b8263b553f989a70689236fa8083476ff1718bda21fe15f6b924700b9
+SHA512: 3f15be845469b77b4e7451385436e088b5342ade7bd295ca7c28e78b7f07cdbed7a6147d6705c9574b30ac0a21460187ee72abf1faa6886be8f23fc9bacc4e60
+Homepage: https://neutronfile.org
+Description: bash command to repack deb file Easy Repack deb files. type debextract/debmount on terminal to unmount/mount deb file on /var/mobile/Documents/deb/
+Name: deb Repack
+Author: julioverne
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.debrepack.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.debrepack
+
+Package: org.neutronfile.flipagrampro
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Apps
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Installed-Size: 384
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.flipagrampro_0.0.2_iphoneos-arm_NeutronFile.deb
+Size: 121604
+MD5sum: 3968d71676d742bb97d44b9616190938
+SHA1: 912a086d6fe7be292cd066bef36adc35f0d96b5a
+SHA256: 429bd525ca2049a8f5d7cbdc10221a09204080947b43f316aaedfbc126c3b528
+SHA512: edab5faee444f9aa162f4860e8155de5ef1dbd2a0ae380bf278532c0faaf05698f0d736055b19afb63a88ae6dc69d8b97c7ddc934cf707ef5c0d8c62d4e76309
+Homepage: https://neutronfile.org
+Description: Premium Lifetime.
+Name: Flipagram PRO
+Author: pxcex
+Twitter: https://twitter.com/NeutronFile
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.flipagrampro.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.flipagrampro
+Icon: https://i.imgur.com/OSXQZzT.png
+
+Package: org.neutronfile.focospro
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Apps
+Maintainer: NeutronFile <neutronfile19@hmail.com>
+Installed-Size: 384
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.focospro_0.0.2_iphoneos-arm_NeutronFile.deb
+Size: 114522
+MD5sum: 050e3789c544284b4356d469f61fb126
+SHA1: 100a879b7c4a0d7dd072178a008020b862acb2fa
+SHA256: f7dda7abf77810eb23fe243a674234b40fe2467284af55af4175e7759c7f662f
+SHA512: 67bb92b118b73d6d73615ea6f7725b8e10125f9bea21c4a91abfb31bcd3005037c92b1355cbf0cb351d1740aabf4f2031307944a89c3a28f8f5bb9b8496fc8f2
+Homepage: https://neutronfile.org
+Description: Lifetime unlimited access.
+Name: Focos Premuim
+Author: pxcex
+Twitter: https://twitter.com/NeutronFile
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.focospro.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.focospro
+Icon: https://i.imgur.com/Jwwrf6f.png
+
+Package: org.neutronfile.gravity
+Architecture: iphoneos-arm
+Version: 0.7
+Section: Tweaks
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debfiles//org.neutronfile.gravity_0.7_iphoneos-arm_NeutronFile.deb
+Size: 223710
+MD5sum: 0cec272a50aad189b0fd88e3edbced93
+SHA1: 16a73f4add7997ea307052d55b4d885e183253f5
+SHA256: 39aca9b1d385b1c38d1188140a9f3a6e8015082a7347d81a9b7d4c2b3d1db1de
+SHA512: e272af4f89bc62980a125d5f4685d62cdb5c897e676abc9726f3584f0cf24e5ce80281fc9d3bc4263fb26b4d1ef10f4df9fda73bfa432282eaf688986f24ef30
+Homepage: https://neutronfile.org
+Description: Graviboard alternative
+Name: Gravity
+Author: julioverne
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+Icon: file:///Library/PreferenceBundles/Gravity.bundle/icon@2x.png
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.gravity.json
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.gravity
+
+Package: org.neutronfile.homeplus
+Architecture: iphoneos-arm
+Version: 0.4.9-beta
+Section: Tweaks
+Maintainer: elhizazi1 <elhizazi1@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.homeplus_0.4.9-beta_iphoneos-arm_NeutronFile.deb
+Size: 1310188
+MD5sum: 868d5fb56e757938f575d89449360442
+SHA1: e00fc19a1b5b602780b271190fe0ad9e547117d8
+SHA256: fef0960b0cf06c9ed5dd78eba468c3d5a4f0819c6597b463dd5d558a4188b0b9
+SHA512: 0ed288c8f6edad0856d3dd8578fdcb42d0288a584231dcf4a63045f16a44bf6bcef36540f60aa477e6edd03b79517f0b94e6313e007f67fa1f85afb6f140f7e6
+Homepage: https://neutronfile.org
+Description: Dynamic, live homescreen layout with an intuitive UI
+Name: HomePlus Beta
+Author: Kritanta <neutronfile19@gmail.com>
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.homeplus
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.homeplus
+Twitter: @elhizazi1 <https://twitter.com/elhizazi1>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+
+Package: org.neutronfile.honey
+Architecture: iphoneos-arm
+Version: 1.0.3
+Section: Tweaks
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Conflicts: com.blakeboxberger.dockremover
+Filename: ./debfiles//org.neutronfile.honey_1.0.3_iphoneos-arm_NeutronFile.deb
+Size: 77280
+MD5sum: 7d726296ce52d06710f45f459fbf32d3
+SHA1: f10cc364f7af10bf478bb92df2869eebfe222384
+SHA256: 8e830ba51e6807bae0782885e879f7a5519eab9e7ff2d944068e396bc3726afe
+SHA512: d2648bc9e90e65faafbf9a230f0ff7f51dfac4b94e6cdb5a96cd5aaff7e916fc32ccc06c9b6e915330c7a54b72c6fe5d9ac514d558762028763f7812fd5192ea
+Homepage: https://neutronfile.org
+Description: The watchOS app launcher, now on your iOS device!
+Name: Honey
+Author: Blake Boxberger
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.honey
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.honey.json
+
+Package: org.neutronfile.icons
+Architecture: all
+Version: 1.0
+Multi-Arch: foreign
+Priority: required
+Essential: yes
+Section: Repositories
+Maintainer: MeutronFile <neutronfile19@gmail.com>
+Replaces: cydia
+Filename: ./debfiles//org.neutronfile.icons_1.0_all_NeutronFile.deb
+Size: 3583288
+MD5sum: cb2b3f2aa087c43f18ed8bf56b4132e6
+SHA1: 1cd25ac1dabf3a2954af15d3a5eff027c70f5a1a
+SHA256: feb9dd6db2ce1b606e337916f588beb7af87407fd99658245a44a6eb1e85e795
+SHA512: 2d5b4a19bf5a41262592db387a1de23bcf08f700f2c3d36cade6eed258946aa6365689f83171b0816dd5ab2da73c01adf15e851db00cf38aa8938ce2a6c6002c
+Description: locally cached package icons from NeutronFile's Repo
+Author: elhizazi1 <elhizazi1@gmail.com>
+Sponsor: NeutronFile.org <https://neutronfile.org>
+Name: NeutronFile Icon Set
+
+Package: org.neutronfile.icons
+Architecture: all
+Version: 1.1
+Multi-Arch: foreign
+Priority: required
+Essential: yes
+Section: Repositories
+Maintainer: MeutronFile <neutronfile19@gmail.com>
+Replaces: cydia
+Filename: ./debfiles//org.neutronfile.icons_1.1_all_NeutronFile.deb
+Size: 3583300
+MD5sum: b706e38ee5f1eb8fe68b363102fe16a4
+SHA1: 8cb64579d8b3b2d534e515cdfa26fe57ad63f8a3
+SHA256: 7c1ca5424634d8bb6e7127280742c006d6331279622847c9dc0acdfefc558b08
+SHA512: 7d50e3a77cb455601ca5c8b5e9a7680d86dcc0c4b473dc61a929158f17432bac2c31b8e152e79984acfad5b65356f42e912445eb65fff4111be7365b6d9d6ecc
+Homepage: https://apt.neutronfile.org/
+Description: locally cached package icons from NeutronFile's Repo
+Author: elhizazi1 <elhizazi1@gmail.com>
+Sponsor: NeutronFile.org <https://neutronfile.org>
+Name: NeutronFile Icon Set
+
+Package: org.neutronfile.inshotpro
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Apps
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Installed-Size: 384
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.inshotpro_0.0.2_iphoneos-arm_NeutronFile.deb
+Size: 120164
+MD5sum: dc79e3137f5c7cb4ebcb72ad67523950
+SHA1: 9ee1ebef3c0fe56fea21b7853fd491ed45add0c9
+SHA256: af4d5c11cfae62d6dc62ef78f9c784c46b81ffe5efc094330626cb0f3180f5ec
+SHA512: b682270b3f959aba28f8dbfc588406f85363c8f1ce44151a2f4ca4b9d1cd383d45260367565b98e8a2e93bf898d6caa2e0e1a6f56da5f5965771f5a84595afb2
+Homepage: https://neutronfile.org
+Description: InShot Pro lifetime.
+Name: InShot PRO
+Author: pxcex
+Twitter: https://twitter.com/NeutronFile
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.inshotpro.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.inshotpro
+Icon: https://i.imgur.com/plulY8V.png
+
+Package: org.neutronfile.ipa2deb
+Architecture: iphoneos-arm
+Version: 1.0.5
+Section: Development
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Depends: dpkg
+Filename: ./debfiles//org.neutronfile.ipa2deb_1.0.5_iphoneos-arm_NeutronFile.deb
+Size: 2282
+MD5sum: 45fe8dcc37b3158c2584d6efb0ca2515
+SHA1: 54bd190f4c8b71242089a3d87309974f603136d2
+SHA256: 18cdb7ab7da170d7af7b7b0b2366993849c2b4084c78a710dce1d1c30c688eeb
+SHA512: 40378b71873f9d9bd04f1cc5d354234528e3b5eff76652a2226d5688cb5e7371a7b6ed47c348382bf4bce3c70ccadf2996cdd6e2242e40f17453f9a71be28a76
+Homepage: https://neutronfile.org
+Description: Convert IPA to DEB
+Name: ipa2deb
+Author: elhizazi1 <elhizazi1@gmail.com>
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.ipa2deb.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.ipa2deb
+
+Package: org.neutronfile.jbzcarrier
+Architecture: iphoneos-arm
+Version: 1.0-1E
+Section: Addons (Zeppelin)
+Maintainer: NeutronFile <neutronfile19@icloud.com>
+Depends: com.alexzielenski.zeppelin
+Filename: ./debfiles//org.neutronfile.jbzcarrier_1.0-1E_iphoneos-arm_NeutronFile.deb
+Size: 8702
+MD5sum: a75a09be78145d67552beaaa53d6b2c0
+SHA1: a9a7e02e79ddbecb31a8b2dd7485682b4e82bf4b
+SHA256: 98f5613775db7ce40581d1f7973f365c807cec69705361687703bb8ea32d1181
+SHA512: 2a677025e0c80db6b4d6fd0d9f0e4b400464a01a194acffdb5736af8535f12e88da1d7565eb9651049664307ad6992f1f6caa2fcc28226a4bd4aa303ffe3c2ab
+Homepage: https://neutronfile.org
+Description: Jailbreak zeppelin carrier requests
+Name: Jailbreak carrier
+Author: NeutronFile <neutronfile19@icloud.com>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.jbzcarrier.json
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.jbzcarrier
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+
+Package: org.neutronfile.kinemasterpro
+Architecture: iphoneos-arm
+Version: 0.0.4
+Section: Apps
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Installed-Size: 416
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.kinemasterpro_0.0.4_iphoneos-arm_NeutronFile.deb
+Size: 115168
+MD5sum: 465fec9e4b62c438f4b2fa4c75e35505
+SHA1: 49749ae6a841fce31394bb4edb17297c4c7dfab5
+SHA256: 075baa8ee104edffe640356a77642b1c7c83665c03bb4a7da0cefcc2b59567e1
+SHA512: d49be0cd0c9504207a60ab15675e6689616d75b2e0acbf989d5869d29b748359dbf9e04896f9f739b507cacb26c925b15a47d0ef29852a4bfbed1067a4faa568
+Homepage: https://neutronfile.org
+Description: Subscription Lifetime.
+Tag: purpose::extension, compatible_max::ios15.x
+Name: KineMaster Premuim
+Author: pxcex
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.kinemasterpro.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.kinemasterpro
+Icon: https://i.imgur.com/6gwSmed.png
+
+Package: org.neutronfile.localiapstore
+Architecture: iphoneos-arm
+Version: 1.5-2E
+Section: Tweaks
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Filename: ./debfiles//org.neutronfile.localiapstore_1.5-2E_iphoneos-arm_NeutronFile.deb
+Size: 70906
+MD5sum: 8b24ee006db1a1fb018a8c32474788be
+SHA1: 66e88fd0d3a3547a2f34db7d4248a0ff1483550a
+SHA256: 666795c8d5f54c3ce1a50f1fec8764c7b91ec6566d529ea05067223bad55474e
+SHA512: fd31b02dbee035e6319f10a3625c3048f9168bb9ab096ec8ac2b2ac32c204e7e8a322631671737f0c5dc85e797f15a40cbdfb6051325b5a74654071c406416dc
+Homepage: http://neutronfile.org
+Description: Pwns In-App purchases on iOS 7.1.2 ~~+> . Compatible with ARMv8 (64 Bit). Enable in settings. PRESS 'DISMISS' ON POPUP!
+Name: LocalIAPStore
+Author: elhizazi1
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+Donate: https://paypal.me/Elhizazi
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.localiapstore
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.localiapstore.json
+
+Package: org.neutronfile.localiapstorefull
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Tweaks
+Maintainer: NeutronFile
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.localiapstorefull_0.0.2_iphoneos-arm_NeutronFile.deb
+Size: 3900
+MD5sum: b58253cfa61ed19d87c29a154909bf6d
+SHA1: a5eaf298c4f8f0afb15738c47195a0e7c14806de
+SHA256: ba6a1828b65d173e7354c3df1dbf15497cce7f5934623779eef4de4a367e3e1f
+SHA512: fcf28a83a96c984bc6d7d176b9aed64d6bf3c0b9a57f28e83f74fb5dc3391c36ac44b9821ad52090245ee02d93ca642ab35cf969caa1aaf622e55e8cd5c04336
+Homepage: https://neutronfile.org
+Description: Free In-App Purchases include app IOS 12 IOS UP bypass Lock iCloud (bypass verify Passcode, Touch ID or Face ID).  No options to configure!
+Name: LocalIAPStore Full
+Author: NeutronFile <neutronfile19@gmail.com>
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.localiapstorefull.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.localiapstorefull
+Icon: https://raw.githack.com/neutronfile/NeutronFile/master/images/neutronfile1.jpg
+
+Package: org.neutronfile.lynx-ar
+Architecture: iphoneos-arm
+Version: 0.1~ar
+Section: Addons
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Depends: org.neutronfile.lynx
+Filename: ./debfiles//org.neutronfile.lynx-ar_0.1~ar_iphoneos-arm_NeutronFile.deb
+Size: 8992
+MD5sum: e61ff4d80b5e004c92e01eb9a8e98d17
+SHA1: 090d6a8ada92cc89996cf490faae1bfc9811a5ad
+SHA256: 9dd6591cf2d2dcdb8c1435cb41cb94f62e0d14a259dc37877ea832dc6245cebd
+SHA512: 810d5febaf45a7f899e1b4a8d81efdfad78fdacc3eff5b885769626427c48a8f0983362b6cd9e1d017fccc23f6175648bf438d7763adab163377fbde3db8266a
+Homepage: https://neutronfile.org
+Description: lynx Add Language Arabic
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.lynx-ar.json
+Depication: https://apt.neutronfile.org/description.html?id=org.neutronfile.lynx-ar
+Name: Lynx - AR
+Author: elhizazi1 <elhizazi1@gmail.com>
+Twitter: @elhizazi1 <https://twitter.com/elhizazi1>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org>
+
+Package: org.neutronfile.lynx
+Architecture: iphoneos-arm
+Version: 1.1.4
+Section: Tweaks
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Depends: mobilesubstrate, ws.hbang.common, org.thebigboss.libcolorpicker, firmware (>= 12.0), com.rpetrich.rocketbootstrap
+Filename: ./debfiles//org.neutronfile.lynx_1.1.4_iphoneos-arm_NeutronFile.deb
+Size: 359512
+MD5sum: b58ffc157dbda3dba3b36fb8cac935d1
+SHA1: 1af2d706e2a8e349a0f2ad2632ff934aa48ce22b
+SHA256: 691d1e8eb5a039e6be4384a5bed2f4eabe122cd671fc933a71672f12faca6f00
+SHA512: 20a027a0aebd271c1996bad2e5996df981795f399d87a224ad39ca59e605cb922ab406c7c4c6897221829d899ff9e1c1575f3ca2f5afc6f2e3b3f0e433066526
+Homepage: https://neutronfile.org
+Description: Ultimate device customization
+Tag: purpose::extension, compatible_min::ios12.0, compatible_max::ios14.x
+Name: Lynx
+Author: MTAC <mtactheming@gmail.com>
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.lynx
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.lynx.json
+Icon: https://twickd.com/cdn/screenshots/6195125da9033aac54ffa8c087ff0eaa/default
+
+Package: org.neutronfile.mimport
+Architecture: iphoneos-arm
+Version: 0.0~beta40
+Section: Tweaks
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Depends: mobilesubstrate, unzip, unrar
+Filename: ./debfiles//org.neutronfile.mimport_0.0~beta40_iphoneos-arm_NeutronFile.deb
+Size: 1495832
+MD5sum: b381862b9baf083bd667dd82f486fd60
+SHA1: 66475cd6bbdc0946054007a97ae0c7e99b5994db
+SHA256: 30b73bca9b3f223d0b5ce6a8bbb1d7e0422cfbb8e0cae0f904d4f0f44ae0a6c9
+SHA512: e55ea91fb9757858fabce004347999a63765f5c5e211ec424a55b2dd0ff707871409859d28f666b794b029e33c5058c4517b6a347a8d1f240c94aef7a434ca46
+Homepage: https://neutronfile.org
+Description: Media Importer Directly From Music App
+Name: MImport
+Author: julioverne
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+Icon: file:///Library/PreferenceBundles/MImport.bundle/icon@2x.png
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.mimport.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.mimport
+
+Package: org.neutronfile.newtermtm
+Architecture: iphoneos-arm
+Version: 0.0.2E
+Section: Tweaks
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.newtermtm_0.0.2E_iphoneos-arm_NeutronFile.deb
+Size: 30070
+MD5sum: be728c345e8526d28e4aaba296c3a768
+SHA1: caf83009d6e6cd5032f8330c0b5c817c43b4eef5
+SHA256: df0c09066ce303fd60b780a6b50d39b044ef3db16f4c07272d6a16b4f7d2d7cf
+SHA512: e09e44ce4c4d56680ccd455a3dcba9505f759ec6048d0ad17e81a37d49c3338d45a14f0bba9893887b4680b6967a0ebab9eef3d650abd6c6e71a6df2146c4265
+Homepage: https://neutronfile.org
+Description: custom NewTerm color schemes with ansi color codes
+Twitter: @NeutronFile <https://twitter.com/NeutronFile>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.newtermtm.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.newtermtm
+Name: NewTerm Theme Manager
+Author: NeutronFile <neutronfile19@gmail.com>
+
+Package: org.neutronfile.officesuite
+Architecture: iphoneos-arm
+Version: 1.0.2
+Section: Apps
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Installed-Size: 384
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.officesuite_1.0.2_iphoneos-arm_NeutronFile.deb
+Size: 116096
+MD5sum: 7a29de31bf1762db82a843ff2e5b86cf
+SHA1: 1df16fb511132db508b49d19286ee049a2d9fc07
+SHA256: 1e5a62d1b6858e725b3f9c8c1980980778f73d685cab239a72db63d17fc2726d
+SHA512: bceea434df5eacea5079915216ac8da0881bcbb122d6f6e69f9c927804545bd411f59303046f598eacfea3b104c2e51876c301ee92139c65f294718b80dea630
+Homepage: https://neutronfile.org
+Description: OfficeSuite & PDF editor
+Name: OfficeSuite Unlock
+Author: pxcex
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.officesuite.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.officesuite
+Icon: https://i.imgur.com/mGmRfUU.png
+
+Package: org.neutronfile.picsartgold
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Apps
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Installed-Size: 288
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.picsartgold_0.0.2_iphoneos-arm_NeutronFile.deb
+Size: 82198
+MD5sum: 80bb10dd77af5e7b70d2d7b35878ae36
+SHA1: 548423f415066cccddbdb259006dd0debde8259a
+SHA256: fe3bae7bf20b7ea06d8b36a3e22bf5263d1dc6421bdc1cbb20763ee06b95f2bb
+SHA512: 0722d29af0d2ae4ecef7283e60826f800d30d7e52c79985d102f8f8d91f1452cb08571f5a0cdc0c24a643ce2ac4ca214146c48737b9c479f0c3fcbf0e5931be9
+Homepage: https://neutronfile.org
+Description: PicsArt Gold.
+Tag: purpose::extension, compatible_max::ios15.x
+Name: PicsArt Gold
+Author: pxcex
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.picsartgold.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.picsartgold
+Icon: https://i.imgur.com/WVO9EQj.png
+
+Package: org.neutronfile.polarisoffice
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Apps
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Installed-Size: 384
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.polarisoffice_0.0.2_iphoneos-arm_NeutronFile.deb
+Size: 115874
+MD5sum: 6109c2b98998ac20f218e85df87709d0
+SHA1: 7b67036c69173cfa6a3241cdbf9626d1368500ca
+SHA256: cba20e3082cc7294ba4393e2223371bb62508474566ef8b63ade0599d95dd795
+SHA512: b392e461d9a17d1153eab10105be320e3658931f1aa3e907175f655abba77645e28e004212b5d5201dfec1a55ec54c323e90af85138dab74fd4454226041ec90
+Homepage: https://neutronfile.org
+Description: Polaris Office - PDF & Docs Premium Service.
+Name: Polaris Office Unlock
+Author: pxcex
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.polarisoffice.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.polarisoffice
+Icon: https://i.imgur.com/HeHIRfe.png
+
+Package: org.neutronfile.psiphonpro
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Apps
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Installed-Size: 148
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.psiphonpro_0.0.2_iphoneos-arm_NeutronFile.deb
+Size: 9844
+MD5sum: bfa89c01632b5703b7abcb70bfa11fd2
+SHA1: 08b5aad1ff64061ea8c9e335e0ed4ea4936cf2e9
+SHA256: 40cee9b4e519cb93633948ec813e59b75f20c27fdc2f5d1b24b9650df3b7cb71
+SHA512: ce0bbe88a5ff4c7704c754759a81d47d835483a02b813b418c2a1fdb16e20513c8ff520c1d199ef0a48768980d4ccb61d633c30ed53d755f3634fd5c2e6ed3d0
+Homepage: https://neutronfile.org
+Name: Psiphon VPN PRO
+Author: NeutronFile
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.psiphonpro.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.psiphonpro
+Icon: https://i.imgur.com/aW810v7.png
+
+Package: org.neutronfile.redeb
+Architecture: iphoneos-arm
+Version: 1.0.4E
+Section: Development
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Depends: bash (>= 4.0.17-13), coreutils (>= 8.12-12p), grep (>= 2.5.4-3), sed (>= 4.1.5-7), gawk (>= 3.1.6-2p), apt7 (>= 0.7.25.3-6)
+Filename: ./debfiles//org.neutronfile.redeb_1.0.4E_iphoneos-arm_NeutronFile.deb
+Size: 3640
+MD5sum: fe3c4132b395eee3af71fc7048789062
+SHA1: 4b56053c83224b7e2ca675e860985f5e3c89ce95
+SHA256: 7c4c0d50d7140bc6118e1c1e0dcf5a8d7b214389d6ba9ed20519fa0dd05335d8
+SHA512: 6148a71d7c8369cab103f6936e065422b103ef03e43fc694a0c21209c845333d26d25f2cd926827ecbd3ede89970e3966408fd6e7aa6d466d8d84d06a2c1239e
+Homepage: https://neutronfile.org
+Description: Repackage any of your tweaks locally, without the need to download it from Cydia again. This is super usefull when there is an update of your until now perfectly working tweak in Cydia and you want to make a backup of the version installed. Normally you wouldn't be able to backup anything because it is possible to fetch only the most current version of your tweak and so you would be lost. Not anymore :) not worck white sileo.
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+Name: redeb
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.redeb
+Author: NeutronFile <neutronfile19@gmail.com>
+
+Package: org.neutronfile.reprovision
+Architecture: iphoneos-arm
+Version: 0.6.0~release
+Priority: optional
+Section: System
+Maintainer: NeutronFile
+Provides: com.matchstic.Extender-Installer, com.matchstic.reprovision
+Depends: firmware (>= 9.0)
+Replaces: com.matchstic.Extender-Installer, com.matchstic.reprovision
+Filename: ./debfiles//org.neutronfile.reprovision_0.6.0~release_iphoneos-arm_NeutronFile.deb
+Size: 15950106
+MD5sum: 72953a0dbe008c0a1a34d489e6769d1a
+SHA1: abd0e5e835bb5921eba342ebf2873fd9a993c80c
+SHA256: 892b970c733f9c9f25dc923ce0c77ba89de585ee6612fc37fc967da821a9de03
+SHA512: f1adc8643033c1484fc21acbaea3732d1da1455261cefd7c866b7625f0338f0ede7e01c1b0857e347804d6775daa0a3fd255f44bf750687aeadffe5efd9e3597
+Homepage: https://neutronfile.org
+Description: Re-sign applications on your device
+Name: ReProvision Reborn
+Author: Soh Satoh, Matt Clarke
+dev: Matt Clarke
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.reprovision.json
+Depiction: http://apt.neutronfile.org/description.html?id=org.neutronfile.reprovision
+Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
+
+Package: org.neutronfile.starvpnunlock
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Apps
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Installed-Size: 384
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.starvpnunlock_0.0.2_iphoneos-arm_NeutronFile.deb
+Size: 113888
+MD5sum: 532c4b7beae921f1d2c443eab840e992
+SHA1: f18e0bfd4451a19e03dcec9ccc01f50cc9ee6b50
+SHA256: 927b6e3d46f83d6bdd188241f0ca95c795c2bf4c0ce1078be05a16c26a3db305
+SHA512: 9b5264a1d18d270e0ad5614609bf0112fcd08873fde4f62d6183c49b596ea167b43b3c192d32f7d99eb54c4c3ba2a35220effa7b4787f9171316ce4404a32dbc
+Homepage: https://neutronfile.org
+Description: Star VPN: Unlimited WiFi Proxy Premium!
+Name: Star VPN Unlock
+Author: pxcex
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.starvpnunlock.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.starvpnunlock
+Icon: https://i.imgur.com/a8bRvk7.png
+
+Package: org.neutronfile.tiktoknowatermark
+Architecture: iphoneos-arm
+Version: 0.0.4
+Section: Apps
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Installed-Size: 432
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.tiktoknowatermark_0.0.4_iphoneos-arm_NeutronFile.deb
+Size: 125364
+MD5sum: ae44b8a6cc993d2d43e78f612943481e
+SHA1: a45aceca58acd8e999a21cd6bec6750674d168a7
+SHA256: a1c0a2125cdcbbf02affab20a7d86161d4972e97a4f6aee0ff86786fc95633d6
+SHA512: ad8c2158fe562d1704768c9b69e5992c795d290b8e9b6396eb9d783a14e729bc8af71049eebd762798b8947b00a41ee54e8359ce01a28b35b497ef3ec4141718
+Homepage: https://neutronfile.org
+Description: Download TikTok videos without watermark.
+Name: TikTok No Watermark
+Author: pxcex
+Twitter: https://twitter.com/NeutronFile
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.tiktoknowatermark.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.tiktoknowatermark
+Icon: https://i.imgur.com/2bUty4T.png
+
+Package: org.neutronfile.touchvpn
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Apps
+Maintainer: NeutronFile
+Installed-Size: 384
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.touchvpn_0.0.2_iphoneos-arm_NeutronFile.deb
+Size: 113604
+MD5sum: cf65c2c4ee247a5490489aedd2370bd7
+SHA1: 5cbbbe2abd747a61cf631ad8e95c8c68c1fff553
+SHA256: 60a4661275d191f1491ecfc053bf09cb6ca23d49820fa76d2d07217faf163059
+SHA512: 94720c067544c53e21a7f2701ad1d6650f54407f5bcfe0ff882d3e0a00c56ba1c8960d57367449336e686a6fa1fcbdf4db59d5cc3bd43e65f073a6700e0fd1fe
+Homepage: https://neutronfile.org
+Description: Touch VPN — Unlimited Proxy Premium!
+Name: Touch VPN PRO
+Author: pxcex
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.touchvpn.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.touchvp
+Icon: https://i.imgur.com/zoioFqX.png
+
+Package: org.neutronfile.turbovpnunlock
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Apps
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.turbovpnunlock_0.0.2_iphoneos-arm_NeutronFile.deb
+Size: 5792
+MD5sum: d51bfcdeffb9b8986802c484c12e44e2
+SHA1: 7fa83c1ce8ae07bc251ff4dbf26f55cbebf3cfb9
+SHA256: 4dbab8ccafcd4e7606abc764ed2ac3caae2bb24449fcd6aaec0ee489101ddc3e
+SHA512: 5eaaa8f6d550a37a6f6096a6e75525d9f5ea3b61f239aca5230e93410f9d4e402c46339323feb12dba37eec1b6d4d7ffa8d1b1827512faae71f599f864666a1e
+Homepage: https://neutronfile.org
+Description: VIP Plan Lifetime.
+Name: Turbo VPN Unlock
+Author: pxcex
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.turbovpnunlock.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.turbovpnunlock
+Icon: https://i.imgur.com/2gbr7a9.png
+
+Package: org.neutronfile.videostarunlock
+Architecture: iphoneos-arm
+Version: 3.0.1
+Section: Apps
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Installed-Size: 416
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.videostarunlock_3.0.1_iphoneos-arm_NeutronFile.deb
+Size: 114036
+MD5sum: 5c5952d015f69141e2a4a38014272ff0
+SHA1: cd48fbee887a5ac31bc77426d3dc1777d20b9778
+SHA256: dcb029bcd0c8546e072a49f16f7c147809a4eecd800b0729f7152236dbe2ef70
+SHA512: ffe0089e3058ebdf03703b5cd4716855888713e13f70da7359ff8cc4d8148641d50cfb4a871aab80512c56c06ece360062a3056acc83c2a0aad87f42d81a88ab
+Homepage: https://neutronfile.org
+Description: Video Star Gold Pass (All Access Pass)
+Name: Video Star Unlock
+Author: pxcex
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.videostarunlock.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.videostarunlock
+Icon: https://i.imgur.com/6eHS657.jpg
+
+Package: org.neutronfile.viewsource
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Applications
+Maintainer: NeutronFile <neutronfile19@icloud.com>
+Filename: ./debfiles//org.neutronfile.viewsource_2.0.0_iphoneos-arm_NeutronFile.deb
+Size: 1618456
+MD5sum: e252d1cf99f97b47eb344bf56f120d2f
+SHA1: 1d104e3d36f40117aa4a9b0a06b0b4c5d8c5c398
+SHA256: 26e50734491587ccca1b90713753bc9754d3e45f52e59aa7967775c79e4eddcb
+SHA512: c63a0153449f6675ad078a15f4e0cdb84113a34e3261fbf43247e3cdf67e27b8c1755a8a0e26459a690474a6216334e0042a4454c3531c12024c49e066cb372c
+Homepage: https://neutronfile.org/
+Description: get souerc any website & Get all codes (html pho js css ...)
+Name: View Source
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.viewsource.json
+Depection: https://apt.neutronfile.org/description.html?id=org.neutronfile.viewsource
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+Author: elhizazi1 <elhizazi1@gmail.com>
+Icon: https://i.imgur.com/KL2iOmC.png
+
+Package: org.neutronfile.vivavideovip
+Architecture: iphoneos-arm
+Version: 7.0.4
+Section: Apps
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Installed-Size: 292
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.vivavideovip_7.0.4_iphoneos-arm_NeutronFile.deb
+Size: 88860
+MD5sum: db20a37cd42a016ac008cba6bbf289cf
+SHA1: 8ed87c740512b8b7098fe52292d9dd944a389360
+SHA256: 77bac7cbf3551bee5b484bfc43bec88fbf53174db608129b2659fe90b996a177
+SHA512: 6561df9888cbf9e233203fa87bea30b671e2a5352418eabb2ca99f36eb8c74ea733797101ed4741c691ec530fa203d9a4e919dfed0bbd9885825389f6c7a3312
+Homepage: https://neutronfile.org
+Description: VivaVideo VIP for Free!
+Name: VivaVideo VIP
+Author: pxcex
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.vivavideovip.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.vivavideovip
+Icon: https://i.imgur.com/lqef7Wz.png
+
+Package: org.neutronfile.vpnaegispro
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Apps
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Installed-Size: 384
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.vpnaegispro_0.0.2_iphoneos-arm_NeutronFile.deb
+Size: 113568
+MD5sum: d435f89677572c7c7d9847d174cceeb1
+SHA1: c34e3d8bec68f86f8fb6837a66c803e0bd2e3e9d
+SHA256: 29af3734645aef74b82246cb5b2d64e22d94f7531d2a9c71facbb4c7f793fce3
+SHA512: ef2a4c0b79788f1fb8e994098adec8c787ed27faa77822ccab8155b354066820ee509d04af3622de27193a444f34f0e3d6d77028efc15b6f002bbb89595ae53c
+Homepage: https://neutronfile.org
+Description: VPN Aegis Unlimited VPN Proxy Premium!
+Name: VPN Aegis PRO
+Author: pxcex
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.vpnaegispro.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.vpnaegispro
+Icon: https://i.imgur.com/lFAmGx5.png
+
+Package: org.neutronfile.vpnproxymaster
+Architecture: iphoneos-arm
+Version: 2.0.2
+Section: Apps
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Installed-Size: 432
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.vpnproxymasterunlock_2.0.2_iphoneos-arm_NeutronFile.deb
+Size: 124304
+MD5sum: a87323284f3e99be50da19ee373402f8
+SHA1: 4206c69c0932f2509151dd81611356a2af0d47b1
+SHA256: 15f010e845ba4e87259b43e9300f566891d35cfb54fc6a750316ddf01c7b706a
+SHA512: 0c63bf6350914df36335ef1abf83fa21d65ee7f901e5d02f5000fc21796b946c1249fe5e6f9918da17c4def23ced483fb5f21fec606485f047f9f2910e691319
+Homepage: https://neutronfile.org
+Description: Unlimited VPN VIP!
+Name: VPN Proxy Master Unlock
+Author: pxcex
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.vpnproxymaster.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.vpnproxymaster
+Icon: https://i.imgur.com/TH7s22d.png
+
+Package: org.neutronfile.vscoxactive
+Architecture: iphoneos-arm
+Version: 1.0.2
+Section: Apps
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Installed-Size: 304
+Depends: mobilesubstrate, org.neutronfile.localiapstorefull
+Filename: ./debfiles//org.neutronfile.vscoxactive_1.0.2_iphoneos-arm_NeutronFile.deb
+Size: 79436
+MD5sum: e34f00aac35f43916f11bb91dcabb822
+SHA1: cce5aab6905995e27ae84f8220f6c57df883d438
+SHA256: c95e9d064d3a02736674f8b1a23f68db3e33116f0e9a511784e545e57f0222d5
+SHA512: b8c3f2f085a77cbd181e04fb27a77bbc192a333f232f263957e55a04cedf7f5dc881e2495b1ee07b7b53410693b366217398f0dfa66fca6d55c224d87b76d6f2
+Homepage: https://neutronfile.org
+Description: VSCO X permanent, Path from tweak LocallAPStore.
+Name: VSCO X Active
+Author: pxcex
+Twitter: https://twitter.com/NeutronFile
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.vscoxactive.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.vscoxactive
+Icon: https://i.imgur.com/dgC8R9p.png
+
+Package: org.neutronfile.wpsoffice
+Architecture: iphoneos-arm
+Version: 0.0.4
+Section: Apps
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: ./debfiles//org.neutronfile.wpsoffice_0.0.4_iphoneos-arm_NeutronFile.deb
+Size: 6654
+MD5sum: 4d4e63c2e84e88b52838235bf1e9f2a8
+SHA1: ec821ee730b1cd4168e449c467f33c9344225814
+SHA256: 60f0349cc55c1b6bffea7f607d928e93662c1d0694e59186ec4b93c1c846e18d
+SHA512: dd7995c4e3e275bb6baa0b204fa396b7a614f9d4b4712876dffaecb9fe57b6c0a80f7762874909dde281d786689fbf751e1bbc808fa72c929898f1c496b87156
+Homepage: https://neutronfile.org
+Description: Super VIP Lifetime.
+Name: WPS Office Unlock
+Author: pxcex
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+SileoDepiction: https://apt.neutronfile.org/depiction/org.neutronfile.wpsoffice.json
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.wpsoffice
+Icon: https://i.imgur.com/nSdrcGN.png
+
