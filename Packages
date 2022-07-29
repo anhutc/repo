@@ -11,10 +11,10 @@ SHA256: b8e7faec6772dc99de28fe01ec90b8fcfcbe98d180c9af74f0573f1f5b97898f
 Section: Tweaks
 Description: Day/Night wallpapers your way in the native iOS 13 dark mode. Comes with over 50 OLED friendly and Full HD wallpapers that work with the native appearance aware feature. No settings required, simply install and select from the wallpaper section in the settings app.
 Author: alex_png <alex.png.cc@gmail.com>
-Depiction: https://alexpng.github.io/depictions/com.alexpng.darkpapers/
-Icon: https://alexpng.github.io/depictions/com.alexpng.darkpapers/DebIcon.png
+Depiction: https://anhutc.github.io/depictions/com.alexpng.darkpapers/
+Icon: https://anhutc.github.io/depictions/com.alexpng.darkpapers/DebIcon.png
 Name: DarkPapers
-SileoDepiction: https://alexpng.github.io/depictions/com.alexpng.darkpapers/darkpapers.json
+SileoDepiction: https://anhutc.github.io/depictions/com.alexpng.darkpapers/darkpapers.json
 
 Package: com.alexpng.darkpaperspack1
 Version: 1.0.0
@@ -29,10 +29,10 @@ SHA256: 5d719b7581bbd988da60036157f8ac96f0c07c29d468f3331aa0fa6796374a39
 Section: Wallpaper
 Description: This is an essential pack for the tweak DarkPapers. It can be installed without DarkPapers in case you don’t want the all-in-on package.
 Author: alex_png <alex.png.cc@gmail.com>
-Depiction: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack1/
-Icon: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack1/DebIcon.png
+Depiction: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack1/
+Icon: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack1/DebIcon.png
 Name: DarkPapers Pack 1
-SileoDepiction: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack1/darkpaperspack1.json
+SileoDepiction: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack1/darkpaperspack1.json
 
 Package: com.alexpng.darkpaperspack2
 Version: 1.0.0
@@ -47,10 +47,10 @@ SHA256: 9d918d00d093170995c64a8898351fab50f9d8418a47aabc0c7ec3976ad2aab7
 Section: Wallpaper
 Description: This is an essential pack for the tweak DarkPapers. It can be installed without DarkPapers in case you don’t want the all-in-on package.
 Author: alex_png <alex.png.cc@gmail.com>
-Depiction: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack2/
-Icon: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack2/DebIcon.png
+Depiction: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack2/
+Icon: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack2/DebIcon.png
 Name: DarkPapers Pack 2
-SileoDepiction: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack2/darkpaperspack2.json
+SileoDepiction: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack2/darkpaperspack2.json
 
 Package: com.alexpng.darkpaperspack3
 Version: 1.0.0
@@ -65,10 +65,10 @@ SHA256: 312943eca32e95bf871ca16d0a524c0165ab774ebf45669d60733878daa7364d
 Section: Wallpaper
 Description: This is an essential pack for the tweak DarkPapers. It can be installed without DarkPapers in case you don’t want the all-in-on package.
 Author: alex_png <alex.png.cc@gmail.com>
-Depiction: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack3/
-Icon: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack3/DebIcon.png
+Depiction: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack3/
+Icon: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack3/DebIcon.png
 Name: DarkPapers Pack 3
-SileoDepiction: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack3/darkpaperspack3.json
+SileoDepiction: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack3/darkpaperspack3.json
 
 Package: com.alexpng.darkpaperspack4
 Version: 1.0.0
@@ -83,10 +83,10 @@ SHA256: 2edde8cbf6c45d0619d3ab4393e706fb2b611cd1fd4a6d3fe961400691fc93a0
 Section: Wallpaper
 Description: This is an essential pack for the tweak DarkPapers. It can be installed without DarkPapers in case you don’t want the all-in-on package.
 Author: alex_png <alex.png.cc@gmail.com>
-Depiction: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack4/
-Icon: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack4/DebIcon.png
+Depiction: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack4/
+Icon: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack4/DebIcon.png
 Name: DarkPapers Pack 4
-SileoDepiction: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack4/darkpaperspack4.json
+SileoDepiction: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack4/darkpaperspack4.json
 
 Package: com.alexpng.darkpaperspack5
 Version: 1.0.0
@@ -101,10 +101,10 @@ SHA256: b53560c721a19ac0b5d917d766fb05aa44fac2437330bf7f96b6695a274cbc35
 Section: Wallpaper
 Description: This is an essential pack for the tweak DarkPapers. It can be installed without DarkPapers in case you don’t want the all-in-on package.
 Author: alex_png <alex.png.cc@gmail.com>
-Depiction: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack5/
-Icon: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack5/DebIcon.png
+Depiction: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack5/
+Icon: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack5/DebIcon.png
 Name: DarkPapers Pack 5
-SileoDepiction: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack5/darkpaperspack5.json
+SileoDepiction: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack5/darkpaperspack5.json
 
 Package: com.alexpng.darkpaperspack6
 Version: 1.0.0
@@ -119,10 +119,10 @@ SHA256: c8851136337a14f505f2024c0c8aeb37e6194282f95f34c65b87ac61447b6327
 Section: Wallpaper
 Description: This is an essential pack for the tweak DarkPapers. It can be installed without DarkPapers in case you don’t want the all-in-on package.
 Author: alex_png <alex.png.cc@gmail.com>
-Depiction: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack6/
-Icon: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack6/DebIcon.png
+Depiction: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack6/
+Icon: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack6/DebIcon.png
 Name: DarkPapers Pack 6
-SileoDepiction: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack6/darkpaperspack6.json
+SileoDepiction: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack6/darkpaperspack6.json
 
 Package: com.alexpng.darkpaperspack7
 Version: 1.0.0
@@ -137,10 +137,10 @@ SHA256: 4c52b230570d489a9aa2b996e5b31d5b2c38ebecec3a570857b41db607e238dd
 Section: Wallpaper
 Description: This is an essential pack for the tweak DarkPapers. It can be installed without DarkPapers in case you don’t want the all-in-on package.
 Author: alex_png <alex.png.cc@gmail.com>
-Depiction: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack7/
-Icon: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack7/DebIcon.png
+Depiction: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack7/
+Icon: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack7/DebIcon.png
 Name: DarkPapers Pack 7
-SileoDepiction: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack7/darkpaperspack7.json
+SileoDepiction: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack7/darkpaperspack7.json
 
 Package: com.alexpng.darkpaperspack8
 Version: 1.0.0
@@ -155,10 +155,10 @@ SHA256: a19c0bd824b8068c6b0caf9cd508dec0e344d73874063a3de78a466ed648aa42
 Section: Wallpaper
 Description: This is an essential pack for the tweak DarkPapers. It can be installed without DarkPapers in case you don’t want the all-in-on package.
 Author: alex_png <alex.png.cc@gmail.com>
-Depiction: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack8/
-Icon: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack8/DebIcon.png
+Depiction: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack8/
+Icon: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack8/DebIcon.png
 Name: DarkPapers Pack 8
-SileoDepiction: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack8/darkpaperspack8.json
+SileoDepiction: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack8/darkpaperspack8.json
 
 Package: com.alexpng.darkpaperspack9
 Version: 1.0.0
@@ -173,10 +173,10 @@ SHA256: e0482e47d697a4fad7c94b372cf236b3f1fe4efec29146a67bc6bef4b350f377
 Section: Wallpaper
 Description: This is an essential pack for the tweak DarkPapers. It can be installed without DarkPapers in case you don’t want the all-in-on package.
 Author: alex_png <alex.png.cc@gmail.com>
-Depiction: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack9/
-Icon: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack9/DebIcon.png
+Depiction: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack9/
+Icon: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack9/DebIcon.png
 Name: DarkPapers Pack 9
-SileoDepiction: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack9/darkpaperspack9.json
+SileoDepiction: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack9/darkpaperspack9.json
 
 Package: com.alexpng.darkpaperspack10
 Version: 1.0.0
@@ -191,10 +191,10 @@ SHA256: fa48534da80e74dcdf5c42a9cce316aef6497c764ef9863fef01138583a2510f
 Section: Wallpaper
 Description: This is an essential pack for the tweak DarkPapers. It can be installed without DarkPapers in case you don’t want the all-in-on package.
 Author: alex_png <alex.png.cc@gmail.com>
-Depiction: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack10/
-Icon: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack10/DebIcon.png
+Depiction: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack10/
+Icon: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack10/DebIcon.png
 Name: DarkPapers Pack 10
-SileoDepiction: https://alexpng.github.io/depictions/com.alexpng.darkpaperspack10/darkpaperspack10.json
+SileoDepiction: https://anhutc.github.io/depictions/com.alexpng.darkpaperspack10/darkpaperspack10.json
 
 Package: me.nepeta.begonecia-11
 Version: 0.3.1
@@ -225,9 +225,9 @@ Description: Phone screams when dropped!
 Maintainer: Steven Rolfe
 Author: Steven Rolfe
 Section: Tweaks
-Depiction: https://alexpng.github.io/depictions/com.chewmieser.freefall/
-Icon: https://alexpng.github.io/depictions/com.chewmieser.freefall/DebIcon.png
-SileoDepiction: https://alexpng.github.io/depictions/com.chewmieser.freefall/freefall.json
+Depiction: https://anhutc.github.io/depictions/com.chewmieser.freefall/
+Icon: https://anhutc.github.io/depictions/com.chewmieser.freefall/DebIcon.png
+SileoDepiction: https://anhutc.github.io/depictions/com.chewmieser.freefall/freefall.json
 Version: 2.0
 
 Package: com.chewmieser.freefall
@@ -242,9 +242,9 @@ Description: Phone screams when dropped!
 Maintainer: Steven Rolfe
 Author: Steven Rolfe
 Section: Tweaks
-Depiction: https://alexpng.github.io/depictions/com.chewmieser.freefall/
-Icon: https://alexpng.github.io/depictions/com.chewmieser.freefall/DebIcon.png
-SileoDepiction: https://alexpng.github.io/depictions/com.chewmieser.freefall/freefall.json
+Depiction: https://anhutc.github.io/depictions/com.chewmieser.freefall/
+Icon: https://anhutc.github.io/depictions/com.chewmieser.freefall/DebIcon.png
+SileoDepiction: https://anhutc.github.io/depictions/com.chewmieser.freefall/freefall.json
 Version: 2.1.1
 Size: 813378
 
@@ -261,9 +261,9 @@ SHA256: 8737e187d8337a84bef36483ac6924b114e2cb1a15c9bd9739c9517337eff53a
 Section: Tweaks
 Description: CC toggle to disable microphone, camera and GPS.
 Author: Nepeta <ominousness@protonmail.com>
-Depiction: https://alexpng.github.io/depictions/me.nepeta.begonecia-11/
-Icon: https://alexpng.github.io/depictions/me.nepeta.begonecia-11/DebIcon.png
-SileoDepiction: https://alexpng.github.io/depictions/me.nepeta.begonecia-11/begonecia-11.json
+Depiction: https://anhutc.github.io/depictions/me.nepeta.begonecia-11/
+Icon: https://anhutc.github.io/depictions/me.nepeta.begonecia-11/DebIcon.png
+SileoDepiction: https://anhutc.github.io/depictions/me.nepeta.begonecia-11/begonecia-11.json
 Name: BegoneCIA (iOS 11, 12 and 13)
 Size: 82750
 
@@ -279,9 +279,9 @@ SHA1: 955700a04226a9cce28cc31e14a696ffa305fe6c
 SHA256: 130e99f4637d14988e8af71e708d917c5db404dc4c452f1d5ead7dc85fed13bb
 Maintainer: alex_png <alex.png.cc@gmail.com>
 Author: alex_png <alex.png.cc@gmail.com>
-Depiction: https://alexpng.github.io/depictions/com.alexpng.fortunecookie/
-Icon: https://alexpng.github.io/depictions/com.alexpng.fortunecookie/DebIcon.png
-SileoDepiction: https://alexpng.github.io/depictions/com.alexpng.fortunecookie/fortunecookie.json
+Depiction: https://anhutc.github.io/depictions/com.alexpng.fortunecookie/
+Icon: https://anhutc.github.io/depictions/com.alexpng.fortunecookie/DebIcon.png
+SileoDepiction: https://anhutc.github.io/depictions/com.alexpng.fortunecookie/fortunecookie.json
 Version: 1.0
 Size: 160782
 Installed-Size: 712
@@ -295,9 +295,9 @@ SHA1: 20c18225849e68a43ac395b95ba8adc1697895f6
 SHA256: f8d7639864decea228ac59a445f3cf177654a120ef420c6df153bbfb4212e96f
 Architecture: iphoneos-arm
 Description: Control your device with shakes.
-Depiction: https://alexpng.github.io/depictions/com.alexpng.shake2toggle/
-SileoDepiction: https://alexpng.github.io/depictions/com.alexpng.shake2toggle/shake2toggle.json
-Icon: https://alexpng.github.io/depictions/com.alexpng.shake2toggle/DebIcon.png
+Depiction: https://anhutc.github.io/depictions/com.alexpng.shake2toggle/
+SileoDepiction: https://anhutc.github.io/depictions/com.alexpng.shake2toggle/shake2toggle.json
+Icon: https://anhutc.github.io/depictions/com.alexpng.shake2toggle/DebIcon.png
 Maintainer: alex_png <alex.png.cc@gmail.com>
 Author: alex_png <alex.png.cc@gmail.com>
 Section: Tweaks
@@ -317,9 +317,9 @@ Description: Clear applications cache from the storage settings or from the 3D T
 Maintainer: alex_png <alex.png.cc@gmail.com>
 Author: alex_png <alex.png.cc@gmail.com>
 Section: Tweaks
-Depiction: https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/
-Icon: https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/DebIcon.png
-SileoDepiction: https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/cacheclearerx.json
+Depiction: https://anhutc.github.io/depictions/com.alexpng.cacheclearerx/
+Icon: https://anhutc.github.io/depictions/com.alexpng.cacheclearerx/DebIcon.png
+SileoDepiction: https://anhutc.github.io/depictions/com.alexpng.cacheclearerx/cacheclearerx.json
 Version: 1.0
 Installed-Size: 1216
 Size: 1002214
@@ -336,9 +336,9 @@ Description: Clear applications cache from the storage settings or from the 3D T
 Maintainer: alex_png <alex.png.cc@gmail.com>
 Author: alex_png <alex.png.cc@gmail.com>
 Section: Tweaks
-Depiction: https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/
-Icon: https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/DebIcon.png
-SileoDepiction: https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/cacheclearerx.json
+Depiction: https://anhutc.github.io/depictions/com.alexpng.cacheclearerx/
+Icon: https://anhutc.github.io/depictions/com.alexpng.cacheclearerx/DebIcon.png
+SileoDepiction: https://anhutc.github.io/depictions/com.alexpng.cacheclearerx/cacheclearerx.json
 Version: 1.1
 Installed-Size: 1216
 Size: 1002192
@@ -356,9 +356,9 @@ SHA1: 001575ca877bb76e6007b9128317142fb4f6b552
 SHA256: 69a9913184a0e25af8ed4edd30bc05c83fd88468abfe24daad93f45608aedf70
 Maintainer: alex_png <alex.png.cc@gmail.com>
 Author: alex_png <alex.png.cc@gmail.com>
-Depiction: https://alexpng.github.io/depictions/com.alexpng.spotlightpls/
-Icon: https://alexpng.github.io/depictions/com.alexpng.spotlightpls/DebIcon.png
-SileoDepiction: https://alexpng.github.io/depictions/com.alexpng.spotlightpls/spotlightpls.json
+Depiction: https://anhutc.github.io/depictions/com.alexpng.spotlightpls/
+Icon: https://anhutc.github.io/depictions/com.alexpng.spotlightpls/DebIcon.png
+SileoDepiction: https://anhutc.github.io/depictions/com.alexpng.spotlightpls/spotlightpls.json
 Installed-Size: 408
 Size: 86066
 
@@ -374,9 +374,9 @@ SHA1: 6c0e0f49ca12daa0eee1146a8fc0444cc59e1a0e
 SHA256: ec3ecd9257a4b19c343f6cb9527cd1cf0e753a025faac4b6177b11f4c3046fd8
 Maintainer: alex_png <alex.png.cc@gmail.com>
 Author: alex_png <alex.png.cc@gmail.com>
-Depiction: https://alexpng.github.io/depictions/com.alexpng.tapme/
-Icon: https://alexpng.github.io/depictions/com.alexpng.tapme/DebIcon.png
-SileoDepiction: https://alexpng.github.io/depictions/com.alexpng.tapme/tapme.json
+Depiction: https://anhutc.github.io/depictions/com.alexpng.tapme/
+Icon: https://anhutc.github.io/depictions/com.alexpng.tapme/DebIcon.png
+SileoDepiction: https://anhutc.github.io/depictions/com.alexpng.tapme/tapme.json
 Version: 1.0
 Size: 5368066
 
@@ -392,9 +392,9 @@ SHA1: 2103e9f40698327975e5bbdbd62b0137b4e7db6b
 SHA256: 13be7c39ad68e51f2d86229ea92eb6b5eba2cd759af7b579deb4eb85cedce3fc
 Maintainer: alex_png <alex.png.cc@gmail.com>
 Author: alex_png <alex.png.cc@gmail.com>
-Depiction: https://alexpng.github.io/depictions/com.alexpng.tapme/
-Icon: https://alexpng.github.io/depictions/com.alexpng.tapme/DebIcon.png
-SileoDepiction: https://alexpng.github.io/depictions/com.alexpng.tapme/tapme.json
+Depiction: https://anhutc.github.io/depictions/com.alexpng.tapme/
+Icon: https://anhutc.github.io/depictions/com.alexpng.tapme/DebIcon.png
+SileoDepiction: https://anhutc.github.io/depictions/com.alexpng.tapme/tapme.json
 Version: 1.1
 Size: 5370684
 
@@ -410,9 +410,9 @@ SHA1: 84a029f216f43a39a45946bb9b67fa3999fea701
 SHA256: 70404e8ddd50dd5e4c8701568da9eed50f0f248352363f7b22dfab0df4815b30
 Maintainer: alex_png <alex.png.cc@gmail.com>
 Author: alex_png <alex.png.cc@gmail.com>
-Depiction: https://alexpng.github.io/depictions/com.alexpng.tapme/
-Icon: https://alexpng.github.io/depictions/com.alexpng.tapme/DebIcon.png
-SileoDepiction: https://alexpng.github.io/depictions/com.alexpng.tapme/tapme.json
+Depiction: https://anhutc.github.io/depictions/com.alexpng.tapme/
+Icon: https://anhutc.github.io/depictions/com.alexpng.tapme/DebIcon.png
+SileoDepiction: https://anhutc.github.io/depictions/com.alexpng.tapme/tapme.json
 Version: 1.2
 Size: 5371490
 
@@ -429,8 +429,8 @@ SHA1: 290a5d6a0cca915d8297b5fcd0b35c792c6a01a0
 SHA256: af88659e64f24de1a82c2e6e47460a0436b15f6c8255788e889a425184b12981
 Maintainer: alex_png <alex.png.cc@gmail.com>
 Author: alex_png <alex.png.cc@gmail.com>
-Depiction: https://alexpng.github.io/depictions/com.alexpng.tapme/
-Icon: https://alexpng.github.io/depictions/com.alexpng.tapme/DebIcon.png
-SileoDepiction: https://alexpng.github.io/depictions/com.alexpng.tapme/tapme.json
+Depiction: https://anhutc.github.io/depictions/com.alexpng.tapme/
+Icon: https://anhutc.github.io/depictions/com.alexpng.tapme/DebIcon.png
+SileoDepiction: https://anhutc.github.io/depictions/com.alexpng.tapme/tapme.json
 Version: 1.3
 Size: 5365450
