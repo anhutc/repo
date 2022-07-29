@@ -1,8 +1,8 @@
-Origin: iOSGods Agar.io Zoom
-Label: iOSGods Agar.io Zoom
+Origin: Jake's Boomerang Repo
+Label: Jake's Boomerang Repo
 Suite: stable
-Version: 2.10.0
+Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: - iOSGods Agar.io Zoom for 2.10.0
+Description: Jake's Boomerang Repository
