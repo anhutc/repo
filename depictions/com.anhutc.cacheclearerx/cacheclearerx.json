@@ -85,28 +85,28 @@
 {"class":"DepictionSeparatorView"
 },
 {
-"title":"Latest Version",
+"title":"Phiên bản mới nhất",
 "class":"DepictionHeaderView"
 },
 {
-"title":"Version",
+"title":"Phiên bản",
 "text":"1.1",
 "class":"DepictionTableTextView"
 },
-{"title":"Updated",
+{"title":"Cập nhật",
 "text":"2020-04-12",
 "class":"DepictionTableTextView"
 },
 {
-"title":"Price",
-"text":"Free",
+"title":"Giá",
+"text":"Miễn phí",
 "class":"DepictionTableTextView"
 },
 {
 "class":"DepictionSeparatorView"
 },
 {
-"title":"Repository Website",
+"title":"Trang chủ",
 "action":"https://anhutc.github.io",
 "class":"DepictionTableButtonView"
 },
@@ -115,34 +115,14 @@
 "class":"DepictionSpacerView"
 },
 {
-"title":"Developer",
+"title":"Nhà phát triển",
 "text":"alex_png",
 "class":"DepictionTableTextView"
 },
 {
-"title":"Creator",
+"title":"Nhà sáng tạo",
 "text":"Ryan Petrich",
 "class":"DepictionTableTextView"
-},
-{
-"title":"Twitter",
-"action":"https://twitter.com/its_alex_png",
-"class":"DepictionTableButtonView"
-},
-{
-"title":"Reddit",
-"action":"https://reddit.com/user/alex_png",
-"class":"DepictionTableButtonView"
-},
-{
-"title":"E-mail",
-"action":"mailto:alex.png.cc@gmail.com",
-"class":"DepictionTableButtonView"
-},
-{
-"title":"GitHub",
-"action":"https://github.com/anhutc",
-"class":"DepictionTableButtonView"
 },
 {
 "spacing":12,
