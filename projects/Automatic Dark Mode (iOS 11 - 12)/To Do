@@ -1,4 +1,0 @@
-- Add support/compatibility for Lotus & LotusDark;
-- Fix root permissions in /DynamicLibraries;
-- Add option to restore .dylibs;
-- Add backup of .plist;
