@@ -156,7 +156,7 @@
 {
 "tabname":"Changelog","views":[
 {
-"title":"Version 1.1",
+"title":"Phiên bản 1.1",
 "useBoldText":true,
 "useBottomMargin":true,
 "class":"DepictionSubheaderView"
@@ -175,7 +175,7 @@
 "class":"DepictionSeparatorView"
 },
 {
-"title":"Version 1.0",
+"title":"Phiên bản 1.0",
 "useBoldText":true,
 "useBottomMargin":true,
 "class":"DepictionSubheaderView"
