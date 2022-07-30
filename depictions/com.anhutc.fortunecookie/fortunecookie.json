@@ -93,7 +93,7 @@
 {"class":"DepictionSeparatorView"
 },
 {
-"title":"Phiên bản mới nhất",
+"title":"Thông tin",
 "class":"DepictionHeaderView"
 },
 {
@@ -101,45 +101,36 @@
 "text":"1.0",
 "class":"DepictionTableTextView"
 },
+{
+  "title":"Kích thước",
+  "text":"49.26KB",
+  "class":"DepictionTableTextView"
+},
 {"title":"Phát hành",
-"text":"2020-04-09",
+"text":"30-07-2022",
 "class":"DepictionTableTextView"
 },
 {
-"title":"Giá bán",
-"text":"Miễn phí",
+"title":"Phiên bản iOS",
+"text":"14.0.0 trở lên",
 "class":"DepictionTableTextView"
 },
 {
 "class":"DepictionSeparatorView"
 },
 {
-"spacing":12,
+"spacing":15,
 "class":"DepictionSpacerView"
+},
+{"class":"DepictionSeparatorView"
 },
 {
 "title":"Tác giả",
+"class":"DepictionHeaderView"
+},
+{
 "text":"Anh_UTC",
 "class":"DepictionTableTextView"
-},
-{
-"spacing":12,
-"class":"DepictionSpacerView"
-},
-{
-"URL":"",
-"width":44,
-"height":27,
-"alignment":1,
-"cornerRadius":0,
-"class":"DepictionImageView"
-},
-{
-"spacing":20,
-"class":"DepictionSpacerView"
-}
-],
-"class":"DepictionStackView"
 },
 {
 "tabname":"Changelog","views":[
