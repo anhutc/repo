@@ -1,37 +1,18 @@
-Package: com.anhutc.cacheclearerx
-Name: CacheClearerX
-Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./debs/com.anhutc.cacheclearerx_1.0_iphoneos-arm.deb
-MD5sum: f704fcdb9ffda045f2a27158fd714c74
-SHA1: 2d3945ce9e93c779f64bef3be714c3175f71f1b3
-SHA256: edb02eb7c96c878b6e5278a38eca9ec1264d20e2bf7f88819a62e6aea3ad248c
-Architecture: iphoneos-arm
-Description: Clear applications cache from the storage settings or from the 3D Touch/Force Touch Shortcut.
-Maintainer: AnhUTC <anhutck58@gmail.com>
-Author: AnhUTC <anhutck58@gmail.com>
+Package: com.anhutc.fortunecookie
+Name: FortuneCookie
+Description: Shake your device to get a fortune cookie!
 Section: Tweaks
-Depiction: https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/
-Icon: https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/DebIcon.png
-SileoDepiction: https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/cacheclearerx.json
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: ./debs/com.anhutc.fortunecookie_1.0_iphoneos-arm.deb
+MD5sum: 228af167c682ba7d72e13c9b75251a51
+SHA1: 955700a04226a9cce28cc31e14a696ffa305fe6c
+SHA256: 130e99f4637d14988e8af71e708d917c5db404dc4c452f1d5ead7dc85fed13bb
+Maintainer: Anh_UTC <anhutck58@gmail.com>
+Author: Anh_UTC <anhutck58@gmail.com>
+Depiction: https://anhutc.github.io/depictions/com.anhutc.fortunecookie/
+Icon: https://anhutc.github.io/depictions/com.anhutc.fortunecookie/DebIcon.png
+SileoDepiction: https://anhutc.github.io/depictions/com.anhutc.fortunecookie/fortunecookie.json
 Version: 1.0
-Installed-Size: 1216
-Size: 1002214
-
-Package: com.anhutc.cacheclearerx
-Name: CacheClearerX
-Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: ./debs/com.anhutc.cacheclearerx_1.1_iphoneos-arm.deb
-MD5sum: cd4d56e579c8ae0a4690ab926ab767c2
-SHA1: e49ff880d9aa9ef5bab4253e67341839ae2d3955
-SHA256: 4170ec7662b6fe4d4a6c3e6cccd20cff85d109f186956706f847ac1cf11dab6e
-Architecture: iphoneos-arm
-Description: Clear applications cache from the storage settings or from the 3D Touch/Force Touch Shortcut.
-Maintainer: AnhUTC <anhutck58@gmail.com>
-Author: AnhUTC <anhutck58@gmail.com>
-Section: Tweaks
-Depiction: https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/
-Icon: https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/DebIcon.png
-SileoDepiction: https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/cacheclearerx.json
-Version: 1.1
-Installed-Size: 1216
-Size: 1002192
+Size: 160782
+Installed-Size: 712
