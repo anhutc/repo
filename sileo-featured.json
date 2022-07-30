@@ -4,9 +4,9 @@
     "itemCornerRadius": 10,
     "banners": [
       {
-        "url": "https://anhutc.github.io/depictions/com.alexpng.cacheclearerx/banner.png",
+        "url": "https://anhutc.github.io/depictions/com.anhutc.fortunecookie/banner.png",
         "title": "CacheClearerX",
-        "package": "com.alexpng.cacheclearerx",
+        "package": "com.anhutc.fortunecookie",
         "hideShadow": false
       }
     ]
