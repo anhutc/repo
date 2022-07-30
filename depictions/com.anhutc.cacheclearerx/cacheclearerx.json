@@ -1,6 +1,6 @@
 {
 "minVersion":"0.1",
-"headerImage":"https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/banner.png?size=1000",
+"headerImage":"https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/banner.png?size=1000",
 "tintColor":"#7887f7",
 "tabs":[
 {
@@ -18,28 +18,28 @@
 "screenshots":[
 {
               "accessibilityText": "Screenshot",
-              "url": "https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/screenshots/1.png?size=480",
-              "fullSizeURL": "https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/screenshots/1.png"
+              "url": "https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/screenshots/1.png?size=480",
+              "fullSizeURL": "https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/screenshots/1.png"
             },
             {
               "accessibilityText": "Screenshot",
-              "url": "https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/screenshots/2.png?size=480",
-              "fullSizeURL": "https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/screenshots/2.png"
+              "url": "https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/screenshots/2.png?size=480",
+              "fullSizeURL": "https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/screenshots/2.png"
             },
             {
               "accessibilityText": "Screenshot",
-              "url": "https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/screenshots/3.png?size=480",
-              "fullSizeURL": "https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/screenshots/3.png"
+              "url": "https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/screenshots/3.png?size=480",
+              "fullSizeURL": "https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/screenshots/3.png"
             },
             {
               "accessibilityText": "Screenshot",
-              "url": "https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/screenshots/4.png?size=480",
-              "fullSizeURL": "https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/screenshots/4.png"
+              "url": "https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/screenshots/4.png?size=480",
+              "fullSizeURL": "https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/screenshots/4.png"
             },
             {
               "accessibilityText": "Screenshot",
-              "url": "https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/screenshots/5.png?size=480",
-              "fullSizeURL": "https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/screenshots/5.png"
+              "url": "https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/screenshots/5.png?size=480",
+              "fullSizeURL": "https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/screenshots/5.png"
 }
 ],
 "ipad":{"itemCornerRadius":9,
@@ -47,28 +47,28 @@
 "screenshots":[
 {
               "accessibilityText": "Screenshot",
-              "url": "https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/screenshots/1.png?size=640",
-              "fullSizeURL": "https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/screenshots/1.png"
+              "url": "https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/screenshots/1.png?size=640",
+              "fullSizeURL": "https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/screenshots/1.png"
             },
             {
               "accessibilityText": "Screenshot",
-              "url": "https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/screenshots/2.png?size=640",
-              "fullSizeURL": "https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/screenshots/2.png"
+              "url": "https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/screenshots/2.png?size=640",
+              "fullSizeURL": "https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/screenshots/2.png"
             },
             {
               "accessibilityText": "Screenshot",
-              "url": "https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/screenshots/3.png?size=640",
-              "fullSizeURL": "https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/screenshots/3.png"
+              "url": "https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/screenshots/3.png?size=640",
+              "fullSizeURL": "https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/screenshots/3.png"
             },
             {
               "accessibilityText": "Screenshot",
-              "url": "https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/screenshots/4.png?size=640",
-              "fullSizeURL": "https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/screenshots/4.png"
+              "url": "https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/screenshots/4.png?size=640",
+              "fullSizeURL": "https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/screenshots/4.png"
             },
             {
               "accessibilityText": "Screenshot",
-              "url": "https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/screenshots/5.png?size=640",
-              "fullSizeURL": "https://alexpng.github.io/depictions/com.alexpng.cacheclearerx/screenshots/5.png"
+              "url": "https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/screenshots/5.png?size=640",
+              "fullSizeURL": "https://anhutc.github.io/depictions/com.anhutc.cacheclearerx/screenshots/5.png"
 }
 ],
 "class":"DepictionScreenshotView"
@@ -107,7 +107,7 @@
 },
 {
 "title":"Repository Website",
-"action":"https://alexpng.github.io",
+"action":"https://anhutc.github.io",
 "class":"DepictionTableButtonView"
 },
 {
@@ -141,7 +141,7 @@
 },
 {
 "title":"GitHub",
-"action":"https://github.com/alexPNG",
+"action":"https://github.com/anhutc",
 "class":"DepictionTableButtonView"
 },
 {
@@ -150,7 +150,7 @@
 },
 {
 "title":"Support My Work",
-"action":"https://paypal.me/devalexpng",
+"action":"https://paypal.me/devanhutc",
 "class":"DepictionTableTextView"
 },
 {
