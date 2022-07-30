@@ -106,7 +106,7 @@
 "class":"DepictionTableTextView"
 },
 {
-"title":"Giá",
+"title":"Giá bán",
 "text":"Miễn phí",
 "class":"DepictionTableTextView"
 },
@@ -114,27 +114,17 @@
 "class":"DepictionSeparatorView"
 },
 {
-"title":"Kho lưu trữ",
-"action":"https://anhutc.github.io",
-"class":"DepictionTableButtonView"
-},
-{
 "spacing":12,
 "class":"DepictionSpacerView"
 },
 {
-"title":"Developer",
+"title":"Tác giả",
 "text":"Anh_UTC",
 "class":"DepictionTableTextView"
 },
 {
 "spacing":12,
 "class":"DepictionSpacerView"
-},
-{
-"title":"Support My Work",
-"action":"https://paypal.me/devanhutc",
-"class":"DepictionTableTextView"
 },
 {
 "URL":"",
