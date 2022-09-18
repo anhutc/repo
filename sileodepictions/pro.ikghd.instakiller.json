@@ -1,0 +1,217 @@
+{
+   "minVersion":"0.1",
+   "headerImage":"https://repo.ikghd.me/assets/banners/instak.png",
+   "tintColor":"#ff7c9f",
+   "tabs":[
+      {
+         "tabname":"Details",
+         "views":[
+            {
+                "itemCornerRadius":8,
+                "itemSize":"{195, 385}",
+                "screenshots":[
+                    {
+                        "accessibilityText":"Screenshot",
+                        "url":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/1.PNG",
+                        "fullSizeURL":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/1.PNG"
+                    },
+                    {
+                        "accessibilityText":"Screenshot",
+                        "url":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/2.PNG",
+                        "fullSizeURL":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/2.PNG"
+                    },
+                    {
+                        "accessibilityText":"Screenshot",
+                        "url":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/3.PNG",
+                        "fullSizeURL":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/3.PNG"
+                    },
+                    {
+                        "accessibilityText":"Screenshot",
+                        "url":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/4.PNG",
+                        "fullSizeURL":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/4.PNG"
+                    },
+                    {
+                        "accessibilityText":"Screenshot",
+                        "url":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/5.PNG",
+                        "fullSizeURL":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/5.PNG"
+                    },
+                    {
+                        "accessibilityText":"Screenshot",
+                        "url":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/6.PNG",
+                        "fullSizeURL":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/6.PNG"
+                    },
+                    {
+                        "accessibilityText":"Screenshot",
+                        "url":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/7.PNG",
+                        "fullSizeURL":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/7.PNG"
+                    }
+                ],
+                "ipad":{
+                    "itemCornerRadius":9,
+                    "itemSize":"{320, 550.8266666666667}",
+                    "screenshots":[
+                        {
+                            "accessibilityText":"Screenshot",
+                            "url":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/1.PNG",
+                            "fullSizeURL":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/1.PNG"
+                        },
+                        {
+                            "accessibilityText":"Screenshot",
+                            "url":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/2.PNG",
+                            "fullSizeURL":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/2.PNG"
+                        },
+                        {
+                            "accessibilityText":"Screenshot",
+                            "url":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/3.PNG",
+                            "fullSizeURL":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/3.PNG"
+                        },
+                        {
+                            "accessibilityText":"Screenshot",
+                            "url":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/4.PNG",
+                            "fullSizeURL":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/4.PNG"
+                        },
+                        {
+                            "accessibilityText":"Screenshot",
+                            "url":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/5.PNG",
+                            "fullSizeURL":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/5.PNG"
+                        },
+                        {
+                            "accessibilityText":"Screenshot",
+                            "url":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/6.PNG",
+                            "fullSizeURL":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/6.PNG"
+                        },
+                        {
+                            "accessibilityText":"Screenshot",
+                            "url":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/7.PNG",
+                            "fullSizeURL":"https://repo.ikghd.me/depictions/pro.ikghd.instakiller/screenshots/7.PNG"
+                        }
+                    ],
+                    "class":"DepictionScreenshotView"
+                },
+                "class":"DepictionScreenshotsView"
+            },
+            {
+               "class":"DepictionSeparatorView"
+            },
+
+            {
+              "title":"buy : $1.99",
+               "useBoldText": true,
+               "action":"https://repo.ikghd.me/iNstaKiller",
+               "class":"DepictionTableButtonView"
+            },
+            {
+               "class":"DepictionSeparatorView"
+            },
+
+            {
+                "title":"Features",
+                "class":"DepictionHeaderView"
+            },
+            {
+                "class": "DepictionMarkdownView",
+                "markdown": "iNstaKiller: New Instagram Experiance",
+                "useSpacing": true
+            },
+
+            {
+                "title": "markdown-description",
+                "useBoldText": true,
+                "useBottomMargin": false,
+                "markdown": "          Main Options:\r\n          \u00b7 Download Videos\r\n          \u00b7 Download IGTV Videos\r\n          \u00b7 Download Reel Videos\r\n          \u00b7 Download Story Videos & Photos\r\n          \u00b7 Download Photos\r\n          \u00b7 block all advertisment\r\n          \u00b7 and many more settings",
+                "class": "DepictionMarkdownView"
+            },
+
+                            {
+                               "class":"DepictionSeparatorView"
+                            },
+
+
+                            {
+                               "title":"What's New",
+                               "class":"DepictionHeaderView"
+                            },
+
+                            {
+                                "markdown":"- fixes fucos mode for newer Instagram Version\n- fixes hide reel / post & explore\n- add hide all tabs individually\n- add disable long press on tabs\n- add hide suggested profile when following users\n- add disable double tap on tab bar to switch BT accounts\n- other fixes & cleaning up\n- update activation server\n- update app compatibility version",
+                                "useSpacing":true,
+                                "class":"DepictionMarkdownView"
+                            },
+
+                            {
+                               "class":"DepictionSeparatorView"
+                            },
+
+
+            {
+               "title":"Information",
+               "class":"DepictionHeaderView"
+            },
+            {
+               "title":"Version",
+               "text":"0.1.7.9",
+               "class":"DepictionTableTextView"
+            },
+            {
+               "title":"iOS 12.0/12.5.5 ?",
+               "text":"downgrade to v0.1.7",
+               "class":"DepictionTableTextView"
+            },
+            {
+               "title":"Updated",
+               "text":"Sep 07, 2022",
+               "class":"DepictionTableTextView"
+            },
+
+            {
+               "title":"Price",
+               "text":"$1.99 USD",
+               "class":"DepictionTableTextView"
+            },
+            {
+               "title":"Compatibility",
+               "text":"iOS 12.0 - 14.8",
+               "class":"DepictionTableTextView"
+            },
+
+            {
+               "class":"DepictionSeparatorView"
+            },
+
+
+            {
+               "title":"Support",
+               "class":"DepictionHeaderView"
+            },
+            {
+               "title":"Via PayPal",
+               "useBoldText": true,
+               "action":"https://www.paypal.com/paypalme/hiwajaf",
+               "class":"DepictionTableButtonView"
+            },
+
+            {
+               "title":"Follow @iKarwan",
+               "useBoldText": true,
+               "action":"https://twitter.com/ikg_hd",
+               "class":"DepictionTableButtonView"
+            },
+
+            {
+               "title":"YouTube Channel",
+               "useBoldText": true,
+               "action":"https://youtube.com/c/ikghd",
+               "class":"DepictionTableButtonView"
+            },
+
+            {
+               "spacing":10,
+               "class":"DepictionSpacerView"
+            }
+
+         ],
+         "class":"DepictionStackView"
+      }
+   ],
+   "class":"DepictionTabView"
+}
