@@ -1,18 +1,292 @@
-Package: com.anhutc.fortunecookie
-Name: FortuneCookie
-Description: Shake your device to get a fortune cookie!
-Section: Tweaks
-Architecture: iphoneos-arm
-Depends: mobilesubstrate
-Filename: ./debs/com.anhutc.fortunecookie_1.0_iphoneos-arm.deb
-MD5sum: 228af167c682ba7d72e13c9b75251a51
-SHA1: 955700a04226a9cce28cc31e14a696ffa305fe6c
-SHA256: 130e99f4637d14988e8af71e708d917c5db404dc4c452f1d5ead7dc85fed13bb
-Maintainer: Anh_UTC <anhutck58@gmail.com>
-Author: Anh_UTC <anhutck58@gmail.com>
-Depiction: https://anhutc.github.io/depictions/com.anhutc.fortunecookie/
-Icon: https://anhutc.github.io/depictions/com.anhutc.fortunecookie/DebIcon.png
-SileoDepiction: https://anhutc.github.io/depictions/com.anhutc.fortunecookie/fortunecookie.json
+Package: com.sugiuta.sumusicwidget
 Version: 1.0
-Size: 160782
-Installed-Size: 712
+Architecture: iphoneos-arm
+Maintainer: sugiuta
+Installed-Size: 424
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.sugiuta.sumusicwidget_1.0_iphoneos-arm.deb
+Size: 81468
+MD5sum: 500ff8273046bab9bcb4c65fafa0dcd2
+SHA1: c4498915d3fe0c6f4190aef85c587e3785669da0
+SHA256: 4b1cbc4d1b06d9c93f4ab9d33a7ae53c8faeb3d8b300972b7f5be37adf74815a
+Section: Addons
+Description: An awesome Airaw Widgets extension!
+Author: sugiuta
+Name: SUMusicWidget
+
+Package: jp.dcsyhi.clockwidget
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Dcsyhi
+Installed-Size: 148
+Depends: mobilesubstrate, preferenceloader,jp.dcsyhi.airaw
+Filename: ./debs/jp.dcsyhi.clockwidget_1.0_iphoneos-arm.deb
+Size: 16642
+MD5sum: e356091d7000c1bac4a3440ac11dc8b8
+SHA1: 65756c59f20b1a3975cdcb69593746f900acdad4
+SHA256: 42535ebb8b6d992d522fb29e1996b86445cf8cc2e7deb2ec50e6d92ad9d6379f
+Section: Addons
+Description: Airaw Widgets:Simple Digital clock widget,Requires Airaw ver 1.5!
+Author: Dcsyhi
+Name: ClockWidget
+
+Package: jp.dcsyhi.logs
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Dcsyhi
+Installed-Size: 1000
+Depends: mobilesubstrate,preferenceloader,ws.hbang.common,com.rpetrich.rocketbootstrap,firmware (>=13.0)
+Filename: ./debs/jp.dcsyhi.logs_1.0_iphoneos-arm.deb
+Size: 604826
+MD5sum: 62b7ed16c7a2383704c5ed90a974c59f
+SHA1: 0cd90d903e437b77a9b2b62100b6efd27d685f57
+SHA256: e3ee496ec955a2a0e1a2c81129bf1c001c3a5e0b3b9963d8e368cd8ab0e1fc1a
+Section: Development
+Description: This Tweek is to make it easy to view NSLog from your mobile phone.Tweak for debugging on the device.
+Author: Dcsyhi
+Icon: file:///Library/PreferenceBundles/L0gs.bundle/icon.png
+Name: L0gs
+
+Package: jp.dcsyhi.musiccontrol
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Dcsyhi
+Installed-Size: 216
+Depends: mobilesubstrate, preferenceloader,jp.dcsyhi.airaw
+Filename: ./debs/jp.dcsyhi.musiccontrol_1.0_iphoneos-arm.deb
+Size: 42180
+MD5sum: f3e889f76c55dc7eaddbc194de7eb3a2
+SHA1: 835c543260374e2143a5235c92d8cd73a5d8c06c
+SHA256: e0cb5791d52f67c3086f6047d87fe6c760c65ca2390539a395630f3208b16195
+Section: Addons
+Description: Airaw Widgets:Simple music control,Requires Airaw ver 1.5!
+Author: Dcsyhi
+Name: MusicControl
+
+Package: jp.dcsyhi.musiccontrol
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Dcsyhi
+Installed-Size: 216
+Depends: mobilesubstrate, preferenceloader,jp.dcsyhi.airaw
+Filename: ./debs/jp.dcsyhi.musiccontrol_1.1_iphoneos-arm.deb
+Size: 42310
+MD5sum: 36fac76cbf224d5313efc81488178768
+SHA1: 22ed07d1eb2b03ae51f0cc781ae49c57de1a5d06
+SHA256: a9bf017734f7bb9c63c6cab6fbdd8dede3b2e7f0e914be8426903ff486f773c4
+Section: Addons
+Description: Airaw Widgets:Simple music control,Requires < Airaw ver 1.5!
+Author: Dcsyhi
+Name: MusicControl
+
+Package: jp.dcsyhi.twiwidget
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Dcsyhi
+Installed-Size: 156
+Depends: mobilesubstrate, preferenceloader,jp.dcsyhi.airaw
+Filename: ./debs/jp.dcsyhi.twiwidget_1.0_iphoneos-arm.deb
+Size: 18830
+MD5sum: affcaba8da8d94c08032744649781aca
+SHA1: 61cb91eba130ca2cf37b0d9432b5f9f55f02639f
+SHA256: 6939f9f72d6359d7ead6354a5fdb2561de89a2a40ec0fc43e6e3d64acffaf19e
+Section: Addons
+Description: An awesome Airaw Widgets extension!Display your Twitter account information😎
+Author: Dcsyhi
+Name: TwiWidget
+
+Package: jp.dcsyhi.twiwidget
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Dcsyhi
+Installed-Size: 156
+Depends: mobilesubstrate, preferenceloader,jp.dcsyhi.airaw
+Filename: ./debs/jp.dcsyhi.twiwidget_1.0.1_iphoneos-arm.deb
+Size: 18740
+MD5sum: f0d3165e2e01e9070304769195d53ebe
+SHA1: 9877b739ef0b7cd9995f55e21d3bf012e741fe45
+SHA256: 7dd5d03b9b1010d7c51fdbd360084e4a2a58d224774753eec1954c4bc69d3d89
+Section: Addons
+Description: An awesome Airaw Widgets extension!Display your Twitter account information😎
+Author: Dcsyhi
+Name: TwiWidget
+
+Package: jp.dcsyhi.zetsu
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Dcsyhi
+Installed-Size: 1032
+Depends: mobilesubstrate,preferenceloader,ws.hbang.common,com.rpetrich.rocketbootstrap,firmware (>=13.0),applist
+Filename: ./debs/jp.dcsyhi.zetsu_1.0_iphoneos-arm.deb
+Size: 487546
+MD5sum: ee148386a3b50aa4132bf240b7659690
+SHA1: 83266a9e51fa48e81365fea47587661157d6f375
+SHA256: 1915efeaa7f0772a2d498a77250faa2fd7a3bc31e71e563fc7046ee22c01ed3a
+Section: Tweaks
+Description: Multitasking on iOS14.x
+Author: Dcsyhi
+Icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
+Name: Zetsu
+
+Package: jp.dcsyhi.zetsu
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Dcsyhi
+Installed-Size: 1036
+Depends: mobilesubstrate,preferenceloader,ws.hbang.common,com.rpetrich.rocketbootstrap,firmware (>=13.0),applist
+Filename: ./debs/jp.dcsyhi.zetsu_1.1_iphoneos-arm.deb
+Size: 484176
+MD5sum: 7d6143291ea56179d4b56ee54e35f374
+SHA1: 32966b7ee43cdc25a726d5bd861d70608bd28c98
+SHA256: 1dd7cca9813f7f44dc0eb2d3fba1cd2f68f5a812c7ed9ff3b53beac3921ba42f
+Section: Tweaks
+Description: Multitasking on iOS14.x
+Author: Dcsyhi
+Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
+Icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
+Name: Zetsu
+
+Package: jp.dcsyhi.zetsu
+Version: 1.1.2
+Architecture: iphoneos-arm
+Maintainer: Dcsyhi
+Installed-Size: 1036
+Depends: mobilesubstrate,preferenceloader,ws.hbang.common,com.rpetrich.rocketbootstrap,firmware (>=13.0),applist
+Filename: ./debs/jp.dcsyhi.zetsu_1.1.2_iphoneos-arm.deb
+Size: 486952
+MD5sum: c23544b97051921335155923b1b5e802
+SHA1: 7832ce36682fea09dbf0fb6388ce3325518ee81c
+SHA256: 3301b20f3e9216fd295fd4398b61cf7971302c88b67cd1b0c007a0dc30397807
+Section: Tweaks
+Description: Multitasking on iOS14.x
+Author: Dcsyhi
+Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
+Icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
+Name: Zetsu
+
+Package: jp.dcsyhi.zetsu
+Version: 1.1.3
+Architecture: iphoneos-arm
+Maintainer: Dcsyhi
+Installed-Size: 1036
+Depends: mobilesubstrate,preferenceloader,ws.hbang.common,com.rpetrich.rocketbootstrap,firmware (>=13.0),applist
+Filename: ./debs/jp.dcsyhi.zetsu_1.1.3_iphoneos-arm.deb
+Size: 485878
+MD5sum: 1ab857d831076f3f57d3a3a8da737772
+SHA1: b920591de8a0c5d0b2dbadf5246236383be35799
+SHA256: 0995a481aa1a762e20fee97979b84c0feb371fcf4b3237fd459fadc88eca44b2
+Section: Tweaks
+Description: Multitasking on iOS14.x
+Author: Dcsyhi
+Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
+Icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
+Name: Zetsu
+
+Package: jp.dcsyhi.zetsu
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: Dcsyhi
+Installed-Size: 1068
+Depends: mobilesubstrate,preferenceloader,ws.hbang.common,com.rpetrich.rocketbootstrap,firmware (>=13.0),applist
+Filename: ./debs/jp.dcsyhi.zetsu_1.1.4_iphoneos-arm.deb
+Size: 492798
+MD5sum: 9c633e530f95a7b1a40676dc9961437e
+SHA1: 79f6264dee87fa9b325c184fff8324bc98346112
+SHA256: 43938a960f0d05f68fe5fe90a670a58824f9136ea70c16d48c44e10fe6263ba8
+Section: Tweaks
+Description: Multitasking on iOS14.x
+Author: Dcsyhi
+Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
+Icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
+Name: Zetsu
+
+Package: jp.dcsyhi.zetsu
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Dcsyhi
+Installed-Size: 2148
+Depends: mobilesubstrate,preferenceloader,ws.hbang.common,com.rpetrich.rocketbootstrap,firmware (>=14.0),com.lacertosusrepo.libdeusprefs (>= 1.0)
+Filename: ./debs/jp.dcsyhi.zetsu_1.2_iphoneos-arm.deb
+Size: 1626514
+MD5sum: 96af37f5f12dc891f942442e35627ab7
+SHA1: 06266f0a5038e5bdf06a3fa5ca63bc03b22bd2d5
+SHA256: e7b48756d972d429dc1d689ff85e8e8916509cadfd6b4769a6b3a61aa2dd2112
+Section: Tweaks
+Description: Multitasking on iOS14.x
+Author: Dcsyhi
+Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
+Icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
+Name: Zetsu
+
+Package: jp.dcsyhi.zetsu
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: Dcsyhi
+Installed-Size: 2144
+Depends: mobilesubstrate,preferenceloader,ws.hbang.common,com.rpetrich.rocketbootstrap,firmware (>=14.0),com.lacertosusrepo.libdeusprefs (>= 1.0)
+Filename: ./debs/jp.dcsyhi.zetsu_1.2.1_iphoneos-arm.deb
+Size: 1631008
+MD5sum: 28799d0ebd2197edf5bc100c0451b1d7
+SHA1: 164ab3c3f2f3d44801cc347b77070528eda57edc
+SHA256: 3497009f53bfd965ead4d82abce0381b19007eb20900ffc5463f557849a30879
+Section: Tweaks
+Description: Multitasking on iOS14.x
+Author: Dcsyhi
+Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
+Icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
+Name: Zetsu
+
+Package: jp.dcsyhi.zetsu
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: Dcsyhi
+Installed-Size: 2180
+Depends: mobilesubstrate,preferenceloader,ws.hbang.common,com.rpetrich.rocketbootstrap,firmware (>=14.0),com.lacertosusrepo.libdeusprefs (>= 1.0)
+Filename: ./debs/jp.dcsyhi.zetsu_1.2.2_iphoneos-arm.deb
+Size: 1633096
+MD5sum: d3b40e89f12980ffe805644d53aabe97
+SHA1: f026490db6dd106f67ec58599cae49932a8545a7
+SHA256: 1460b4e558bf0ca38d431860e293e8ee66cfda522bc63e76dcdc4bee2b158b6f
+Section: Tweaks
+Description: Multitasking on iOS14.x
+Author: Dcsyhi
+Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
+Icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
+Name: Zetsu
+
+Package: jp.dcsyhi.zetsu
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: Dcsyhi
+Installed-Size: 2228
+Depends: mobilesubstrate,preferenceloader,ws.hbang.common,com.rpetrich.rocketbootstrap,firmware (>=14.0),com.lacertosusrepo.libdeusprefs (>= 1.0)
+Filename: ./debs/jp.dcsyhi.zetsu_1.3_iphoneos-arm.deb
+Size: 1645892
+MD5sum: d2933ca1904fb81bc7254bb1b7620a02
+SHA1: f82f81e4d3bf39e30b052a3c789a2936ca9d3be8
+SHA256: 5eb00642efc9e37c05dfb5ddbcda1e5ff1936dde8d6f4551ec4c6c40676a2ec6
+Section: Tweaks
+Description: Multitasking on iOS14.x
+Author: Dcsyhi
+Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
+Icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
+Name: Zetsu
+
+Package: jp.dcsyhi.zetsu
+Version: 1.3.0.1
+Architecture: iphoneos-arm
+Maintainer: Dcsyhi
+Installed-Size: 2228
+Depends: mobilesubstrate,preferenceloader,ws.hbang.common,com.rpetrich.rocketbootstrap,firmware (>=14.0),com.lacertosusrepo.libdeusprefs (>= 1.0),libactivator
+Filename: ./debs/jp.dcsyhi.zetsu_1.3.0.1_iphoneos-arm.deb
+Size: 1645934
+MD5sum: 7ece12c876b3ab0782b560504280b8bf
+SHA1: c66bdc9f5adc70c171f0b9dff5bfc69abdea7444
+SHA256: 85974267dfdcc2eac656742144015b6c45a19b746526bbcd045d8f0ca0cc533b
+Section: Tweaks
+Description: Multitasking on iOS14.x
+Author: Dcsyhi
+Depiction: https://dcsyhi1998.github.io/depiction/zetsu.html
+Icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
+Name: Zetsu
+

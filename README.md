@@ -1,8 +1,19 @@
-# anhutc.github.io
-![GitHub last commit](https://img.shields.io/github/last-commit/anhutc/anhutc.github.io.svg?style=for-the-badge) [![GitHub forks](https://img.shields.io/github/license/anhutc/anhutc.github.io.svg?style=for-the-badge)](https://github.com/anhutc/anhutc.github.io/license)
+<h2 align="center">
+    <img src="https://dcsyhi1998.github.io/CydiaIcon.png" id="myIcon" align="middle">
+<br />
+    Dcsyhi1998
+</h2>
+<p align="center">
+    All the tweak I have released are compatible<br>
+    with the devices (iOS13, iOS14) and also A12<br>
+    <br/>
+    <strong>Devices tested: iPhone Xs Max (iOS14), iPhone7 (iOS11), iPhone8 (iOS13)</strong>
+</p>
+<h2 align="center">
+    Other
+</h2>
+<p align="center">
+    <a href="https://twitter.com/linux_n1">Twitter</a><br>
+     <a href="https://dcsyhi1998.github.io/">Add Repo</a>
+</p>
 
-## What is this?
-This is a repository dedicated for jailbreak tweaks and other related projects.
-
-### Notice
-Every open-source tweak/project in this repository is under the MIT License. If you're unfamiliar with the MIT License, take a read at the [LICENSE](https://github.com/anhutc/anhutc.github.io/blob/master/LICENSE). 

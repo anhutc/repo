@@ -1,13 +1,25 @@
 {
-    "class": "FeaturedBannersView",
-    "itemSize": "{263, 148}",
-    "itemCornerRadius": 10,
-    "banners": [
+   "class":"FeaturedBannersView",
+   "itemSize":"{296, 148}",
+   "itemCornerRadius":10,
+   "banners":[
       {
-        "url": "https://anhutc.github.io/depictions/com.anhutc.fortunecookie/banner.png",
-        "title": "CacheClearerX",
-        "package": "com.anhutc.fortunecookie",
-        "hideShadow": false
+         "url":"https://dcsyhi1998.github.io/Banners/AirawBanner.png",
+         "title":"Airaw",
+         "package":"jp.dcsyhi.airaw",
+         "hideShadow":false
+      },
+      {
+         "url":"https://dcsyhi1998.github.io/Banners/ZetsuBaner.png",
+         "title":"Zetsu",
+         "package":"jp.dcsyhi.zetsu",
+         "hideShadow":false
+      },
+      {
+         "url":"https://dcsyhi1998.github.io/Banners/FastAppLSBanner.png",
+         "title":"FastApp LS",
+         "package":"com.twickd.dcsyhi.fastappls",
+         "hideShadow":false
       }
-    ]
-  }
+   ]
+}
