@@ -125,7 +125,7 @@
 }
 .footer p:first-child:after {
     font-size: 0;
-    content: "Follow me on Twitter or Lobi"
+    content: "by Đặng Văn Ánh"
 }
 .footer:hover {
     background-image: none;
