@@ -2,7 +2,7 @@
 function changeTitle(NameToApply) {
     if (document.getElementById('siteTitle').innerText != NameToApply) {
         if (NameToApply == "") {
-            NameToApply = "Dcsyhi Repo"
+            NameToApply = "Anh_UTC Repo"
             document.getElementById('siteTitle').style.borderRight = ".15em solid #ebc034"
         } else {
             document.getElementById('siteTitle').style.borderRight = "none"

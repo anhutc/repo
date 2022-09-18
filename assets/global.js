@@ -1,5 +1,5 @@
 //Loading dark mode from cookie
-/*var darkMode
+// var darkMode
 if (document.cookie) {
     //darkMode = readCookie("darkMode")
     if (darkMode == false) {
@@ -16,4 +16,4 @@ if (navigator.userAgent.toLowerCase().includes("dark")) {
 }else if(navigator.userAgent.toLowerCase().includes("light")) {
     document.getElementsByTagName("body")[0].id = "darkMode"
     darkMode = false
-}*/
+}
