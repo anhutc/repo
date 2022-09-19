@@ -1,5 +1,5 @@
 <h2 align="center">
-    <img src="https://anhutc.github.io/CydiaIcon.png" id="myIcon" align="middle">
+    <img src="https://anhutc.github.io/CydiaIcon.png" id="myIcon" align="middle" style="max-width=100px">
 <br />
     Anh_UTC's
 </h2>
