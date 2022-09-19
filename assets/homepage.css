@@ -11,7 +11,7 @@
 }
 
 #siteTitle {
-    width: 450px;
+    width: 50%;
     letter-spacing: .135em;
     overflow: hidden;
     white-space: nowrap;
@@ -32,7 +32,7 @@
         border-right: none;
         animation: none;
         white-space: normal;
-        width: 60%;
+        width: 100%;
     }
 }
 
