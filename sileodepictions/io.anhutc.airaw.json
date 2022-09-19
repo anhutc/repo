@@ -52,17 +52,16 @@
             },
 
 
-                            {
-                               "title":"What's New",
-                               "class":"DepictionHeaderView"
-                            },
+            {
+               "title":"What's New",
+               "class":"DepictionHeaderView"
+            },
 
-                            {
-                                "markdown":"- initial Release",
-                                "useSpacing":true,
-                                "class":"DepictionMarkdownView"
-                            },
-
+            {
+               "markdown":"- initial Release",
+               "useSpacing":true,
+               "class":"DepictionMarkdownView"
+            },
 
 
             {
@@ -99,28 +98,37 @@
             {
                "title":"Via PayPal",
                "useBoldText": true,
-               "action":"https://www.paypal.com/paypalme/hiwajaf",
+               "action":"https://www.paypal.com/paypalme/ppdva",
                "class":"DepictionTableButtonView"
             },
 
             {
-               "title":"Follow @iKarwan",
+               "title":"MoMo",
                "useBoldText": true,
-               "action":"https://twitter.com/ikg_hd",
+               "action":"https://www.me.momo.vn/mmdva",
+               "class":"DepictionTableButtonView"
+            },
+
+            {
+               "title":"Follow @Anh_UTC",
+               "useBoldText": true,
+               "action":"https://www.facebook.com/100010169232179",
                "class":"DepictionTableButtonView"
             },
 
             {
                "title":"YouTube Channel",
                "useBoldText": true,
-               "action":"https://youtube.com/c/ikghd",
+               "action":"https://www.youtube.com/channel/UCw1G8IanhLQH3jgGnESv97g",
                "class":"DepictionTableButtonView"
             },
 
             {"class":"DepictionLabelView",
-              "text":"iKarwan Tweaks | iKPowercc 0.0.1",
-              "textColor":"#999999","fontSize":"10.0",
-              "alignment":1,"class":"DepictionStackView",
+              "text":"Anh_UTC Tweaks | Airaw 0.0.1",
+              "textColor":"#999999",
+              "fontSize":"10.0",
+              "alignment":1,
+              "class":"DepictionStackView",
               "class":"DepictionTabView"
             },
 
