@@ -6,7 +6,7 @@
       {
          "url":"https://anhutc.github.io/Banners/AirawBanner.png",
          "title":"Airaw",
-         "package":"jp.dcsyhi.airaw",
+         "package":"io.anhutc.airaw",
          "hideShadow":false
       }
    ]
