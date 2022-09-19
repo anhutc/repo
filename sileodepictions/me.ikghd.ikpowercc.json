@@ -1,6 +1,6 @@
 {
    "minVersion":"0.1",
-   "headerImage":"https://anhutc.github.io/depictions/me.ikghd.ikpowercc/Images/Banner.jpg",
+   "headerImage":"https://anhutc.github.io/Banners/AirawBanner.png",
    "tintColor":"#2d3e50",
    "tabs":[
       {
@@ -12,34 +12,21 @@
                 "screenshots":[
                     {
                         "accessibilityText":"Screenshot",
-                        "url":"https://anhutc.github.io/depictions/me.ikghd.ikpowercc/screenshots/1.PNG",
-                        "fullSizeURL":"https://anhutc.github.io/depictions/me.ikghd.ikpowercc/screenshots/1.PNG"
+                        "url":"https://anhutc.github.io/icons/Airaw/demo.png",
+                        "fullSizeURL":"https://anhutc.github.io/icons/Airaw/demo.png"
                     },
                     {
+                     "accessibilityText":"Screenshot",
+                     "url":"https://anhutc.github.io/icons/Airaw/demo1.png",
+                     "fullSizeURL":"https://anhutc.github.io/icons/Airaw/demo1.png"
+                     },
+                     {
                         "accessibilityText":"Screenshot",
-                        "url":"https://anhutc.github.io/depictions/me.ikghd.ikpowercc/screenshots/2.PNG",
-                        "fullSizeURL":"https://anhutc.github.io/depictions/me.ikghd.ikpowercc/screenshots/2.PNG"
+                        "url":"https://anhutc.github.io/icons/Airaw/demo2.png",
+                        "fullSizeURL":"https://anhutc.github.io/icons/Airaw/demo2.png"
                     }
 
                 ],
-                "ipad":{
-                    "itemCornerRadius":9,
-                    "itemSize":"{320, 550.8266666666667}",
-                    "screenshots":[
-                        {
-                            "accessibilityText":"Screenshot",
-                            "url":"https://anhutc.github.io/depictions/me.ikghd.ikpowercc/screenshots/1.PNG",
-                            "fullSizeURL":"https://anhutc.github.io/depictions/me.ikghd.ikpowercc/screenshots/1.PNG"
-                        },
-                        {
-                            "accessibilityText":"Screenshot",
-                            "url":"https://anhutc.github.io/depictions/me.ikghd.ikpowercc/screenshots/2.PNG",
-                            "fullSizeURL":"https://anhutc.github.io/depictions/me.ikghd.ikpowercc/screenshots/2.PNG"
-                        }
-
-                    ],
-                    "class":"DepictionScreenshotView"
-                },
                 "class":"DepictionScreenshotsView"
             },
             {
