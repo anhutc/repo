@@ -139,7 +139,7 @@
             {
                "title":"MoMo",
                "useBoldText": true,
-               "action":"https://www.me.momo.vn/mmdva",
+               "action":"https://me.momo.vn/mmdva",
                "class":"DepictionTableButtonView"
             },
 
