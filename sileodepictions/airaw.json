@@ -1,8 +1,8 @@
 {
+   "class":"DepictionTabView",
    "minVersion":"0.1",
    "headerImage":"https://anhutc.github.io/Banners/AirawBanner.png",
    "tintColor":"#ee7817",
-   "class":"DepictionTabView",
    "tabs":[
       {
          "class":"DepictionStackView",
@@ -83,7 +83,7 @@
                "class": "DepictionMarkdownView",
                "title": "markdown-description",
                 "useBottomMargin": false,
-                "markdown": "- respring\n- safemode\n- uicache\n- reboot\n- shutdown \n\n\n- NOTE!!! you need to add it first in CONTROL CENTER section in settings!",
+                "markdown": "- respring\n-safemode\n- uicache\n- reboot\n- shutdown \n\n\n- NOTE!!! you need to add it first in CONTROL CENTER section in settings!",
                 "useBoldText": true
             },
 
