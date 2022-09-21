@@ -2,14 +2,17 @@
    "minVersion":"0.1",
    "headerImage":"https://anhutc.github.io/Banners/AirawBanner.png",
    "tintColor":"#ee7817",
+   "class":"DepictionTabView",
    "tabs":[
       {
+         "class":"DepictionStackView",
          "tabname":"Details",
          "views":[
             {
-                "itemCornerRadius":9,
-                "itemSize":"{200,400}",
-                "screenshots":[
+               "class":"DepictionScreenshotsView",
+               "itemCornerRadius":9,
+               "itemSize":"{200,120}",
+               "screenshots":[
                     {
                         "accessibilityText":"Screenshot",
                         "url":"https://anhutc.github.io/icons/Airaw/demo.png",
@@ -60,16 +63,15 @@
                      "url":"https://anhutc.github.io/icons/Airaw/demo9.png",
                      "fullSizeURL":"https://anhutc.github.io/icons/Airaw/demo9.png"
                   }
-                ],
-                "class":"DepictionScreenshotsView"
+                ]
             },
             {
                "class":"DepictionSeparatorView"
             },
 
             {
-                "title":"Features",
-                "class":"DepictionHeaderView"
+               "class":"DepictionHeaderView",
+                "title":"Description"
             },
             {
                 "class": "DepictionMarkdownView",
@@ -78,102 +80,117 @@
             },
 
             {
+               "class": "DepictionMarkdownView",
+               "title": "markdown-description",
                 "useBottomMargin": false,
                 "markdown": "- respring\n- safemode\n- uicache\n- reboot\n- shutdown \n\n\n- NOTE!!! you need to add it first in CONTROL CENTER section in settings!",
-                "useBoldText": true,
-                "title": "markdown-description",
-                "class": "DepictionMarkdownView"
-            },
-
-
-            {
-               "title":"What's New",
-               "class":"DepictionHeaderView"
+                "useBoldText": true
             },
 
             {
+               "class":"DepictionMarkdownView",
                "markdown":"- initial Release",
-               "useSpacing":true,
-               "class":"DepictionMarkdownView"
+               "useSpacing":true
             },
 
 
             {
-               "title":"Information",
-               "class":"DepictionHeaderView"
+               "class":"DepictionHeaderView",
+               "title":"Information"
             },
             {
+               "class":"DepictionTableTextView",
                "title":"Version",
-               "text":"0.0.1",
-               "class":"DepictionTableTextView"
+               "text":"0.0.1"
             },
             {
+               "class":"DepictionTableTextView",
                "title":"Updated",
-               "text":"Apr 28, 2022",
-               "class":"DepictionTableTextView"
+               "text":"Apr 28, 2022"
             },
 
             {
-               "title":"Price",
-               "text":"Free",
-               "class":"DepictionTableTextView"
-            },
-            {
-               "title":"Compatibility",
-               "text":"iOS 11.0 - 14.8",
-               "class":"DepictionTableTextView"
+               "class":"DepictionTableTextView",
+               "title":"iOS Versions",
+               "text":"11.0 - 14.8"
             },
 
-
             {
-               "title":"Support",
+               "title":"Donate",
                "class":"DepictionHeaderView"
             },
             {
+               "class":"DepictionTableButtonView",
                "title":"Via PayPal",
                "useBoldText": true,
-               "action":"https://www.paypal.com/paypalme/ppdva",
-               "class":"DepictionTableButtonView"
+               "action":"https://www.paypal.com/paypalme/ppdva"
             },
 
             {
+               "class":"DepictionTableButtonView",
                "title":"MoMo",
                "useBoldText": true,
-               "action":"https://me.momo.vn/mmdva",
-               "class":"DepictionTableButtonView"
+               "action":"https://me.momo.vn/mmdva"
             },
 
             {
-               "title":"Follow @Anh_UTC",
+               "class":"DepictionTableButtonView",
+               "title":"Follow me",
                "useBoldText": true,
-               "action":"https://www.facebook.com/100010169232179",
-               "class":"DepictionTableButtonView"
+               "action":"https://www.facebook.com/100010169232179"
             },
 
             {
+               "class":"DepictionTableButtonView",
                "title":"YouTube Channel",
                "useBoldText": true,
-               "action":"https://www.youtube.com/channel/UCw1G8IanhLQH3jgGnESv97g",
-               "class":"DepictionTableButtonView"
-            },
-
-            {"class":"DepictionLabelView",
-              "text":"Anh_UTC Tweaks | Airaw 0.0.1",
-              "textColor":"#999999",
-              "fontSize":"10.0",
-              "alignment":1,
-              "class":"DepictionStackView",
-              "class":"DepictionTabView"
+               "action":"https://www.youtube.com/channel/UCw1G8IanhLQH3jgGnESv97g"
             },
 
             {
-               "spacing":10,
-               "class":"DepictionSpacerView"
+               "class":"DepictionLabelView",
+               "text":"Anh_UTC Tweaks | Airaw 0.0.1",
+               "textColor":"#999999",
+               "fontSize":"10.0",
+               "alignment":1
+            },
+
+            {
+               "class":"DepictionSpacerView",
+               "spacing":10
             }
 
-         ],
-         "class":"DepictionStackView"
+         ]
+      },
+
+      {
+         "class":"DepictionStackView",
+         "tabname":"Changelog",
+         "tabs":[
+            {
+               "class":"DepictionHeaderView",
+                "title":"Version 1.1"
+            },
+            {
+               "class": "DepictionMarkdownView",
+               "title": "markdown-description",
+                "useBottomMargin": false,
+                "markdown": "- 1\n- 2\n- 3\n- 4\n- 5",
+                "useBoldText": true
+            },
+
+            {
+               "class":"DepictionHeaderView",
+                "title":"Version 1.0"
+            },
+            {
+               "class": "DepictionMarkdownView",
+               "title": "markdown-description",
+                "useBottomMargin": false,
+                "markdown": "- 1\n- 2\n- 3\n- 4\n- 5",
+                "useBoldText": true
+            }
+         ]
       }
-   ],
-   "class":"DepictionTabView"
+   ]
 }

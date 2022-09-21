@@ -13,6 +13,6 @@ Section: Tweaks
 Description: Multitasking on iOS14.x
 Author: Anh_UTC
 Depiction: https://anhutc.github.io/depiction/Airaw.html
-SileoDepiction: https://anhutc.github.io/sileodepictions/io.anhutc.airaw.json
+SileoDepiction: https://anhutc.github.io/sileodepictions/airaw.json
 Icon: https://anhutc.github.io/icons/Airaw/Airaw.png
 Name: Airaw
