@@ -166,20 +166,18 @@
          "tabname":"Changelog",
          "tabs":[
             {
-               "class":"DepictionHeaderView",
-                "title":"Version 1.1",
-                "useBottomMargin": false,
-                "markdown": "- 1\n- 2\n- 3\n- 4\n- 5",
-                "useBoldText": true
-            },
+               "class": "DepictionMarkdownView",
+               "markdown": "Power action CC Module:",
+               "useSpacing": true
+           },
 
-            {
-               "class":"DepictionHeaderView",
-                "title":"Version 1.0",
-                "useBottomMargin": false,
-                "markdown": "- 1\n- 2\n- 3\n- 4\n- 5",
-                "useBoldText": true
-            }
+           {
+              "class": "DepictionMarkdownView",
+              "title": "markdown-description",
+               "useBottomMargin": false,
+               "markdown": "- respring\n-safemode\n- uicache\n- reboot\n- shutdown \n\n\n- NOTE!!! you need to add it first in CONTROL CENTER section in settings!",
+               "useBoldText": true
+           }
          ]
       }
    ]
