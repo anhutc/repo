@@ -88,13 +88,6 @@
             },
 
             {
-               "class":"DepictionMarkdownView",
-               "markdown":"- initial Release",
-               "useSpacing":true
-            },
-
-
-            {
                "class":"DepictionHeaderView",
                "title":"Information"
             },
@@ -169,11 +162,7 @@
          "tabs":[
             {
                "class":"DepictionHeaderView",
-                "title":"Version 1.1"
-            },
-            {
-               "class": "DepictionMarkdownView",
-               "title": "markdown-description",
+                "title":"Version 1.1",
                 "useBottomMargin": false,
                 "markdown": "- 1\n- 2\n- 3\n- 4\n- 5",
                 "useBoldText": true
@@ -181,11 +170,7 @@
 
             {
                "class":"DepictionHeaderView",
-                "title":"Version 1.0"
-            },
-            {
-               "class": "DepictionMarkdownView",
-               "title": "markdown-description",
+                "title":"Version 1.0",
                 "useBottomMargin": false,
                 "markdown": "- 1\n- 2\n- 3\n- 4\n- 5",
                 "useBoldText": true
