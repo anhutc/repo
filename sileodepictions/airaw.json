@@ -98,6 +98,11 @@
             },
             {
                "class":"DepictionTableTextView",
+               "title":"Size",
+               "text":"100 MB"
+            },
+            {
+               "class":"DepictionTableTextView",
                "title":"Updated",
                "text":"Apr 28, 2022"
             },
