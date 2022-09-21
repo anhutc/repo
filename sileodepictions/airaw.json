@@ -1,8 +1,8 @@
 {
-   "class":"DepictionTabView",
    "minVersion":"0.1",
    "headerImage":"https://anhutc.github.io/Banners/AirawBanner.png",
    "tintColor":"#ee7817",
+   "class":"DepictionTabView",
    "tabs":[
       {
          "class":"DepictionStackView",
