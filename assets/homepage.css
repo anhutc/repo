@@ -131,7 +131,7 @@
 }
 .footer p:first-child:after {
     font-size: 0;
-    content: "by Đặng Văn Ánh"
+    content: "Đặng Văn Ánh"
 }
 .footer:hover {
     background-image: none;
