@@ -6,12 +6,12 @@
    "tabs":[
       {
          "class":"DepictionStackView",
-         "tabname":"Details",
+         "tabname":"Chi tiết",
          "views":[
             {
                "class":"DepictionScreenshotsView",
                "itemCornerRadius":9,
-               "itemSize":"{200,120}",
+               "itemSize":"{160, 346.4533333333333}",
                "screenshots":[
                   {
                      "accessibilityText":"Screenshot",
@@ -31,7 +31,7 @@
 
             {
                "class":"DepictionHeaderView",
-                "title":"Description"
+                "title":"Mô tả"
             },
             {
                 "class": "DepictionMarkdownView",
@@ -49,37 +49,37 @@
 
             {
                "class":"DepictionHeaderView",
-               "title":"Information"
+               "title":"Thông tin"
             },
             {
                "class":"DepictionTableTextView",
-               "title":"Version",
+               "title":"Phiên bản",
                "text":"0.0.1"
             },
             {
                "class":"DepictionTableTextView",
-               "title":"Size",
+               "title":"Kích thước",
                "text":"100 MB"
             },
             {
                "class":"DepictionTableTextView",
-               "title":"Updated",
+               "title":"Cập nhật",
                "text":"Apr 28, 2022"
             },
 
             {
                "class":"DepictionTableTextView",
-               "title":"iOS Versions",
+               "title":"Phiên bản iOS",
                "text":"11.0 - 14.8"
             },
 
             {
-               "title":"Donate",
-               "class":"DepictionHeaderView"
+               "class":"DepictionHeaderView",
+               "title":"Liên kết"
             },
             {
                "class":"DepictionTableButtonView",
-               "title":"Via PayPal",
+               "title":"PayPal",
                "useBoldText": true,
                "action":"https://www.paypal.com/paypalme/ppdva"
             },
@@ -93,14 +93,14 @@
 
             {
                "class":"DepictionTableButtonView",
-               "title":"Follow me",
+               "title":"Facebook",
                "useBoldText": true,
                "action":"https://www.facebook.com/100010169232179"
             },
 
             {
                "class":"DepictionTableButtonView",
-               "title":"YouTube Channel",
+               "title":"YouTube",
                "useBoldText": true,
                "action":"https://www.youtube.com/channel/UCw1G8IanhLQH3jgGnESv97g"
             },
@@ -122,11 +122,11 @@
       },
       {
          "class": "DepictionStackView",
-         "tabname": "Changelog",
+         "tabname": "Nhật ký thay đổi",
          "views": [
            {
              "class": "DepictionSubheaderView",
-             "title": "Version 1.7.10"
+             "title": "Phiên bản 1.7.10"
            },
            {
              "class": "DepictionMarkdownView",
@@ -137,7 +137,7 @@
            },
            {
              "class": "DepictionSubheaderView",
-             "title": "Version 1.7.9"
+             "title": "Phiên bản 1.7.9"
            },
            {
              "class": "DepictionMarkdownView",
