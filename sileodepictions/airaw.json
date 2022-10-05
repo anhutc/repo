@@ -13,11 +13,11 @@
                "itemCornerRadius":9,
                "itemSize":"{200,120}",
                "screenshots":[
-                    {
-                        "accessibilityText":"Screenshot",
-                        "url":"https://anhutc.github.io/images/Airaw/demo.png",
-                        "fullSizeURL":"https://anhutc.github.io/images/Airaw/demo.png"
-                    },
+                  {
+                     "accessibilityText":"Screenshot",
+                     "url":"https://anhutc.github.io/images/Airaw/demo.png",
+                     "fullSizeURL":"https://anhutc.github.io/images/Airaw/demo.png"
+                  },
                   {
                      "accessibilityText":"Screenshot",
                      "url":"https://anhutc.github.io/images/Airaw/demo9.png",
@@ -144,6 +144,6 @@
              "markdown": "- Removed workaround code for iSponsorBlock (1.0-15) when its controls are displayed on the video overlay\n- Added zh_cn localization\n"
            }
          ]
-       }
+      }
    ]
 }
