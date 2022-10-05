@@ -30,12 +30,8 @@
         <span id="Packages">
             <script type="text/javascript">
                 //パッケージの遷移先
-                var Packages = [
-                    "depiction/Airaw",
-                    "depiction/TikTokDP"
-                ];
                 //パッケージのタイトル
-                var Packages_title = [
+                var Packages = [
                     "Airaw",
                     "TiktokDP"
                 ];
@@ -50,11 +46,11 @@
                     "AirawBanner.png"
                 ];
                 for(var i = 0;i < Packages.length;i++){
-                    document.writeln("<a href="+ Packages[i] + " target='_blank'>");
+                    document.writeln("<a href=depiction/"+ Packages[i] + " target='_blank'>");
                         document.write('<div class="packageWrapper" style="background-image: url(./Banners/' + Packages_Banners[i] +');animation-delay: 0s">');
                             document.write('<img class="bannerImage" src="./Banners/' + Packages_Banners[i] +'" onerror="removeBanner(this)">');
                             document.write('<div class="packageLowerInfo">');
-                                document.write('<p class="packageTitle">' + Packages_title[i] + "</p>");
+                                document.write('<p class="packageTitle">' + Packages[i] + "</p>");
                                 document.write('<p>');
                                     document.write('<p>');
                                         document.write(Packages_details[i]);
