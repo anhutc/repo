@@ -11,7 +11,7 @@
             {
                "class":"DepictionScreenshotsView",
                "itemCornerRadius":9,
-               "itemSize":"{160, 346.4533333333333}",
+               "itemSize":"{195, 385}",
                "screenshots":[
                   {
                      "accessibilityText":"Screenshot",
@@ -35,7 +35,7 @@
             },
             {
                 "class": "DepictionMarkdownView",
-                "markdown": "Power action CC Module:",
+                "markdown": "Để kích hoạt quảng cáo, quảng cáo phát trực tuyến video, bật tính năng tự động phát, lưu video không có bản quyền, v.v.",
                 "useSpacing": true
             },
 
@@ -43,7 +43,7 @@
                "class": "DepictionMarkdownView",
                "title": "markdown-description",
                 "useBottomMargin": false,
-                "markdown": "- respring\n-safemode\n- uicache\n- reboot\n- shutdown \n\n\n- NOTE!!! you need to add it first in CONTROL CENTER section in settings!",
+                "markdown": "- Tự động phát video ngắn Douyin\n- Tải xuống không watermark\n- Tự động chuyển tiếp video quảng cáo",
                 "useBoldText": true
             },
 
@@ -54,23 +54,23 @@
             {
                "class":"DepictionTableTextView",
                "title":"Phiên bản",
-               "text":"0.0.1"
+               "text":"1.1"
             },
             {
                "class":"DepictionTableTextView",
                "title":"Kích thước",
-               "text":"100 MB"
+               "text":"49 KB"
             },
             {
                "class":"DepictionTableTextView",
                "title":"Cập nhật",
-               "text":"Apr 28, 2022"
+               "text":"19/10/2020"
             },
 
             {
                "class":"DepictionTableTextView",
-               "title":"Phiên bản iOS",
-               "text":"11.0 - 14.8"
+               "title":"Tương thích",
+               "text":"iOS 9+"
             },
 
             {
