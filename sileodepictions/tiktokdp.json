@@ -126,22 +126,11 @@
          "views": [
            {
              "class": "DepictionSubheaderView",
-             "title": "Version 1.7.10"
+             "title": "Version 1.1"
            },
            {
              "class": "DepictionMarkdownView",
-             "markdown": "- Added ja and ko localization, Updated zh_cn localization"
-           },
-           {
-             "class": "DepictionSeparatorView"
-           },
-           {
-             "class": "DepictionSubheaderView",
-             "title": "Version 1.7.9"
-           },
-           {
-             "class": "DepictionMarkdownView",
-             "markdown": "- Removed workaround code for iSponsorBlock (1.0-15) when its controls are displayed on the video overlay\n- Added zh_cn localization\n"
+             "markdown": "- Phát hành"
            }
          ]
       }
