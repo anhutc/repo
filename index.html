@@ -1,63 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Anh_UTC's - Repository</title>
-    <link rel="icon" href="./CydiaIcon.png" class="next-head" id="iconLink"><!-- アイコンセット -->
-    <meta name="description" content="Hello, my name is Anh. This is my jailbreak repository.">
-    <meta property="og:title" content="Anh_UTC's Repo">
-    <meta property="og:description" content="Hello, my name is Anh. This is my jailbreak repository.">
-    <meta content="https://anhutc.github.io/" property="og:url">
-    <meta content="anhutc,utc,anhutc Repo,utc repo" name="keywords">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="https://anhutc.github.io/assets/global.css">
-    <link rel="stylesheet" type="text/css" href="https://anhutc.github.io/assets/homepage.css">
-    <script src="https://anhutc.github.io/assets/homepage.js" type="text/javascript"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/shexShady.jpg" type="image/x-icon">
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=============== CSS ===============-->
+    <style>
+        :root {
+            --topic-color: rgb(137, 81, 182);
+        }
+    </style>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Anh_UTC</title>
 </head>
-<body id="darkMode">
-    <div class="navbar">
-        <div class="navbarContainer">
-            <a href="./" class="navbarLogo">&#62; ad ~</a>
-            <div class="logoCursor"></div>
-            <div class="rightNavContainer">
-                <a href="./packages">Packages</a>
-                <a href="https://github.com/anhutc" target="_blank">GitHub</a>
+
+<body>
+    <div class="body">
+        <!--=============== HEADER ===============-->
+        <header class="profile">
+            <div class="setting__container">
+                <!-- Select Language -->
+                <div id="google_translate_element"></div>
+                <!-- Menu button -->
+        <ul class="nav-menu">
+            <li class="sub-menu">
+                <a href="http://anhutc.github.io" rel="noopener noreferrer">
+                    <i class="ri-home-smile-line"></i>
+                </a>
+            </li>
+            <li class="sub-menu">
+                <a href="https://www.facebook.com/100010169232179" target="_blank" rel="noopener noreferrer">
+                    <i class="ri-facebook-line"></i>
+                </a>
+            </li>
+            <li class="sub-menu">
+                <a href="https://www.youtube.com/channel/UCw1G8IanhLQH3jgGnESv97g" target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="ri-youtube-line"></i>
+                </a>
+            </li>
+            <li class="sub-menu">
+                <a href="https://github.com/anhutc" target="_blank" rel="noopener noreferrer">
+                    <i class="ri-github-line"></i>
+                </a>
+            </li>
+            <li class="sub-menu">
+                <a href="#" rel="noopener noreferrer">
+                    <i class="ri-moon-line" id="theme-button"></i>
+                </a>
+            </li>
+            <li class="sub-menu">
+                <a href="#" rel="noopener noreferrer">
+                    <i class="ri-global-line"></i>
+                </a>
+            </li>
+        </ul>
             </div>
-        </div>
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <!-- Insert your image, according to the example size of the portfolio -->
+                            <img src="assets/img/shexShady.jpg" alt="">
+                        </div>
+                    </div>
+                    <h2 class="profile__name notranslate">Anh_UTC</h2>
+                    <h3 class="profile__profession notranslate">Repository</h3>
+                    <h3 class="profile__profession">A collection of my free and useful tweaks😁😍</h3>
+                </div>
+                <div class="profile__buttons notranslate">
+                    <!-- Buy a coffe or a beer for me -->
+                    <a href="https://paypal.me/ppdva" target="_blank" class="button"> Donate <i
+                            class="ri-money-dollar-circle-line"></i>
+                    </a>
+                    <div class="profile__buttons-small">
+                        <!-- Add Cydia -->
+                        <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://anhutc.github.io/"
+                            class="button button__small button__gray"> +cydia </a>
+                        <!-- Add Sileo -->
+                        <a href="sileo://source/https://anhutc.github.io/" class="button button__small button__gray">
+                            +sileo </a>
+                        <!-- Add Zebra -->
+                        <a href="zbra://sources/add/https://anhutc.github.io/"
+                            class="button button__small button__gray"> +zebra </a>
+                        <!-- Add Installer -->
+                        <a href="installer://add/repo=https://anhutc.github.io/"
+                            class="button button__small button__gray"> +installer </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters__content notranslate">
+                    <button class="filters__button filter-tab-active" data-target="#filters__tab1"> Tweaks </button>
+                    <button class="filters__button" data-target="#filters__tab2"> IPA </button>
+                </ul>
+                <div class="filters__sections">
+                    <!--=============== FILTERS TAB 1 ===============-->
+                    <div class="filters__tab1__content grid filters__active" data-content id="filters__tab1">
+                        <div class="packageList">
+                            <!-- Package test -->
+                            <a class="subtle_link" href="depiction/web/draincheck.html">
+                                <div class="package">
+                                    <img src="web/draincheck/icon.png">
+                                    <div class="package_info">
+                                        <p class="package_name notranslate">Test Package</p>
+                                        <p class="package_caption">Monitor your battery drain.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!--=============== FILTERS TAB 2 ===============-->
+                    <div class="filters__tab2__content grid" data-content id="filters__tab2">
+                        <div class="filters__tab2__area">
+                            <div class="filters__tab2__box">
+                                <div class="filters__tab2__area">
+                                    <div class="filters__tab2__box">
+                                        <div class="filters__tab2__group">
+                                            <div class="filters__tab2__data">
+                                                <article class="filters__tab1__card">
+                                                    <img src="assets/img/1.jpg" alt="" class="filters__tab1__img">
+                                                </article>
+                                            </div>
+                                            <div class="filters__tab2__data">
+                                                <article class="filters__tab1__card">
+                                                    <img src="assets/img/2.jpg" alt="" class="filters__tab1__img">
+                                                </article>
+                                            </div>
+                                            <div class="filters__tab2__data">
+                                                <article class="filters__tab1__card">
+                                                    <img src="assets/img/3.jpg" alt="" class="filters__tab1__img">
+                                                </article>
+                                            </div>
+                                        </div>
+                                        <div class="filters__tab2__group">
+                                            <div class="filters__tab2__data">
+                                                <article class="filters__tab1__card">
+                                                    <img src="assets/img/4.jpg" alt="" class="filters__tab1__img">
+                                                </article>
+                                            </div>
+                                            <div class="filters__tab2__data">
+                                                <article class="filters__tab1__card">
+                                                    <img src="assets/img/6.jpg" alt="" class="filters__tab1__img">
+                                                </article>
+                                            </div>
+                                            <div class="filters__tab2__data">
+                                                <article class="filters__tab1__card">
+                                                    <img src="assets/img/5.jpg" alt="" class="filters__tab1__img">
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            </section>
+        </main>
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <span class="footer__copy notranslate" id="copyright"></span>
+        </footer>
     </div>
-    <!-- その他 -->
-    <div class="wrapper verticalCenter">
-        <h1 id="siteTitle">Anh_UTC's</h1>
-        <p>Kho lưu trữ của tôi</p>
-        <!-- Cydia -->
-        <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://anhutc.github.io">
-            <p class="socialIcon" onmouseover="changeTitle('Thêm vào Cydia')" onmouseleave="changeTitle('')">
-                +cydia
-            </p>
-        </a>
-        <!-- Sileo -->
-        <a href="sileo://source/https://anhutc.github.io">
-            <p class="socialIcon" onmouseover="changeTitle('Thêm vào Sileo')" onmouseleave="changeTitle('')">
-                +sileo
-            </p>
-        </a>
-        <!-- Zebra -->
-        <a href="zbra://sources/add/https://anhutc.github.io">
-            <p class="socialIcon" onmouseover="changeTitle('Thêm vào Zebra')" onmouseleave="changeTitle('')">
-                +zebra
-            </p>
-        </a>
-        <!-- Installer -->
-        <a href="installer://add/repo=https://anhutc.github.io">
-            <p class="socialIcon" onmouseover="changeTitle('Thêm vào Installer')" onmouseleave="changeTitle('')">
-                +installer
-            </p>
-        </a>
-    </div>
-    <!-- class="footer" -->
-    <div class="footer">
-        <p style="text-align: center;">Copyright &#169; 2022</p>
-    </div>
+    <script>
+        const d = new Date();
+        let year = d.getFullYear();
+        document.getElementById("copyright").innerHTML = '<a href = "https://anhutc.github.io/">DVA</a> &#169;' + year +
+            ' All rigths reserved';
+    </script>
+    <!--=============== 90's Cursor Effects ===============-->
+    <script src="assets/js/cursor.js"></script>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+    <!--=============== LANGUAGE JS ===============-->
+    <script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
+
 </html>
