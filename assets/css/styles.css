@@ -990,7 +990,7 @@ input[type="checkbox"]:checked~.logo_text {
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
-  padding: 10px;
+  padding: 5px;
   transition: 0.2s ease color;
 }
 
