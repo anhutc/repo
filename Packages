@@ -1,0 +1,17 @@
+Package: io.anhutc.tiktokdp
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Agricu
+Installed-Size: 232
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/tiktokdp_1.1.deb
+Size: 49152
+MD5sum: a7d26d2103ed6ab6a0a95ba1ff89b075
+SHA256: 529d22f0b6fbccc4d4c2c7259a38e8f577c4b66215da3b6e6eab3c0fe8619e0a
+Section: Tweaks
+Description: Chặn quảng cáo, tải video, tự động chuyển video...
+Author: Agricu
+Depiction: https://anhutc.github.io/depiction/web/tiktokdp.html
+SileoDepiction: https://anhutc.github.io/depiction/sileo/tiktokdp.json
+Icon: https://anhutc.github.io/web/tiktokdp/icon.png
+Name: TikTokDP (Douyin)

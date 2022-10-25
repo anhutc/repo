@@ -971,3 +971,57 @@ input[type="checkbox"]:checked~.logo_text {
     filter: hue-rotate(360deg);
   }
 }
+
+.setting__container {
+  display: flex;
+  width: 100%;
+}
+
+.nav-menu-home {
+  margin-left: auto;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.nav-menu-home a {
+  font-size: larger;
+  text-align: center;
+  color: var(--text-color);
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  transition: 0.2s ease color;
+}
+
+.nav-menu-home a:before,
+.nav-menu-home a:after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 0.2s ease transform;
+}
+
+.nav-menu-home a:before {
+  top: 0;
+  left: 10px;
+  width: 6px;
+  height: 6px;
+}
+
+.nav-menu-home a:after {
+  top: 5px;
+  left: 18px;
+  width: 4px;
+  height: 4px;
+}
+
+.nav-menu-home a:hover {
+  color: var(--topic-color);
+}
+
+.nav-menu-home a:hover:before,
+.nav-menu-home a:hover:after {
+  transform: scale(1);
+}
