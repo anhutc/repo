@@ -1,7 +1,7 @@
 {
     "minVersion": "0.1",
     "headerImage": "https://anhutc.github.io/web/tiktokdp/banner.png",
-    "tintColor": "#55c6d3",
+    "tintColor": "#5BCC5A",
     "tabs": [
         {
             "tabname": "Details",
@@ -76,8 +76,7 @@
                     "class": "DepictionTableButtonView",
                     "title": "View Source Code",
                     "action": "https://github.com/ginsudev/DrainCheck",
-                    "openExternal": "true",
-                    "tintColor": "#55c6d3"
+                    "openExternal": "true"
                 },
                 {
                     "class": "DepictionSpacerView"
@@ -86,8 +85,7 @@
                     "class": "DepictionTableButtonView",
                     "title": "Contact Support",
                     "action": "depiction-https://anhutc.github.io/depiction/sileo/help/help.json",
-                    "openExternal": "true",
-                    "tintColor": "#55c6d3"
+                    "openExternal": "true"
                 },
                 {
                     "class": "DepictionLabelView",
