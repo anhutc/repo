@@ -164,10 +164,6 @@ img {
 
 /*=============== END SETTING ===============*/
 
-.main {
-  padding-left: 40px;
-}
-
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
   --title-color: hsl(var(--hue), 12%, 95%);
@@ -927,7 +923,10 @@ a,
   border-bottom: 2px solid var(--topic-color);
 }
 
-
+.md_view ul {
+  padding: revert;
+  margin: revert;
+}
 
 .main__profile ul {
   position: relative;
@@ -974,7 +973,6 @@ input[type="checkbox"]:checked~.logo_text {
 
 .setting__container {
   display: flex;
-  width: 100%;
 }
 
 .nav-menu-home {
