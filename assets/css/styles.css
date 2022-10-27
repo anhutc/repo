@@ -119,7 +119,7 @@ img {
   border: 2px solid var(--topic-color);
   border-radius: 0.75rem;
   text-align: left;
-  
+
 }
 
 .goog-logo-link {
@@ -129,7 +129,7 @@ img {
 .goog-te-gadget {
   color: transparent !important;
   font-family: var(--body-font) !important;
-    font-size: unset !important;
+  font-size: unset !important;
 }
 
 .goog-te-banner-frame {
@@ -235,13 +235,13 @@ body.dark-theme {
 .profile__name {
   /* font-size: var(---font-size); */
   text-transform: uppercase;
-	background-image: linear-gradient(to right top, #ffff34, #ffc812, #ff8f2f, #ff554d, #eb1267);
-   background-size: 50% auto;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right top, #ffff34, #ffc812, #ff8f2f, #ff554d, #eb1267);
+  background-size: 50% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   /* font-family: 'Poppins', sans-serif; */
   font-size: 5vw;
-  animation: gradientAnim 7.5s ease  alternate infinite;
+  animation: gradientAnim 7.5s ease alternate infinite;
 }
 
 
@@ -534,6 +534,7 @@ body.dark-theme {
     column-gap: 1rem;
   }
 }
+
 /* For medium devices */
 
 
@@ -635,18 +636,22 @@ body.dark-theme {
 }
 
 .rotate {
-    position: fixed;
-    height: 100%;
-    background-color: black;
-    z-index: 9;
+  position: fixed;
+  height: 100%;
+  background-color: black;
+  z-index: 9;
 }
 
 @media only screen and (max-width: 365px) {
   .rotate {
     display: block !important;
   }
-  html, body {
-    margin: 0; height: 100%; overflow: hidden
+
+  html,
+  body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden
   }
 }
 
@@ -655,6 +660,7 @@ body.dark-theme {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
+
   .logo_text {
     position: relative;
     height: 40px;
@@ -673,7 +679,7 @@ body.dark-theme {
       inset -1px -1px 4px var(--topic-color),
       inset 1px 1px 1px var(--topic-color);
   }
-  
+
 }
 
 @media only screen and (min-width: 601px) {
@@ -682,6 +688,7 @@ body.dark-theme {
     margin-left: auto;
     margin-right: auto;
   }
+
   .logo_text {
     position: relative;
     height: 60px;
@@ -985,8 +992,10 @@ input[type="checkbox"]:checked~.logo_text {
   text-align: right;
   padding: 9px;
   width: 100%;
-  width: -moz-available;          /* WebKit-based browsers will ignore this. */
-  width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+  width: -moz-available;
+  /* WebKit-based browsers will ignore this. */
+  width: -webkit-fill-available;
+  /* Mozilla-based browsers will ignore this. */
   width: fill-available;
 }
 
