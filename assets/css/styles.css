@@ -545,7 +545,7 @@ body.dark-theme {
   }
 
   .filters__content {
-    /* width: 332px; */
+    width: 350px;
     margin: 3rem auto;
   }
 }
