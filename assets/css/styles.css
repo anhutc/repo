@@ -114,11 +114,12 @@ img {
 #google_translate_element select {
   /* position: absolute; */
   padding: 5px;
-  right: auto;
   background: var(--body-color);
   color: var(--title-color);
   border: 2px solid var(--topic-color);
   border-radius: 0.75rem;
+  text-align: left;
+  
 }
 
 .goog-logo-link {
@@ -127,6 +128,8 @@ img {
 
 .goog-te-gadget {
   color: transparent !important;
+  font-family: var(--body-font) !important;
+    font-size: unset !important;
 }
 
 .goog-te-banner-frame {
@@ -182,11 +185,6 @@ body.dark-theme {
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
-.container {
-  max-width: 968px;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}
 
 .grid {
   display: grid;
@@ -235,7 +233,22 @@ body.dark-theme {
 }
 
 .profile__name {
-  font-size: var(--h2-font-size);
+  /* font-size: var(---font-size); */
+  text-transform: uppercase;
+	background-image: linear-gradient(to right top, #ffff34, #ffc812, #ff8f2f, #ff554d, #eb1267);
+   background-size: 50% auto;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  /* font-family: 'Poppins', sans-serif; */
+  font-size: 5vw;
+  animation: gradientAnim 7.5s ease  alternate infinite;
+}
+
+
+@keyframes gradientAnim {
+  to {
+    background-position: 100% top;
+  }
 }
 
 .profile__profession {
@@ -498,12 +511,8 @@ body.dark-theme {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+
 @media screen and (max-width: 500px) {
-
-  .main__profile {
-    display: none;
-  }
-
   .nav-menu {
     padding: 0 5px;
   }
@@ -525,8 +534,9 @@ body.dark-theme {
     column-gap: 1rem;
   }
 }
-
 /* For medium devices */
+
+
 @media screen and (min-width: 576px) {
   .filters__tab1__content {
     /* grid-template-columns: 332px; */
@@ -620,10 +630,30 @@ body.dark-theme {
   }
 }
 
+.gif-rotate {
+  margin-top: 40%;
+}
+
+.rotate {
+    position: fixed;
+    height: 100%;
+    background-color: black;
+    z-index: 9;
+}
+
+@media only screen and (max-width: 365px) {
+  .rotate {
+    display: block !important;
+  }
+  html, body {
+    margin: 0; height: 100%; overflow: hidden
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .body {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
   .logo_text {
     position: relative;
@@ -643,6 +673,7 @@ body.dark-theme {
       inset -1px -1px 4px var(--topic-color),
       inset 1px 1px 1px var(--topic-color);
   }
+  
 }
 
 @media only screen and (min-width: 601px) {
@@ -951,8 +982,8 @@ input[type="checkbox"]:checked~.logo_text {
 }
 
 .nav-menu {
-  padding: 10px;
-
+  text-align: right;
+  padding: 9px;
   width: 100%;
   width: -moz-available;          /* WebKit-based browsers will ignore this. */
   width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
