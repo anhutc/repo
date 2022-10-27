@@ -12,7 +12,7 @@
       Teal: hsl(174, 63%, 62%)
   */
 
-  --hue: 120;
+  --hue: 207;
   --sat: 90%;
   --lig: 60%;
   --first-color: hsl(var(--hue), var(--sat), var(--lig));
