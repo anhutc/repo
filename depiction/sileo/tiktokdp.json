@@ -22,7 +22,7 @@
                     "itemSize": "{185,400}"
                 },
                 {
-                    "markdown": "Go to start ads, stream ads, turn on autoplay, save copyright-free videos, and more.\n\n1.Douyin short video automatic play\n2.No watermark download, no copyright download\n3.Go to video ad stream",
+                    "markdown": "Go to start ads, stream ads, turn on autoplay, save copyright-free videos, and more.\n\n1. Douyin short video automatic play\n2. No watermark download, no copyright download\n3. Go to video ad stream",
                     "useSpacing": "true",
                     "class": "DepictionMarkdownView"
                 },
@@ -67,7 +67,7 @@
                 },
                 {
                     "class": "DepictionLabelView",
-                    "text": "TikTok DP Tweaks | Anh_UTC",
+                    "text": "TikTokDP Tweaks | Anh_UTC",
                     "textColor": "#999999",
                     "fontSize": "10.0",
                     "alignment": 1
@@ -88,7 +88,7 @@
                 },
                 {
                     "class": "DepictionLabelView",
-                    "text": "TikTok DP Tweaks | Anh_UTC",
+                    "text": "TikTokDP Tweaks | Anh_UTC",
                     "textColor": "#999999",
                     "fontSize": "10.0",
                     "alignment": 1
