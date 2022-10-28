@@ -935,6 +935,14 @@ a,
   border-bottom: 2px solid var(--topic-color);
 }
 
+.green {
+  color: #00b90c;
+}
+
+.red {
+  color: #ba0000;
+}
+
 ul, ol {
   padding: revert;
   margin: revert;
