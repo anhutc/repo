@@ -1,7 +1,7 @@
 Package: io.anhutc.tiktokdp
 Version: 1.1
 Architecture: iphoneos-arm
-Maintainer: Agricu
+Maintainer: Anh_UTC
 Installed-Size: 232
 Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/io.anhutc.tiktokdp_1.1_iphoneos-arm.deb
@@ -13,5 +13,5 @@ Description: Tweaks for the Douyin app.
 Author: Agricu
 Depiction: https://anhutc.github.io/depiction/web/tiktokdp.html
 SileoDepiction: https://anhutc.github.io/depiction/sileo/tiktokdp.json
-Icon: https://anhutc.github.io/web/icon/Tweaks.png
+Icon: https://anhutc.github.io/web/tiktokdp/icon.png
 Name: TikTokDP
