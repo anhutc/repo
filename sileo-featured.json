@@ -4,7 +4,7 @@
    "itemCornerRadius":10,
    "banners":[
       {
-         "url":"https://anhutc.github.io/web/banner/banner.jpg",
+         "url":"https://anhutc.github.io/web/tiktokdp/banner.jpg",
          "title":"TikTokDP",
          "package":"io.anhutc.tiktokdp",
          "hideShadow":false
