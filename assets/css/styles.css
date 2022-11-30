@@ -232,19 +232,6 @@ body.dark-theme {
   margin-bottom: .75rem;
 }
 
-.profile__name {
-  /* font-size: var(---font-size); */
-  text-transform: uppercase;
-  background-image: linear-gradient(to right top, #ffff34, #ffc812, #ff8f2f, #ff554d, #eb1267);
-  background-size: 50% auto;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  /* font-family: 'Poppins', sans-serif; */
-  font-size: 5vw;
-  animation: gradientAnim 7.5s ease alternate infinite;
-}
-
-
 @keyframes gradientAnim {
   to {
     background-position: 100% top;
