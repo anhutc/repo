@@ -21,7 +21,7 @@ svg {
         animation-delay: -2s;
     }
     .text-copy:nth-child(3) {
-        stroke: #AAABAF;
+        stroke: var(--text-color);
         animation-delay: -3s;
     }
     .text-copy:nth-child(4) {
