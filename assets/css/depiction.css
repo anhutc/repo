@@ -1,0 +1,361 @@
+
+.profile__buttons,
+.profile__buttons-small {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile__buttons {
+    column-gap: 1rem;
+    /* flex-direction: column; */
+}
+
+.profile__buttons-small {
+    column-gap: .25rem;
+}
+
+.profile__buttons,
+.profile__buttons-small {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile__buttons {
+    column-gap: 1rem;
+    /* flex-direction: column; */
+}
+
+.profile__buttons-small {
+    column-gap: .25rem;
+}
+
+
+/*=============== BUTTONS ===============*/
+.button {
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+    background-color: var(--topic-color);
+    color: #fff;
+    padding: .5rem .5rem;
+    border-radius: .5rem;
+    transition: .3s;
+    box-shadow: 0 8px 24px hsla(var(--hue), var(--sat), var(--lig), .25);
+}
+
+.button i {
+    font-size: 1.25rem;
+}
+
+.button:hover {
+    background-color: var(--topic-color);
+}
+
+.button__small {
+    padding: .75rem;
+    box-shadow: none;
+}
+
+.button__gray {
+    background-color: var(--text-color-lighten);
+    color: var(--title-color);
+}
+
+.button__gray:hover {
+    background-color: var(--text-color-light);
+}
+
+/*=============== FILTERS TABS===============*/
+.filters__content {
+    margin: 2rem 0 2.5rem;
+    background-color: var(--text-color-lighten);
+    padding: .375rem;
+    border-radius: .75rem;
+    display: flex;
+    justify-content: space-between;
+    column-gap: .5rem;
+}
+
+.filters__button {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    color: var(--title-color);
+    font-size: var(--small-font-size);
+    font-family: var(--body-font);
+    font-weight: 500;
+    border-radius: .75rem;
+    cursor: pointer;
+    background-color: transparent;
+    transition: .3s;
+    text-transform: uppercase;
+}
+
+.filters__button:hover {
+    background-color: var(--body-color);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .body {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+  
+    .logo_text {
+      position: relative;
+      height: 40px;
+      width: 40px;
+      background: var(--body-color);
+      color: var(--text-color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      /* cursor: pointer; */
+      margin: 0 4px;
+      border-radius: 14px;
+      box-shadow: -1px -1px 4px var(--topic-color),
+        4px 4px 6px var(--topic-color),
+        inset -1px -1px 4px var(--topic-color),
+        inset 1px 1px 1px var(--topic-color);
+    }
+  
+  }
+  
+  @media only screen and (min-width: 601px) {
+
+    .logo_text {
+      position: relative;
+      height: 60px;
+      width: 60px;
+      background: var(--body-color);
+      color: var(--text-color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 46px;
+      /* cursor: pointer; */
+      margin: 0 4px;
+      border-radius: 20px;
+      box-shadow: -1px -1px 4px var(--topic-color),
+        4px 4px 6px var(--topic-color),
+        inset -1px -1px 4px var(--topic-color),
+        inset 1px 1px 1px var(--topic-color);
+    }
+  }
+  
+  .scroll_view {
+    /* overflow-x: scroll; */
+    overflow-y: hidden;
+    margin: 10px 0;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .scroll_view>.card {
+    background-color: #ccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    height: 125px;
+    width: 275px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .scroll_view>.img_card {
+    background-color: #ccc;
+    width: 250px;
+    margin: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .card>p {
+    color: white;
+    bottom: 15px;
+    left: 15px;
+    font-size: 25px;
+    position: absolute;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .left_float {
+    float: left;
+  }
+  
+  .right_float {
+    float: right;
+  }
+  
+  .package {
+    margin-bottom: 40px;
+  }
+  
+  .package>img {
+    border-radius: 20px;
+    width: 75px;
+    height: 75px;
+    float: left;
+  }
+  
+  .package_info {
+    padding: 5px 0;
+    margin-left: 90px;
+  }
+  
+  .package_name {
+    color: var(--title-color);
+    font-weight: bold;
+    font-size: 21px;
+  }
+  
+  .package_caption {
+    margin-top: 7px;
+    color: #999;
+  }
+  
+  .cell>.title {
+    float: left;
+    color: #999;
+  }
+  
+  .cell>.text {
+    float: right;
+  }
+
+
+  
+.main__profile {
+    padding: 40px 0;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .banner__profile {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    border-radius: 8px;
+    z-index: -2;
+    margin: 20px 0;
+  }
+  
+  .banner_underlay {
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 100%;
+    border-radius: 8px;
+    z-index: -2;
+    margin: 20px 0;
+    top: 0;
+  }
+  
+  .changelog {
+    display: none;
+  }
+
+  .changelog_entry {
+    margin-bottom: 18px;
+  }
+  
+  
+.table-btn,
+.table-btn>div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.table-btn:after {
+  content: "›";
+  font-size: 30px;
+  transform: translateY(-40px);
+  float: right;
+}
+
+a,
+.tint,
+.table-btn:after {
+  color: var(--topic-color)
+}
+
+.active {
+  color: var(--topic-color);
+  border-bottom: 2px solid var(--topic-color);
+}
+
+.green {
+  color: #00b90c;
+}
+
+.red {
+  color: #ba0000;
+}
+
+ul,
+ol {
+  padding: revert;
+  margin: revert;
+}
+
+.main__profile ul {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.main__profile li {
+  list-style: none;
+}
+
+.main__profile label {
+  position: relative;
+}
+
+.main__profile ul li input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 100%;
+  /* width: 100%; */
+  z-index: 100;
+}
+
+input[type="checkbox"]:checked~.logo_text {
+  box-shadow: inset 0 0 2px var(--topic-color),
+    inset 4px 4px 6px var(--topic-color);
+  color: yellow;
+  text-shadow: 0 0 15px yellow, 0 0 25px yellow;
+  animation: glow 2s linear infinite;
+}
+
+@keyframes glow {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
