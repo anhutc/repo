@@ -1,14 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script|Lobster|Pattaya|Srisakdi&display=swap");
 
+:root {
+  --defaul-color: #F6AA1F;
+}
+
 html,
 body {
-  cursor: url("https://cdn.leanhduc.pro.vn/theme/theme-thong-tin-lien-he-version-2-0/images/mouse-f1.png"),
+  cursor: url("mouse-f1.png"),
     auto;
 }
 
 a:hover {
-  cursor: url("https://cdn.leanhduc.pro.vn/theme/theme-thong-tin-lien-he-version-2-0/images/mouse-f2.png"),
+  cursor: url("mouse-f2.png"),
     auto;
 }
 
@@ -184,7 +188,7 @@ a:hover {
   position: relative;
   height: 100%;
   width: 100%;
-  background-image: url("https://cdn.leanhduc.pro.vn/theme/theme-thong-tin-lien-he-version-2-0/images/cover.gif");
+  background-image: url("cover.gif");
   background-position: center;
   background-size: cover;
   border-top-left-radius: 25px;
@@ -197,7 +201,7 @@ a:hover {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-image: url("https://cdn.leanhduc.pro.vn/theme/theme-thong-tin-lien-he-version-2-0/images/cover.gif");
+  background-image: url("cover.gif");
   background-position: center;
   background-size: cover;
   border-top-left-radius: 25px;
@@ -210,7 +214,7 @@ a:hover {
   background-position: center;
   background-size: cover;
   border-radius: 100%;
-  border: 5px solid #1877f2;
+  border: 5px solid var(--defaul-color);
   -webkit-box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.74);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.74);
 }
@@ -506,7 +510,7 @@ a:hover {
 .badge {
   font-weight: bold;
   color: #ffffff;
-  background-color: #2d88ff;
+  background-color: #F6AA1F;
   padding: 3px;
   border-radius: 3px;
   font-size: 10px;
