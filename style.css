@@ -480,9 +480,9 @@ a:hover {
 }
 
 .phone {
-  background: #1f1c2c;
-  background: -webkit-linear-gradient(to right, #1f1c2c, #928dab);
-  background: linear-gradient(to right, #1f1c2c, #928dab);
+  background: #0E8114;
+  background: -webkit-linear-gradient(to right, #0E8114, #80F26A);
+  background: linear-gradient(to right, #0E8114, #80F26A);
 }
 
 .momo {
