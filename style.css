@@ -441,29 +441,15 @@ a:hover {
   }
 }
 
+.repo {
+  background: #8951B6;
+  background: -webkit-linear-gradient(to right, #8951B6, #F6AA1F);
+  background: linear-gradient(to right, #8951B6, #F6AA1F);
+}
+
 .facebook {
   background: #3a5795;
-  color: #1c3977;
   background: linear-gradient(to bottom, #3a5795 0%, #2b4886 100%);
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(0%, #3a5795),
-    color-stop(100%, #2b4886)
-  );
-  background: -webkit-linear-gradient(top, #3a5795 0%, #2b4886 100%);
-  background: -moz-linear-gradient(top, #3a5795 0%, #2b4886 100%);
-  background: -o-linear-gradient(top, #3a5795 0%, #2b4886 100%);
-  background: -ms-linear-gradient(top, #3a5795 0%, #2b4886 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3A5795', endColorstr='#2B4886', GradientType=0);
-  border: 1px solid #1c3977;
-  text-shadow: 0 1px 0 #4966a4;
-  -webkit-text-shadow: 0 1px 0 #4966a4;
-  -moz-text-shadow: 0 1px 0 #4966a4;
-  box-shadow: inset 0 1px 0 #4966a4;
-  -webkit-box-shadow: inset 0 1px 0 #4966a4;
-  -moz-box-shadow: inset 0 1px 0 #4966a4;
 }
 
 .messenger {
@@ -487,6 +473,12 @@ a:hover {
   background-image: url("zalo.png");
 }
 
+.youtube {
+  background: #FF0000;
+  background: -webkit-linear-gradient(to right, #FF0000, #e84e4e);
+  background: linear-gradient(to right, #FF0000, #e84e4e);
+}
+
 .phone {
   background: #1f1c2c;
   background: -webkit-linear-gradient(to right, #1f1c2c, #928dab);
@@ -499,16 +491,7 @@ a:hover {
 }
 
 .momo-icon {
-  background-image: url("https://cdn.leanhduc.pro.vn/theme/theme-thong-tin-lien-he-version-2-0/images/momo.png");
-}
-
-.vietcombank {
-  background: #006c46;
-  background: linear-gradient(127deg, #006c46 0%, #77bc41 100%);
-}
-
-.vietcombank-icon {
-  background-image: url("https://cdn.leanhduc.pro.vn/theme/theme-thong-tin-lien-he-version-2-0/images/vietcombank.png");
+  background-image: url("momo.png");
 }
 
 .mbbank {
@@ -517,7 +500,7 @@ a:hover {
 }
 
 .mbbank-icon {
-  background-image: url("https://cdn.leanhduc.pro.vn/theme/theme-thong-tin-lien-he-version-2-0/images/mbbank.png");
+  background-image: url("mbbank.png");
 }
 
 .badge {
