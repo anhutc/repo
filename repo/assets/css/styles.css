@@ -67,6 +67,7 @@ h3 {
 
 a {
   text-decoration: none;
+  color: var(--topic-color);
 }
 
 img {
