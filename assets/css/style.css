@@ -7,12 +7,12 @@
 
 html,
 body {
-  cursor: url("mouse-f1.png"),
+  cursor: url("/assets/images/mouse-f1.png"),
     auto;
 }
 
 a:hover {
-  cursor: url("mouse-f2.png"),
+  cursor: url("/assets/images/mouse-f2.png"),
     auto;
 }
 
@@ -153,7 +153,7 @@ a:hover {
   position: fixed;
   min-height: 100vh;
   min-width: 100%;
-  background-image: url("background.jpeg");
+  background-image: url("/assets/images/background.jpeg");
   background-size: cover;
   background-position: center;
   margin: 0;
@@ -188,7 +188,7 @@ a:hover {
   position: relative;
   height: 100%;
   width: 100%;
-  background-image: url("cover.gif");
+  background-image: url("/assets/images/cover.gif");
   background-position: center;
   background-size: cover;
   border-top-left-radius: 25px;
@@ -201,7 +201,7 @@ a:hover {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-image: url("cover.gif");
+  background-image: url("/assets/images/cover.gif");
   background-position: center;
   background-size: cover;
   border-top-left-radius: 25px;
@@ -474,7 +474,7 @@ a:hover {
 }
 
 .zalo-icon {
-  background-image: url("zalo.png");
+  background-image: url("/assets/images/zalo.png");
 }
 
 .youtube {
@@ -495,7 +495,7 @@ a:hover {
 }
 
 .momo-icon {
-  background-image: url("momo.png");
+  background-image: url("/assets/images/momo.png");
 }
 
 .mbbank {
@@ -504,7 +504,7 @@ a:hover {
 }
 
 .mbbank-icon {
-  background-image: url("mbbank.png");
+  background-image: url("/assets/images/mbbank.png");
 }
 
 .badge {
