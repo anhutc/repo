@@ -9,7 +9,7 @@ html,
 body {
 	cursor: url("../images/mouse-f1.png"), auto;
 }
-a:hover {
+.detail:hover, .linked:hover, #contact-text:hover {
 	cursor: url("../images/mouse-f2.png"), auto;
 }
 .loader {
@@ -246,6 +246,7 @@ a:hover {
 #contact-text:hover {
 	transform: scale(1.2);
 	padding: 2px 55px;
+
 }
 .box {
 	height: 50px;
@@ -290,8 +291,8 @@ a:hover {
 	text-align: center;
 	margin-top: 10px;
 	transition: all 500ms;
-
 	font-family: "Roboto";
+	font-weight: bold;
 }
 .col-10 {
 	position: relative;
@@ -333,6 +334,7 @@ a:hover {
 	filter: opacity(0);
 	transition: all 1000ms;
 	font-family: "Roboto";
+	font-weight: bold;
 }
 .div-logo {
 	position: relative;
