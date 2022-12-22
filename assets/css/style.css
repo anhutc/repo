@@ -386,8 +386,8 @@ a:hover {
 	background: linear-gradient(to right, #010101, #6c0016);
 }
 .youtube {
-	background: #0064f7;
-	background: linear-gradient(127deg, #0064f7 0%, #2a7fff 100%);
+	background: #F60002;
+	background: linear-gradient(127deg, #F60002 0%, #EBD8CF 100%);
 }
 .zalo {
 	background: #0064f7;
@@ -397,9 +397,9 @@ a:hover {
 	background-image: url("../images/zalo.png");
 }
 .phone {
-	background: #1f1c2c;
-	background: -webkit-linear-gradient(to right, #1f1c2c, #928dab);
-	background: linear-gradient(to right, #1f1c2c, #928dab);
+	background: #27CB2E;
+	background: -webkit-linear-gradient(to right, #27CB2E, #F04F45);
+	background: linear-gradient(to right, #27CB2E, #F04F45);
 }
 .momo {
 	background: #a80069;
