@@ -9,7 +9,7 @@ html,
 body {
 	cursor: url("../images/mouse-f1.png"), auto;
 }
-.detail:hover, .linked:hover, #contact-text:hover {
+.box:hover, #contact-text:hover {
 	cursor: url("../images/mouse-f2.png"), auto;
 }
 .loader {
