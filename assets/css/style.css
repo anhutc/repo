@@ -121,7 +121,8 @@ body {
 	position: relative;
 	width: 50%;
 	height: 2px;
-	background-color: var(--topic-color);
+	background-color: var(--topic-color) !important;
+	border: 1px solid var(--topic-color) !important;
 }
 #boxs {
 	margin-top: 3px;
