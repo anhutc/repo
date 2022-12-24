@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Đặng Văn Ánh - Curriculum Vitae</title>
+    <title>Đặng Văn Ánh - CV</title>
     <meta name="robots" content="noindex">
 
     <meta property="og:locale" content="vi_VN">
@@ -22,59 +22,46 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link id="cv-scheme-css" rel="stylesheet" href="assets/css/cv-default.css">
 
-    <link rel="stylesheet" href="assets/js/html2canvas.min.js">
-    <link rel="stylesheet" href="assets/js/jspdf.umd.js">
-    
-    <Script>
-        /*
-        * Convert HTML content to PDF
-        */
-        function Convert_HTML_To_PDF() {
-            var doc = new jsPDF();
-            
-            // Source HTMLElement or a string containing HTML.
-            var elementHTML = document.querySelector("#contentToPrint");
-
-            doc.html(elementHTML, {
-                callback: function(doc) {
-                    // Save the PDF
-                    doc.save('CV-DANGVANANH-EMNGINEER.pdf');
-                },
-                margin: [10, 10, 10, 10],
-                autoPaging: 'text',
-                x: 0,
-                y: 0,
-                width: 190, // Target width in the PDF document
-                windowWidth: 675 // Window width in CSS pixels
-            });
-        }
-    </Script>
-    
+    <link rel="stylesheet" href="assets/css/app.min.css">
     <style>
         body {
-            background-image: url("/assets/images/bg_5.webp");
+            background-image: url("assets/images/bg_5.webp");
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: 100% 100%;
         }
     </style>
+
+    <script src="assets/js/html2pdf.bundle.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 </head>
 
 <body id="cv-viewer">
-    <button onclick="Convert_HTML_To_PDF();">Convert HTML to PDF</button>
+
+    <div id="header-viewer" class="non-printable">
+        <h1>CV Đặng Văn Ánh</h1>
+        <div class="action-btn copy-cv" id="view-button">
+            <i class="fa fa-file-pdf"></i>
+            <span> Xem CV PDF</span>
+            </a>
+        </div>
+        <div class="btn-download-cv" id="download-button">
+            <i class="fa fa-download"></i>
+            <span> Tải CV PDF</span>
+        </div>
+    </div>
 
     <div id="cv-layout-viewer">
         <div id="cvo-document-root">
             <div id="cvo-document" class="cvo-document">
                 <div class="cvo-page">
-                    <div class="cvo-subpage" id="contentToPrint">
+                    <div class="cvo-subpage" id="cv-content">
                         <div id="cvo-body">
                             <div id="cvo-main">
                                 <div class="group-col-left-wrapper">
                                     <div class="short-info-wrapper">
                                         <div class="cvo-avatar-wrapper">
-                                            <img id="cvo-profile-avatar"
-                                                src="assets/images/dva.JPEG" value="DVA"
+                                            <img id="cvo-profile-avatar" src="assets/images/dva.JPEG" value="DVA"
                                                 alt="avatar">
                                         </div>
                                         <div id="cvo-profile-fullname">Đặng Văn Ánh</div>
@@ -180,16 +167,17 @@
                                                     <span class="cvo-experience-position color-highlight">Thực tập
                                                         sinh</span>
                                                     <div class="row-details">
-                                                        <div class="cvo-experience-details color-content">Tham gia các
-                                                            hoạt động quản lý bảo dưỡng các thiết bị trong tòa nhà
+                                                        <div class="cvo-experience-details color-content">Địa chỉ: Tòa
+                                                            nhà
                                                             Handico Tower (Phạm Hùng, Mễ Trì, Nam Từ Liêm, Hà Nội)<br>-
-                                                            Điều hòa không khí và thông gió<br>- Thang máyMáy phát
-                                                            điệnHệ thống điện nặng (tủ điện, ổ cắm, chiếu sáng…)<br>- Hệ
+                                                            Điều hòa không khí và thông gió<br>- Thang máy<br>- Máy phát
+                                                            điện<br>- Hệ thống điện nặng (tủ điện, ổ cắm, chiếu
+                                                            sáng…)<br>- Hệ
                                                             thống điện nhẹ (camera, CCTV, âm thanh P/A, mạng LAN, điện
                                                             thoại, báo cháy…)<br>- Hệ thống phòng cháy chữa cháy<br>- Hệ
                                                             thống bơm, đường ống<br>- Hệ thống xử lý và cấp, thoát nước
                                                             sinh hoạt<br>- Hệ thống thiết bị vệ sinh<br>- Hệ thống khác:
-                                                            hệ thống thiết bị bếp, bể bơi, phòng tập…<br><br></div>
+                                                            hệ thống thiết bị bếp, bể bơi, phòng tập…<br></div>
                                                     </div>
                                                 </div>
                                                 <div style="clear:both;"></div>
@@ -211,11 +199,12 @@
                                                     <span class="cvo-experience-position color-highlight">Thực tập
                                                         sinh</span>
                                                     <div class="row-details">
-                                                        <div class="cvo-experience-details color-content">- Tham gia hỗ
-                                                            trợ lắp, kết nối, khắc phục lỗi, bảo dưỡng,... máy gắn linh
-                                                            kiện tại các nhà máy: Luxshare ICT (Vân Trung), Hana (Vân
-                                                            Trung), USI (Hải Phòng)...<br>- Vận hành máy và làm chương
-                                                            trình máy gắn linh kiện</div>
+                                                        <div class="cvo-experience-details color-content">- Tham gia lắp
+                                                            đặt, kết nối, khắc phục lỗi, bảo dưỡng,... máy mounter tại
+                                                            các nhà máy: Luxshare ICT (Vân Trung), Hana (Vân
+                                                            Trung), USI (Hải Phòng)...<br>- Vận hành mounter<br>- Làm
+                                                            chương
+                                                            trình mounter</div>
                                                     </div>
                                                 </div>
                                                 <div style="clear:both;"></div>
@@ -240,10 +229,12 @@
                                                         <div class="cvo-experience-details color-content">- Sửa chữa,
                                                             khắc phục lỗi thiết bị máy móc khi phát sinh vấn đề trên dây
                                                             chuyền sản xuất<br>- Lập kế hoạch PM bảo dưỡng thiết bị<br>-
-                                                            Làm báo cáo, phân tích nguyên nhân và đưa ra đối sách cải
-                                                            tiến<br>- Làm chương trình, debug lỗi máy Printer ESE, SPI
-                                                            Kogyoung, Mount PANASONIC NPM, Mount ASM, AOI Parmi, Reflow
-                                                            Heller</div>
+                                                            Làm báo cáo<br>- Phân tích nguyên nhân và đưa ra đối sách
+                                                            cải
+                                                            tiến<br>- Làm chương trình máy Printer ESE, SPI
+                                                            Kogyoung, Mounter PANASONIC NPM, Mounter ASM, AOI Parmi,
+                                                            Reflow
+                                                            Heller<br>- Debug SPI, AOI</div>
                                                     </div>
                                                 </div>
                                                 <div style="clear:both;"></div>
@@ -259,8 +250,8 @@
                                             <div class="row timeline-row">
                                                 <div>
                                                     <div class="cvo-title-wrapper">
-                                                        <span class="cvo-education-school">TRƯờng đại học giao thông vận
-                                                            tải</span>
+                                                        <span class="cvo-education-school">Trường Đại học Giao Thông Vận
+                                                            Tải</span>
                                                         <span class="cvo-education-time cvo-time-wraper">
                                                             <span>|</span>
                                                             <span class="cvo-education-start">2017</span>
@@ -273,67 +264,66 @@
                                                 </div>
                                                 <div class="cvo-block-info">
                                                     <div class="row-details">
-                                                        <div class="cvo-education-details color-content">- Bằng: Kỹ
-                                                            sư<br>- Xếp loại: Khá</div>
+                                                        <div class="cvo-education-details color-content">
+                                                            - Tốt nghệp Kỹ sư Điện - Điện tử loại: Khá (2.78/4)<br>
+                                                            - Tham gia câu lạc bộ lập trình<br>
+                                                            - Tham gia nghiên cứu khoa học sinh viên đạt giải ba 2020 -
+                                                            2021 (Nghiên cứu thiết kế hệ thống phân loại sản phẩm
+                                                            theo kích thước sử dụng PLC)
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div style="clear:both;"></div>
                                             </div>
                                         </div>
                                         <div style="clear: both"></div>
-                                    </div>
-                                    <div id="cvo-activity" class="cvo-block">
-                                        <div class="cvo-block-title">
-                                            <span id="cvo-activity-blocktitle">Hoạt động</span>
-                                        </div>
-                                        <div id="activity-table" class="cvo-block-content cvo-block-body">
-                                            <div class="row timeline-row">
-                                                <div>
-                                                    <div class="cvo-title-wrapper">
-                                                        <span class="cvo-activity-organization">Nghiên cứu khoa
-                                                            học Sinh viên</span> |
-                                                        <span class="cvo-activity-time cvo-time-wraper">
-                                                            <span class="cvo-activity-start">2020</span>
-                                                            <span><b>&nbsp;-&nbsp;</b></span>
-                                                            <span class="cvo-activity-end">2021</span>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div class="cvo-block-info">
-                                                    <div class="row-details">
-                                                        <div class="cvo-activity-details color-content">- Nghiên cứu
-                                                            thiết kế hệ thống phân loại sản phẩm theo kích thước sử dụng
-                                                            PLC</div>
-                                                    </div>
-                                                </div>
-                                                <div style="clear:both;"></div>
-                                            </div>
-                                        </div>
-                                        <div style="clear: both"></div>
-                                    </div>
-                                    <div id="cvo-award" class="cvo-block">
-                                        <div class="cvo-block-title">
-                                            <span id="cvo-award-blocktitle">Giải thưởng</span>
-                                        </div>
-                                        <div id="award-table" class="cvo-block-body">
-                                            <div class="row mt-20">
-                                                <span class="cvo-award-time cvo-time">2020 - 2021</span>:
-                                                <span class="cvo-award-title color-content">Giải Ba cuộc thi nghiên cứu
-                                                    khoa học sinh viên cấp trường</span>
-                                                <div style="clear:both;"></div>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
+                                <div style="clear:both;"></div>
                             </div>
+                            <div style="clear:both;"></div>
                         </div>
-
+                        <div id="cv-watermark">© anhutc.github.io</div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+        var dl_download = document.getElementById('download-button');
+        var view_download = document.getElementById('view-button');
 
+        function dl_generatePDF() {
+            // Choose the element that your content will be rendered to.
+            var element = document.getElementById('cv-content');
+            var opt = {
+                filename: 'CV-DANG_VAN_ANH.pdf',
+                image: { type: 'jpeg', quality: 1 },
+                html2canvas: { scale: 2, scrollY: 0 },
+                jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+            };
+            // Choose the element and save the PDF for your user.
+            html2pdf().set(opt).from(element).save();
+        }
+
+        function view_generatePDF() {
+            // Choose the element that your content will be rendered to.
+            var element = document.getElementById('cv-content');
+            var opt = {
+                image: { type: 'jpeg', quality: 1 },
+                html2canvas: { scale: 2, scrollY: 0 },
+                jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+            };
+            // Choose the element and save the PDF for your user.
+            html2pdf().set(opt).from(element).toPdf().output('blob').then(function (pdfBlob) {
+                window.open(URL.createObjectURL(pdfBlob));
+            });
+        }
+
+
+        dl_download.addEventListener('click', dl_generatePDF);
+        view_download.addEventListener('click', view_generatePDF);
+    </script>
 </body>
 
 </html>
