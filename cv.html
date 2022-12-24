@@ -40,14 +40,18 @@
 
     <div id="header-viewer" class="non-printable">
         <h1>CV Đặng Văn Ánh</h1>
-        <div class="btn-view-cv" id="view-button">
-            <i class="fa fa-file-pdf"></i>
-            <span> Xem CV PDF</span>
-            </a>
-        </div>
         <div class="btn-download-cv" id="download-button">
             <i class="fa fa-download"></i>
             <span> Tải CV PDF</span>
+        </div>
+        <div class="btn-download-cv" id="print-button">
+            <i class="fa fa-print"></i>
+            <span> Print CV PDF</span>
+        </div>
+        <div class="btn-download-cv" id="view-button">
+            <i class="fa fa-file-pdf"></i>
+            <span> Xem CV PDF</span>
+            </a>
         </div>
     </div>
 
@@ -290,21 +294,9 @@
         </div>
     </div>
     <script>
-        var dl_download = document.getElementById('download-button');
         var view_download = document.getElementById('view-button');
-
-        function dl_generatePDF() {
-            // Choose the element that your content will be rendered to.
-            var element = document.getElementById('cv-content');
-            var opt = {
-                filename: 'CV-DANG_VAN_ANH.pdf',
-                image: { type: 'jpeg', quality: 1 },
-                html2canvas: { scale: 2, scrollY: 0 },
-                jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
-            };
-            // Choose the element and save the PDF for your user.
-            html2pdf().set(opt).from(element).save();
-        }
+        var print_download = document.getElementById('print-button');
+        var dl_download = document.getElementById('download-button');
 
         function view_generatePDF() {
             // Choose the element that your content will be rendered to.
@@ -320,9 +312,38 @@
             });
         }
 
+        function print_generatePDF() {
+            // Choose the element that your content will be rendered to.
+            var element = document.getElementById('cv-content');
+            var opt = {
+                filename: 'CV-DANG_VAN_ANH.pdf',
+                image: { type: 'jpeg', quality: 1 },
+                html2canvas: { scale: 2, scrollY: 0 },
+                jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+            };
+            // Choose the element and save the PDF for your user.
+            html2pdf().set(opt).from(element).toPdf().get('pdf').then(function (pdf) {
+                pdf.autoPrint();
+                window.open(pdf.output('bloburl'), '_blank');
+            });
+        }
 
-        dl_download.addEventListener('click', dl_generatePDF);
+        function dl_generatePDF() {
+            // Choose the element that your content will be rendered to.
+            var element = document.getElementById('cv-content');
+            var opt = {
+                filename: 'CV-DANG_VAN_ANH.pdf',
+                image: { type: 'jpeg', quality: 1 },
+                html2canvas: { scale: 2, scrollY: 0 },
+                jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+            };
+            // Choose the element and save the PDF for your user.
+            html2pdf().set(opt).from(element).save();
+        }
+
         view_download.addEventListener('click', view_generatePDF);
+        print_download.addEventListener('click', print_generatePDF);
+        dl_download.addEventListener('click', dl_generatePDF);
     </script>
 </body>
 
