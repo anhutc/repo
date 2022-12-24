@@ -21,6 +21,35 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link id="cv-scheme-css" rel="stylesheet" href="assets/css/cv-default.css">
+
+    <link rel="stylesheet" href="assets/js/html2canvas.min.js">
+    <link rel="stylesheet" href="assets/js/jspdf.umd.js">
+    
+    <Script>
+        /*
+        * Convert HTML content to PDF
+        */
+        function Convert_HTML_To_PDF() {
+            var doc = new jsPDF();
+            
+            // Source HTMLElement or a string containing HTML.
+            var elementHTML = document.querySelector("#contentToPrint");
+
+            doc.html(elementHTML, {
+                callback: function(doc) {
+                    // Save the PDF
+                    doc.save('CV-DANGVANANH-EMNGINEER.pdf');
+                },
+                margin: [10, 10, 10, 10],
+                autoPaging: 'text',
+                x: 0,
+                y: 0,
+                width: 190, // Target width in the PDF document
+                windowWidth: 675 // Window width in CSS pixels
+            });
+        }
+    </Script>
+    
     <style>
         body {
             background-image: url("/assets/images/bg_5.webp");
@@ -32,12 +61,13 @@
 </head>
 
 <body id="cv-viewer">
+    <button onclick="Convert_HTML_To_PDF();">Convert HTML to PDF</button>
 
     <div id="cv-layout-viewer">
         <div id="cvo-document-root">
             <div id="cvo-document" class="cvo-document">
                 <div class="cvo-page">
-                    <div class="cvo-subpage">
+                    <div class="cvo-subpage" id="contentToPrint">
                         <div id="cvo-body">
                             <div id="cvo-main">
                                 <div class="group-col-left-wrapper">
@@ -303,6 +333,7 @@
             </div>
         </div>
     </div>
+
 </body>
 
 </html>
