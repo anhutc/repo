@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:PathToHelpSystem="../../../" MadCap:HelpSystemFileName="SIPLACE_Vision.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../../SkinSupport/Slideshow.css" rel="stylesheet" type="text/css" />
+        <link href="../../SkinSupport/MadCap.css" rel="stylesheet" type="text/css" /><title>Brightness threshold</title>
+        <link href="../../Resources/Stylesheets/SIPLACEVision.css" rel="stylesheet" type="text/css" />
+        <script src="../../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1>SIPLACE&#160;BulkFeeder X: Detection of flipped components</h1>
+        <p>When components are shaken out of the container, some of them may lie with their underside facing upward and cannot therefore be placed. These must not be picked up.</p>
+        <p class="PopupText">The vision system determines the <span class="MCPopup"><a href="javascript:void(0);" MadCap:src="../../Learning/FaceDown/Helligkeitsschwelle___Helligkeitsstufe___Helligkeitsgrenze.htm" onclick="FMCPopup( event, this ); return false;" class="MCPopupSpot">brightness level</a></span> (possible values: 0 = dark through 255 = light) in a rectangle in the center of the component. The value measured from below is then compared with a <span class="MCPopup"><a href="javascript:void(0);" MadCap:src="../../Learning/FaceDown/Helligkeitsschwelle___Helligkeitsstufe___Helligkeitsgrenze.htm" onclick="FMCPopup( event, this ); return false;" class="MCPopupSpot">brightness threshold</a></span> (default:&#160;127) to determine whether the component was picked up with the underside facing upward, i.e. flipped.</p>
+        <p>This brightness threshold is either set manually or determined by teaching. </p>
+        <p style="font-weight: bold;text-decoration: none;">&#160;</p>
+        <p class="So">Default settings:</p>
+        <p>Brightness threshold = 127</p>
+        <p>The top of the component is darker than the underside.</p>
+        <p>&#160;</p>
+        <p class="Button">Show comparison images</p>
+        <p class="ButtonText">Shows the two components with the smallest difference from the brightness threshold. One of these is in the correct orientation and the other is flipped.</p>
+        <p class="Button">Determine brightness threshold</p>
+        <p class="ButtonText">Attempts to determine the value of the brightness threshold automatically.</p>
+        <script type="text/javascript" src="../../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

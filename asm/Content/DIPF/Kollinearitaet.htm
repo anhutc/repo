@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" MadCap:ignoredWords="J;Dipf_ELECTROMECHANICAL;i;Dipf_Undefined;g" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="SIPLACE_Vision.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Kollinearitaet</title>
+        <link href="../Resources/Stylesheets/SIPLACEVisionPopup.css" rel="stylesheet" type="text/css" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <p class="PopupHeading"><a name="kanchor226"></a>Colinearity</p>
+        <p>If the positions of the ends of individual leads deviate from the typical positions of the ends of the leads of a group, it can be assumed that the lead concerned is bent. Bent leads are shown as being either too long or too short. </p>
+        <p>The leads whose ends deviate significantly are highlighted and an error message is issued.</p>
+        <p>&#160;</p>
+        <p>This makes it possible to eliminate faulty components prior to placement.</p>
+        <p>&#160;</p>
+        <p>You must specify the maximum tolerable deviation.</p>
+        <p>&#160;</p>
+        <p>
+            <img src="../Images/ACHTUNG.jpg" />
+        </p>
+        <p>This additional inspection can increase the reject rate. It is therefore necessary to select the most appropriate tolerances possible.</p>
+        <p>&#160;</p>
+        <P class="so">Checking colinearity:</P>
+        <p>&#160;</p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;">
+            <tbody>
+                <tr>
+                    <td class="" style="font-size: 10pt;">Groups with 3 or more leads</td>
+                    <td>A best fit line is calculated over the ends of the leads.<br />For each lead end, the system checks whether the distance from this line is less than or equal to the specified tolerance.</td>
+                </tr>
+                <tr>
+                    <td>Group of 2 leads</td>
+                    <td>
+                        <p>A straight line is calculated that corresponds to the measured component angle and that lies between the two lead ends.</p>
+                        <p>For both lead ends, the system checks whether the distance from this line is less than or equal to the specified tolerance.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p>Colinearity is only checked for leads of the type <b>Gullwing</b> (bent leads) or <b>Wraparound</b> (damaged leads) and for groups with more than one lead.</p>
+        <p>&#160;</p>
+        <p>Example: One lead is bent in the left-hand group.</p>
+        <p>
+            <img src="../Images/DIPF/colinearity1.JPG" />
+        </p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

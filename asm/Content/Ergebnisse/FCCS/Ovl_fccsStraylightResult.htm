@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:PathToHelpSystem="../../../" MadCap:HelpSystemFileName="SIPLACE_Vision.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Recognition step: Check external light </title>
+        <link href="../../Resources/TableStyles/mDesk.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/Stylesheets/SIPLACEVision.css" rel="stylesheet" type="text/css" />
+        <script src="../../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor296"></a>Recognition step: Check external light </h1>
+        <p class="see">Detects whether scattered light / external light is affecting the measurement.</p>
+        <p class="Standard">An image is captured without using any camera illumination.</p>
+        <p class="Standard">The mean brightness in the region of interest is measured.</p>
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/mDesk.css');" class="TableStyle-mDesk" cellspacing="2">
+            <col class="TableStyle-mDesk-Column-Spalte1" />
+            <col class="TableStyle-mDesk-Column-Spalte1" />
+            <tbody>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1" style="padding-left: 3px;padding-right: 3px;padding-top: 0px;padding-bottom: 0px;border-right-style: solid;border-right-width: 1px;border-right-color: #d3d3d3;">
+                        <p class="Tabellentext">Yellow circles</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1" style="padding-left: 3px;padding-right: 3px;padding-top: 0px;padding-bottom: 0px;border-right-style: solid;border-right-width: 1px;border-right-color: #d3d3d3;">
+                        <p class="Tabellentext">Regions of interest when checking the camera for soiling.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1" style="padding-left: 3px;padding-right: 3px;padding-top: 0px;padding-bottom: 0px;border-right-style: solid;border-right-width: 1px;border-right-color: #d3d3d3;">
+                        <p class="Tabellentext">Yellow rectangle</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1" style="padding-left: 3px;padding-right: 3px;padding-top: 0px;padding-bottom: 0px;border-right-style: solid;border-right-width: 1px;border-right-color: #d3d3d3;">
+                        <p class="Tabellentext">Region of interest for camera verification (illumination calibration),</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1" style="padding-left: 3px;padding-right: 3px;padding-top: 0px;padding-bottom: 0px;border-right-style: solid;border-right-width: 1px;border-right-color: #d3d3d3;">
+                        <p class="Tabellentext">Turquoise</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1" style="padding-left: 3px;padding-right: 3px;padding-top: 0px;padding-bottom: 0px;border-right-style: solid;border-right-width: 1px;border-right-color: #d3d3d3;">
+                        <p class="Tabellentext">Grayscale range of the entire region of interest</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1" style="padding-left: 3px;padding-right: 3px;padding-top: 0px;padding-bottom: 0px;border-right-style: solid;border-right-width: 1px;border-right-color: #d3d3d3;">
+                        <p class="Tabellentext">Yellow line</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1" style="padding-left: 3px;padding-right: 3px;padding-top: 0px;padding-bottom: 0px;border-right-style: solid;border-right-width: 1px;border-right-color: #d3d3d3;">
+                        <p class="Tabellentext">Threshold value for mean grayscale value measured in the corresponding region of interest.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1" style="padding-left: 3px;padding-right: 3px;padding-top: 0px;padding-bottom: 0px;border-right-style: solid;border-right-width: 1px;border-right-color: #d3d3d3;">
+                        <p class="Tabellentext">Green line</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1" style="padding-left: 3px;padding-right: 3px;padding-top: 0px;padding-bottom: 0px;border-right-style: solid;border-right-width: 1px;border-right-color: #d3d3d3;">
+                        <p class="Tabellentext">Measured mean grayscale value is in the green range. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1" style="padding-left: 3px;padding-right: 3px;padding-top: 0px;padding-bottom: 0px;border-right-style: solid;border-right-width: 1px;border-right-color: #d3d3d3;">
+                        <p class="Tabellentext">Red line</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1" style="padding-left: 3px;padding-right: 3px;padding-top: 0px;padding-bottom: 0px;border-right-style: solid;border-right-width: 1px;border-right-color: #d3d3d3;">
+                        <p class="Tabellentext">Measured mean grayscale value is in the red range. There is too much external light present. Measurements cannot be performed successfully.</p>
+                        <p class="Tabellentext">Wherever possible, switch off external light sources or shade the machine from such light sources.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1" style="padding-left: 3px;padding-right: 3px;padding-top: 0px;padding-bottom: 0px;border-right-style: solid;border-right-width: 1px;border-right-color: #d3d3d3;">
+                        <p class="Tabellentext">Green column</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1" style="padding-left: 3px;padding-right: 3px;padding-top: 0px;padding-bottom: 0px;border-right-style: solid;border-right-width: 1px;border-right-color: #d3d3d3;">
+                        <p class="Tabellentext">If the measured mean grayscale value in the region of interest is in this range, the result is OK. There is not too much external light.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyB-Spalte1-Body1" style="padding-left: 3px;padding-right: 3px;padding-top: 0px;padding-bottom: 0px;border-right-style: solid;border-right-width: 1px;border-right-color: #d3d3d3;">
+                        <p class="Tabellentext">Red column</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyA-Spalte1-Body1" style="padding-left: 3px;padding-right: 3px;padding-top: 0px;padding-bottom: 0px;border-right-style: solid;border-right-width: 1px;border-right-color: #d3d3d3;">
+                        <p class="Tabellentext">The external light is too strong. The region of interest appears too bright.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="Standard">If the image is too bright, this indicates that there is too much external light on the measured object. </p>
+        <p class="Standard">&#160;</p>
+        <script type="text/javascript" src="../../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

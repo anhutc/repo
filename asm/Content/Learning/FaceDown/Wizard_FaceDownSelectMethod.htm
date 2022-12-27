@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html class="" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:tocPath="SIPLACE Vision|Measurement options|Detection of flipped components" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:PathToHelpSystem="../../../" MadCap:HelpSystemFileName="SIPLACE_Vision.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Detection of flipped components: Selecting the method</title>
+        <link href="../../Resources/Stylesheets/SIPLACEVision.css" rel="stylesheet" type="text/css" />
+        <script src="../../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor72"></a>Detection of flipped components: Selecting the method</h1>
+        <p class="standard">When components are picked up, it is possible that individual components are picked up on the bottom side by the nozzle. If the vision system detects this, the component is rejected in order to avoid incorrect placement. </p>
+        <p class="standard">You can choose the method to be used to detect flipped components:</p>
+        <p class="Button">Brightness</p>
+        <p class="ButtonText">To allow the detection of flipped components, the mean brightness of a rectangle in the center of a component is determined. The result is given in <a href="Helligkeitsschwelle___Helligkeitsstufe___Helligkeitsgrenze.htm">brightness levels</a> (range: 0 - 255).</p>
+        <p class="ButtonText">This method is suitable for components where the brightness of the top and bottom differs considerably (e.g. the top is black and the bottom white).</p>
+        <p class="Button">Contrast</p>
+        <p class="ButtonText"><a href="Kontrast.htm">Evaluates the contrast</a> in the ROI (region of interest).</p>
+        <p class="ButtonText">This method can be used if, for instance, the top is printed.</p>
+        <ul>
+            <li value="1">High contrast: A wide variety of intensities occur in the region of interest.<br />The top of a component is generally printed, and the printing contrasts considerably with the background.</li>
+            <li value="2">Low contrast: There is a homogeneous range of brightness in the region of interest.</li>
+        </ul>
+        <p class="Button">Detection using gullwing connections<img src="../../Images/Learning/FaceDown/Gullwing_Method.png" /></p>
+        <p class="ButtonText">The Vision system determines the average brightness (possible values: 0 = dark through 255 = light) in a rectangle at the <a href="FaceDown_Gullwing_Helligkeit.htm">end of gullwing leads</a>.</p>
+        <p class="Button">Detection using gullwing connections with illumination from one side<img src="../../Images/Learning/FaceDown/Gullwing_Method.png"></img></p>
+        <p class="ButtonText">When <a href="FaceDown_Gullwing_einseitig.htm">illumination from one side</a> is used, the gullwing leads that lie opposite each other appear with different brightnesses.</p>
+        <p class="Button">&#160;</p>
+        <p class="Button">Next</p>
+        <p class="ButtonText">If the brightness or contrast method is selected: <a href="Wizard_FaceDownEditRegion.htm">define region of interest.</a></p>
+        <p class="ButtonText">If detection using gullwing connections is selected: <a href="Wizard_FaceDownEditGullwingIllum.htm">set illumination</a>.</p>
+        <p class="ButtonText">If detection using gullwing connections with illumination from one side is selected: </p>
+        <p class="Button">Cancel</p>
+        <p class="ButtonText">Closes the wizard.</p>
+        <p class="ButtonText">&#160;</p>
+        <p class="ButtonText">&#160;</p>
+        <script type="text/javascript" src="../../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

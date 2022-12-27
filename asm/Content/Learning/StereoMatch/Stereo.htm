@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html class="" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:tocPath="SIPLACE Vision|Measurement options" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:PathToHelpSystem="../../../" MadCap:HelpSystemFileName="SIPLACE_Vision.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Stereo measurement of components </title>
+        <link href="../../Resources/Stylesheets/SIPLACEVision.css" rel="stylesheet" type="text/css" />
+        <script src="../../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor82"></a>Stereo measurement of components </h1>
+        <p class="see">The aim of stereo measurement is to use a topographic image to determine the exact position of the tips of THT pins, gullwing connections and pattern features (e.g. boardlocks).</p>
+        <p>Two images of a component are captured from different perspectives to allow a topographic image of the component to be created:</p>
+        <p>Initially, the component is positioned centrally in front of the camera. It is then moved left (in a negative X direction) by half the traverse path, and an image is captured. The component is then moved to the right (in a positive X direction) by the entire traverse path, and the second image is captured. These images are used to calculate a height map. </p>
+        <p>&#160;</p>
+        <p>Stereo measurements are only possible with type 25 and 33 cameras and only for components of the type Nonstandard or Connector.</p>
+        <p><strong>Prerequisite: </strong>The "Vision OSC Package - Machine Connection" license must be available on the programming system.</p>
+        <table style="margin-left: 0;margin-right: auto;">
+            <col />
+            <col />
+            <col />
+            <tbody>
+                <tr>
+                    <td style="padding-left: 7px;">
+                        <p><b>Restrictions</b>
+                        </p>
+                    </td>
+                    <td style="padding-left: 7px;font-weight: bold;">
+                        <p>SST 25</p>
+                    </td>
+                    <td style="padding-left: 7px;font-weight: bold;">
+                        <p class="Tabellentext">SST 33</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-left: 7px;">
+                        <p class="Tabellentext">Minimum feature size (width /&#160;length or diameter)</p>
+                    </td>
+                    <td style="padding-left: 7px;">
+                        <p class="Tabellentext">145 µm</p>
+                    </td>
+                    <td style="padding-left: 7px;">
+                        <p>360 µm</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-left: 7px;">
+                        <p class="Tabellentext">Minimum feature height</p>
+                    </td>
+                    <td style="padding-left: 7px;">
+                        <p class="Tabellentext">1.0 mm</p>
+                    </td>
+                    <td style="padding-left: 7px;">
+                        <p class="Tabellentext">2.0 mm</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-left: 7px;">
+                        <p class="Tabellentext">Maximum component size (edge length)</p>
+                    </td>
+                    <td style="padding-left: 7px;">
+                        <p class="Tabellentext">43 mm</p>
+                    </td>
+                    <td style="padding-left: 7px;">
+                        <p class="Tabellentext">67 mm</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>If <a href="4xPictures.htm">4x image capture</a> is used, it is also possible to measure components with smaller feature sizes:</p>
+        <table style="margin-left: 0;margin-right: auto;">
+            <col />
+            <col />
+            <col />
+            <tbody>
+                <tr>
+                    <td style="padding-left: 7px;">
+                        <p>&#160;</p>
+                    </td>
+                    <td style="padding-left: 7px;font-weight: bold;">
+                        <p>SST 25</p>
+                    </td>
+                    <td style="padding-left: 7px;font-weight: bold;">
+                        <p class="Tabellentext">SST 33</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-left: 7px;">
+                        <p class="Tabellentext">Minimum feature size (width /&#160;length or diameter)</p>
+                    </td>
+                    <td style="padding-left: 7px;">
+                        <p class="Tabellentext">72 µm</p>
+                    </td>
+                    <td style="padding-left: 7px;">
+                        <p>180 µm</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p class="So">Enable 4x image capture:</p>
+        <ul>
+            <li value="1">Switch to the <a href="../../Messoptionen/MeasurementOptionsView.htm">Measurement options</a> view.</li>
+            <li value="2">Choose <b style="color: #a52a2a;">Stereo measurement</b> and press <b style="color: #a52a2a;">Edit parameters</b>.</li>
+            <li value="3">Press <b style="color: #a52a2a;">Next</b> under 'Set illumination'.</li>
+            <li value="4">Set the <b>4x image capture</b> parameter to <b>Yes</b> and  press <b style="color: #a52a2a;">OK</b> to complete entry.</li>
+        </ul>
+        <script type="text/javascript" src="../../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

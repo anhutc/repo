@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en" xml:lang="en" MadCap:PathToHelpSystem="../../../" MadCap:HelpSystemFileName="Index.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>40030 Frequent vision recognition failure</title>
+        <link href="../../Resources/Stylesheets/SIRIOErrors.css" rel="stylesheet" type="text/css" />
+        <script src="../../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body style="font-size: 10pt;font-family: Arial;text-align: left;">
+        <h2 class="Error"><a name="kanchor2251"></a>40030 Frequent vision recognition failure</h2>
+        <p class="Ursache">Measurement of the picked-up components using the component camera has failed frequently.</p>
+        <p class="Ursache">At the <a href="../../Setup/Feeder_Type.htm">specified pickup position</a>, the proportion of pickup operations that return a Vision error is greater than the specified <a href="../../Settings/DlgMachineOptions_TabFaultThresholds.htm">threshold value</a>. </p>
+        <p class="Standard_Hinweis" style="text-align: left;">Note: <span style="font-weight: normal;">Storage space constraints mean that it may not have been possible to include all the Vision dumps (measurement contexts) for the Vision errors used for calculation.</span></p>
+        <table style="width: 100%; margin-left: 0; margin-right: auto;">
+            <col />
+            <col />
+            <tbody>
+                <tr>
+                    <td style="text-align: left;vertical-align: top;font-weight: bold;">Overview</td>
+                    <td style="text-align: left;vertical-align: top;">Details of the component affected and the ratio between Vision recognition errors and pickup attempts.</td>
+                </tr>
+                <tr>
+                    <td style="text-align: left;vertical-align: top;font-weight: bold;">Dumps</td>
+                    <td style="text-align: left;vertical-align: top;">
+                        <p>List of saved Vision dumps (measurement contexts). The Vision dump for the selected Vision error is displayed.<br />You can use the filter function to display only specified error numbers.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: left;vertical-align: top;font-weight: bold;">
+                        <p>Error distribution and help</p>
+                    </td>
+                    <td style="text-align: left;vertical-align: top;">
+                        <p>Distribution of individual error messages from SIPLACE&#160;Vision.<br />If you press an error number in the chart, the help text for the selected error is displayed. The number in parentheses corresponds to the Vision system error number.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: left;vertical-align: top;font-weight: bold;">
+                        <p class="Standard_Hinweis">Segment distribution</p>
+                    </td>
+                    <td style="text-align: left;vertical-align: top;">Distribution of all SIPLACE&#160;Vision error messages for each segment. <br />If a disproportionate number of errors occur for a given segment, you should check the nozzle.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="Maßnahme">&#160;</p>
+        <p class="Maßnahme">First check whether specific error messages occur frequently, distributed across all segments reasonably evenly. </p>
+        <p class="Ursache">If the same error message occurs repeatedly: </p>
+        <p class="Maßnahme">Check the Vision dumps for this error message and correct the settings for the component accordingly.</p>
+        <p class="Ursache">If the error messages occur frequently for one segment:</p>
+        <p class="Ursache">The nozzle is contaminated with solder paste: </p>
+        <p class="Maßnahme">Clean the nozzle.</p>
+        <p class="Ursache">The nozzle is worn: </p>
+        <p class="Maßnahme">Replace it.</p>
+        <p class="Maßnahme">&#160;</p>
+        <p class="Maßnahme">Then confirm that the check has been carried out: <b class="button_Char">Vision settings checked</b>.</p>
+        <p class="Ursache">The error counter is reset.</p>
+        <p class="See">See also</p>
+        <p class="Maßnahme"><a href="DetailedErrors.htm">Processing detailed error messages</a>
+        </p>
+        <script type="text/javascript" src="../../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

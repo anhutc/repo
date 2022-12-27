@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="J;Dipf_ELECTROMECHANICAL;i;Dipf_Undefined;g" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="SIPLACE_Vision.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Ink spot for PCB recognition</title>
+        <link rel="StyleSheet" href="../Resources/Stylesheets/SIPLACEVision.css" />
+        <style>
+body
+{
+	background-color: #ffffff;
+}
+
+</style>
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <placeholder id="header">
+            <h1>Ink spot for PCB recognition</h1>
+            <p>&#160;</p>
+            <p>If two PCBs positioned immediately behind each other are assembled, 
+ this is known as a "combined PCB". During placement, both boards 
+ are treated as a single board. A <span style="font-weight: bold;">special 
+ ink spot for PCB recognition</span> is required in order to determine 
+ whether both boards are actually in the processing conveyor, since ink 
+ spot recognition is carried out before the fiducials are measured, which 
+ means that different tolerances have to be compensated for. For the same 
+ reason, the evaluation methods for the <a href="Dipf_PCB_DETECTION_PATTERN.htm">taught 
+ ink spot</a> are also limited: Only the "mean grayscale" method 
+ with fixed parameters is available. The ink spot on the board must be 
+ at least 6 mm x 6 mm in size in order to compensate for any possible tolerances.</p>
+            <p>&#160;</p>
+            <p>The ink spot type must be set in SIPLACE Pro.</p>
+            <p>A maximum of 1 ink spot for PCB recognition is permitted for each pair 
+ of boards. </p>
+            <p>
+                <img src="../Images/ACHTUNG.jpg" style="border: none;width: 37px;height: 37px;float: none;border-style: none;border-style: none;" width="37" height="37" border="0" />The 
+ location of this ink spot must be specified in SIPLACE Pro. </p>
+            <p>This should be a clearly recognizable position at which the two adjoining 
+ boards that are to be assembled simultaneously are clearly different. 
+ If, for instance, the first board has a circular fiducial at the specified 
+ location and the second board has a via, this can lead to an error.</p>
+            <p>&#160;</p>
+            <p>Recommendation: Specify a defined structure (e.g. a fiducial), i.e. 
+ a <a href="Dipf_PCB_DETECTION.htm">synthetic ink spot</a>.</p>
+            <placeholder id="footer" />
+        </placeholder>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

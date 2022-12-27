@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html class="" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="Manip_ManipPcParams" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:status="In Progress" MadCap:tocPath="SIPLACE Vision|Recognition parameters (algorithm parameters)" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="SIPLACE_Vision.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Recognition parameters: Component recognition for components without leads (leadless, position)</title>
+        <link rel="StyleSheet" href="../Resources/Stylesheets/SIPLACEVision.css" />
+        <style>
+body
+{
+	background-color: #ffffff;
+}
+
+</style>
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor38"></a>Recognition parameters: Component recognition for components without leads (leadless, contour position)</h1>
+        <h5>Component recognition for components without leads/balls out in 5 steps:</h5>
+        <ol>
+            <li class="number" value="1">Determination of the coarse position</li>
+            <li class="number" value="2">Determination of the coarse angle</li>
+            <li style="font-weight: normal;" class="number" value="3">Determination of the fine angle</li>
+            <li style="font-weight: normal;" class="number" value="4">Determination of the fine position</li>
+            <li class="number" value="5">Dimension inspection (determination of the outer dimensions).</li>
+        </ol>
+        <p>&#160;</p>
+        <p>The following parameters can be set:</p>
+        <table style="border-spacing: 0px;border-spacing: 0px;" cellspacing="0">
+            <col />
+            <col />
+            <col />
+            <tr valign="top">
+                <td style="background-color: #000080;border-left-color: #ffffff;border-left-style: Solid;border-top-style: Solid;border-top-color: #ffffff;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;border-left-width: 2px;border-top-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#000080">
+                    <p style="color: #ffffff;">Parameter</p>
+                </td>
+                <td colspan="1" rowspan="1" style="background-color: #000080;border-top-style: Solid;border-top-color: #ffffff;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-top-width: 2px;border-right-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#000080">
+                    <p style="color: #ffffff;">Default</p>
+                </td>
+                <td style="background-color: #000080;border-top-style: Solid;border-top-color: #ffffff;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-top-width: 2px;border-right-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#000080">
+                    <p style="color: #ffffff;">Description</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td rowspan="1" colspan="3" style="background-color: #c0c0c0;border-left-color: #ffffff;border-left-style: Solid;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;border-left-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p style="font-weight: bold;">General settings</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="background-color: #c0c0c0;border-left-color: #ffffff;border-left-style: Solid;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;border-left-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p>Minimum quality for symmetry method</p>
+                </td>
+                <td colspan="1" rowspan="1" style="background-color: #c0c0c0;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-right-width: 2px;padding-left: 4px;padding-right: 4px;border-bottom-width: 2px;" bgcolor="#C0C0C0">
+                    <p>65 %</p>
+                </td>
+                <td style="background-color: #c0c0c0;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-right-width: 2px;padding-left: 4px;padding-right: 4px;border-bottom-width: 2px;" bgcolor="#C0C0C0">
+                    <p>The measure of quality which specifies how good and reliable fine position recognition was using the symmetry method. This value must be exceeded for the component to be flagged as "recognized with good quality".</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="background-color: #c0c0c0;border-left-color: #ffffff;border-left-style: Solid;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-left-width: 2px;padding-left: 4px;padding-right: 4px;border-right-width: 2px;" bgcolor="#C0C0C0">
+                    <p style="font-weight: normal;">Minimum quality for template method</p>
+                </td>
+                <td colspan="1" rowspan="1" style="background-color: #c0c0c0;border-right-color: #ffffff;border-right-style: Solid;border-bottom-color: #ffffff;border-bottom-style: Solid;border-right-width: 2px;border-bottom-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p>65 %</p>
+                </td>
+                <td colspan="1" rowspan="1" style="background-color: #c0c0c0;border-right-color: #ffffff;border-right-style: Solid;border-bottom-color: #ffffff;border-bottom-style: Solid;border-bottom-width: 2px;border-right-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p>The measure of quality which specifies how good and reliable fine position recognition was using the template method. This value must be exceeded for the component to be flagged as "recognized with good quality".</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="background-color: #c0c0c0;border-left-color: #ffffff;border-left-style: Solid;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-left-width: 2px;padding-left: 4px;padding-right: 4px;border-right-width: 2px;" bgcolor="#C0C0C0">
+                    <p style="font-weight: normal;">Subsampling for coarse angle </p>
+                </td>
+                <td colspan="1" rowspan="1" style="background-color: #c0c0c0;border-right-color: #ffffff;border-right-style: Solid;border-bottom-color: #ffffff;border-bottom-style: Solid;border-right-width: 2px;border-bottom-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p>1</p>
+                </td>
+                <td colspan="1" rowspan="1" style="background-color: #c0c0c0;border-right-color: #ffffff;border-right-style: Solid;border-bottom-color: #ffffff;border-bottom-style: Solid;border-bottom-width: 2px;border-right-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p>Increment for overlaying the filter.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="background-color: #c0c0c0;border-left-color: #ffffff;border-left-style: Solid;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;border-left-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p>Subsampling for position and fine angle</p>
+                </td>
+                <td colspan="1" rowspan="1" style="background-color: #c0c0c0;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p>1</p>
+                </td>
+                <td colspan="1" rowspan="1" style="background-color: #c0c0c0;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p>Hint: The number of inspected pixels on the narrow side should not be smaller than 30. In the case of components with black bodies, the connection width has to be taken into account (not the component width), e.g. for tantalum condensers.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="background-color: #c0c0c0;border-left-color: #ffffff;border-left-style: Solid;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;border-left-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p>Angle increment for the fine angle </p>
+                </td>
+                <td colspan="1" rowspan="1" style="background-color: #c0c0c0;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p>3,339 °</p>
+                </td>
+                <td colspan="1" rowspan="1" style="background-color: #c0c0c0;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p>Increment for overlaying the filter.</p>
+                    <p>Recommended: 1°-4°</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="background-color: #c0c0c0;border-left-color: #ffffff;border-left-style: Solid;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;border-left-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p>Threshold in template for fine position detection</p>
+                </td>
+                <td colspan="1" rowspan="1" style="background-color: #c0c0c0;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p>88 %</p>
+                </td>
+                <td colspan="1" rowspan="1" style="background-color: #c0c0c0;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p>Hint: The threshold (shown in the image in light red) should be selected in such a way that it is intersected by flanks which are as steep as possible.</p>
+                    <p>Recommended: 75 -100 %</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="background-color: #c0c0c0;border-left-color: #ffffff;border-left-style: Solid;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;border-left-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p bgcolor="#C0C0C0"><a href="Binning.htm">Binning</a>
+                    </p>
+                </td>
+                <td style="background-color: #c0c0c0;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p bgcolor="#C0C0C0">Depends on camera type and component shape</p>
+                </td>
+                <td style="background-color: #c0c0c0;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p>The larger the value that is set here, the faster an image will be loaded and transferred, and the lower the resolution will be.</p>
+                    <table style="caption-side: top;margin-left: 0;margin-right: auto;">
+                        <col />
+                        <col />
+                        <tbody>
+                            <tr>
+                                <td style="border-top-style: solid;border-top-width: 0px;border-bottom-style: solid;border-bottom-width: 0px;border-bottom-color: #ffffff;text-align: left;vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;">
+                                    <p class="standard">1 </p>
+                                </td>
+                                <td style="border-top-style: solid;border-top-width: 0px;border-bottom-style: solid;border-bottom-width: 0px;border-bottom-color: #ffffff;text-align: left;vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;text-indent: 0;">
+                                    <p class="standard" style="text-align: left;margin-left: 21px;margin-bottom: 4.5pt;margin-top: 4.5pt;">Each pixel is evaluated. Binning is deactivated.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;">
+                                    <p class="standard">2 </p>
+                                </td>
+                                <td style="text-align: left;vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;text-indent: 0;">
+                                    <p class="standard" style="margin-left: 21px;margin-bottom: 4.5pt;margin-top: 4.5pt;">2x2 pixels are merged to form one pixel.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;">
+                                    <p class="standard">4 </p>
+                                </td>
+                                <td style="text-align: left;vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;text-indent: 0;">
+                                    <p class="standard" style="margin-left: 21px;margin-bottom: 4.5pt;margin-top: 4.5pt;">4x4 pixels are merged to form one pixel.</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="background-color: #c0c0c0;border-left-color: #ffffff;border-left-style: Solid;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;border-left-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0" colspan="3">
+                    <p style="font-weight: bold;">Check for tilted components</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="background-color: #c0c0c0;border-left-color: #ffffff;border-left-style: Solid;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;border-left-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p class="Tabellentext">Brightness threshold for tilted components</p>
+                </td>
+                <td style="background-color: #c0c0c0;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p class="Tabellentext">75</p>
+                    <p class="Tabellentext">[75 .. 130]</p>
+                </td>
+                <td style="background-color: #c0c0c0;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p>Grayscale value</p>
+                    <p>If the calculated brightness of the connection surfaces under steep 0° illumination is below this value, a component is identified as being tilted.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="background-color: #c0c0c0;border-left-color: #ffffff;border-left-style: Solid;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;border-left-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0" colspan="3">
+                    <p style="font-weight: bold;">Settings for inspection of the connection lengths</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="background-color: #c0c0c0;border-left-color: #ffffff;border-left-style: Solid;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;border-left-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p bgcolor="#C0C0C0">Threshold for inner gradients</p>
+                </td>
+                <td style="background-color: #c0c0c0;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p bgcolor="#C0C0C0">20</p>
+                </td>
+                <td style="background-color: #c0c0c0;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p bgcolor="#C0C0C0">Thresholds for detecting transitions between light and dark, that can be evaluated as the end of the connection.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="background-color: #c0c0c0;border-left-color: #ffffff;border-left-style: Solid;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;border-left-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p bgcolor="#C0C0C0">Connections brighter than component body</p>
+                </td>
+                <td style="background-color: #c0c0c0;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p bgcolor="#C0C0C0">Yes</p>
+                </td>
+                <td style="background-color: #c0c0c0;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p bgcolor="#C0C0C0">Yes: The connections are bright in comparison with the component body.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="background-color: #c0c0c0;border-left-color: #ffffff;border-left-style: Solid;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;border-left-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p bgcolor="#C0C0C0">Evaluation of inner area of connections</p>
+                </td>
+                <td style="background-color: #c0c0c0;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p bgcolor="#C0C0C0">No</p>
+                </td>
+                <td style="background-color: #c0c0c0;border-right-color: #ffffff;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #ffffff;border-bottom-width: 2px;border-right-width: 2px;padding-left: 4px;padding-right: 4px;" bgcolor="#C0C0C0">
+                    <p bgcolor="#C0C0C0">Yes: The inner area of the connections is also evaluated. If these contain transitions between light and dark (marked in pink) that are above the specified threshold, the component is rejected.</p>
+                </td>
+            </tr>
+        </table>&#160;<p class="see">See also</p><p class="standard"><a href="../Display/DisplayFunctions.htm">Display functions: Zoom, Pseudocolors, ... </a></p><p class="standard"><a href="../Display/Schaltflaechen_Bauelemente_Algorithmen.htm">Buttons: New measurement, Capture new image, ...</a></p><p class="standard">&#160;</p><p>&#160;</p><script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js"></script></body>
+</html>

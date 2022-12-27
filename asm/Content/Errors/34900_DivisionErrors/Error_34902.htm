@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en" xml:lang="en" MadCap:PathToHelpSystem="../../../" MadCap:HelpSystemFileName="Index.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>34902 Pickup location deactivated because of frequent pickup errors 
+</title>
+        <link href="../../Resources/Stylesheets/SIRIOErrors.css" rel="stylesheet" type="text/css" />
+        <script src="../../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h2 class="Error"><a name="kanchor1546"></a>34902 Pickup location deactivated because of frequent pickup errors <![CDATA[
+]]></h2>
+        <p class="Ursache">There was regularly no component on the nozzle after pickup (no component was picked up). On the C&amp;P20 and CPP heads,the presence of a component is checked using the component sensor, and on the Twin Head and C&amp;P12 head, it is checked using the vacuum values.</p>
+        <p class="Ursache">At the <a href="../../Setup/Feeder_Type.htm">specified pickup position</a>, the proportion of pickup operations that return an error is greater than the specified <a href="../../Settings/DlgMachineOptions_TabFaultThresholds.htm">threshold value</a>. </p>
+        <p class="Maßnahme">Use the error list under <a href="../../Event/DlgEventStatistics.htm">Current messages &gt; Statistics <img src="../../Images/Event/EventViewTool48x48.png"></img><img src="../../Images/Event/EventStatistics48x48.png"></img></a> to check whether the pickup errors are particularly frequent for a specific <span style="font-weight: bold; font-style: normal; color: #000000;">segment</span>.</p>
+        <p class="Maßnahme">&#160;</p>
+        <p class="Ursache">If this is the case:</p>
+        <p class="Maßnahme">Check the nozzle and the segment:</p>
+        <p class="Maßnahme"><a href="../../Errors_4xxxx/40000_DetailedErrors/Error_40029_CP20.htm">C&amp;P20 head</a>, <a href="../../Errors_4xxxx/40000_DetailedErrors/Error_40029_CPP.htm">CPP head</a>, <a href="../../Errors_4xxxx/40000_DetailedErrors/Error_40029_TWIN.htm">Twin Head</a>, <a href="../../Errors_4xxxx/40000_DetailedErrors/Error_40029_CP12.htm">C&amp;P12 head</a></p>
+        <p class="Ursache">If the errors are reasonably evenly distributed across all segments, </p>
+        <p class="Maßnahme">check the specified feeder:</p>
+        <p class="Maßnahme">Make sure that the pickup position for the feeder is set correctly and that the component is picked up correctly.</p>
+        <ul>
+            <li style="font-family: Arial;font-size: 10pt;font-weight: bold;color: #2e8b57;" value="1">In the case of components with dimensions greater than a 0402 package, switch to the Correct pickup position view and change the settings if necessary.</li>
+            <li style="font-family: Arial; font-size: 10pt; font-weight: bold; color: #2e8b57;" value="2">In the case of smaller components, switch to the Correct pickup position view and make sure that the component pocket has been described correctly.<br></br>Recommendation: Use the default settings for measuring the component pocket.</li>
+            <li style="font-family: Arial; font-size: 10pt; font-weight: bold; color: #2e8b57;" value="3">Check that the component is being picked up with the correct nozzle.</li>
+            <li style="font-family: Arial;font-size: 10pt;font-weight: bold;color: #2e8b57;" value="4">In SIPLACE&#160;Pro, check the setting for the height of the component sensor, the acceleration values and the travel profile settings.</li>
+        </ul>
+        <p style="font-family: Arial;font-size: 10pt;font-weight: bold;color: #2e8b57;">&#160;</p>
+        <p class="Maßnahme">Then press the Start button <img src="../../Images/General/StartProduction32x32.png"></img>.</p>
+        <p class="Ursache">The error counter is reset.</p>
+        <script type="text/javascript" src="../../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

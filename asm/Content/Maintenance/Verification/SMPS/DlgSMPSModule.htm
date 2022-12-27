@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:tocPath="Maintenance|Verification" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en" xml:lang="en" MadCap:PathToHelpSystem="../../../../" MadCap:HelpSystemFileName="Index.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../../../SkinSupport/Slideshow.css" rel="stylesheet" type="text/css" />
+        <link href="../../../SkinSupport/MadCap.css" rel="stylesheet" type="text/css" /><title>SMPS - Switched Modular Power Supply </title>
+        <link href="../../../Resources/TableStyles/Innen_mDesk.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../../Resources/TableStyles/mDesk.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../../Resources/Stylesheets/SIRIOStylesheet.css" rel="stylesheet" type="text/css" />
+        <script src="../../../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../../../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor69"></a>SMPS - Switched Modular Power Supply <img src="../../../Images/Maintenance/Maintenance48x48.png" /><img src="../../../Images/Maintenance/MaintenanceVerification48x48.png" /><img src="../../../Images/Maintenance/SMPS/PowerSuppliesStack48x48.png" /><img src="../../../Images/Maintenance/SMPS/PowerSupplyModule48x48.png" /></h1>
+        <p>The following AC/DC converters are used:</p>
+        <p class="mDesk_einrücken_Aufzählung" MadCap:autonum=" &#160;&#160;&#160;&#160;- &#160;&#160;"><span class="autonumber"><span> &#160;&#160;&#160;&#160;- &#160;&#160;</span></span>QT40-999.70: Generates the 300 V and 160 V DC operating voltage</p>
+        <p class="mDesk_einrücken_Aufzählung" MadCap:autonum=" &#160;&#160;&#160;&#160;- &#160;&#160;"><span class="autonumber"><span> &#160;&#160;&#160;&#160;- &#160;&#160;</span></span>QT40-241: Generates 22-28 V DC voltages</p>
+        <p class="mDesk_einrücken_Aufzählung" MadCap:autonum=" &#160;&#160;&#160;&#160;- &#160;&#160;"><span class="autonumber"><span> &#160;&#160;&#160;&#160;- &#160;&#160;</span></span>QT40-361:&#160;Generates 34-42 V DC voltages</p>
+        <p class="Standard">The internal DC/DC converter (24 V) QT20-241 cannot be polled by the diagnostics function.</p>
+        <p class="See">CAP (capacitor bank)</p>
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/mDesk.css');" class="TableStyle-mDesk" cellspacing="2">
+            <col class="TableStyle-mDesk-Column-Spalte1" />
+            <col class="TableStyle-mDesk-Column-Spalte1" />
+            <tbody>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p class="Standard_table">Serial no.</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p class="Standard_table">Capacitor bank identifier (label).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p class="Standard_table">Ambient temperature</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p class="Standard_table">Temperature inside the capacitor bank.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p class="Standard_table">Current output voltage (160 V)</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p class="Standard_table">The current output voltage supplied to the head. Expected: 160 V.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p class="Standard_table">Current output voltage (300 V)</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p class="Standard_table">The current output voltage supplied to the gantries. Expected: 300 V.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p class="Standard_table">Buffer capacitance</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p class="Standard_table">If this value drops below 80 % of the nominal value, the value is highlighted and a warning is issued. The capacitor bank should be replaced.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyB-Spalte1-Body1">
+                        <p class="Standard_table">Total operating hours</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyA-Spalte1-Body1">
+                        <p class="Standard_table">Total number of hours the capacity bank has been in operation to date.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="See">AC/DC converter (QT40-999.70, QT40-241, QT40-361)<br /></p>
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/mDesk.css');" class="TableStyle-mDesk" cellspacing="2">
+            <col class="TableStyle-mDesk-Column-Spalte1" />
+            <col class="TableStyle-mDesk-Column-Spalte1" />
+            <tbody>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p class="Standard_table">Serial no.</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p class="Standard_table">Corresponds to the identifier on the AC/DC converter (label).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p class="Standard_table">Input voltage</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p class="Standard_table">Current input voltage from the customer's power supply network.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p class="Standard_table">Temperature</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p class="Standard_table">Current ambient temperature - external temperature of the AC/DC converter.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyB-Spalte1-Body1">
+                        <p class="Standard_table">Maximum</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyA-Spalte1-Body1">
+                        <p class="Standard_table">Maximum recorded ambient temperature.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="Group_Box_Top_ohneRahmenoben">Parameter</p>
+        <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/mDesk.css');" class="TableStyle-mDesk" cellspacing="2">
+            <col class="TableStyle-mDesk-Column-Spalte1" />
+            <col class="TableStyle-mDesk-Column-Spalte1" />
+            <tbody>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p class="Standard_table">Operating hours since start</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p class="Standard_table">Number of hours the power supply has been switched on since the machine was last started. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p class="Standard_table">Total operating hours</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p class="Standard_table">Total number of hours the AC/DC converter has been switched on for.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p class="Standard_table">External voltage peaks</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p class="Standard_table">Number of voltage spikes from the customer's power supply network.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p class="Standard_table">Over temperature shutdowns</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p class="Standard_table">Number of times the AC/DC converter has shut down due to overtemperature.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p class="Standard_table">Over input voltage shutdowns</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p class="Standard_table">Number of times the AC/DC converter has shut down due to overvoltage from the customer's power supply network.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p class="Standard_table">Input under voltage drops</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p class="Standard_table">Number of times the AC/DC converter has shut down due to undervoltage from the customer's power supply network.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p class="Standard_table">Highest input voltage</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p class="Standard_table">The highest value to date for the input voltage from the customer's power supply network in [V].</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyB-Spalte1-Body1">
+                        <p class="Standard_table">
+                            <img src="../../../Images/Maintenance/SMPS/HighlightListItemError20x20.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyA-Spalte1-Body1">
+                        <p class="Standard_table">Identifies either the capacitor bank or a converter if a warning has been issued for it. </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p>Color key for the individual power supply units:</p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../../Resources/TableStyles/Innen_mDesk.css');" class="TableStyle-Innen_mDesk" cellspacing="1">
+            <col class="TableStyle-Innen_mDesk-Column-Spalte1" />
+            <col class="TableStyle-Innen_mDesk-Column-Spalte1" />
+            <tbody>
+                <tr class="TableStyle-Innen_mDesk-Body-Body1">
+                    <td class="TableStyle-Innen_mDesk-BodyE-Spalte1-Body1">
+                        <img src="../../../Images/Maintenance/SMPS/PS_orange.png" />
+                    </td>
+                    <td class="TableStyle-Innen_mDesk-BodyD-Spalte1-Body1">
+                        <p class="Standard_table">A voltage drop has occurred for at least one circuit breaker.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Innen_mDesk-Body-Body1">
+                    <td class="TableStyle-Innen_mDesk-BodyB-Spalte1-Body1">
+                        <img src="../../../Images/Maintenance/SMPS/PS_red.png" />
+                    </td>
+                    <td class="TableStyle-Innen_mDesk-BodyA-Spalte1-Body1">
+                        <p class="Standard_table">At least one circuit breaker has failed (voltage &lt; 80%).</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <script type="text/javascript" src="../../../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

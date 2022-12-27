@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin Version="1" Comment="This is the default skin" Anchors="Left,Top,Width,Height" Width="771px" Height="771px" Top="26px" Left="1680px" Bottom="0px" Right="0px" Tabs="TOC,Index,Search" DefaultTab="Favorites" UseBrowserDefaultSize="false" UseDefaultBrowserSetup="false" Title="SIPLACE" BrowserSetup="Toolbar,Menu,LocationBar,Resizable" AutoSyncTOC="true" CommentsInTopic="true" FeedbackUserProfileItems="Username|EmailAddress" NavigationLinkTop="false" DisplayNotificationOptions="false" EnableAboutBox="false">
+    <!-- saved from url=(0016)http://localhost -->
+    <!-- saved from url=(0014)about:internet -->
+    <Index BinaryStorage="True" />
+    <HtmlHelpOptions ShowMenuBar="true" TopmostWindowStyle="true" Buttons="Hide,Locate,Back,Forward,Stop,Refresh,Home,Font,Print" EnableButtonCaptions="True" AdvancedSearch="true" AutoShowNavigationPane="true" />
+    <Stylesheet Link="Stylesheet.xml">
+    </Stylesheet>
+    <Toolbar EnableCustomLayout="true" Buttons="Back|Forward|SelectTOC|SelectIndex|SelectSearch|Home" ExcludeAccordionTitle="false">
+        <Script />
+    </Toolbar>
+    <WebHelpOptions NavigationPaneWidth="220" NavigationPanePosition="Left" VisibleAccordionItemCount="3" HideNavigationOnStartup="false" AboutBox="About.png" AboutBoxWidth="32" AboutBoxHeight="32">
+    </WebHelpOptions>
+    <TopicToolbar EnableCustomLayout="true" Buttons="SIRIOToolbar|PreviousTopic|CurrentTopicIndex|NextTopic" />
+</CatapultSkin>

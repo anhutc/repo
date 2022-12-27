@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="Template_Verfahren" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:status="In progress" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="SIPLACE_Vision.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Template method</title>
+        <link rel="StyleSheet" href="../Resources/Stylesheets/SIPLACEVision.css" />
+        <style>
+body
+{
+	background-color: #ffffff;
+}
+
+</style>
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <div placeholder="" id="header" style="width: 100%;position: relative;">
+            <p class="Siemens">SIPLACE</p>
+        </div>
+        <h1><a name="kanchor453"></a>Template method</h1>
+        <p>Evaluation of the teaching results for the "go" and "no-go" cases:</p>
+        <p>With this method, a 2D pattern is generated for the "go" and/or "no-go" case. This pattern comprises normalized brightness / normalized contrast images. For each image taught, a correlation value (measure of the correlation between the training image and the pattern) is calculated for the "go" and/or "no-go" case.</p>
+        <h5 style="margin-bottom: 8pt;">One-sided template method:  </h5>
+        <p>For each taught image, the correlation with the "go" <span style="text-decoration: underline;">or</span> "no-go" sample is calculated.</p>
+        <h5 style="margin-bottom: 8pt;">Two-sided template method (when using laser engraving):</h5>
+        <p>For each taught image, the difference between the similarities with the "go" and "no-go" patterns are calculated. </p>
+        <p>The difference is calculated as follows: Correlation value for "go" template - correlation value for "no-go" template.</p>
+        <p>This (correlation) value results in two value ranges for the "go" case and the "no-go" case. Ideally, these should be very distinct. The system now defines two threshold values which divide the value range into three categories: "place", "do not place" and "uncertain". </p>
+        <p>Whether the one-sided or two-sided template method is used can be set in the <a href="../DIPF/Dipf_INKSPOT_PATTERN.htm">parameter list</a> in the teaching interface.</p>
+        <p>&#160;</p>
+        <p>Advantage:</p>
+        <ul>
+            <li class="punkt" value="1">The outer contour must be exactly described, as the entire area of the pattern is evaluated.</li>
+            <li class="punkt" value="2">Transport tolerances can be compensated for if "Position recognition before ink spot recognition" is deactivated.</li>
+        </ul>
+        <p class="punkt">Disadvantage:</p>
+        <ul>
+            <li class="punkt" value="1">CPU intensive</li>
+            <li class="punkt" value="2">Defined form required</li>
+        </ul>
+        <p>Note:</p>
+        <p>The method is unsuitable for applications where the ink spot has been covered with a sticker or painted over. Under no circumstances should a correlation be drawn with an ink spot which has been painted over or which has had something stuck over it. This method is only recommended if a particular structure is modified by laser engraving for the "do not place" case. In this case, the two-sided template method should be used.</p>
+        <p>&#160;</p>
+        <p>Example:</p>
+        <table style="border-spacing: 0px;border-spacing: 0px;" cellspacing="0">
+            <col />
+            <col />
+            <tr valign="top">
+                <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-top-style: Solid;border-top-color: #000000;border-top-width: 1px;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;">
+                    <h5>
+                        <img src="../Images/image9.png" style="border: none;float: none;width: 98px;height: 99px;border-style: none;border-style: none;" width="98" height="99" border="0" />
+                    </h5>
+                </td>
+                <td style="border-top-style: Solid;border-top-color: #000000;border-top-width: 1px;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;">
+                    <p>Training image 1: Square fiducial,  </p>
+                    <p>"Go" (place).</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;">
+                    <p>
+                        <img src="../Images/image10.png" style="border: none;float: none;width: 99px;height: 93px;border-style: none;border-style: none;" width="99" height="93" border="0" />
+                    </p>
+                </td>
+                <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;">
+                    <p>Training image 2: Square which has been struck through,</p>
+                    <p>"No-go" (do not place).</p>
+                    <p>&#160;</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;">
+                    <p>
+                        <img src="../Images/image11.png" style="border: none;float: none;width: 100px;height: 95px;border-style: none;border-style: none;" width="100" height="95" border="0" />
+                    </p>
+                </td>
+                <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;">
+                    <p>Image which is to be classified</p>
+                </td>
+            </tr>
+        </table>
+        <ol>
+            <li class="number" value="1">Determination of the correlation value with the "no-go" template: E.g. 0.83</li>
+            <li class="number" value="2">Determination of the correlation value with the "go" template: E.g. 0.31</li>
+            <li class="number" value="3">Difference: E.g. 0.31 - 0.83 = -0.52</li>
+            <li class="number" value="4">Comparison with threshold values: E.g.: -1 through -0.27 "no-go" &#160;&#160;- &#160;0.2 through 1 "go"<br />
+	In the example, the decision is "do not place" (no-go).</li>
+        </ol>
+        <p class="number">&#160;</p>
+        <p class="number">See also</p>
+        <p class="number"><a href="../Ergebnisse/Inkspot/Ovl_isTMThresholdFeature.htm">Displaying results</a>
+        </p>
+        <p class="number"><a href="Welches_Verfahren_fuer_welchen_Inkpunkt_.htm">What method for what ink spot?</a>
+        </p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <div placeholder="" id="footer" style="width: 100%;position: relative;">
+            <p>&#160;</p>
+        </div>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

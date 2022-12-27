@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html class="" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:PathToHelpSystem="../../../" MadCap:HelpSystemFileName="SIPLACE_Vision.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Recognition step: Lost components (height difference)</title>
+        <link href="../../Resources/TableStyles/Basis.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/Stylesheets/SIPLACEVision.css" rel="stylesheet" type="text/css" />
+        <script src="../../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor344"></a>Recognition step: Lost components (height difference)</h1>
+        <h5>Shows the differences between the current height map and the learned height map.</h5>
+        <p>The height of each point of the learned height map (model) is compared with the height of the corresponding point in the current height map and the height difference is shown. </p>
+        <p>The higher a point is shown, the greater the height difference is at the corresponding point.</p>
+        <table style="width: 100%;">
+            <col />
+            <col />
+            <tbody>
+                <tr>
+                    <td style="text-align: left;vertical-align: top;">
+                        <p>• </p>
+                    </td>
+                    <td style="text-align: left;vertical-align: top;">
+                        <p>If all the solder deposits and components are recognized and there is no lost component on the board, a flat surface is shown here (no height difference):</p>
+                        <p>
+                            <img src="../../Images/Learning/OnboardInspection/HeightDiff_OK.png" style="width: 182px;height: 129px;" />
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: left;vertical-align: top;">
+                        <p>• </p>
+                    </td>
+                    <td style="text-align: left;vertical-align: top;">
+                        <p>If a large number of clear height differences, both positive and negative, can be seen, this may indicate that the position of the board has changed.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h5>Inspection before placement:</h5>
+        <p>Checks whether a component has been lost at the point at which the component is to be placed. </p>
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/Basis.css');" class="TableStyle_Basis" cellspacing="0">
+            <col class="Column-Column1" style="width: 322px;" />
+            <col class="Column-Column1" />
+            <col class="Column-Column1" />
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="TableStyle_Basis_Body_0_0_RowSep_ColEnd" colspan="3">
+                        <p>Example:</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="TableStyle_Basis_Body_0_0_RowSep_ColSep" style="text-align: left;vertical-align: top;padding-left: 10px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;" rowspan="2">
+                        <p>
+                            <img src="../../Images/Learning/OnboardInspection/HeightMap.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle_Basis_Body_0_0_RowSep_ColSep" style="text-align: left;vertical-align: top;padding-left: 10px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;">
+                        <p>Marked in red: The height difference is positive.</p>
+                        <p>The height of the current board is greater than at the same point in the model.</p>
+                    </td>
+                    <td class="TableStyle_Basis_Body_0_0_RowSep_ColEnd" style="text-align: left;vertical-align: top;padding-left: 10px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;" rowspan="2">
+                        <p>The current board has a component at a point at which there is no component in the model.</p>
+                        <p>&#160;</p>
+                        <p>A component has been lost and is lying on the board.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="TableStyle_Basis_Body_0_0_RowEnd_ColSep" style="text-align: left;vertical-align: top;padding-left: 10px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;">
+                        <p>Marked in dark red:</p>
+                        <p>The grayscale difference is too large.</p>
+                        <p>Significant brightness differences between the model and the current board have been determined at the marked position.</p>
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="see">See also</p>
+        <p class="standard"><a href="../../Display/DisplayFunctions.htm">Display functions: Zoom, Pseudocolors, ...</a>
+        </p>
+        <p><a href="../../Display/schaltflaechen_bauelemente_ergebnisansicht.htm">Buttons: New measurement, Capture new image, ...</a>
+        </p>
+        <script type="text/javascript" src="../../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

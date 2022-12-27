@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="Bestimmung_der_Grobposition_(Markenerkennung)" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:status="In progress" MadCap:ignoredWords="J;Dipf_ELECTROMECHANICAL;i;Dipf_Undefined;g;topic;C;P20;s" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="SIPLACE_Vision.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Determination of the coarse position (fiducial recognition)</title>
+        <link rel="StyleSheet" href="../Resources/Stylesheets/SIPLACEVision.css" />
+        <style>
+body
+{
+	background-color: #ffffff;
+}
+
+</style>
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor386"></a>Determination of the coarse position (fiducial recognition)</h1>
+        <p>On the basis of the geometrical description, the number of point pairs used to determine the coarse position of the fiducial is specified automatically:</p>
+        <p>At each location in the image, the proportion of point pairs is determined where one point is inside the fiducial and one point is outside the fiducial. These point pairs are specified by the <a href="SF_Punktabstand.htm">distance between points</a> and the <a href="SF_Minimaler_Kontrast_-_Empfehlung.htm">minimum contrast</a>.</p>
+        <p>The coarse position is the position at which most point pairs match, i.e. the contrast between the two points of a pair exceeds the minimum threshold set.</p>
+        <p>&#160;</p>
+        <p>If several different coarse positions result in a high quality, this means that the search area contains artifacts and a clear measurement is not possible. Recognition is aborted and an error message is displayed.</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

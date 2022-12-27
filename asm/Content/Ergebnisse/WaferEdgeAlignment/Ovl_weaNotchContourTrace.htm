@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:PathToHelpSystem="../../../" MadCap:HelpSystemFileName="SIPLACE_Vision.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Substrate: Notch detection by contour tracing</title>
+        <link href="../../Resources/TableStyles/mDesk.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/Stylesheets/SIPLACEVision.css" rel="stylesheet" type="text/css" />
+        <script src="../../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor377"></a>Substrate: Notch detection by contour tracing</h1>
+        <p class="Maßnahme">Determination of the position of the substrate means that the external contour is already known.</p>
+        <p class="see">The system now checks where the external contour cannot be detected around this circle in order to detect the notch.</p>
+        <p class="Maßnahme">To do this, scan lines are defined perpendicular to the external contour. The system searches along these scan lines for any light/dark transitions present in the vicinity of the external contour. </p>
+        <p class="Maßnahme">Points are identified at which there is no sufficiently large change in the grayscale value (transition from the generally dark substrate to the lighter background). These locations are marked with yellow circles. If there are several adjacent locations marked in yellow, it is possible that there is a notch at this position.</p>
+        <p>The notch is deemed to have been detected if the majority of points in a sufficiently large area do not have a sudden change in grayscale value (shown in yellow).</p>
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/mDesk.css');" class="TableStyle-mDesk" cellspacing="2">
+            <col class="TableStyle-mDesk-Column-Spalte1" />
+            <col class="TableStyle-mDesk-Column-Spalte1" />
+            <tbody>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p class="Tabellentext">Blue points</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p class="Tabellentext">Change in grayscale value found: There could be an edge at this position.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p>Yellow points</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p>No change in grayscale value found: There could be an notch at this position.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyB-Spalte1-Body1">
+                        <p>Green</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyA-Spalte1-Body1">
+                        <p>Assumed edge position, marks the center of the notch.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="Maßnahme">Note on the representation: The blue and yellow dots are shown as circles at the position at which a notch is detected.</p>
+        <p class="Maßnahme">
+            <img src="../../Images/Erk/Substrate/Substrate_ContourTrace_Result.png" alt="" title="" />
+        </p>
+        <p class="Maßnahme">If there are several regions at which the notch may be located, the longest region is identified as the notch.</p>
+        <p class="Maßnahme">&#160;</p>
+        <p class="see">Result:</p>
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/mDesk.css');" class="TableStyle-mDesk" cellspacing="2">
+            <col style="width: 123px;" class="TableStyle-mDesk-Column-Spalte1" />
+            <col style="width: 123px;" class="TableStyle-mDesk-Column-Spalte1" />
+            <tbody>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyB-Spalte1-Body1">
+                        <p class="Tabellentext">Quality of notch detection</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyA-Spalte1-Body1">
+                        <p>If the determined quality is above the "Minimum recognition quality" threshold, the notch is deemed to have been found.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p class="see">See also</p>
+        <p class="Maßnahme"><a href="Substrate.htm">Determining the position of substrates in the machine</a>
+        </p>
+        <p class="Maßnahme"><a href="../../DIPF/Dipf_SUBSTRATE.htm">Describing a substrate</a>
+        </p>
+        <p class="Maßnahme"><a href="Manip_ManipWaferEdgeAlignParams.htm">Recognition parameters: Substrate</a>
+        </p>
+        <p class="Maßnahme"><a href="Ovl_weaVirtImgDownsampled.htm">Virtual camera image (scaled down)</a>
+        </p>
+        <p class="Maßnahme"><a href="Ovl_weaXYConsensusSet.htm">Evaluation position</a>
+        </p>
+        <p class="Maßnahme"><a href="Ovl_weaXYPosition.htm">X/Y position</a>
+        </p>
+        <p class="Maßnahme"><a href="Ovl_weaNotchPointMatch.htm">Notch detection by point pair filtering along the notch</a>
+        </p>
+        <p class="Maßnahme"><a href="Ovl_weaNotchPosition.htm">Notch position</a>
+        </p>
+        <script type="text/javascript" src="../../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

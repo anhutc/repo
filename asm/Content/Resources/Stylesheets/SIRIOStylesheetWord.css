@@ -1,0 +1,950 @@
+/*<meta />*/
+
+img
+{
+	border: none;
+}
+
+a.Popup
+{
+	font-size: 10pt;
+	font-family: Arial;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+}
+
+h1
+{
+	font-family: Arial;
+	color: #191970;
+	border-bottom: solid 1px;
+	border-bottom-color: #191970;
+	padding: 2px;
+	font: Arial;
+	page-break-after: always;
+	background-color: #fffacd;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 12pt;
+}
+
+p.Standard
+{
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	text-align: justify;
+	padding: 0px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-bottom: 1, 12em;
+	margin-top: 1, 12em;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+p.Standard_padding_left
+{
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	text-align: justify;
+	padding: 0px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 20px;
+}
+
+p.Standard_number_indent
+{
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	text-align: justify;
+	padding: 0px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	mc-auto-number-offset: 20px;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-format: '{n}{n+}';
+}
+
+p.Standard_table
+{
+	font-family: Arial;
+	font-style: normal;
+	list-style-position: inherit;
+	border-collapse: collapse;
+	mc-table-style: url('SIRIOStylesheet.css');
+	table-layout: auto;
+	display: block;
+	font-size: 10pt;
+	text-align: left;
+	margin-bottom: 1, 12em;
+	margin-top: 1, 12em;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	line-height: 20px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+p
+{
+	line-height: 21px;
+	font-size: 10pt;
+	font: Arial;
+	font-family: Arial;
+}
+
+p.Button2
+{
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: bold;
+	color: #800000;
+	width: 1px;
+	display: inherit;
+	border: solid 1px;
+	border-bottom-color: #696969;
+	border-width: 1px;
+	margin: 3px;
+	padding: 5px;
+	border-color: #6b8e23;
+	background-color: #dcdcdc;
+}
+
+p.Button
+{
+	font-family: Arial;
+	font-size: 10pt;
+	color: #800000;
+	font-style: normal;
+	font-weight: bold;
+	margin: 3px;
+	padding: 5px;
+	border-width: 1px;
+	width: auto;
+	border: solid 1;
+	border-collapse: inherit;
+	display: inline;
+	margin-top: 3px;
+	background-color: #dcdcdc;
+	border-color: #6b8e23;
+	border-right: solid 1px;
+	border-left: solid 1px;
+}
+
+p.Butt
+{
+	font: Arial;
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: bold;
+	margin: 0px;
+	border-left: solid 1px;
+	border-right: solid 1px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #6b8e23;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #6b8e23;
+	border-bottom-width: 0px;
+	background-color: #dcdcdc;
+	color: #800000;
+}
+
+p.Group_Box_Top
+{
+	margin: 0;
+	margin-top: 1px;
+	border-top: solid 1px;
+	border-top-color: #6b8e23;
+	border-left-color: #6b8e23;
+	border-right: solid 1px;
+	border-right-color: #6b8e23;
+	border-left: solid 1px;
+	padding-left: 4px;
+	padding-top: 4px;
+	font: Arial;
+	font-family: Arial;
+	font-size: 11pt;
+	font-weight: bold;
+	border-color: #6b8e23;
+	color: #a9a9a9;
+}
+
+tr.Button
+{
+	
+}
+
+table.TableGroupBox
+{
+	width: 100%;
+	border-spacing: 1px 1px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #6b8e23;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #6b8e23;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #6b8e23;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #6b8e23;
+	border-collapse: collapse;
+	margin-left: 0;
+	margin-right: auto;
+	background-color: #f5f5f5;
+	padding: 2px;
+	table-layout: fixed;
+	border-color: #6b8e23;
+	border-left: solid;
+	font-family: Arial;
+	font-size: 10pt;
+	line-height: 2px;
+	border: solid 1px;
+}
+
+p.Button_text_bottom
+{
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	padding: 0px;
+	border-left: solid 1px;
+	border-color: #6b8e23;
+	border-right-width: 1px;
+	margin: 0;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	text-indent: 0px;
+	padding-left: 20px;
+	text-align: left;
+	background-color: #dcdcdc;
+	border-bottom: solid 1px #6b8e23;
+	border-right: solid 1px #6b8e23;
+}
+
+p.See
+{
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+p.Standard_table_header
+{
+	font-weight: bold;
+	font: Arial;
+	font-size: 10pt;
+}
+
+p.Standard_Hinweis
+{
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 10pt;
+	margin-bottom: 1, 12em;
+	margin-top: 1, 12em;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+p.ButtRadio
+{
+	font: Arial;
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	color: #800000;
+	font-weight: bold;
+	padding: 4px;
+	margin: 0px;
+	border-left-color: #6b8e23;
+	border-right-color: #6b8e23;
+	border-bottom-width: 0px;
+	border-left: solid 1px;
+	border-right: solid 1px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-color: #6b8e23;
+	background-color: #dcdcdc;
+}
+
+p.Achtung
+{
+	color: #ff0000;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 10pt;
+	margin-bottom: 1, 12em;
+	margin-top: 1, 12em;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+h2
+{
+	font-family: Arial;
+	page-break-before: always;
+	margin-bottom: 0;
+	margin-top: 0;
+	background-color: #fffacd;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 10pt;
+	color: #000080;
+}
+
+html
+{
+	
+}
+
+p.Ausgabefeld
+{
+	font: Arial;
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: bold;
+	padding: 4px;
+	margin: 0px;
+	border-left-color: #6b8e23;
+	border-right-color: #6b8e23;
+	border-bottom-width: 0px;
+	border-left: solid 1px;
+	border-right: solid 1px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	background-color: #dcdcdc;
+	border-color: #6b8e23;
+	border-width: 1 px;
+	border-left-width: 1;
+	border-right-width: 1;
+}
+
+p.So
+{
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 10pt;
+	text-decoration: underline;
+}
+
+p.Standard_number_indent1
+{
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	text-align: justify;
+	padding: 0px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	mc-auto-number-format: '{n}{n+}';
+	mc-auto-number-offset: 20px;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-class: 1;
+}
+
+p.Standard_Aufzaehlung
+{
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	padding-top: 3px;
+	mc-auto-number-class: 1;
+	mc-auto-number-offset: 20 px;
+	text-align: left;
+	mc-auto-number-format: '{n+}.  ';
+	mc-auto-number-position: outside-head;
+	padding: 0;
+	padding-left: 20px;
+	margin-top: 3px;
+	margin: 3px;
+	padding-bottom: 4px;
+}
+
+td
+{
+	font-family: Arial;
+	font-size: 10pt;
+	line-height: 2px;
+	padding-top: 4px;
+}
+
+p.Button_text
+{
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	padding: 0px;
+	border-right-width: 1px;
+	border-right: solid 1px;
+	margin: 0;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	text-indent: 0px;
+	padding-left: 20px;
+	text-align: left;
+	border-bottom: none 0px;
+	border-left: solid 1px;
+	background-color: #dcdcdc;
+	border-color: #6b8e23;
+}
+
+p.Butt_ohneRahmen
+{
+	font: Arial;
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: bold;
+	margin: 0px;
+	border-right: none 0px;
+	border-left: none 0px;
+	background-color: #dcdcdc;
+	border-left-style: none;
+	border-left-width: 0px;
+	border-right-style: none;
+	border-right-width: 0px;
+	border-top-style: none;
+	border-bottom-style: none;
+	border-bottom-width: 0px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	color: #800000;
+}
+
+p.Button_ohneRahmen_text
+{
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	padding: 0px;
+	border-right-width: 1px;
+	margin: 0;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	text-indent: 0px;
+	padding-left: 20px;
+	text-align: left;
+	border-bottom: none 0px;
+	border-right: none 0px;
+	border-left-width: 0px;
+	border-left: none 0px;
+	background-color: #dcdcdc;
+	line-height: 20px;
+}
+
+p.Butt_Text_links
+{
+	text-indent: 0px;
+	font-size: 10pt;
+	font-family: Arial;
+	margin-right: 0px;
+	margin-left: 0px;
+	border-bottom: none 0px;
+	border-color: #6b8e23;
+	border-left: solid 1px;
+	margin-bottom: 1, 12em;
+	margin-top: 1, 12em;
+	border-right-style: solid;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-align: left;
+	padding-left: 4px;
+	background-color: #dcdcdc;
+	margin: 0;
+	border-right: solid 1px;
+}
+
+p.Button_text_check
+{
+	border-bottom: none 0px;
+	border-bottom-color: #6b8e23;
+	border-color: #6b8e23;
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	margin: 0;
+	padding: 0px;
+	padding-bottom: 4px;
+	padding-left: 20px;
+	padding-top: 4px;
+	text-align: left;
+	text-indent: 20px;
+	background-color: #dcdcdc;
+	border: solid 0px #6b8e23;
+	border-left: solid 1px #6b8e23;
+	border-right: solid 1px #6b8e23;
+}
+
+p.Standard_Aufz2
+{
+	margin-top: 3px;
+}
+
+p.Standard_Aufz21
+{
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	mc-auto-number-class: 1;
+	mc-auto-number-offset: 20 px;
+	text-align: left;
+	mc-auto-number-format: '{n+}.  ';
+	mc-auto-number-position: outside-head;
+	padding: 0;
+	padding-left: 20px;
+	margin-top: 3px;
+	display: block;
+}
+
+li
+{
+	
+}
+
+b.button_Char
+{
+	font-weight: bold;
+	font-style: normal;
+	font-size: 10pt;
+	color: #800000;
+	font-family: Arial;
+}
+
+table
+{
+	font-family: Arial;
+	font-size: 10pt;
+	border: solid 1px;
+	border-bottom-color: #000000;
+}
+
+td.TableStyle_SIRIOTable_Body_0_0_RowSep_ColEnd
+{
+	line-height: 20px;
+}
+
+b
+{
+	font-family: Arial;
+}
+
+abbr
+{
+	font-family: Arial;
+}
+
+acronym
+{
+	font-family: Arial;
+}
+
+big
+{
+	font-family: Arial;
+}
+
+code
+{
+	font-family: Arial;
+}
+
+cite
+{
+	font-family: Arial;
+}
+
+del
+{
+	font-family: Arial;
+}
+
+em
+{
+	font-family: Arial;
+}
+
+i
+{
+	font-family: Arial;
+}
+
+ins
+{
+	font-family: Arial;
+}
+
+kbd
+{
+	font-family: Arial;
+}
+
+small
+{
+	font-family: Arial;
+	font-size: 10px;
+}
+
+u
+{
+	font-family: Arial;
+}
+
+o
+{
+	font-family: Arial;
+}
+
+samp
+{
+	font-family: Arial;
+}
+
+span
+{
+	font-family: Arial;
+}
+
+strike
+{
+	font-family: Arial;
+}
+
+strong
+{
+	font-family: Arial;
+}
+
+sup
+{
+	font-family: Arial;
+}
+
+sub
+{
+	font-family: Arial;
+}
+
+tt
+{
+	font-family: Arial;
+}
+
+var
+{
+	font-family: Arial;
+}
+
+s
+{
+	font-family: Arial;
+}
+
+br
+{
+	font-family: Arial;
+}
+
+br:before
+{
+	font-family: Arial;
+}
+
+MadCap|section
+{
+	font-family: Arial;
+}
+
+MadCap|footnotesBlock
+{
+	font-family: Arial;
+}
+
+MadCap|footnoteBlock
+{
+	font-family: Arial;
+}
+
+MadCap|footnote
+{
+	font-family: Arial;
+}
+
+p.Butt_oben_Rahmen
+{
+	font: Arial;
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: bold;
+	margin: 0px;
+	border-left: solid 1px;
+	border-right: solid 1px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #6b8e23;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #6b8e23;
+	border-bottom-width: 0px;
+	background-color: #dcdcdc;
+	color: #800000;
+	border-top: solid 1px #6b8e23;
+}
+
+p.Button_eingerueckt
+{
+	font-family: Arial;
+	font-size: 10pt;
+	color: #800000;
+	font-style: normal;
+	font-weight: bold;
+	margin: 3px;
+	border-width: 1px;
+	width: auto;
+	border-collapse: inherit;
+	display: inline;
+	margin-top: 3px;
+	background-color: #dcdcdc;
+	border-color: #6b8e23;
+	text-indent: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-left-style: solid;
+	border-left-width: 1;
+	border-left-color: #6b8e23;
+	border-right-style: solid;
+	border-right-width: 1;
+	border-right-color: #6b8e23;
+	border-top-style: solid;
+	border-top-width: 1;
+	border-top-color: #6b8e23;
+	border-bottom-style: solid;
+	border-bottom-width: 1;
+	border-bottom-color: #6b8e23;
+}
+
+p.Ausgabefeld_top
+{
+	font: Arial;
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: bold;
+	padding: 4px;
+	margin: 0px;
+	border-left-color: #6b8e23;
+	border-right-color: #6b8e23;
+	border-bottom-width: 0px;
+	border-left: solid 1px;
+	border-right: solid 1px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	background-color: #dcdcdc;
+	border-color: #6b8e23;
+	border-width: 1 px;
+	border-left-width: 1;
+	border-right-width: 1;
+	border-top: solid 1px;
+}
+
+p.Standard_Aufz\0000E4hlung_einger\0000FCckt
+{
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	mc-auto-number-class: 1;
+	mc-auto-number-offset: 20 px;
+	text-align: left;
+	mc-auto-number-format: '{n+}.  ';
+	mc-auto-number-position: outside-head;
+	margin-top: 0;
+	border-left-style: none;
+	border-left-width: 3px;
+	border-left-color: ;
+	border-right-style: none;
+	border-right-width: 3px;
+	border-right-color: ;
+	border-top-style: none;
+	border-top-width: 3px;
+	border-top-color: ;
+	border-bottom-style: none;
+	border-bottom-width: 3px;
+	border-bottom-color: ;
+	margin-bottom: 3px;
+	padding-left: 20px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-top: 3;
+}
+
+p.Standard_Nummerierung
+{
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-bottom: 1, 12em;
+	margin-top: 1, 12em;
+	margin-right: 0px;
+	margin-left: 0px;
+	mc-auto-number-format: '{n+}';
+	mc-auto-number-class: ;
+	padding: 0px;
+	padding-left: 0;
+	text-indent: 10px;
+}
+
+p.Butt_einger\0000FCckt
+{
+	font: Arial;
+	font-family: Arial;
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: bold;
+	border-left: solid 1px;
+	border-right: solid 1px;
+	background-color: #dcdcdc;
+	color: #800000;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0;
+	padding-left: 20px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #6b8e23;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #6b8e23;
+	border-bottom-width: 0px;
+}
+
+a.Popup2
+{
+	font-weight: bold;
+	font-style: normal;
+	font-size: 10pt;
+	font-family: Arial;
+	text-decoration: none;
+}
+
+p.Aktion_Detailed_Messages
+{
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 10pt;
+	margin-bottom: 1, 12em;
+	margin-top: 1, 12em;
+	margin-right: 0px;
+	margin-left: 0px;
+	color: #2e8b57;
+}
+
+p.only
+{
+	
+}
+
+small.only
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	color: #696969;
+}
+
+html.SIRIOStylesheetMaster
+{
+	mc-master-page: url('../MasterPages/SIRIOMasterPage.flmsp');
+}
+
+html.SIRIOStylesheetMasterPage
+{
+	mc-master-page: url('../MasterPages/SIRIOMasterPage.flmsp');
+}
+
+html.SpecialMasterPage
+{
+	mc-master-page: url('../MasterPages/SIRIOMasterPage.flmsp');
+}
+
+@media print
+{
+	h3
+	{
+		mc-heading-level: 0;
+	}
+
+	h4
+	{
+		mc-heading-level: 0;
+	}
+
+	h5
+	{
+		mc-heading-level: 0;
+	}
+
+	h6
+	{
+		mc-heading-level: 0;
+	}
+
+	h1
+	{
+		clear: none;
+		mc-float: none;
+		column-break-before: auto;
+		frame-break-before: auto;
+		page-break-after: avoid;
+		page-break-before: always;
+		border-bottom-style: solid;
+		border-bottom-width: 0px;
+		border-bottom-color: #191970;
+		margin-bottom: 0;
+		margin-top: 0;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+
+	h2
+	{
+		page-break-before: always;
+	}
+}
+

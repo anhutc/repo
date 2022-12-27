@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:PathToHelpSystem="../../../" MadCap:HelpSystemFileName="SIPLACE_Vision.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Board edge detection: Fine search</title>
+        <link href="../../Resources/TableStyles/mDesk.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/Stylesheets/SIPLACEVision.css" rel="stylesheet" type="text/css" />
+        <script src="../../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor334"></a>Board edge detection: Fine search</h1>
+        <p class="Standard">The <a href="Ovl_PCBEdge_Coarse.htm">coarse search</a> may yield several potential candidates for a board edge.</p>
+        <p class="see">For each candidate detected by the coarse search, scan lines are defined perpendicular to the expected board edge. The system searches for transitions between light and dark (sudden differences in grayscale values) along these scan lines. If the differences in grayscale values are large enough (larger than the specified <a href="Manip_ManipPCBEdgeParams.htm">Minimum contrast</a> threshold), the position may be an edge position.</p>
+        <p class="Standard">&#160;</p>
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/mDesk.css');" class="TableStyle-mDesk" cellspacing="2">
+            <col class="TableStyle-mDesk-Column-Spalte1">
+            </col>
+            <col class="TableStyle-mDesk-Column-Spalte1">
+            </col>
+            <tbody>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p>Green outline</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p>Detected board edge: The result is above the quality threshold and the position is within the presentation tolerance.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p>Red outline</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p>The search was not successful: The board edge was not detected.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p class="Tabellentext">Green crosses</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p class="Tabellentext">Detected edge positions located on the calculated line.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p class="Tabellentext">Light blue crosses</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p class="Tabellentext">Detected light/dark transitions that are not located on the calculated straight line and are thus not recognized as edge positions.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p class="Tabellentext">Yellow line</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p class="Tabellentext">Scan line on which an edge position was detected.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p>Orange line</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p>Scan line on which a clear light/dark transition was detected but where the position of the transition is too far from the calculated straight line.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyB-Spalte1-Body1">
+                        <p>Red line</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyA-Spalte1-Body1">
+                        <p>Scan line on which no sufficiently large light/dark transition was detected. </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="Maßnahme">&#160;</p>
+        <p class="see">Result:</p>
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/mDesk.css');" class="TableStyle-mDesk" cellspacing="2">
+            <col style="width: 181px;" class="TableStyle-mDesk-Column-Spalte1" />
+            <col style="width: 691px;" class="TableStyle-mDesk-Column-Spalte1" />
+            <tbody>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyB-Spalte1-Body1">
+                        <p class="Tabellentext">Quality of current position</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyA-Spalte1-Body1">
+                        <p>Ratio of detected edge points to expected edge points for the potential board edge shown.</p>
+                        <p>This value is compared with the specified threshold "Minimum recognition quality".</p>
+                        <p>If the result is above this threshold, the candidate is marked as a potential board edge.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="Maßnahme">If several valid board edge candidates are identified (green outline), the position hose center is closest to the specified position is selected as the board edge.</p>
+        <p class="Maßnahme">&#160;</p>
+        <p class="see">See also</p>
+        <p class="Ursache"><a href="PCBEdge.htm">Detecting board edges</a>
+        </p>
+        <p class="standard"><a href="../../DIPF/Dipf_PCB_EDGE.htm">Describing a board edge</a>
+        </p>
+        <p class="standard"><a href="Manip_ManipPCBEdgeParams.htm">Recognition parameters</a>
+        </p>
+        <p class="standard"><a href="Ovl_PCBEdge_Coarse.htm">Coarse search</a>
+        </p>
+        <script type="text/javascript" src="../../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

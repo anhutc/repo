@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin Version="1" Anchors="Width,Height" Width="100px" Height="100px" Top="0px" Left="0px" Bottom="0px" Right="0px" Tabs="" UseBrowserDefaultSize="true" UseDefaultBrowserSetup="false" CommentsInTopic="true" Title="Parameter" EnableAboutBox="false">
+    <!-- saved from url=(0016)http://localhost -->
+    <Index BinaryStorage="True" />
+    <Stylesheet Link="Stylesheet.xml">
+    </Stylesheet>
+    <WebHelpOptions VisibleAccordionItemCount="0" NavigationPanePosition="Right" NavigationPaneWidth="1" />
+    <Toolbar EnableCustomLayout="true" Buttons="" />
+</CatapultSkin>

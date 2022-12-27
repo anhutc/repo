@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html class="" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en" xml:lang="en" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="Index.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Settings &gt; Machine options          : Fault detection</title>
+        <link href="../Resources/Stylesheets/SIRIOStylesheet.css" rel="stylesheet" type="text/css" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor2759"></a>Settings &gt; Machine options          <img src="../Images/Settings/SettingsTool48x48.png" /><img src="../Images/Settings/MachineOptions48x48.png" />: Fault detection</h1>
+        <p class="Group_Box_Top">If oscillating board is detected</p>
+        <p class="Butt_Text_links">"Oscillating" boards are detected by discrepancies in the placement heights (the Z axis travels further down or less far down than expected).</p>
+        <p class="Butt_Text_links"> To ensure the greatest possible placement accuracy, you should always use board support if this problem arises. If Smart pin support is enabled, check the positions of the support pins.</p>
+        <p class="Ausgabefeld">Here, you can choose how the machine is to react if oscillating boards are detected:</p>
+        <p class="Butt">Ignore fault</p>
+        <p class="Button_text">No message is issued and placement continues without interruption.</p>
+        <p class="Butt">Reduce speed</p>
+        <p class="Button_text">Placement speed is reduced automatically.<br /></p>
+        <p class="Butt">Stop production</p>
+        <p class="Button_text">The machine is stopped and an error message is issued. <br />Production continues after the Start button has been pressed.<br /></p>
+        <p class="Butt_eingerückt">Threshold [mm]</p>
+        <p class="Button_text">If the placement plane deviates by more than the value specified here, the system detects an oscillating board.</p>
+        <p class="Group_Box_Top">Automatic feeder pitch detection for all tracks</p>
+        <p class="Butt_Text_links">During the initial attempts to pick up a component from a feeder, the machine should automatically detect what feeder pitch is to be set.</p>
+        <p class="Butt_Text_links">The setting made here applies to all feeders of the corresponding type </p>
+        <p class="Butt_Text_links">- after a new job has been specified<br />- after a feeder has been mounted <br />- after a splice has been detected<br />- after an empty track error has been issued</p>
+        <p class="Butt">Feeder type (e.g. 8 mm feeder)</p>
+        <p class="Button_text">
+            <img src="../Images/General/CheckboxSelected32x32.png" /> Automatic detection is performed for all feeders of the specified type as soon as one of the criteria listed above is met.</p>
+        <p class="Button_text">
+            <img src="../Images/General/CheckboxNotSelected32x32.png" /> No automatic detection is performed (default).</p>
+        <p class="Group_Box_Top">If erorrs are detected during conveyor reference run</p>
+        <p class="Butt_Text_links">If an error occurs on one lane during the reference run, and if this lane cannot be used for production, it is possible to proceed with production using the other lane only.</p>
+        <p class="Butt">Block input section and deactivate related conveyor lane</p>
+        <p class="Button_text">
+            <img src="../Images/General/CheckboxSelected32x32.png" /> Emergency operation: The affected lane is locked and the other lane is used for production.</p>
+        <p class="Button_text">
+            <img src="../Images/General/CheckboxNotSelected32x32.png" /> The machine stops (default).</p>
+        <p class="Group_Box_Top">Support pins</p>
+        <p class="Butt">Check positions of support pins periodically</p>
+        <p class="Button_text">
+            <img src="../Images/General/CheckboxSelected32x32.png" /> The check is carried out.</p>
+        <p class="Button_text">
+            <img src="../Images/General/CheckboxNotSelected32x32.png" /> No inspection is performed (default).</p>
+        <p class="Butt_eingerückt">Time interval [min.]:</p>
+        <p class="Button_text">Here you can specify the time interval after which the positions are to be inspected. Default:&#160;60 minutes.</p>
+        <p class="Butt_Text_links">After the specified time interval has elapsed, the input conveyor is locked and all the boards remaining in the machine are completely assembled and transported out of the machine. The support pins are then inspected in order to identify whether they are still located at their respective specified positions. If this is not the case, they are moved to their original positions.<br />Placement is then restarted</p>
+        <p class="Group_Box_Top">Steadiness of board position</p>
+        <p class="Butt"> <img src="../Images/General/arrowDown_18x18.png" style="width: 18;height: 18;" /></p>
+        <p class="Butt_eingerückt">Do not verify (default) </p>
+        <p class="Button_text">Default.</p>
+        <p class="Butt_eingerückt">Verify using only board fiducials</p>
+        <p class="Button_text">Checks board clamping in the machine on the basis of the fiducials for board position recognition.<br />If the board was not clamped correctly, with the result that it moved during placement, you must check the clamping mechanism.</p>
+        <p class="Butt_eingerückt">Verify using all fiducials</p>
+        <p class="Button_text">The fiducials for the various boards are checked in addition to the fiducials for board position recognition to ensure that all the panels are in the correct position. </p>
+        <p class="Button_text"><strong>Note: </strong>Because performance will deteriorate if additional checking is enabled, it is recommended that the check is only enabled in the event of placement offsets that have not been clarified.</p>
+        <p class="Butt_eingerückt">Tolerance [mm]</p>
+        <p class="Button_text">Maximum permitted discrepancy between the fiducial position determined with the new measurement and the position from the original measurement.</p>
+        <p class="Group_Box_Top">Plausibility of fiducial measurement</p>
+        <p class="Butt">Check plausibility of fiducial distances</p>
+        <p class="Button_text">The board fiducials are checked to see whether they are located at a distance from each other specified in SIPLACE&#160;Pro.</p>
+        <p class="Button_text">In the event of an error, check the description of the board fiducials and ensure that no disruptive structures (artifacts) have been measured.</p>
+        <p class="Butt_eingerückt">Tolerance [mm]</p>
+        <p class="Button_text">Maximum permitted deviation from the distance between fiducials as specified in SIPLACE&#160;Pro.</p>
+        <p class="Button_text">
+            <img src="../Images/General/CheckboxSelected32x32.png">
+            </img> The check is carried out. This is recommended in the event of a placement offset.</p>
+        <p class="Button_text_bottom">
+            <img src="../Images/General/CheckboxNotSelected32x32.png" /> No inspection is performed (default).</p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" MadCap:conditionTagExpression="" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en" xml:lang="en" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="Index.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Snap-in</title>
+        <link href="../Resources/Stylesheets/SIRIOStylesheet.css" rel="stylesheet" type="text/css" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor2480"></a>Snap-in</h1>
+        <p>&#160;</p>
+        <p>In the case of certain components, particularly connectors, it must be ensured that they are securely attached to the board. This can be achieved with locking lugs (board locks), for instance. These are pushed through the board and the locking lug engages. To do this, these components are placed with the maximum possible force. The board can be prevented from bending by placing support pins as close as possible to these placement positions.</p>
+        <p>&#160;</p>
+        <p>The height is then checked to ensure that the component is seated correctly.</p>
+        <p>After the first component for which snap-in detection has been specified has been placed, the board stops for inspection. You must inspect it visually to decide whether the component has been placed correctly, i.e. whether or not the locking mechanism is engaged. If the component is flagged as correctly placed, the Z height measured for this component (i.e. the stored value for the lowest point reached by the Z axis when the component was placed) is taken as the Z reference height.</p>
+        <p>&#160;</p>
+        <table style="width: 100%;">
+            <col />
+            <col />
+            <col />
+            <col />
+            <tbody>
+                <tr>
+                    <td>
+                        <p class="Standard_table">Correctly placed:</p>
+                    </td>
+                    <td>
+                        <p class="Standard_table">Not snapped in:</p>
+                    </td>
+                    <td>
+                        <p class="Standard_table">&#160;</p>
+                    </td>
+                    <td>
+                        <p class="Standard_table">&#160;</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        <p class="Standard_table">
+                            <img src="../Images/Board/Snap-in/Snap-in_Reference.png" />
+                        </p>
+                        <p class="Standard_table">&#160;</p>
+                    </td>
+                    <td rowspan="2">
+                        <p class="Standard_table">
+                            <img src="../Images/Board/Snap-in/Snap-in_ReferenceNOK.png" />
+                        </p>
+                        <p class="Standard_table">&#160;</p>
+                    </td>
+                    <td style="text-align: left;vertical-align: top;padding-left: 1px;padding-right: 5px;">
+                        <p class="Standard_table">1 </p>
+                    </td>
+                    <td style="text-align: left;vertical-align: top;">
+                        <p class="Standard_table">Z reference height</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: left;vertical-align: top;padding-left: 1px;padding-right: 5px;">
+                        <p class="Standard_table">2 </p>
+                    </td>
+                    <td style="text-align: left;vertical-align: top;">
+                        <p class="Standard_table">Measured difference between the current Z height and the Z reference height.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Snap-in detection for all further components:</p>
+        <p>If the measured difference between the current Z height and the Z reference height is greater than a threshold value specified in the programming system, the component is flagged as being incorrectly placed.</p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

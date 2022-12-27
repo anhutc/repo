@@ -1,0 +1,15 @@
+var xmlSkinData = "";
+xmlSkinData += '<?xml version=\"1.0\" encoding=\"utf-8\"?>';
+xmlSkinData += '<CatapultSkin Version=\"1\" Comment=\"This is the default skin\" Anchors=\"Right,Top,Width\" Width=\"834px\" Height=\"771px\" Top=\"0px\" Left=\"0px\" Bottom=\"0px\" Right=\"0px\" Tabs=\"TOC,Index,Search\" DefaultTab=\"TOC\" UseBrowserDefaultSize=\"true\" UseDefaultBrowserSetup=\"False\" Title=\"SIPLACE Vision 431\" BrowserSetup=\"Toolbar,Menu,Resizable\" AutoSyncTOC=\"True\">';
+xmlSkinData += '    <!-- saved from url=(0016)http://localhost -->';
+xmlSkinData += '    <Index BinaryStorage=\"True\" />';
+xmlSkinData += '    <HtmlHelpOptions ShowMenuBar=\"True\" TopmostWindowStyle=\"True\" Buttons=\"Hide,Locate,Back,Forward,Refresh,Print\" EnableButtonCaptions=\"True\" AdvancedSearch=\"True\" AutoShowNavigationPane=\"True\" />';
+xmlSkinData += '    <Stylesheet Link=\"Stylesheet.xml\">';
+xmlSkinData += '    </Stylesheet>';
+xmlSkinData += '    <Toolbar EnableCustomLayout=\"true\" Buttons=\"Back|Forward|SelectTOC|SelectIndex|SelectSearch|Home\">';
+xmlSkinData += '        <Script />';
+xmlSkinData += '    </Toolbar>';
+xmlSkinData += '    <WebHelpOptions NavigationPaneWidth=\"250\" NavigationPanePosition=\"Left\" VisibleAccordionItemCount=\"3\" AboutBox=\"About.png\" AboutBoxWidth=\"32\" AboutBoxHeight=\"32\">';
+xmlSkinData += '    </WebHelpOptions>';
+xmlSkinData += '</CatapultSkin>';
+CMCXmlParser._FilePathToXmlStringMap.Add('Skin', xmlSkinData);

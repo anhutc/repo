@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="47" MadCap:lastWidth="574">
+    <head>
+        <link href="../Stylesheets/Sirio.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body style="line-height: 20, 12px;">
+        <MadCap:bodyProxy class="Sirio_popup" />
+        <MadCap:pageHeader class="OddPage">
+        </MadCap:pageHeader>
+        <MadCap:pageHeader class="EvenPage" />
+    </body>
+</html>

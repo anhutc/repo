@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html class="" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en" xml:lang="en" MadCap:PathToHelpSystem="../../../" MadCap:HelpSystemFileName="Index.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title> Test acceleration values</title>
+        <link href="../../Resources/TableStyles/mDesk.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/Stylesheets/SIRIOStylesheet.css" rel="stylesheet" type="text/css" />
+        <script src="../../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor2816"></a><a name="kanchor2817"></a>
+            <img src="../../Images/Setup/TeachGF/TestAccelerations32x32.png" /> Test acceleration values</h1>
+        <p>The aim is to check that the maximum permitted deviations of the component position in X and Y and the maximum permitted rotational deviation are not exceeded over several runs. This is done using acceleration values for the individual axes (X/Y axes and, depending on the head type, the star axis and the DP axis) that have either been specified or determined by teaching.</p>
+        <p>If the values are not exceeded, they can be transfered to the programming system. </p>
+        <p class="See">Configuration</p>
+        <p class="Group_Box_Top">Options</p>
+        <p class="Butt">Nozzle</p>
+        <p class="Button_text">Press the edit box and choose the nozzle to be used to check the acceleration values from the drop-down menu.</p>
+        <p class="Button_text">All nozzles are shown that are assigned to the component shape, are available in the setup and can be used on the placement head that is performing the operation.</p>
+        <p class="Butt">Components must be removed manually <small class="Nur_sichtbar">(can only be set for certain placement heads)</small></p>
+        <p class="Button_text">
+            <img src="../../Images/General/CheckboxNotSelected16x16.png" /> Default: If the function fails or is canceled, the component is rejected automatically.</p>
+        <p class="Button_text">
+            <img src="../../Images/General/CheckboxSelected16x16.png" /> The component must be removed from the nozzle manually when measurement is complete or if an error occurs. This is particularly recommended for expensive components, but is not possible for all head types.</p>
+        <p class="Butt">Number of cycles</p>
+        <p class="Button_text_bottom">The number of times the combined movement of all axes is repeated. </p>
+        <p class="Group_Box_Top_ohneRahmenoben">Acceleration values</p>
+        <p class="Ausgabefeld">Current values (programming system)</p>
+        <p class="Button_text">The acceleration values for the X/Y axes, the star axis and the DP axis as specified for the component shape in the programming system. The values are expressed as percentages of the maximum possible acceleration.</p>
+        <p class="Ausgabefeld">Values for test</p>
+        <p class="Button_text_bottom">Enter the values for which you want to perform a test run.</p>
+        <p class="See">Execution</p>
+        <p class="Standard">The progress bar shows the percentage of the specified repetitions already completed.</p>
+        <p class="Standard">The current camera image is shown in each case.</p>
+        <p class="See">Results</p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/mDesk.css');" class="TableStyle-mDesk" cellspacing="2">
+            <col class="TableStyle-mDesk-Column-Spalte1" />
+            <col class="TableStyle-mDesk-Column-Spalte1" />
+            <col class="TableStyle-mDesk-Column-Spalte1" />
+            <tbody>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p class="Standard_table">#</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1" colspan="2">
+                        <p class="Standard_table">Repetition.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p class="Standard_table">Deviation X / Deviation Y [µm]</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1" colspan="2">
+                        <p class="Standard_table">The deviation of the component position in X and Y in [µm] determined during the specified repetition using the specified acceleration values.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p class="Standard_table">Angle deviation [°]</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1" colspan="2">
+                        <p class="Standard_table">The rotational deviation of the component in [°] determined during the specified repetition using the specified acceleration values.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1" rowspan="2">
+                        <p class="Standard_table">Status</p>
+                        <p class="Standard_table">&#160;</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p class="Standard_table"><a href="../../Images/General/Ok20x20.png"><img src="../../Images/General/Ok20x20.png" /></a>
+                        </p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p class="Standard_table">The deviations that have been determined are less than the maximum permitted deviations.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyB-Spalte1-Body1">
+                        <p class="Standard_table">
+                            <img src="../../Images/General/Failed20x20.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyA-Spalte1-Body1">
+                        <p class="Standard_table">At least one of the deviations that have been determined is greater than the maximum permitted deviation. </p>
+                        <p class="Standard_table">The acceleration values used cannot be transfered to the programming system.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="Butt_ohneRahmen">Upload acceleration values to programming system</p>
+        <p class="Button_ohneRahmen_text">The acceleration values for the individual axes as used for the test run are transferred to the programming system when the test run has been completed successfully. The component shape is changed accordingly and these values are then used for placement operations.</p>
+        <p class="Standard_table">&#160;</p>
+        <p class="Butt_ohneRahmen">
+            <img src="../../Images/General/Start32x32_27x27.png" style="width: 27;height: 27;">
+            </img> Start / Restart</p>
+        <p class="Button_ohneRahmen_text">Starts the measurement operation.</p>
+        <p class="Butt_ohneRahmen">
+            <img src="../../Images/General/StopProduction32x32_23x23.png" style="width: 23;height: 23;">
+            </img> Stop</p>
+        <p class="Button_ohneRahmen_text">Interrupts the measurement operation.</p>
+        <p class="Butt_ohneRahmen">
+            <img src="../../Images/General/Close32x32.png">
+            </img> Close </p>
+        <p class="Button_ohneRahmen_text">Stops the measurement operation without saving the determined values.</p>
+        <script type="text/javascript" src="../../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

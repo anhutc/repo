@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html class="" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:tocPath="Setup|Locations and conveyor" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en" xml:lang="en" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="Index.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Smart pin support</title>
+        <link href="../Resources/TableStyles/SIRIO Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/Stylesheets/SIRIOStylesheet.css" rel="stylesheet" type="text/css" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor11"></a>Smart pin support</h1>
+        <p>In order to prevent large boards in particular from bending in the processing area, it is necessary to support the board with support pins that are placed on the lifting table automatically using a gripper (pin pickup). </p>
+        <p>The positions at which the support pins are  to be placed are specified in the product data by the programming system.</p>
+        <p>If there are already any support pins on the lifting table when the product is changed, these pins are moved to the new positions. Any missing pins are taken from a special pin magazine and placed on the lifting table as well. </p>
+        <p>To start with, those support pins that the programming system has identified as "required" are placed on the lifting table. The "optional" pins are then placed in accordance with the specified priority.</p>
+        <p class="Standard_Hinweis">There are 4 different pin magazines in the current version:</p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/SIRIO Basic.css');" class="TableStyle-mDesk" cellspacing="2">
+            <col style="width: 72px;" class="TableStyle-mDesk-Column-Spalte1" />
+            <col class="TableStyle-mDesk-Column-Spalte1" />
+            <col class="TableStyle-mDesk-Column-Spalte1" />
+            <tbody>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1" style="line-height: 21px;text-align: left;vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;">
+                        <img src="../Images/SmartPinSupport/PinMagazineL10.PNG" />
+                    </td>
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1" style="line-height: 21px;text-align: left;vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;">
+                        <p>10 support pins <br /></p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1" style="text-align: left;vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;">
+                        <p>L10</p>
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1" style="line-height: 21px;text-align: left;vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;">
+                        <img src="../Images/SmartPinSupport/PinMagazineQ10.PNG" />
+                    </td>
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1" style="line-height: 21px;text-align: left;vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;">10 support pins <br /></td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1" style="text-align: left;vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;">
+                        <p>Q10</p>
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1" style="line-height: 21px;text-align: left;vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;">
+                        <img src="../Images/SmartPinSupport/PinMagazineW5.PNG" />
+                    </td>
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1" style="line-height: 21px;text-align: left;vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;">5 support pins <br /></td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1" style="text-align: left;vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;">
+                        <p>W5</p>
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyB-Spalte1-Body1" style="line-height: 21px;text-align: left;vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;">
+                        <img src="../Images/SmartPinSupport/PinMagazineT5.PNG" alt="" title="" />
+                    </td>
+                    <td class="TableStyle-mDesk-BodyB-Spalte1-Body1" style="line-height: 21px;text-align: left;vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;">5 support pins</td>
+                    <td class="TableStyle-mDesk-BodyA-Spalte1-Body1" style="text-align: left;vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;">T5</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="Standard_Hinweis">Supported pin type</p>
+        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/SIRIO Basic.css');" class="TableStyle-mDesk" cellspacing="2">
+            <col style="width: 77px;" class="TableStyle-mDesk-Column-Spalte1" />
+            <col class="TableStyle-mDesk-Column-Spalte1" />
+            <tbody>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyB-Spalte1-Body1" style="line-height: 21px;text-align: left;vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;">
+                        <img src="../Images/SmartPinSupport/PinType101_40x137.png" style="width: 40;height: 137;" />
+                    </td>
+                    <td class="TableStyle-mDesk-BodyA-Spalte1-Body1" style="line-height: 21px;text-align: left;vertical-align: top;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;">
+                        <p>Type 101<br /></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>The support pins can only be placed when there are no longer any boards in the machine. If you're using barcode support for placement, you should therefore try to make sure that the same positions are used wherever possible, in order to avoid excessive changeover times.</p>
+        <p>All support pins must be returned to the magazines if any conversion work is done on the conveyor (e.g. width adjustment or fixing the fixed conveyor rail). Exception: If the conveyor lane width is increased or reduced by less than 3 mm.</p>
+        <p>&#160;</p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

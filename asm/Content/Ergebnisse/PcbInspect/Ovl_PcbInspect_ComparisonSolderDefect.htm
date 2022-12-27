@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html class="" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:PathToHelpSystem="../../../" MadCap:HelpSystemFileName="SIPLACE_Vision.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Recognition step: Solder defect comparison</title>
+        <link href="../../Resources/TableStyles/Basis.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/Stylesheets/SIPLACEVision.css" rel="stylesheet" type="text/css" />
+        <script src="../../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor336"></a>Recognition step: Solder defect comparison</h1>
+        <h5>Comparison of individual faulty solder deposits: Solder deposit in model - Solder deposit on current board.</h5>
+        <table style="width: 100%;">
+            <col style="width: 39px;" />
+            <col />
+            <tbody>
+                <tr>
+                    <td colspan="2" style="text-align: left;vertical-align: top;">
+                        <p>A solder deposit is identified as <b>faulty</b> if at least one threshold is exceeded:</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: left;vertical-align: top;">
+                        <p>•</p>
+                    </td>
+                    <td style="text-align: left;vertical-align: top;">
+                        <p>The height of the current solder deposit differs from the height of the solder deposit in the model by more than the specified threshold (<a href="../../Learning/PcbInspect/Wizard_PcbInspectApplyResult.htm">Maximum height difference for solder deposits</a>).</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: left;vertical-align: top;">
+                        <p>•</p>
+                    </td>
+                    <td style="text-align: left;vertical-align: top;">
+                        <p>The volume of the current solder deposit differs from the volume of the solder deposit in the model by more than the specified percentage (<a href="../../Learning/PcbInspect/Wizard_PcbInspectApplyResult.htm">Maximum or minimum volume difference for solder deposits</a>).</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/Basis.css');" class="TableStyle_Basis" cellspacing="0">
+            <col style="width: 411px;" />
+            <col style="width: 431px;" />
+            <tbody>
+                <tr>
+                    <td class="TableStyle_Basis_Body_0_0_RowSep_ColEnd" style="text-align: left;vertical-align: top;padding-left: 10px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;" colspan="2">
+                        <p>Example:</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_Basis_Body_0_0_RowEnd_ColSep" style="text-align: left;vertical-align: top;padding-left: 10px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;">
+                        <img src="../../Images/BoardInspection/ComparisonSolderDefect.png" style="width: 225px;height: 191px;" />
+                    </td>
+                    <td class="TableStyle_Basis_Body_0_0_RowEnd_ColEnd" style="text-align: left;vertical-align: top;padding-left: 10px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;">
+                        <p>The solder deposit in the model (on the left in the image) is higher than the current solder deposit.</p>
+                        <p>The difference is greater than that specified under Maximum height difference for solder deposits.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="see">Note:</p>
+        <p>If errors occur frequently when comparing heights of BGA components, in particular, check whether the learned heights in the model fluctuate significantly. If this is the case, enable <a href="../../Learning/PcbInspect/Wizard_PcbInspectApplyResult.htm">Average solder height as reference</a>.</p>
+        <p> <![CDATA[ ]]></p>
+        <p class="see">See also</p>
+        <p class="standard"><a href="../../Display/DisplayFunctions.htm">Display functions: Zoom, Pseudocolors, ...</a>
+        </p>
+        <p><a href="../../Display/schaltflaechen_bauelemente_ergebnisansicht.htm">Buttons: New measurement, Capture new image, ...</a>
+        </p>
+        <script type="text/javascript" src="../../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

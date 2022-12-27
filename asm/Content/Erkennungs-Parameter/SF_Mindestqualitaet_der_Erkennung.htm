@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html class="" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="Mindestqualität_der_Erkennung" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:status="In Progress" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="SIPLACE_Vision.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Minimum recognition quality</title>
+        <link rel="StyleSheet" href="../Resources/Stylesheets/SIPLACEVision.css" />
+        <style>
+body
+{
+	background-color: #ffffff;
+}
+
+</style>
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor393"></a>Minimum recognition quality</h1>
+        <p>The recognition quality corresponds to the ratio edge points found : edge points searched for.</p>
+        <p>The specified threshold must be exceeded if the <span style="font-weight: bold;">fiducial</span> is to be flagged as recognized. </p>
+        <p>The following applies for <span style="font-weight: bold;">ink spots</span>: If the proportion of edge points found is above the threshold, the subpanel is assembled, otherwise it is omitted.</p>
+        <p>&#160;</p>
+        <p>Default: 0.7 -&gt; at least 70 % of the edge points that the system searches for must be found.</p>
+        <p>Recommended setting: 0.5 through 0.9.</p>
+        <ul>
+            <li class="punkt" value="1">Reduction of the value:<br />Reducing the threshold means that poorly defined fiducials will still be recognized.<br /><br />Caution: There is an increased risk of structures being confused and the robustness of position recognition suffering if the threshold is lowered.</li>
+        </ul>
+        <p>&#160;</p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

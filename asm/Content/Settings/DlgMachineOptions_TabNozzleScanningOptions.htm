@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html class="" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en" xml:lang="en" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="Index.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Settings &gt; Machine options   </title>
+        <link href="../Resources/Stylesheets/SIRIOStylesheet.css" rel="stylesheet" type="text/css" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor2762"></a>Settings &gt; Machine options <img src="../Images/Settings/SettingsTool48x48.png"></img><img src="../Images/Settings/MachineOptions48x48.png"></img> <![CDATA[ ]]></h1>
+        <p class="Standard_Hinweis">Nozzle scanning</p>
+        <p class="Standard_Hinweis">These settings apply to all nozzles for which nozzle scanning is activated.</p>
+        <p class="Group_Box_Top">1. Select scanning level</p>
+        <p class="Butt"><span class="tx">Level 1: Check nozzle position</span>
+        </p>
+        <p class="Button_text">Only if it was possible to unambiguously detect the position of the nozzle is it possible to check the higher levels. This level cannot be disabled.</p>
+        <p class="Butt"><span class="tx">Level 2: Check for soiling</span>
+        </p>
+        <p class="Button_text">Soiling caused by solder paste or metal abrasion, for instance, and which increases the brightness of the front face so much that it can influence measurement of a component is detected.</p>
+        <p class="Butt">Level 3: Check nozzle ducts</p>
+        <p class="Button_text">Soiling or blockage of the suction ducts can no longer be detected with a vacuum check in the case of ducts with small cross-sections.</p>
+        <p class="Butt">Level 4: Check nozzle end surface</p>
+        <p class="Button_text">The brightness distribution on the front surface is an indicator of damage to the suction surface / front surface.</p>
+        <p class="Butt_Text_links">&#160;</p>
+        <p class="Butt_Text_links">Activation of one level implicitly activates all lower levels (e.g. if level 3 is activated, levels 1 and 2 are also automatically activated).</p>
+        <p class="Butt_Text_links">This also applies to deactivation:</p>
+        <p class="Butt_Text_links">If level 2 is deactivated, levels 3 and 4 are also automatically deactivated.</p>
+        <p class="Butt_Text_links">&#160;</p>
+        <p class="Group_Box_Top">2. Select self healing action</p>
+        <p class="Butt_Text_links">The function selected here is called as soon as a corresponding error message is issued.</p>
+        <p class="Butt">None</p>
+        <p class="Butt">Clean</p>
+        <p class="Button_text">The nozzle is moved to the air blast removal station.</p>
+        <p class="Butt">Replace</p>
+        <p class="Button_text">The nozzle is rejected, and a new one is picked up and scanned.</p>
+        <p class="Butt">Clean and replace</p>
+        <p class="Button_text">An attempt is made to clean the nozzle using an air blast. If, however, the subsequent nozzle scan still shows an error, the nozzle will be replaced.</p>
+        <p class="Group_Box_Top">3. Select action on error</p>
+        <p class="Butt_Text_links">For each selected level, you can specify what action the machine is to perform in the event of an error:</p>
+        <p class="Butt">None</p>
+        <p class="Button_text">The error will be ignored.</p>
+        <p class="Butt">Show warning</p>
+        <p class="Button_text">A warning is issued and placement continues.</p>
+        <p class="Butt">Stop machine</p>
+        <p class="Button_text_bottom">Placement is stopped.</p>
+        <p class="Butt_ohneRahmen">Restore default values</p>
+        <p class="Button_ohneRahmen_text">The recommended settings for how to proceed in the event of an error are restored.</p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

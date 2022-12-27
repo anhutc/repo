@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="" MadCap:ignoredWords="P20;Zentralwert;StdAbw;pdf;P20A;Zentrier;Reject;xx;behebung;Bestück;FC;xxx;EmbeddedSoftwareSetup';APP;Axis;Protocol;PlaceHeadTypes;xml;VHS;AxisPerformanceProtocol;ehlgeschlagene;CalibrationCtrl;Bero;ventil;Beros;Fahrbereich;Linkstransport;Rechtstransport" MadCap:tocPath="" MadCap:browseSequencePath="Singular Feature" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:PathToHelpSystem="../../../" MadCap:HelpSystemFileName="SIPLACE_Vision.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../../SkinSupport/Slideshow.css" rel="stylesheet" type="text/css" />
+        <link href="../../SkinSupport/MadCap.css" rel="stylesheet" type="text/css" /><title>Recognition step: Result of coarse search</title>
+        <link href="../../Resources/Stylesheets/SIPLACEVision.css" rel="stylesheet" type="text/css" />
+        <script src="../../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor199"></a>Recognition step: Result of coarse search</h1>
+        <h5>Determination of the rough position:</h5>
+        <p>Coarse position recognition is carried out with pairs of test points. At each location in the image, the proportion of point pairs is determined where one point is inside the fiducial and one point is outside the fiducial.</p>
+        <p>The contrast between the two points is then evaluated. Only if this contrast is above a minimum threshold does the point pair return a proportion for determining the position of the fiducial.</p>
+        <p>&#160;</p>
+        <table style="border-spacing: 0px;border-spacing: 0px;" cellspacing="0">
+            <col />
+            <col />
+            <tr valign="top">
+                <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-top-style: Solid;border-top-color: #000000;border-top-width: 1px;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;">
+                    <p>Yellow frame</p>
+                </td>
+                <td style="border-top-style: Solid;border-top-color: #000000;border-top-width: 1px;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;">
+                    <p>Search area (corresponds to fiducial size + twice the positional tolerance).</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;">
+                    <p>Blue points</p>
+                </td>
+                <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;">
+                    <p>Test points on the fiducial or component pocket.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;">
+                    <p>Yellow points</p>
+                </td>
+                <td colspan="1" rowspan="1" style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;">
+                    <p>Test points on the background.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;">
+                    <p>Yellow connecting line</p>
+                </td>
+                <td colspan="1" rowspan="1" style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;">
+                    <p>The contrast between the points of the pair of points which are connected is greater than the specified minimum value: <span class="MCPopup"><a href="javascript:void(0);" MadCap:src="../../Erkennungs-Parameter/SF_Minimaler_Kontrast_-_Empfehlung.htm" onclick="FMCPopup( event, this ); return false;" class="MCPopupSpot">minimum contrast</a></span>.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="border-left-width: 1px;border-left-color: #000000;border-left-style: Solid;border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;">
+                    <p>Red connection line</p>
+                </td>
+                <td style="border-right-width: 1px;border-right-color: #000000;border-right-style: Solid;border-bottom-style: Solid;border-bottom-color: #000000;border-bottom-width: 1px;padding-right: 10px;padding-left: 10px;">
+                    <p>The contrast between the points of the pair of points which are connected is less than the specified minimum value: <span class="MCPopup"><a href="javascript:void(0);" MadCap:src="../../Erkennungs-Parameter/SF_Minimaler_Kontrast_-_Empfehlung.htm" onclick="FMCPopup( event, this ); return false;" class="MCPopupSpot">minimum contrast</a></span>.</p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+        <p>The following parameters affect the result of this recognition step: Minimum contrast, subsampling, number of point pairs and distance between points.</p>
+        <p class="see">&#160;</p>
+        <p class="see">See also</p>
+        <p><a href="../../Erkennungs-Parameter/SF_Markenerkennung_-_Parameter.htm">Parameter</a>
+        </p>
+        <p class="standard"><a href="../../Display/DisplayFunctions.htm">Display functions: Zoom, Pseudocolors, ... </a>
+        </p>
+        <p class="standard"><a href="../../Display/schaltflaechen_marken_ergebnisansicht.htm">Buttons: New measurement, Capture new image, ...</a>
+        </p>
+        <script type="text/javascript" src="../../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html class="" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en" xml:lang="en" MadCap:PathToHelpSystem="../../" MadCap:HelpSystemFileName="Index.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Change job by station</title>
+        <link href="../Resources/Stylesheets/SIRIOStylesheet.css" rel="stylesheet" type="text/css" />
+        <link href="../Resources/TableStyles/SIRIO Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/TableStyles/Innen.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <script src="../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor2861"></a>Change job by station</h1>
+        <p>To be able to obtain the shortest possible product change times, it is possible to specify a new job without having to empty a complete line.</p>
+        <p>This is done separately for each station:</p>
+        <p>If the last board of the current job is loaded into a station, the operator at the station must <a href="Auftragswechsel initiieren.htm">initiate the job change</a>. The current station is emptied. Then the changeover can be performed and once the changeover process has been confirmed, the new job can be processed. </p>
+        <table style="width: 100%;mc-table-style: url('../Resources/TableStyles/SIRIO Basic.css');margin-left: 0;margin-right: auto;" class="TableStyle-mDesk" cellspacing="2">
+            <tbody>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p>
+                            <img src="../Images/StationwiseDownload/SwdConfirmLastBoard_Button_68x49.png" style="width: 68;height: 49;" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p class="Aufz-hlung-neu">1. Station:</p>
+                        <p class="num-neu" style="text-indent: 0px;margin-left: 45px;">A new recipe is specified at the SIPLACE Pro Line Control system.<br />The operator must press this icon when the last board of the previous job (A) moves into the machine.<br /><span style="color: #ff0000;">Caution: If the operator fails to do this at the right time, this may lead to incorrect placement!</span></p>
+                        <p class="Aufz-hlung-neu">All other stations:</p>
+                        <p class="ButtonText-mit-Haken" style="margin-left: 45px;text-indent: 0px;">The last board of the previous job (A) has been moved out of the conveyor of the upstream station.<br />The operator must click this icon when the last board moves onto the input section.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p>
+                            <img src="../Images/StationwiseDownload/SwdConfirmLastBoard_ButtonPressed.PNG" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p>The operator has already confirmed that the last board of the current job (A) has moved in. If this was confirmed at the wrong time, confirmation can be canceled within a period of 10 seconds by pressing the button again.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p>
+                            <img src="../Images/StationwiseDownload/SwdConfirmMenu_Button.PNG" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1" style="padding: 0px;">
+                        <table style="width: 100%;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/Innen.css');" class="TableStyle-Innen_mDesk" cellspacing="1">
+                            <col style="width: 46px;" class="TableStyle-Innen_mDesk-Column-Spalte1" />
+                            <col class="TableStyle-Innen_mDesk-Column-Spalte1" />
+                            <tbody>
+                                <tr class="TableStyle-Innen_mDesk-Body-Body1">
+                                    <td class="TableStyle-Innen_mDesk-BodyD-Spalte1-Body1" colspan="2">
+                                        <p colspan="2">In SIPLACE&#160;Pro, it has been specified that each time a board moves into the input section, the operator will be asked whether this is the last board of job A or the first board of job B.</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Innen_mDesk-Body-Body1">
+                                    <td class="TableStyle-Innen_mDesk-BodyE-Spalte1-Body1">
+                                        <img src="../Images/StationwiseDownload/SwdConfirmMenu.png" />
+                                    </td>
+                                    <td class="TableStyle-Innen_mDesk-BodyD-Spalte1-Body1">
+                                        <p>The input section is locked:</p>
+                                    </td>
+                                </tr>
+                                <tr class="TableStyle-Innen_mDesk-Body-Body1">
+                                    <td class="TableStyle-Innen_mDesk-BodyB-Spalte1-Body1">
+                                        <img src="../Images/StationwiseDownload/SwdNoConfirmMenu.png" />
+                                    </td>
+                                    <td class="TableStyle-Innen_mDesk-BodyA-Spalte1-Body1">
+                                        <p>The board in the input section is not the last board of job A.</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p>
+                            <img src="../Images/StationwiseDownload/SwdScheduleB.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p>The last board of job A has been confirmed, the input section is locked. Job B is not yet active.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyB-Spalte1-Body1">
+                        <p>
+                            <img src="../Images/StationwiseDownload/SwdProduceB.png" />
+                        </p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyA-Spalte1-Body1">
+                        <p>Boards of job B are being moved in and can be produced. They remain in the output section, however, until job B is also active on the downstream station.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

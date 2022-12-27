@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:tocPath="" MadCap:medium="non-print" MadCap:InPreviewMode="false" MadCap:PreloadImages="false" MadCap:RuntimeFileType="Topic" MadCap:TargetType="WebHelp" lang="en-us" xml:lang="en-us" MadCap:PathToHelpSystem="../../../" MadCap:HelpSystemFileName="SIPLACE_Vision.xml" MadCap:SearchType="Stem">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Result: Camera soiling</title>
+        <link href="../../Resources/TableStyles/mDesk.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/Stylesheets/SIPLACEVision.css" rel="stylesheet" type="text/css" />
+        <script src="../../SkinSupport/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapAll.js" type="text/javascript">
+        </script>
+        <script src="../../SkinSupport/MadCapTopicAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor269"></a>Result: Camera soiling</h1>
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/mDesk.css');" class="TableStyle-mDesk" cellspacing="2">
+            <col style="width: 123px;" class="TableStyle-mDesk-Column-Spalte1" />
+            <col class="TableStyle-mDesk-Column-Spalte1" />
+            <tbody>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p class="Tabellentext">Yellow rectangle</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1">
+                        <p class="Tabellentext">Region of interest for detecting if a camera is dirty.</p>
+                        <p class="Tabellentext">The mean brightness is determined inside this region (excluding the yellow circles).</p>
+                        <p class="Tabellentext">This region of interest corresponds to the black surface of the contrast tool.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyB-Spalte1-Body1">
+                        <p class="Tabellentext">Yellow circles</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyA-Spalte1-Body1">
+                        <p class="Tabellentext">Region of interest for measuring whether camera verification is necessary. </p>
+                        <p class="Tabellentext">These regions of interest correspond to the white surfaces of the contrast tool.</p>
+                        <p class="Tabellentext">The mean brightness is determined in each of the regions of interest.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="Standard">Restriction: The various regions of interest are not shown for multiple measurements.</p>
+        <p class="Standard">&#160;</p>
+        <p class="see">Values determined when checking the camera for soiling:</p>
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/mDesk.css');" class="TableStyle-mDesk" cellspacing="2">
+            <col style="width: 123px;" class="TableStyle-mDesk-Column-Spalte1" />
+            <col style="width: 123px;" class="TableStyle-mDesk-Column-Spalte1" />
+            <col style="width: 123px;" class="TableStyle-mDesk-Column-Spalte1" />
+            <tbody>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p class="Tabellentext">Camera verification is due</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyE-Spalte1-Body1">
+                        <p>Loss of brightness</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyD-Spalte1-Body1" rowspan="2">
+                        <p>It is recommended that a camera should be cleaned and/or inspected as soon as one value is shown in <span style="color: #ffd700; font-weight: bold; background-color: #696969;">yellow</span>.</p>
+                        <p>The relevant recognition step is flagged by marking it in yellow: <img src="../../Images/CameraSoiling/CameraSoiled.png" style="width: 6px;height: 25px;" /></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-mDesk-Body-Body1">
+                    <td class="TableStyle-mDesk-BodyB-Spalte1-Body1">
+                        <p class="Tabellentext">Cleaning is due</p>
+                    </td>
+                    <td class="TableStyle-mDesk-BodyB-Spalte1-Body1">Degree of soiling</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>The values shown here represent the worst <a href="Ovl_ccResCameraCheckDiagramm.htm">values for each of the individual illumination planes</a>.</p>
+        <p>&#160;</p>
+        <p class="see">See also</p>
+        <p class="Standard"><a href="CameraSoiling.htm">Checking the camera for soiling</a>
+        </p>
+        <script type="text/javascript" src="../../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>
