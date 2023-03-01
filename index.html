@@ -2,230 +2,177 @@
 <html lang="en">
 
 <head>
-  <title>Đặng Văn Ánh</title>
-  <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    name="viewport" />
-  <link href="assets/images/tick_icon.svg" rel="shortcut icon" type="image/x-icon" />
-  <meta content="website" property="og:type" />
-  <meta content="Đặng Văn Ánh" property="og:title" />
-  <meta content="Ánh Bắc Ninh!" property="og:description" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=============== CSS ===============-->
+    <style>
+        :root {
+            --topic-color: rgb(246, 170, 31);
+        }
+    </style>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <title class="notranslate">Anh_UTC - Repository</title>
 </head>
 
 <body>
-  <!-- loading -->
-  <div class='loader'>
-    <div class='loader-inner'>
-      <div class='loader-line-wrap'>
-        <div class='loader-line'></div>
-      </div>
-      <div class='loader-line-wrap'>
-        <div class='loader-line'></div>
-      </div>
-      <div class='loader-line-wrap'>
-        <div class='loader-line'></div>
-      </div>
-      <div class='loader-line-wrap'>
-        <div class='loader-line'></div>
-      </div>
-      <div class='loader-line-wrap'>
-        <div class='loader-line'></div>
-      </div>
+    <div class="rotate" style="display: none;">
+        <img class="gif-rotate" src="assets/gif/rotate-phone.gif" alt="Rotate your phone">
     </div>
-  </div>
-  <!-- main -->
-  <div class='center' id='window'>
-    <div id='main'>
-      <!-- avatar -->
-      <div class='center' id='cover'>
-        <div id='bg-cover'></div>
-        <div id='avatar'>
-          <a href="/"><img alt='avt' src='assets/images/dva.JPEG' /></a>
-        </div>
-      </div>
-      <div id='content'>
-        <!-- info -->
-        <p id='name'>
-          Đặng Văn Ánh
-        </p>
-        <div class='center'>
-          <span class='badge'>
-            <i class="fa-solid fa-screwdriver-wrench"></i> Engineer
-          </span>
-        </div>
-        <p id='bio'>Electrical and Electronic Engineering</p>
-        <div class='center'>
-          <div class='border'></div>
-          <p id='contact-text' onclick='openlink("/cv")'>Curriculum Vitae</p>
-        </div>
-        <!-- contact -->
-        <div class='center boxs' id='boxs'>
-          <!-- repo -->
-          <div class='box repo'>
-            <div class='row'>
-              <div class='col-2'>
-                <div class='icon'>
-                  <i class="fa-solid fa-at"></i>
+    <div class="body">
+
+
+        <!--=============== HEADER ===============-->
+        <header class="profile">
+            <div class="setting__container">
+                <!-- Select Language -->
+                <div id="google_translate_element"></div>
+                <!-- Menu button -->
+                <div class="nav-menu">
+                    <a href="/">
+                        <i class="ri-home-smile-line"></i>
+                    </a>
+                    <a href="https://www.facebook.com/100010169232179" target="_blank">
+                        <i class="ri-facebook-line"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCw1G8IanhLQH3jgGnESv97g" target="_blank">
+                        <i class="ri-youtube-line"></i>
+                    </a>
+                    <a href="https://github.com/anhutc" target="_blank">
+                        <i class="ri-github-line"></i>
+                    </a>
+                    <a href="#theme">
+                        <i class="ri-moon-line" id="theme-button"></i>
+                    </a>
                 </div>
-              </div>
-              <div class='col-10' onclick='openlink("/repo")'>
-                <p class='detail'>Repository JB</p>
-                <p class='linked'>Anh_UTC</p>
-              </div>
             </div>
-          </div>
-          <!-- facebook -->
-          <div class='box facebook'>
-            <div class='row'>
-              <div class='col-2'>
-                <div class='icon'>
-                  <i class="fa-brands fa-facebook"></i>
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <!-- Insert your image, according to the example size of the portfolio -->
+                            <img src="assets/img/dva.JPEG" alt="">
+                        </div>
+                    </div>
+                    <svg viewBox="0 0 960 300">
+                        <symbol id="s-text">
+                            <text text-anchor="middle" x="50%" y="80%" class="notranslate">Anh_UTC</text>
+                        </symbol>
+                        <g class="g-ants">
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                        </g>
+                    </svg>
+
+                    <h3 class="profile__profession">A collection of my free and useful tweaks😁😍</h3>
                 </div>
-              </div>
-              <div class='col-10' onclick='openlink("https://www.facebook.com/100010169232179/")'>
-                <p class='detail'>Facebook</p>
-                <p class='linked'>Đặng Văn Ánh</p>
-              </div>
-            </div>
-          </div>
-          <!-- messenger -->
-          <div class='box messenger'>
-            <div class='row'>
-              <div class='col-2'>
-                <div class='icon'>
-                  <i class='fa-brands fa-facebook-messenger'></i>
+                <div class="profile__buttons">
+                    <!-- Buy a coffe or a beer for me -->
+                    <a href="https://paypal.me/ppdva" target="_blank" class="button"> Donate <i
+                            class="ri-money-dollar-circle-line"></i></a>
+                    <div class="profile__buttons-small notranslate">
+                        <!-- Add Cydia -->
+                        <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://anhutc.github.io/"
+                            class="button button__small button__gray"> +cydia </a>
+                        <!-- Add Sileo -->
+                        <a href="sileo://source/https://anhutc.github.io/" class="button button__small button__gray">
+                            +sileo </a>
+                        <!-- Add Zebra -->
+                        <a href="zbra://sources/add/https://anhutc.github.io/"
+                            class="button button__small button__gray">
+                            +zebra </a>
+                        <!-- Add Installer -->
+                        <a href="installer://add/repo=https://anhutc.github.io/"
+                            class="button button__small button__gray">
+                            +installer </a>
+                    </div>
                 </div>
-              </div>
-              <div class='col-10' onclick='openlink("https://www.messenger.com/t/100010169232179/")'>
-                <p class='detail'>Messenger</p>
-                <p class='linked'>Đặng Văn Ánh</p>
-              </div>
             </div>
-          </div>
-          <!-- zalo -->
-          <div class='box zalo'>
-            <div class='row'>
-              <div class='col-2'>
-                <div class='icon'>
-                  <div class='div-logo zalo-icon'></div>
+        </header>
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active" data-target="#filters__tab1"> Tweaks </button>
+                    <button class="filters__button" data-target="#filters__tab2"> Other </button>
+                </ul>
+                <div class="filters__sections">
+                    <!--=============== FILTERS TAB 1 ===============-->
+                    <div class="filters__tab1__content grid filters__active" data-content id="filters__tab1">
+                        <div class="packageList">
+                            <!-- Package test -->
+                            <a class="subtle_link" href="depiction/web/tiktokdp.html">
+                                <div class="package">
+                                    <img src="web/tiktokdp/icon.png">
+                                    <div class="package_info">
+                                        <p class="package_name notranslate">TikTokDP</p>
+                                        <p class="package_caption">Tweaks for the Douyin app.</p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a class="subtle_link" href="depiction/web/tiktokdp.html">
+                                <div class="package">
+                                    <img src="web/icon/Tweaks.png">
+                                    <div class="package_info">
+                                        <p class="package_name notranslate">TikTokDP</p>
+                                        <p class="package_caption">Tweaks for the Douyin app.</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!--=============== FILTERS TAB 2 ===============-->
+                    <div class="filters__tab2__content grid" data-content id="filters__tab2">
+                        <div class="cards-list">
+                            <div class="card 1">
+                                <a href="http://anhutc.github.io/firmware" target="_blank" rel="noopener noreferrer">
+                                    <div class="card_image"> <img src="https://i.redd.it/b3esnz5ra34y.jpg" /> </div>
+                                    <div class="card_title title-white">
+                                        <p>Firmware Check</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card 2">
+                                <div class="card_image"> <img src="https://i.redd.it/b3esnz5ra34y.jpg" /> </div>
+                                <div class="card_title title-white">
+                                    <p>IPA Files</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class='col-10' onclick='openlink("https://www.zalo.me/0971492399/");'>
-                <p class='detail'>Zalo</p>
-                <p class='linked'>Ánhhh</p>
-              </div>
-            </div>
-          </div>
-          <!-- tiktok -->
-          <div class='box tiktok'>
-            <div class='row'>
-              <div class='col-2'>
-                <div class='icon'>
-                  <i class='fa-brands fa-tiktok'></i>
-                </div>
-              </div>
-              <div class='col-10' onclick='openlink("https://www.tiktok.com/@ttdvanh")'>
-                <p class='detail'>TikTok</p>
-                <p class='linked'>Ánh Đặng</p>
-              </div>
-            </div>
-          </div>
-          <!-- youtube -->
-          <div class='box youtube'>
-            <div class='row'>
-              <div class='col-2'>
-                <div class='icon'>
-                  <i class="fa-brands fa-youtube"></i>
-                </div>
-              </div>
-              <div class='col-10' onclick='openlink("https://www.youtube.com/@ytdvanh")'>
-                <p class='detail'>Youtube</p>
-                <p class='linked'>Ánh Đặng</p>
-              </div>
-            </div>
-          </div>
-          <!-- phone -->
-          <div class='box phone'>
-            <div class='row'>
-              <div class='col-2'>
-                <div class='icon'>
-                  <i class='fas fa-phone'></i>
-                </div>
-              </div>
-              <div class='col-10' onclick='openlink("tel:+84971492399");'>
-                <p class='detail'>Phone</p>
-                <p class='linked'>0971.492.399</p>
-              </div>
-            </div>
-          </div>
-          <!-- momo -->
-          <div class='box momo'>
-            <div class='row'>
-              <div class='col-2'>
-                <div class='icon'>
-                  <div class='div-logo momo-icon'></div>
-                </div>
-              </div>
-              <div class='col-10' onclick='openlink("https://nhantien.momo.vn/0971492399");'>
-                <p class='detail'>Momo</p>
-                <p class='linked'>0971.492.399</p>
-              </div>
-            </div>
-          </div>
-          <!-- vietcombank-->
-          <!-- <div class='box vietcombank'>
-            <div class='row'>
-              <div class='col-2'>
-                <div class='icon'>
-                  <div class='div-logo vietcombank-icon'></div>
-                </div>
-              </div>
-              <div class='col-10' onclick='copytext("9386897757");'>
-                <p class='detail'>Vietcombank</p>
-                <p class='linked'>9386897757</p>
-              </div>
-            </div>
-          </div> -->
-          <!-- mbbank -->
-          <div class='box mbbank'>
-            <div class='row'>
-              <div class='col-2'>
-                <div class='icon'>
-                  <div class='div-logo mbbank-icon'></div>
-                </div>
-              </div>
-              <div class='col-10' onclick='copytext("6688699992668");'>
-                <p class='detail'>MBBank</p>
-                <p class='linked'>6688699992668</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <p id='bio'>Copyright &#169; Đặng Văn Ánh</p>
-      </div>
+            </section>
+        </main>
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <span class="footer__copy" id="copyright"></span>
+        </footer>
     </div>
-    <div id='bg'></div>
-  </div>
-  <script src='https://code.jquery.com/jquery-3.6.3.min.js'></script>
-  <script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>
-  <script type='text/javascript'>
-    $(".loader").delay(1000).fadeOut("fast");
-    function openlink(url) {
-      window.open(url, "_blank").focus();
-    }
-    function copytext(str) {
-      const el = document.createElement("textarea");
-      el.value = str;
-      document.body.appendChild(el);
-      el.select();
-      document.execCommand("copy");
-      Swal.fire("Thông báo", "Sao chép thành công!", "success");
-    }
-  </script>
+    <script>
+        const d = new Date();
+        let year = d.getFullYear();
+        document.getElementById("copyright").innerHTML = '<a href = "https://anhutc.github.io/">DVA</a> &#169;' + year +
+            ' All rigths reserved';
+    </script>
+    <!--=============== 90's Cursor Effects ===============-->
+    <script src="assets/js/cursor.js"></script>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+    <!--=============== LANGUAGE JS ===============-->
+    <script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 
 </html>
