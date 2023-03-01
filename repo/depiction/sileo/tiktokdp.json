@@ -1,6 +1,6 @@
 {
     "minVersion": "0.1",
-    "headerImage": "https://anhutc.github.io/web/tiktokdp/banner.jpg",
+    "headerImage": "https://anhutc.github.io/repo/web/tiktokdp/banner.jpg",
     "tintColor": "#F6AA1F",
     "tabs": [
         {
@@ -10,11 +10,11 @@
                     "class": "DepictionScreenshotsView",
                     "screenshots": [
                         {
-                            "url": "https://anhutc.github.io/web/tiktokdp/screenshot/1.jpg",
+                            "url": "https://anhutc.github.io/repo/web/tiktokdp/screenshot/1.jpg",
                             "accessibilityText": "Screenshot"
                         },
                         {
-                            "url": "https://anhutc.github.io/web/tiktokdp/screenshot/2.jpg",
+                            "url": "https://anhutc.github.io/repo/web/tiktokdp/screenshot/2.jpg",
                             "accessibilityText": "Screenshot"
                         }
                     ],
@@ -62,7 +62,7 @@
                 {
                     "class": "DepictionTableButtonView",
                     "title": "Contact Support",
-                    "action": "depiction-https://anhutc.github.io/depiction/sileo/help/help.json",
+                    "action": "depiction-https://anhutc.github.io/repo/depiction/sileo/help/help.json",
                     "openExternal": "true"
                 },
                 {
