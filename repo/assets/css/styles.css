@@ -111,7 +111,8 @@ body.dark-theme {
 
  /*google translate link | logo */
  .goog-logo-link,
- .goog-te-banner-frame .skiptranslate,
+ .goog-te-banner-frame,
+ body > .skiptranslate,
  #goog-gt-tt,
  .goog-te-balloon-frame,
  .goog-te-gadget span,
