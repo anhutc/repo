@@ -1,10 +1,10 @@
 {
     "minVersion": "0.1",
     "headerImage": "https://anhutc.github.io/repo/web/tiktokdp/banner.jpg",
-    "tintColor": "#F6AA1F",
+    "tintColor": "#69C8D0",
     "tabs": [
         {
-            "tabname": "Details",
+            "tabname": "Chi tiết",
             "views": [
                 {
                     "class": "DepictionScreenshotsView",
@@ -22,7 +22,7 @@
                     "itemSize": "{185,400}"
                 },
                 {
-                    "markdown": "Go to start ads, stream ads, turn on autoplay, save copyright-free videos, and more.\n\n1. Douyin short video automatic play\n2. No watermark download, no copyright download\n3. Go to video ad stream",
+                    "markdown": "Tinh chỉnh dành cho ứng dụng Douyin (Tiktok trung quốc).\n\n1. Tự động chuyển tiếp video\n2. Tải xuống video không có logo",
                     "useSpacing": "true",
                     "class": "DepictionMarkdownView"
                 },
@@ -31,27 +31,27 @@
                 },
                 {
                     "class": "DepictionHeaderView",
-                    "title": "Information"
+                    "title": "Thông tin"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "title": "Developer",
+                    "title": "Nhà phát triển",
                     "text": "Agricu"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "title": "Version",
+                    "title": "Phiên bản",
                     "text": "1.1"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "title": "Compatibility",
-                    "text": "iOS 9.0 and to"
+                    "title": "Tương thích",
+                    "text": "iOS 9.0 trở lên"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "title": "Section",
-                    "text": "Tweaks"
+                    "title": "Thể loại",
+                    "text": "Tinh chỉnh"
                 },
                 {
                     "class": "DepictionSpacerView"
@@ -61,13 +61,13 @@
                 },
                 {
                     "class": "DepictionTableButtonView",
-                    "title": "Contact Support",
+                    "title": "Liên hệ hỗ trợ",
                     "action": "depiction-https://anhutc.github.io/repo/depiction/sileo/help/help.json",
                     "openExternal": "true"
                 },
                 {
                     "class": "DepictionLabelView",
-                    "text": "TikTokDP Tweaks | Anh_UTC",
+                    "text": "TikTokDP | Anh_UTC",
                     "textColor": "#999999",
                     "fontSize": "10.0",
                     "alignment": 1
@@ -76,19 +76,19 @@
             "class": "DepictionStackView"
         },
         {
-            "tabname": "Changelog",
+            "tabname": "Thay đổi",
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "#### Version 1.1\n\n- Updates and bug fixes."
+                    "markdown": "#### Phiên bản 1.1\n\n- Cập nhật và sửa chữa."
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "#### Version 1.0\n\n- Public tweak."
+                    "markdown": "#### Phiên bản 1.0\n\n- Phát hành."
                 },
                 {
                     "class": "DepictionLabelView",
-                    "text": "TikTokDP Tweaks | Anh_UTC",
+                    "text": "TikTokDP | Anh_UTC",
                     "textColor": "#999999",
                     "fontSize": "10.0",
                     "alignment": 1
