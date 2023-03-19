@@ -20,7 +20,7 @@
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: "Baloo+2", sans-serif;
+  --body-font: "arial", sans-serif;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
   --normal-font-size: 0.938rem;
